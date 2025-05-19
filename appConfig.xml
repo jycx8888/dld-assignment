@@ -1,0 +1,14 @@
+<appDefinition>
+   <id>ResidenceFacilitiesBookingSystem</id>
+   <version></version>
+   <name>Residence Facilities Booking System</name>
+   <packageDefinitionList/>
+   <formDefinitionList/>
+   <userviewDefinitionList/>
+   <datalistDefinitionList/>
+   <builderDefinitionList/>
+   <pluginDefaultPropertiesList/>
+   <environmentVariableList/>
+   <messageList/>
+   <resourceList/>
+</appDefinition>
