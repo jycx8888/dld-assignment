@@ -2,7 +2,60 @@
    <id>ResidenceFacilitiesBookingSystem</id>
    <version></version>
    <name>Residence Facilities Booking System</name>
-   <packageDefinitionList/>
+   <packageDefinitionList>
+      <packageDefinition>
+         <appId>ResidenceFacilitiesBookingSystem</appId>
+         <id>ResidenceFacilitiesBookingSystem</id>
+         <name>Residence Facilities Booking System</name>
+         <packageActivityFormMap>
+            <entry>
+               <string>process1::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::activity1</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::mainPage</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>mainPage</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+         </packageActivityFormMap>
+         <packageActivityPluginMap/>
+         <packageParticipantMap>
+            <entry>
+               <string>process1::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+         </packageParticipantMap>
+      </packageDefinition>
+   </packageDefinitionList>
    <formDefinitionList/>
    <userviewDefinitionList/>
    <datalistDefinitionList/>
