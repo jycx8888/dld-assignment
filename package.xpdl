@@ -25,7 +25,7 @@
                 </DataField>
             </DataFields>
             <Activities>
-                <Activity Id="mainPage" Name="Main Page">
+                <Activity Id="mainPage" Name="Kum Sucks">
                     <Implementation>
                         <No/>
                     </Implementation>
