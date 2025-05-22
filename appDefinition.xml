@@ -34,7 +34,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>mainPage</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
