@@ -33,7 +33,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>facilitiesPage</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
