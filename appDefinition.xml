@@ -34,6 +34,7 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>mainPage</activityDefId>
+                  <formId>ResidenceFacilitiesBookingForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
