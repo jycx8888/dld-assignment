@@ -20,26 +20,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process1::activity2</string>
-               <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>activity2</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process1::activity1</string>
-               <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>activity1</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>process1::mainPage</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -55,6 +35,7 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>hi</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
