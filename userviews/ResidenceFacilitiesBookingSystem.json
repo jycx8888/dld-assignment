@@ -27,6 +27,16 @@
                     "id": "0AA9B63416CA49DF7CE33845D4599FE1",
                     "buttonPosition": "bothLeft"
                 }
+            },
+            {
+                "className": "org.joget.apps.userview.lib.Link",
+                "properties": {
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": "",
+                    "label": "Link",
+                    "id": "0335A3F9B53C4453F5B55D7314F6973F",
+                    "target": "blank"
+                }
             }
         ],
         "properties": {
