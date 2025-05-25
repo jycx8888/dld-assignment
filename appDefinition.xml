@@ -24,7 +24,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>activity2</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -35,7 +34,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>activity1</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -57,7 +55,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>hi</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
