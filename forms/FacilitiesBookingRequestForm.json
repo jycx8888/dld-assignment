@@ -1,0 +1,179 @@
+{
+    "elements": [{
+        "elements": [{
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "readonly": "",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "multiple": "",
+                        "options": [
+                            {
+                                "label": "BBQ Pit",
+                                "value": "BBQ Pit",
+                                "grouping": "facility"
+                            },
+                            {
+                                "label": "Multipurpose Hall",
+                                "value": "Multipurpose Hall",
+                                "grouping": "facility"
+                            },
+                            {
+                                "label": "Meeting Room",
+                                "value": "Meeting Room",
+                                "grouping": "facility"
+                            },
+                            {
+                                "label": "Sauna",
+                                "value": "Sauna",
+                                "grouping": "facility"
+                            },
+                            {
+                                "label": "Pickleball Court",
+                                "value": "Pickleball Court",
+                                "grouping": "facility"
+                            }
+                        ],
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Facility Name",
+                        "id": "facility_name",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.DatePicker",
+                    "properties": {
+                        "yearRange": "c-10:c+10",
+                        "dataFormat": "yyyy-MM-dd",
+                        "startDateFieldId": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "format": "",
+                        "label": "Date",
+                        "datePickerType": "",
+                        "currentDateAs": "",
+                        "endDateFieldId": "",
+                        "readonly": "",
+                        "allowManual": "",
+                        "workflowVariable": "",
+                        "id": "date",
+                        "placeholder": "",
+                        "disableWeekends": "",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.TimePicker",
+                    "properties": {
+                        "readonly": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Start Time",
+                        "id": "start_time",
+                        "value": "",
+                        "readonlyLabel": "",
+                        "format24hr": "true"
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.TimePicker",
+                    "properties": {
+                        "readonly": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "End Time",
+                        "id": "end_time",
+                        "value": "",
+                        "readonlyLabel": "",
+                        "format24hr": "true"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "maxlength": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "label": "No. of Participants",
+                        "disableIncrementDecrementArrow": "",
+                        "encryption": "",
+                        "readonly": "",
+                        "size": "",
+                        "workflowVariable": "",
+                        "style": "",
+                        "id": "no_of_participants",
+                        "placeholder": "",
+                        "value": "",
+                        "readonlyLabel": "",
+                        "storeNumeric": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CheckBox",
+                    "properties": {
+                        "fullWidth": "",
+                        "controlField": "",
+                        "readonly": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [{
+                            "label": "Agree",
+                            "value": "Agree",
+                            "grouping": "a"
+                        }],
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Terms Agreement",
+                        "id": "terms_agreement",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                }
+            ],
+            "className": "org.joget.apps.form.model.Column",
+            "properties": {"width": "100%"}
+        }],
+        "className": "org.joget.apps.form.model.Section",
+        "properties": {
+            "label": "Section",
+            "id": "section1"
+        }
+    }],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "Facilities Booking Request Form",
+        "description": "",
+        "id": "FacilitiesBookingRequestForm",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "facilities_book"
+    }
+}
