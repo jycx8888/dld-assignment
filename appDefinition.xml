@@ -7,7 +7,52 @@
          <appId>ResidenceFacilitiesBookingSystem</appId>
          <id>ResidenceFacilitiesBookingSystem</id>
          <name>Residence Facilities Booking System</name>
-         <packageActivityFormMap/>
+         <packageActivityFormMap>
+            <entry>
+               <string>process1::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::activity3</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity3</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::activity2</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity2</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::mainPage</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>mainPage</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+         </packageActivityFormMap>
          <packageActivityPluginMap/>
          <packageParticipantMap/>
       </packageDefinition>

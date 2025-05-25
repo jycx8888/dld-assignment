@@ -51,7 +51,7 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="336.88751220703125,33.05000228881836"/>
                     </ExtendedAttributes>
                 </Activity>
-                <Activity Id="activity3" Name="Activity 3">
+                <Activity Id="activity3" Name="Test">
                     <Implementation>
                         <No/>
                     </Implementation>
