@@ -35,6 +35,7 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>hi</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
