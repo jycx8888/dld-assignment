@@ -32,7 +32,7 @@
                     <Performer>participant1</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="participant1"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="212.72727966308594,26.272727"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="217.72500610351562,30.2625"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="activity2" Name="Kynax Sucks">
@@ -42,7 +42,7 @@
                     <Performer>participant1</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="participant1"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="385.88751220703125,30.05000228881836"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="375.88751220703125,30.05000228881836"/>
                     </ExtendedAttributes>
                 </Activity>
             </Activities>
