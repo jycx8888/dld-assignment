@@ -9,22 +9,20 @@
          <name>Residence Facilities Booking System</name>
          <packageActivityFormMap>
             <entry>
-               <string>process1::runProcess</string>
+               <string>process1::activity6</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
+                  <activityDefId>activity6</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process1::activity6</string>
+               <string>process1::runProcess</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
-                  <activityDefId>activity6</activityDefId>
-                  <formId></formId>
+                  <activityDefId>runProcess</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -35,7 +33,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>activity5</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -46,7 +43,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>activity4</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -57,7 +53,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>activity3</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -68,7 +63,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>activity2</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -79,7 +73,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>mainPage</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
