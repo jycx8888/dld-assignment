@@ -99,7 +99,7 @@
                         },
                         "label": "Password",
                         "id": "password",
-                        "value": "%%%%D+O7iAqT7pPx58z1VdG8/Q==%%%%",
+                        "value": "%%%%XgSKMyEXNwYwphBri/KfIA==%%%%",
                         "readonlyLabel": ""
                     }
                 },
@@ -119,7 +119,7 @@
                         },
                         "label": "Confirm Password",
                         "id": "confirm_password",
-                        "value": "%%%%D+O7iAqT7pPx58z1VdG8/Q==%%%%",
+                        "value": "%%%%XgSKMyEXNwYwphBri/KfIA==%%%%",
                         "readonlyLabel": ""
                     }
                 },
@@ -213,8 +213,29 @@
         }],
         "className": "org.joget.apps.form.model.Section",
         "properties": {
-            "label": "Section",
-            "id": "section1"
+            "visibilityControl": "",
+            "permissionReadonly": "",
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Residents Registration Form",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityValue": "",
+            "regex": "",
+            "readonly": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "comment": "",
+            "id": "residents_registration_form",
+            "join": "",
+            "readonlyLabel": ""
         }
     }],
     "className": "org.joget.apps.form.model.Form",
