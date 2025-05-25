@@ -24,19 +24,6 @@
                     "id": "B1783293082F46D7927AEC5E5B1AFAA1",
                     "target": "blank"
                 }
-            },
-            {
-                "className": "org.joget.apps.userview.lib.DataListMenu",
-                "properties": {
-                    "checkboxPosition": "left",
-                    "selectionType": "multiple",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": "",
-                    "label": "List",
-                    "rowCount": "false",
-                    "id": "936F082031C344EC99E496B2DDCCCACD",
-                    "buttonPosition": "bothLeft"
-                }
             }
         ],
         "properties": {
