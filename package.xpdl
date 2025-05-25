@@ -7,7 +7,13 @@
     </PackageHeader>
     <Script Type="text/javascript"/>
     <Participants>
-        <Participant Id="participant1" Name="Participant 1">
+        <Participant Id="resident" Name="Resident">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="manager" Name="Manager">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="system" Name="System">
             <ParticipantType Type="ROLE"/>
         </Participant>
     </Participants>
@@ -15,7 +21,7 @@
         <Application Id="default_application"/>
     </Applications>
     <WorkflowProcesses>
-        <WorkflowProcess Id="process1" Name="Process 1">
+        <WorkflowProcess Id="process1" Name="Facility Booking Request Process">
             <ProcessHeader DurationUnit="h"/>
             <DataFields>
                 <DataField Id="status" IsArray="FALSE">
@@ -25,38 +31,132 @@
                 </DataField>
             </DataFields>
             <Activities>
-                <Activity Id="mainPage" Name="Main Page">
+                <Activity Id="bookingRequest" Name="Submit Booking Request">
                     <Implementation>
                         <No/>
                     </Implementation>
-                    <Performer>participant1</Performer>
+                    <Performer>resident</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition1"/>
+                                    <TransitionRef Id="transition6"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
                     <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="participant1"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="resident"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="212.72727966308594,26.272727"/>
                     </ExtendedAttributes>
                 </Activity>
-                <Activity Id="hi" Name="hi">
+                <Activity Id="viewResults" Name="View Results">
                     <Implementation>
                         <No/>
                     </Implementation>
-                    <Performer>participant1</Performer>
+                    <Performer>resident</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
                     <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="participant1"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="433.2749938964844,23.787501525878906"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="resident"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="439.2749938964844,26.787501525878906"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="reviewBookingRequest" Name="Review Booking Request">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>manager</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="manager"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="219.8000030517578,49.3750030517578"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="tool1" Name="Notify Approved Booking">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>system</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="system"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="205.8000030517578,82.00001831054686"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="tool2" Name="Notify Rejected Booking">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>system</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="system"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="471.8000183105469,77.01249999999999"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="route1" Name="Approved?">
+                    <Route/>
+                    <Performer>manager</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition4"/>
+                                    <TransitionRef Id="transition5"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="manager"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="239.30001831054688,186.7"/>
                     </ExtendedAttributes>
                 </Activity>
             </Activities>
             <Transitions>
-                <Transition From="mainPage" Id="transition1" To="hi">
+                <Transition From="bookingRequest" Id="transition1" To="viewResults">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="reviewBookingRequest" Id="transition3" To="route1">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route1" Id="transition4" To="tool1">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route1" Id="transition5" To="tool2">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="bookingRequest" Id="transition6" To="reviewBookingRequest">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="tool1" Id="transition7" To="viewResults">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="tool2" Id="transition8" To="viewResults">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
             </Transitions>
             <ExtendedAttributes>
-                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="participant1"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=participant1,CONNECTING_ACTIVITY_ID=mainPage,X_OFFSET=80,Y_OFFSET=40,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=participant1,CONNECTING_ACTIVITY_ID=hi,X_OFFSET=564.7250366210938,Y_OFFSET=72.27500457763672,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="resident;manager;system"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=resident,CONNECTING_ACTIVITY_ID=bookingRequest,X_OFFSET=80,Y_OFFSET=40,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=resident,CONNECTING_ACTIVITY_ID=viewResults,X_OFFSET=758.7250366210938,Y_OFFSET=46.27500457763672,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
     </WorkflowProcesses>

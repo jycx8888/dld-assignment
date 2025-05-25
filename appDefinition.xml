@@ -9,6 +9,17 @@
          <name>Residence Facilities Booking System</name>
          <packageActivityFormMap>
             <entry>
+               <string>process1::viewResults</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>viewResults</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::runProcess</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -20,10 +31,54 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process1::mainPage</string>
+               <string>process1::reviewBookingRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
-                  <activityDefId>mainPage</activityDefId>
+                  <activityDefId>reviewBookingRequest</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::activity5</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity5</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::activity4</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity4</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::activity3</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>activity3</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::bookingRequest</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>bookingRequest</activityDefId>
                   <formId>ResidenceFacilitiesBookingForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
@@ -35,13 +90,33 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>hi</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
          </packageActivityFormMap>
-         <packageActivityPluginMap/>
+         <packageActivityPluginMap>
+            <entry>
+               <string>process1::tool2</string>
+               <packageActivityPlugin>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>tool2</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>process1::tool1</string>
+               <packageActivityPlugin>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>tool1</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+         </packageActivityPluginMap>
          <packageParticipantMap>
             <entry>
                <string>process1::processStartWhiteList</string>
