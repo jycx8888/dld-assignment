@@ -49,8 +49,8 @@
                             }
                         },
                         "workflowVariable": "",
-                        "label": "Facilities Name",
-                        "id": "facilities_name",
+                        "label": "Facility Name",
+                        "id": "facility_name",
                         "value": "",
                         "readonlyLabel": ""
                     }
