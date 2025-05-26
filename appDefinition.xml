@@ -13,6 +13,7 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>viewResults</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -23,6 +24,7 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>reviewBookingRequest</activityDefId>
+                  <formId>booking_approval_form</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -44,7 +46,7 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>bookingRequest</activityDefId>
-                  <formId>ResidenceFacilitiesBookingForm</formId>
+                  <formId>FacilitiesBookingRequestForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
