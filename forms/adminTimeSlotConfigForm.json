@@ -28,8 +28,8 @@
                         "properties": {}
                     },
                     "workflowVariable": "",
-                    "label": "Select Box",
-                    "id": "field1",
+                    "label": "Facility ID",
+                    "id": "facilityId",
                     "value": "",
                     "readonlyLabel": ""
                 }
