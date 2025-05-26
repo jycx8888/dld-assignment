@@ -77,36 +77,81 @@
                 {
                     "className": "org.joget.apps.form.lib.DatePicker",
                     "properties": {
-                        "readonly": "False",
-                        "allowManual": "False",
                         "yearRange": "c-10:c+10",
                         "dataFormat": "yyyy-MM-dd",
-                        "label": "Date Picker",
+                        "startDateFieldId": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "format": "",
+                        "label": "New Booking Date",
                         "datePickerType": "",
                         "currentDateAs": "",
-                        "id": "field3",
-                        "disableWeekends": "False",
-                        "readonlyLabel": "False"
+                        "endDateFieldId": "",
+                        "readonly": "",
+                        "allowManual": "",
+                        "workflowVariable": "",
+                        "id": "new_booking_date",
+                        "placeholder": "",
+                        "disableWeekends": "",
+                        "value": "",
+                        "readonlyLabel": ""
                     }
                 },
                 {
                     "className": "org.joget.plugin.enterprise.TimePicker",
                     "properties": {
-                        "readonly": "False",
-                        "label": "Time Picker",
-                        "id": "field4",
-                        "readonlyLabel": "False",
+                        "readonly": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
+                        },
+                        "workflowVariable": "",
+                        "label": "New End Time",
+                        "id": "new_end_time",
+                        "value": "",
+                        "readonlyLabel": "",
                         "format24hr": "true"
                     }
                 },
                 {
                     "className": "org.joget.plugin.enterprise.TimePicker",
                     "properties": {
-                        "readonly": "False",
-                        "label": "Time Picker",
+                        "readonly": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "New Start Time",
                         "id": "field5",
-                        "readonlyLabel": "False",
+                        "value": "",
+                        "readonlyLabel": "",
                         "format24hr": "true"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextArea",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "readonly": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Reason For Change",
+                        "id": "field6",
+                        "placeholder": "",
+                        "rows": "5",
+                        "cols": "20",
+                        "value": "",
+                        "readonlyLabel": ""
                     }
                 }
             ],
@@ -121,11 +166,27 @@
     }],
     "className": "org.joget.apps.form.model.Form",
     "properties": {
-        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "noPermissionMessage": "",
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "name": "Residence Reschedule Booking Form",
         "description": "",
+        "postProcessorRunOn": "create",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
         "id": "ResidenceRescheduleBookingForm",
-        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "postProcessor": {
+            "className": "",
+            "properties": {}
+        },
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "tableName": "reschedule_book"
     }
 }
