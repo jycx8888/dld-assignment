@@ -42,26 +42,71 @@
                 {
                     "className": "org.joget.apps.form.lib.DatePicker",
                     "properties": {
-                        "readonly": "False",
-                        "allowManual": "False",
+                        "permissionHidden": "",
                         "yearRange": "c-10:c+10",
                         "dataFormat": "yyyy-MM-dd",
-                        "label": "Date Picker",
+                        "startDateFieldId": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "format": "",
+                        "label": "Booking Date",
                         "datePickerType": "",
                         "currentDateAs": "",
-                        "id": "field3",
-                        "disableWeekends": "False",
-                        "readonlyLabel": "False"
+                        "endDateFieldId": "",
+                        "readonly": "true",
+                        "allowManual": "",
+                        "workflowVariable": "",
+                        "id": "booking_date",
+                        "placeholder": "",
+                        "disableWeekends": "",
+                        "value": "",
+                        "readonlyLabel": ""
                     }
                 },
                 {
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
-                        "readonly": "False",
-                        "multiple": "False",
-                        "label": "Select Box",
-                        "id": "field4",
-                        "readonlyLabel": "False"
+                        "controlField": "",
+                        "readonly": "",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "multiple": "",
+                        "options": [
+                            {
+                                "label": "",
+                                "value": "",
+                                "grouping": ""
+                            },
+                            {
+                                "label": "Pending",
+                                "value": "",
+                                "grouping": ""
+                            },
+                            {
+                                "label": "Approved",
+                                "value": "",
+                                "grouping": ""
+                            },
+                            {
+                                "label": "Rejected",
+                                "value": "",
+                                "grouping": ""
+                            }
+                        ],
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Status",
+                        "id": "status",
+                        "value": "",
+                        "readonlyLabel": ""
                     }
                 },
                 {
