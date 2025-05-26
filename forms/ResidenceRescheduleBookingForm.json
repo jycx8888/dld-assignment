@@ -212,7 +212,7 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "Residence Reschedule Booking Form",
+        "name": "Residents Reschedule Booking Form",
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {
