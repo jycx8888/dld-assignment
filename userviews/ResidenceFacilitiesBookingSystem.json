@@ -16,13 +16,35 @@
                 }
             },
             {
-                "className": "org.joget.apps.userview.lib.Link",
+                "className": "org.joget.apps.userview.lib.FormMenu",
                 "properties": {
+                    "loadDataWithKey": "",
+                    "redirectUrlOnCancel": "",
+                    "actionOnCancel": "",
+                    "redirectTargetOnCancel": "top",
+                    "customFooter": "",
+                    "paramName": "",
+                    "enableOffline": "",
+                    "afterSavedReloadTarget": "true",
+                    "customId": "booking_facility",
+                    "showInPopupDialog": "",
+                    "readonly": "",
+                    "cancelButtonLabel": "",
+                    "actionAfterSaved": "",
+                    "id": "ED544A2368684F8CEEA6B3C0E3FE247E",
+                    "redirectUrlAfterComplete": "",
+                    "fieldPassover": "",
+                    "formId": "FacilitiesBookingRequestForm",
+                    "customHeader": "",
+                    "fieldPassoverMethod": "append",
+                    "redirectTargetOnComplete": "",
+                    "keyName": "",
+                    "label": "Booking Facility",
                     "userviewCacheDuration": "20",
+                    "messageShowAfterComplete": "",
+                    "submitButtonLabel": "",
                     "userviewCacheScope": "",
-                    "label": "Link",
-                    "id": "B1783293082F46D7927AEC5E5B1AFAA1",
-                    "target": "blank"
+                    "readonlyLabel": "true"
                 }
             }
         ],
