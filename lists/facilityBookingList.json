@@ -1,18 +1,87 @@
 {
-    "rowActions": [],
-    "columns": [],
-    "name": "Facility Booking List",
-    "pageSize": "0",
-    "orderBy": "",
-    "description": "",
-    "id": "facilityBookingList",
-    "filters": [],
-    "binder": {
-        "name": "",
+    "template": {
         "className": "",
         "properties": {}
     },
-    "actions": [],
+    "rowActions": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "createdBy",
+            "id": "column_0",
+            "label": "Created By",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "facility_name",
+            "id": "column_6",
+            "label": "Facility Name",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "date",
+            "id": "column_1",
+            "label": "Date",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "start_time",
+            "id": "column_2",
+            "label": "Start Time",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "end_time",
+            "id": "column_3",
+            "label": "End Time",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "no_of_participants",
+            "id": "column_4",
+            "label": "No. of Participants",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "special_request",
+            "id": "column_5",
+            "label": "Special Request",
+            "sortable": "false"
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "Facility Booking List",
+    "id": "facilityBookingList",
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "joins": [],
+            "aggregateField": [],
+            "formDefId": "FacilitiesBookingRequestForm",
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "groupBy": "",
+            "functionColumns": []
+        }
+    },
+    "actions": [],
     "order": ""
 }
