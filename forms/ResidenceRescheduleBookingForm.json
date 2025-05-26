@@ -36,11 +36,33 @@
                             "properties": {}
                         },
                         "multiple": "",
-                        "options": [{
-                            "label": "",
-                            "value": "BBQ Pit",
-                            "grouping": ""
-                        }],
+                        "options": [
+                            {
+                                "label": "BBQ Pit",
+                                "value": "BBQ Pit",
+                                "grouping": "facility"
+                            },
+                            {
+                                "label": "Multipurpose Hall",
+                                "value": "Multipurpose Hall",
+                                "grouping": "facility"
+                            },
+                            {
+                                "label": "Meeting Room",
+                                "value": "Meeting Room",
+                                "grouping": "facility"
+                            },
+                            {
+                                "label": "Sauna",
+                                "value": "Sauna",
+                                "grouping": "facility"
+                            },
+                            {
+                                "label": "Pickleball Court",
+                                "value": "Pickleball Court",
+                                "grouping": "facility"
+                            }
+                        ],
                         "validator": {
                             "className": "",
                             "properties": {}
@@ -50,6 +72,41 @@
                         "id": "facility_name",
                         "value": "",
                         "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.DatePicker",
+                    "properties": {
+                        "readonly": "False",
+                        "allowManual": "False",
+                        "yearRange": "c-10:c+10",
+                        "dataFormat": "yyyy-MM-dd",
+                        "label": "Date Picker",
+                        "datePickerType": "",
+                        "currentDateAs": "",
+                        "id": "field3",
+                        "disableWeekends": "False",
+                        "readonlyLabel": "False"
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.TimePicker",
+                    "properties": {
+                        "readonly": "False",
+                        "label": "Time Picker",
+                        "id": "field4",
+                        "readonlyLabel": "False",
+                        "format24hr": "true"
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.TimePicker",
+                    "properties": {
+                        "readonly": "False",
+                        "label": "Time Picker",
+                        "id": "field5",
+                        "readonlyLabel": "False",
+                        "format24hr": "true"
                     }
                 }
             ],
