@@ -30,6 +30,26 @@
                     "className": "org.joget.apps.form.lib.TextArea",
                     "properties": {
                         "requiredSanitize": "",
+                        "permissionHidden": "",
+                        "readonly": "true",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Feedback",
+                        "id": "feedback",
+                        "placeholder": "",
+                        "rows": "5",
+                        "cols": "20",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextArea",
+                    "properties": {
+                        "requiredSanitize": "",
                         "readonly": "",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
@@ -42,26 +62,6 @@
                         "workflowVariable": "",
                         "label": "Manager Response",
                         "id": "managerResponse",
-                        "placeholder": "",
-                        "rows": "5",
-                        "cols": "20",
-                        "value": "",
-                        "readonlyLabel": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.TextArea",
-                    "properties": {
-                        "requiredSanitize": "",
-                        "permissionHidden": "",
-                        "readonly": "true",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "workflowVariable": "",
-                        "label": "Feedback",
-                        "id": "feedback",
                         "placeholder": "",
                         "rows": "5",
                         "cols": "20",
