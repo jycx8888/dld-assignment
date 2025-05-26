@@ -152,6 +152,25 @@
                     }
                 },
                 {
+                    "className": "org.joget.apps.form.lib.TextArea",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "readonly": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Special Request",
+                        "id": "special_request",
+                        "placeholder": "",
+                        "rows": "5",
+                        "cols": "20",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
                     "className": "org.joget.apps.form.lib.CheckBox",
                     "properties": {
                         "fullWidth": "",
