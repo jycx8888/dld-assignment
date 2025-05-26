@@ -86,31 +86,103 @@
                 {
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
-                        "readonly": "False",
-                        "multiple": "False",
-                        "label": "Select Box",
-                        "id": "field4",
-                        "readonlyLabel": "False"
+                        "controlField": "",
+                        "readonly": "",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "multiple": "",
+                        "options": [
+                            {
+                                "label": "Admin",
+                                "value": "Admin",
+                                "grouping": "Role"
+                            },
+                            {
+                                "label": "Manager",
+                                "value": "Manager",
+                                "grouping": "Role"
+                            },
+                            {
+                                "label": "User",
+                                "value": "User",
+                                "grouping": "Role"
+                            }
+                        ],
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "Please select a role!",
+                                "mandatory": "true"
+                            }
+                        },
+                        "workflowVariable": "",
+                        "label": "Role",
+                        "id": "role",
+                        "value": "",
+                        "readonlyLabel": ""
                     }
                 },
                 {
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
-                        "readonly": "False",
-                        "multiple": "False",
-                        "label": "Select Box",
-                        "id": "field5",
-                        "readonlyLabel": "False"
+                        "controlField": "",
+                        "readonly": "",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "multiple": "",
+                        "options": [
+                            {
+                                "label": "Active",
+                                "value": "Active",
+                                "grouping": "User Status"
+                            },
+                            {
+                                "label": "Inactive",
+                                "value": "Inactive",
+                                "grouping": "User Status"
+                            }
+                        ],
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "Please select a status!",
+                                "mandatory": "true"
+                            }
+                        },
+                        "workflowVariable": "",
+                        "label": "Status",
+                        "id": "userStatus",
+                        "value": "",
+                        "readonlyLabel": ""
                     }
                 },
                 {
                     "className": "org.joget.apps.form.lib.PasswordField",
                     "properties": {
-                        "strengthChecker": "False",
-                        "readonly": "False",
-                        "label": "Password Field",
-                        "id": "field6",
-                        "readonlyLabel": "False"
+                        "strengthChecker": "",
+                        "readonly": "",
+                        "size": "",
+                        "maxlength": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "alphanumeric",
+                                "message": "Please enter a valid password!",
+                                "mandatory": "true"
+                            }
+                        },
+                        "label": "User Password",
+                        "id": "userPassword",
+                        "value": "%%%%lEOVw8Zy4SWUyJMUiiC30A==%%%%",
+                        "readonlyLabel": ""
                     }
                 },
                 {
@@ -123,16 +195,30 @@
                 {
                     "className": "org.joget.apps.form.lib.DatePicker",
                     "properties": {
-                        "readonly": "False",
-                        "allowManual": "False",
                         "yearRange": "c-10:c+10",
                         "dataFormat": "yyyy-MM-dd",
-                        "label": "Date Picker",
+                        "startDateFieldId": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "Please select a date!",
+                                "mandatory": "true"
+                            }
+                        },
+                        "format": "",
+                        "label": "Date Created",
                         "datePickerType": "",
                         "currentDateAs": "",
-                        "id": "field8",
-                        "disableWeekends": "False",
-                        "readonlyLabel": "False"
+                        "endDateFieldId": "",
+                        "readonly": "",
+                        "allowManual": "",
+                        "workflowVariable": "",
+                        "id": "userDateCreated",
+                        "placeholder": "",
+                        "disableWeekends": "",
+                        "value": "#date.yyyy-MM-dd#",
+                        "readonlyLabel": ""
                     }
                 }
             ],
