@@ -177,7 +177,7 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Facility ID",
+            "label": "Time Slot Config Form",
             "reverse": "",
             "storeBinder": {
                 "className": "",
@@ -191,7 +191,7 @@
                 "properties": {}
             },
             "comment": "",
-            "id": "facilityId",
+            "id": "time_slot_config_form",
             "join": "",
             "readonlyLabel": ""
         }
