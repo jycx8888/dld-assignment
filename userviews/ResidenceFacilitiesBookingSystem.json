@@ -46,6 +46,27 @@
                     "userviewCacheScope": "",
                     "readonlyLabel": "true"
                 }
+            },
+            {
+                "className": "org.joget.apps.userview.lib.DataListMenu",
+                "properties": {
+                    "cacheAllLinks": "",
+                    "customHeader": "",
+                    "keyName": "",
+                    "customFooter": "",
+                    "label": "List",
+                    "enableOffline": "",
+                    "customId": "",
+                    "buttonPosition": "bothLeft",
+                    "datalistId": "facilityBookingList",
+                    "checkboxPosition": "left",
+                    "selectionType": "multiple",
+                    "userviewCacheDuration": "20",
+                    "cacheListAction": "",
+                    "userviewCacheScope": "",
+                    "rowCount": "",
+                    "id": "2CD2E17C65C642AFE4621809234E5447"
+                }
             }
         ],
         "properties": {
