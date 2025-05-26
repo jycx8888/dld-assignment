@@ -102,7 +102,7 @@
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
                                 "type": "",
-                                "message": "",
+                                "message": "Please select an option",
                                 "mandatory": "true"
                             }
                         },
