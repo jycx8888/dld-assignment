@@ -8,8 +8,12 @@
                         "requiredSanitize": "",
                         "maxlength": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "label": "Booking ID",
                         "disableIncrementDecrementArrow": "",
@@ -64,8 +68,12 @@
                             }
                         ],
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "workflowVariable": "",
                         "label": "Facility Name",
@@ -81,8 +89,12 @@
                         "dataFormat": "yyyy-MM-dd",
                         "startDateFieldId": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "format": "",
                         "label": "New Booking Date",
@@ -124,8 +136,12 @@
                     "properties": {
                         "readonly": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "workflowVariable": "",
                         "label": "New Start Time",
@@ -141,8 +157,12 @@
                         "requiredSanitize": "",
                         "readonly": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "workflowVariable": "",
                         "label": "Reason For Change",
