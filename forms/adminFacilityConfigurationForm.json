@@ -231,7 +231,7 @@
                         },
                         "workflowVariable": "",
                         "label": "Status",
-                        "id": "activeStatus",
+                        "id": "facilityStatus",
                         "value": "",
                         "readonlyLabel": ""
                     }
