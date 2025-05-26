@@ -13,11 +13,27 @@
     }],
     "className": "org.joget.apps.form.model.Form",
     "properties": {
-        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
-        "name": "Override Booking Form",
+        "noPermissionMessage": "",
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
+        "name": "Manager Override Booking Form",
         "description": "",
+        "postProcessorRunOn": "create",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
         "id": "overrideBookingForm",
-        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "postProcessor": {
+            "className": "",
+            "properties": {}
+        },
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "tableName": "booking_requests"
     }
 }
