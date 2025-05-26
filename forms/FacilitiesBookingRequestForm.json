@@ -217,7 +217,7 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "Residence Facilities Booking Request Form",
+        "name": "Residents Facilities Booking Request Form",
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {
