@@ -11,7 +11,7 @@
                             "properties": {}
                         },
                         "workflowVariable": "",
-                        "id": "booking_id",
+                        "id": "bookingId",
                         "value": ""
                     }
                 },
@@ -32,7 +32,7 @@
                         "size": "",
                         "workflowVariable": "",
                         "style": "",
-                        "id": "current_status",
+                        "id": "currentStatus",
                         "placeholder": "",
                         "value": "",
                         "readonlyLabel": "",
@@ -97,7 +97,7 @@
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
                                 "type": "",
-                                "message": "",
+                                "message": "Please select a date",
                                 "mandatory": "true"
                             }
                         },
@@ -119,12 +119,24 @@
                 {
                     "className": "org.joget.apps.form.lib.TextArea",
                     "properties": {
-                        "readonly": "False",
-                        "label": "Text Area",
-                        "id": "field5",
+                        "requiredSanitize": "",
+                        "readonly": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "Please fill in this area",
+                                "mandatory": "true"
+                            }
+                        },
+                        "workflowVariable": "",
+                        "label": "Override reason",
+                        "id": "overrideReason",
+                        "placeholder": "",
                         "rows": "5",
                         "cols": "20",
-                        "readonlyLabel": "False"
+                        "value": "",
+                        "readonlyLabel": ""
                     }
                 }
             ],
