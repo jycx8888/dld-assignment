@@ -11,7 +11,7 @@
                             "properties": {}
                         },
                         "workflowVariable": "",
-                        "id": "booking_id",
+                        "id": "bookingId",
                         "value": ""
                     }
                 },
@@ -32,7 +32,7 @@
                         "size": "",
                         "workflowVariable": "",
                         "style": "",
-                        "id": "facility_name",
+                        "id": "facilityName",
                         "placeholder": "",
                         "value": "",
                         "readonlyLabel": "",
@@ -58,7 +58,7 @@
                         "readonly": "true",
                         "allowManual": "",
                         "workflowVariable": "",
-                        "id": "booking_date",
+                        "id": "bookingDate",
                         "placeholder": "",
                         "disableWeekends": "",
                         "value": "",
@@ -124,7 +124,7 @@
                         },
                         "workflowVariable": "",
                         "label": "Remark",
-                        "id": "manager_remarks",
+                        "id": "managerRemarks",
                         "placeholder": "",
                         "rows": "5",
                         "cols": "20",
