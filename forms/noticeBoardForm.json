@@ -10,7 +10,7 @@
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
-                                "type": "",
+                                "type": "alphabet",
                                 "message": "Please fill in this field",
                                 "mandatory": "true"
                             }
