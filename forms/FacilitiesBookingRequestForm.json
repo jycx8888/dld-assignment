@@ -82,7 +82,7 @@
                         "disableWeekends": "",
                         "value": "",
                         "readonlyLabel": "",
-                        "format24hr": ""
+                        "format24hr": "true"
                     }
                 },
                 {
