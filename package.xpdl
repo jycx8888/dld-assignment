@@ -179,10 +179,10 @@
                     <Implementation>
                         <No/>
                     </Implementation>
-                    <Performer>residentFeesbackProcess</Performer>
+                    <Performer>managerFeedbackProcess</Performer>
                     <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="residentFeesbackProcess"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="255,62.187503051757815"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="managerFeedbackProcess"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="254,-88.8124969482422"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="notifyManager" Name="Notify Manager">
