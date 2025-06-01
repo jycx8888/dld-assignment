@@ -13,26 +13,38 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>viewResults</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process1::reviewBookingRequest</string>
+               <string>managerBookingConflictResolution::runProcess</string>
                <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>reviewBookingRequest</activityDefId>
-                  <formId>booking_approval_form</formId>
+                  <processDefId>managerBookingConflictResolution</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process1::runProcess</string>
+               <string>facilityBookingProcess::runProcess</string>
                <packageActivityForm>
-                  <processDefId>process1</processDefId>
+                  <processDefId>facilityBookingProcess</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>facilityBookingRequestProcess::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>facilityBookingRequestProcess</processDefId>
                   <activityDefId>runProcess</activityDefId>
                   <formId>ResidenceFacilitiesBookingForm</formId>
                   <type>SINGLE</type>
@@ -41,11 +53,44 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process1::bookingRequest</string>
+               <string>facilityBookingRequestProcess::bookingRequest</string>
                <packageActivityForm>
-                  <processDefId>process1</processDefId>
+                  <processDefId>facilityBookingRequestProcess</processDefId>
                   <activityDefId>bookingRequest</activityDefId>
                   <formId>FacilitiesBookingRequestForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>managerBookingConflictResolution::activity1</string>
+               <packageActivityForm>
+                  <processDefId>managerBookingConflictResolution</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>facilityBookingRequestProcess::reviewBookingRequest</string>
+               <packageActivityForm>
+                  <processDefId>facilityBookingRequestProcess</processDefId>
+                  <activityDefId>reviewBookingRequest</activityDefId>
+                  <formId>booking_approval_form</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>facilityBookingRequestProcess::viewResults</string>
+               <packageActivityForm>
+                  <processDefId>facilityBookingRequestProcess</processDefId>
+                  <activityDefId>viewResults</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -54,19 +99,19 @@
          </packageActivityFormMap>
          <packageActivityPluginMap>
             <entry>
-               <string>process1::tool2</string>
+               <string>facilityBookingRequestProcess::tool1</string>
                <packageActivityPlugin>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>tool2</activityDefId>
+                  <processDefId>facilityBookingRequestProcess</processDefId>
+                  <activityDefId>tool1</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>process1::tool1</string>
+               <string>facilityBookingRequestProcess::tool2</string>
                <packageActivityPlugin>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>tool1</activityDefId>
+                  <processDefId>facilityBookingRequestProcess</processDefId>
+                  <activityDefId>tool2</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
                </packageActivityPlugin>
@@ -74,9 +119,36 @@
          </packageActivityPluginMap>
          <packageParticipantMap>
             <entry>
-               <string>process1::processStartWhiteList</string>
+               <string>process2::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>process1</processDefId>
+                  <processDefId>process2</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>facilityBookingProcess::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>facilityBookingProcess</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>facilityBookingRequestProcess::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>facilityBookingRequestProcess</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>managerBookingConflictResolution::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>managerBookingConflictResolution</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
