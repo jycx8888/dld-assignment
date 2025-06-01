@@ -108,7 +108,7 @@
                         },
                         "workflowVariable": "",
                         "label": "Status",
-                        "id": "status",
+                        "id": "bookingApprovalStatus",
                         "value": "",
                         "readonlyLabel": ""
                     }
