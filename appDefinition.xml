@@ -13,6 +13,7 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>viewResults</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -41,10 +42,33 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>residentFeedbackProcess::activity1</string>
+               <packageActivityForm>
+                  <processDefId>residentFeedbackProcess</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>bookingConflictResolution::activity1</string>
                <packageActivityForm>
                   <processDefId>bookingConflictResolution</processDefId>
                   <activityDefId>activity1</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>residentFeedbackProcess::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>residentFeedbackProcess</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -55,6 +79,7 @@
                <packageActivityForm>
                   <processDefId>bookingConflictResolution</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -94,6 +119,15 @@
          </packageActivityPluginMap>
          <packageParticipantMap>
             <entry>
+               <string>residentFeedbackProcess::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>residentFeedbackProcess</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>process1::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>process1</processDefId>
@@ -103,9 +137,9 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>bookingConflictResolution::processStartWhiteList</string>
+               <string>process2::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>bookingConflictResolution</processDefId>
+                  <processDefId>process2</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
