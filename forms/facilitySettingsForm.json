@@ -30,6 +30,60 @@
                     }
                 },
                 {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "readonly": "",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "multiple": "",
+                        "options": [
+                            {
+                                "label": "",
+                                "value": "",
+                                "grouping": ""
+                            },
+                            {
+                                "label": "BBQ Pit",
+                                "value": "BBQ Pit",
+                                "grouping": "Facility"
+                            },
+                            {
+                                "label": "Multipurpose Hall",
+                                "value": "Multipurpose Hall",
+                                "grouping": "Facility"
+                            },
+                            {
+                                "label": "Meeting Room",
+                                "value": "Meeting Room",
+                                "grouping": "Facility"
+                            },
+                            {
+                                "label": "Sauna",
+                                "value": "Sauna",
+                                "grouping": "Facility"
+                            },
+                            {
+                                "label": "Pickleball Court",
+                                "value": "Pickleball Court",
+                                "grouping": "Facility"
+                            }
+                        ],
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Facility",
+                        "id": "facility",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "requiredSanitize": "",
