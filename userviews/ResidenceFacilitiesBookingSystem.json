@@ -48,19 +48,6 @@
                 }
             },
             {
-                "className": "org.joget.apps.userview.lib.InboxMenu",
-                "properties": {
-                    "appFilter": "all",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": "",
-                    "showPopup": "false",
-                    "label": "Inbox",
-                    "rowCount": "false",
-                    "id": "FE44C7756E354D8B8B91AD6BAC2981DD",
-                    "buttonPosition": "bothLeft"
-                }
-            },
-            {
                 "className": "org.joget.apps.userview.lib.DataListMenu",
                 "properties": {
                     "cacheAllLinks": "",
