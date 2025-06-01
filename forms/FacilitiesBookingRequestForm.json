@@ -72,7 +72,7 @@
                         "format": "",
                         "label": "Date and Time",
                         "datePickerType": "dateTime",
-                        "currentDateAs": "",
+                        "currentDateAs": "minDate",
                         "endDateFieldId": "",
                         "readonly": "",
                         "allowManual": "true",
