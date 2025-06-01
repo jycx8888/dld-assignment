@@ -206,7 +206,7 @@
             <ExtendedAttributes>
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="residentFeesbackProcess;managerFeedbackProcess"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=residentFeesbackProcess,CONNECTING_ACTIVITY_ID=submitsFeedback,X_OFFSET=75,Y_OFFSET=46.000003051757815,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=managerFeedbackProcess,CONNECTING_ACTIVITY_ID=notifyManager,X_OFFSET=624,Y_OFFSET=-61.1249969482422,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=managerFeedbackProcess,CONNECTING_ACTIVITY_ID=notifyManager,X_OFFSET=654,Y_OFFSET=36.8750030517578,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
     </WorkflowProcesses>
