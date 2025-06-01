@@ -31,6 +31,15 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process3::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>process3</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>residentFeedbackProcess::submitsFeedback</string>
                <packageActivityForm>
                   <processDefId>residentFeedbackProcess</processDefId>
@@ -85,6 +94,15 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process3::activity1</string>
+               <packageActivityForm>
+                  <processDefId>process3</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>noticePostingProcess::runProcess</string>
                <packageActivityForm>
                   <processDefId>noticePostingProcess</processDefId>
@@ -96,10 +114,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>noticePostingProcess::storeNotice</string>
+               <string>noticePostingProcess::activity2</string>
                <packageActivityForm>
                   <processDefId>noticePostingProcess</processDefId>
-                  <activityDefId>storeNotice</activityDefId>
+                  <activityDefId>activity2</activityDefId>
                   <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
@@ -107,10 +125,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>noticePostingProcess::activity2</string>
+               <string>noticePostingProcess::storeNotice</string>
                <packageActivityForm>
                   <processDefId>noticePostingProcess</processDefId>
-                  <activityDefId>activity2</activityDefId>
+                  <activityDefId>storeNotice</activityDefId>
                   <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
@@ -193,6 +211,15 @@
                <string>noticePostingProcess::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>noticePostingProcess</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process3::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>process3</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
