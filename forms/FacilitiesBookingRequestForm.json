@@ -58,6 +58,7 @@
                 {
                     "className": "org.joget.apps.form.lib.DatePicker",
                     "properties": {
+                        "permissionHidden": "",
                         "yearRange": "c-10:c+10",
                         "dataFormat": "yyyy-MM-dd",
                         "startDateFieldId": "",
@@ -74,7 +75,7 @@
                         "datePickerType": "dateTime",
                         "currentDateAs": "minDate",
                         "endDateFieldId": "",
-                        "readonly": "",
+                        "readonly": "true",
                         "allowManual": "true",
                         "workflowVariable": "",
                         "id": "dateAndTime",
