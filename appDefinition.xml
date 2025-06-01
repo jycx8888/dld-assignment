@@ -41,20 +41,22 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process3::runProcess</string>
+               <string>noticePostingProcess::activity1</string>
                <packageActivityForm>
-                  <processDefId>process3</processDefId>
-                  <activityDefId>runProcess</activityDefId>
+                  <processDefId>noticePostingProcess</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process3::activity1</string>
+               <string>noticePostingProcess::runProcess</string>
                <packageActivityForm>
-                  <processDefId>process3</processDefId>
-                  <activityDefId>activity1</activityDefId>
+                  <processDefId>noticePostingProcess</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -144,9 +146,9 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>process3::processStartWhiteList</string>
+               <string>noticePostingProcess::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>process3</processDefId>
+                  <processDefId>noticePostingProcess</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
