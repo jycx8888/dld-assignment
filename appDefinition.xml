@@ -41,10 +41,23 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>residentFeedbackProcess::activity1</string>
+               <string>process3::runProcess</string>
                <packageActivityForm>
-                  <processDefId>residentFeedbackProcess</processDefId>
+                  <processDefId>process3</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process3::activity1</string>
+               <packageActivityForm>
+                  <processDefId>process3</processDefId>
                   <activityDefId>activity1</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -65,6 +78,7 @@
                <packageActivityForm>
                   <processDefId>residentFeedbackProcess</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -133,9 +147,9 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>bookingConflictResolution::processStartWhiteList</string>
+               <string>process3::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>bookingConflictResolution</processDefId>
+                  <processDefId>process3</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
