@@ -109,6 +109,16 @@
                         "value": "",
                         "readonlyLabel": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.Radio",
+                    "properties": {
+                        "fullWidth": "False",
+                        "readonly": "False",
+                        "label": "Radio",
+                        "id": "field5",
+                        "readonlyLabel": "False"
+                    }
                 }
             ],
             "className": "org.joget.apps.form.model.Column",
