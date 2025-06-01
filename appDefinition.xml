@@ -45,7 +45,6 @@
                <packageActivityForm>
                   <processDefId>process3</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -56,7 +55,6 @@
                <packageActivityForm>
                   <processDefId>process3</processDefId>
                   <activityDefId>activity1</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -78,7 +76,6 @@
                <packageActivityForm>
                   <processDefId>residentFeedbackProcess</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
