@@ -16,15 +16,12 @@
         <Participant Id="system" Name="System">
             <ParticipantType Type="ROLE"/>
         </Participant>
-        <Participant Id="process2_participant4" Name="Participant">
-            <ParticipantType Type="ROLE"/>
-        </Participant>
     </Participants>
     <Applications>
         <Application Id="default_application"/>
     </Applications>
     <WorkflowProcesses>
-        <WorkflowProcess Id="facilityBookingRequestProcess" Name="Facility Booking Request Process">
+        <WorkflowProcess Id="process1" Name="Facility Booking Request Process">
             <ProcessHeader DurationUnit="h"/>
             <DataFields>
                 <DataField Id="status" IsArray="FALSE">
@@ -160,33 +157,6 @@
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="resident;manager;system"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=resident,CONNECTING_ACTIVITY_ID=bookingRequest,X_OFFSET=80,Y_OFFSET=40,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=resident,CONNECTING_ACTIVITY_ID=viewResults,X_OFFSET=758.7250366210938,Y_OFFSET=46.27500457763672,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
-            </ExtendedAttributes>
-        </WorkflowProcess>
-        <WorkflowProcess Id="managerBookingConflictResolution" Name="Manager Booking Conflict Resolution">
-            <ProcessHeader DurationUnit="h"/>
-            <DataFields>
-                <DataField Id="status" IsArray="FALSE">
-                    <DataType>
-                        <BasicType Type="STRING"/>
-                    </DataType>
-                </DataField>
-            </DataFields>
-            <Activities>
-                <Activity Id="activity1" Name="Activity 1">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>process2_participant4</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process2_participant4"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="183,65.18750305175782"/>
-                    </ExtendedAttributes>
-                </Activity>
-            </Activities>
-            <ExtendedAttributes>
-                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process2_participant4"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process2_participant4,CONNECTING_ACTIVITY_ID=activity1,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process2_participant4,CONNECTING_ACTIVITY_ID=activity1,X_OFFSET=382,Y_OFFSET=111.86250610351563,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
     </WorkflowProcesses>
