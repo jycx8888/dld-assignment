@@ -65,7 +65,16 @@
     "pageSize": "0",
     "orderBy": "",
     "description": "",
-    "filters": [],
+    "filters": [{
+        "name": "facility_name",
+        "id": "filter_0",
+        "label": "Facility Name",
+        "type": {
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {}
+        },
+        "filterParamName": "d-1750834-fn_facility_name"
+    }],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "name": "Facility Booking List",
     "id": "facilityBookingList",
