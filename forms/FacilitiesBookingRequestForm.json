@@ -50,7 +50,7 @@
                         },
                         "workflowVariable": "",
                         "label": "Facility Name",
-                        "id": "facility_name",
+                        "id": "facilityName",
                         "value": "",
                         "readonlyLabel": ""
                     }
@@ -70,58 +70,19 @@
                             }
                         },
                         "format": "",
-                        "label": "Date",
-                        "datePickerType": "",
+                        "label": "Date and Time",
+                        "datePickerType": "dateTime",
                         "currentDateAs": "",
                         "endDateFieldId": "",
                         "readonly": "",
-                        "allowManual": "",
+                        "allowManual": "true",
                         "workflowVariable": "",
-                        "id": "date",
+                        "id": "dateAndTime",
                         "placeholder": "",
                         "disableWeekends": "",
                         "value": "",
-                        "readonlyLabel": ""
-                    }
-                },
-                {
-                    "className": "org.joget.plugin.enterprise.TimePicker",
-                    "properties": {
-                        "readonly": "",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "type": "",
-                                "message": "",
-                                "mandatory": "true"
-                            }
-                        },
-                        "workflowVariable": "",
-                        "label": "Start Time",
-                        "id": "start_time",
-                        "value": "",
                         "readonlyLabel": "",
-                        "format24hr": "true"
-                    }
-                },
-                {
-                    "className": "org.joget.plugin.enterprise.TimePicker",
-                    "properties": {
-                        "readonly": "",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "type": "",
-                                "message": "",
-                                "mandatory": "true"
-                            }
-                        },
-                        "workflowVariable": "",
-                        "label": "End Time",
-                        "id": "end_time",
-                        "value": "",
-                        "readonlyLabel": "",
-                        "format24hr": "true"
+                        "format24hr": ""
                     }
                 },
                 {
@@ -144,7 +105,7 @@
                         "size": "",
                         "workflowVariable": "",
                         "style": "",
-                        "id": "no_of_participants",
+                        "id": "noOfParticipants",
                         "placeholder": "",
                         "value": "",
                         "readonlyLabel": "",
@@ -162,7 +123,7 @@
                         },
                         "workflowVariable": "",
                         "label": "Special Request",
-                        "id": "special_request",
+                        "id": "specialRequest",
                         "placeholder": "",
                         "rows": "5",
                         "cols": "20",
@@ -195,19 +156,9 @@
                         },
                         "workflowVariable": "",
                         "label": "Terms Agreement",
-                        "id": "terms_agreement",
+                        "id": "termsAgreement",
                         "value": "",
                         "readonlyLabel": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.CustomHTML",
-                    "properties": {
-                        "requiredSanitize": "",
-                        "autoPopulate": "",
-                        "label": "",
-                        "id": "field8",
-                        "value": "<div>\r\n  <strong>Booked Slots:<\/strong>\r\n  <ul id=\"booked-slots\"><\/ul>\r\n<\/div>\r\n\r\n<script>\r\n$(document).ready(function() {\r\n    function loadBookedSlots(facility) {\r\n        if (!facility) {\r\n            $(\"#booked-slots\").html(\"<li>Please select a facility.<\/li>\");\r\n            return;\r\n        }\r\n\r\n        $(\"#booked-slots\").html(\"<li>Loading...<\/li>\");\r\n\r\n        $.ajax({\r\n            url: \"/jw/web/json/ResidenceFacilitiesBookingSystem/datalist/facilityBookingList\", // <-- Replace with your real datalist ID\r\n            method: \"GET\",\r\n            data: {\r\n                \"filter_Facility\": facility\r\n            },\r\n            success: function(response) {\r\n                var html = \"\";\r\n                if (response && response.data && response.data.length > 0) {\r\n                    response.data.forEach(function(item) {\r\n                        html += \"<li>\" + item.booking_date + \" - \" + item.booking_time + \"<\/li>\";\r\n                    });\r\n                } else {\r\n                    html = \"<li>No bookings found.<\/li>\";\r\n                }\r\n                $(\"#booked-slots\").html(html);\r\n            },\r\n            error: function() {\r\n                $(\"#booked-slots\").html(\"<li>Error loading data.<\/li>\");\r\n            }\r\n        });\r\n    }\r\n\r\n    $(\"#facility\").on(\"change\", function() {\r\n        var selectedFacility = $(this).val();\r\n        loadBookedSlots(selectedFacility);\r\n    });\r\n\r\n    // Auto-load if pre-selected\r\n    var preSelected = $(\"#facility\").val();\r\n    if (preSelected) {\r\n        loadBookedSlots(preSelected);\r\n    }\r\n});\r\n<\/script>\r\n"
                     }
                 }
             ],
