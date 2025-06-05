@@ -72,7 +72,7 @@
                         },
                         "format": "",
                         "label": "Date and Time",
-                        "datePickerType": "dateTime",
+                        "datePickerType": "timeOnly",
                         "currentDateAs": "minDate",
                         "endDateFieldId": "",
                         "readonly": "",
