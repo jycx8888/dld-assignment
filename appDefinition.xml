@@ -63,7 +63,7 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process1::viewResults</string>
+               <string>adminUserAccountManagementWorkflow::activity1</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>viewResults</activityDefId>
@@ -114,10 +114,11 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>residentFeedbackProcess::runProcess</string>
+               <string>adminUserAccountManagementWorkflow::runProcess</string>
                <packageActivityForm>
-                  <processDefId>residentFeedbackProcess</processDefId>
+                  <processDefId>adminUserAccountManagementWorkflow</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
