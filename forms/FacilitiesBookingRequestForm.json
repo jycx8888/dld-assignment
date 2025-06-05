@@ -76,7 +76,7 @@
                         "currentDateAs": "minDate",
                         "endDateFieldId": "",
                         "readonly": "",
-                        "allowManual": "true",
+                        "allowManual": "",
                         "workflowVariable": "",
                         "id": "dateAndTime",
                         "placeholder": "",
