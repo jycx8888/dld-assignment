@@ -15,7 +15,7 @@
                         "formDefId": "FacilitiesBookingRequestForm",
                         "subFormParentId": "",
                         "id": "subform",
-                        "label": "subform",
+                        "label": "",
                         "storeBinder": {
                             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
                             "properties": {}
