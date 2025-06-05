@@ -117,6 +117,7 @@
                <packageActivityForm>
                   <processDefId>adminProcessUserAccount</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -177,6 +178,7 @@
                <packageActivityForm>
                   <processDefId>adminProcessUserAccount</processDefId>
                   <activityDefId>activity1</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
