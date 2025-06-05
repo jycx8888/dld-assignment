@@ -13,6 +13,7 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>viewResults</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -24,6 +25,16 @@
                   <processDefId>adminProcessUserAccount</processDefId>
                   <activityDefId>createEditUser</activityDefId>
                   <formId>adminUserAccountForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminProcessUserAccount::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>adminProcessUserAccount</processDefId>
+                  <activityDefId>runProcess</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -52,16 +63,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>adminProcessUserAccount::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>adminProcessUserAccount</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>noticePostingProcess::postNotice</string>
                <packageActivityForm>
                   <processDefId>noticePostingProcess</processDefId>
@@ -83,6 +84,16 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>noticePostingProcess::storeNotice</string>
+               <packageActivityForm>
+                  <processDefId>noticePostingProcess</processDefId>
+                  <activityDefId>storeNotice</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>residentFeedbackProcess::submitsFeedback</string>
                <packageActivityForm>
                   <processDefId>residentFeedbackProcess</processDefId>
@@ -94,10 +105,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>noticePostingProcess::storeNotice</string>
+               <string>noticePostingProcess::displayResidentUserview</string>
                <packageActivityForm>
                   <processDefId>noticePostingProcess</processDefId>
-                  <activityDefId>storeNotice</activityDefId>
+                  <activityDefId>displayResidentUserview</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -109,16 +120,6 @@
                   <processDefId>process1</processDefId>
                   <activityDefId>bookingRequest</activityDefId>
                   <formId>FacilitiesBookingRequestForm</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>noticePostingProcess::displayResidentUserview</string>
-               <packageActivityForm>
-                  <processDefId>noticePostingProcess</processDefId>
-                  <activityDefId>displayResidentUserview</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>

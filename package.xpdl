@@ -57,16 +57,6 @@
                         <No/>
                     </Implementation>
                     <Performer>resident</Performer>
-                    <TransitionRestrictions>
-                        <TransitionRestriction>
-                            <Split Type="XOR">
-                                <TransitionRefs>
-                                    <TransitionRef Id="transition1"/>
-                                    <TransitionRef Id="transition6"/>
-                                </TransitionRefs>
-                            </Split>
-                        </TransitionRestriction>
-                    </TransitionRestrictions>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="resident"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="212.72727966308594,26.272727"/>
@@ -137,11 +127,6 @@
                 </Activity>
             </Activities>
             <Transitions>
-                <Transition From="bookingRequest" Id="transition1" To="viewResults">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
                 <Transition From="reviewBookingRequest" Id="transition3" To="route1">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
