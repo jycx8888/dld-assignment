@@ -19,11 +19,11 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>adminProcessUserAccount::createEditUser</string>
+               <string>adminManageUserAccount::runProcess</string>
                <packageActivityForm>
-                  <processDefId>adminProcessUserAccount</processDefId>
-                  <activityDefId>createEditUser</activityDefId>
-                  <formId>adminUserAccountForm</formId>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -52,26 +52,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process6::activity1</string>
-               <packageActivityForm>
-                  <processDefId>process6</processDefId>
-                  <activityDefId>activity1</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>adminProcessUserAccount::createUser</string>
-               <packageActivityForm>
-                  <processDefId>adminProcessUserAccount</processDefId>
-                  <activityDefId>createUser</activityDefId>
-                  <formId>adminUserAccountForm</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>residentFeedbackProcess::submitsFeedback</string>
                <packageActivityForm>
                   <processDefId>residentFeedbackProcess</processDefId>
@@ -94,29 +74,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>adminSystemSettingsAndNotificationConfiguration::activity1</string>
-               <packageActivityForm>
-                  <processDefId>adminSystemSettingsAndNotificationConfiguration</processDefId>
-                  <activityDefId>activity1</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>process1::viewResults</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>viewResults</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>adminProcessUserAccount::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>adminProcessUserAccount</processDefId>
-                  <activityDefId>runProcess</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -164,19 +125,11 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process6::runProcess</string>
+               <string>adminManageUserAccount::createUser</string>
                <packageActivityForm>
-                  <processDefId>process6</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>adminProcessUserAccount::activity1</string>
-               <packageActivityForm>
-                  <processDefId>adminProcessUserAccount</processDefId>
-                  <activityDefId>activity1</activityDefId>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>createUser</activityDefId>
+                  <formId>adminUserAccountForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -203,8 +156,28 @@
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
+            <entry>
+               <string>adminManageUserAccount::createEditUser</string>
+               <packageActivityForm>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>createEditUser</activityDefId>
+                  <formId>adminUserAccountForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap>
+            <entry>
+               <string>adminManageUserAccount::tool1</string>
+               <packageActivityPlugin>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>tool1</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
             <entry>
                <string>process1::tool2</string>
                <packageActivityPlugin>
