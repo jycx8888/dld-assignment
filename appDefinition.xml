@@ -9,11 +9,32 @@
          <name>Residence Facilities Booking System</name>
          <packageActivityFormMap>
             <entry>
+               <string>adminSystemSettingsAndNotificationConfiguration::updateSystemSettings</string>
+               <packageActivityForm>
+                  <processDefId>adminSystemSettingsAndNotificationConfiguration</processDefId>
+                  <activityDefId>updateSystemSettings</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminProcessUserAccount::createEditUser</string>
+               <packageActivityForm>
+                  <processDefId>adminProcessUserAccount</processDefId>
+                  <activityDefId>createEditUser</activityDefId>
+                  <formId>adminUserAccountForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::reviewBookingRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>reviewBookingRequest</activityDefId>
-                  <formId>booking_approval_form</formId>
+                  <formId>bookingApprovalForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -31,10 +52,20 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process3::runProcess</string>
+               <string>process6::activity1</string>
                <packageActivityForm>
-                  <processDefId>process3</processDefId>
-                  <activityDefId>runProcess</activityDefId>
+                  <processDefId>process6</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminProcessUserAccount::createUser</string>
+               <packageActivityForm>
+                  <processDefId>adminProcessUserAccount</processDefId>
+                  <activityDefId>createUser</activityDefId>
+                  <formId>adminUserAccountForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -63,6 +94,15 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>adminSystemSettingsAndNotificationConfiguration::activity1</string>
+               <packageActivityForm>
+                  <processDefId>adminSystemSettingsAndNotificationConfiguration</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::viewResults</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -73,9 +113,69 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process3::activity1</string>
+               <string>adminProcessUserAccount::runProcess</string>
                <packageActivityForm>
-                  <processDefId>process3</processDefId>
+                  <processDefId>adminProcessUserAccount</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminSystemSettingsAndNotificationConfiguration::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>adminSystemSettingsAndNotificationConfiguration</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>noticePostingProcess::postNotice</string>
+               <packageActivityForm>
+                  <processDefId>noticePostingProcess</processDefId>
+                  <activityDefId>postNotice</activityDefId>
+                  <formId>noticeBoardForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>noticePostingProcess::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>noticePostingProcess</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>noticePostingProcess::storeNotice</string>
+               <packageActivityForm>
+                  <processDefId>noticePostingProcess</processDefId>
+                  <activityDefId>storeNotice</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process6::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>process6</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminProcessUserAccount::activity1</string>
+               <packageActivityForm>
+                  <processDefId>adminProcessUserAccount</processDefId>
                   <activityDefId>activity1</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
@@ -83,19 +183,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>residentFeedbackProcess::activity1</string>
+               <string>noticePostingProcess::displayResidentUserview</string>
                <packageActivityForm>
-                  <processDefId>residentFeedbackProcess</processDefId>
-                  <activityDefId>activity1</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>residentFeedbackProcess::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>residentFeedbackProcess</processDefId>
-                  <activityDefId>runProcess</activityDefId>
+                  <processDefId>noticePostingProcess</processDefId>
+                  <activityDefId>displayResidentUserview</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -132,6 +223,15 @@
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
+            <entry>
+               <string>adminSystemSettingsAndNotificationConfiguration::applySettings</string>
+               <packageActivityPlugin>
+                  <processDefId>adminSystemSettingsAndNotificationConfiguration</processDefId>
+                  <activityDefId>applySettings</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
          </packageActivityPluginMap>
          <packageParticipantMap>
             <entry>
@@ -153,18 +253,18 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>bookingConflictResolution::processStartWhiteList</string>
+               <string>noticePostingProcess::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>bookingConflictResolution</processDefId>
+                  <processDefId>noticePostingProcess</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
                </packageParticipant>
             </entry>
             <entry>
-               <string>process3::processStartWhiteList</string>
+               <string>adminSystemSettingsAndNotificationConfiguration::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>process3</processDefId>
+                  <processDefId>adminSystemSettingsAndNotificationConfiguration</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
