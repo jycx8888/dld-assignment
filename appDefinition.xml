@@ -63,6 +63,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>adminManageUserAccount::activity3</string>
+               <packageActivityForm>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>activity3</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::bookingRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -99,6 +110,17 @@
                   <processDefId>noticePostingProcess</processDefId>
                   <activityDefId>postNotice</activityDefId>
                   <formId>noticeBoardForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminManageUserAccount::editUser</string>
+               <packageActivityForm>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>editUser</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
