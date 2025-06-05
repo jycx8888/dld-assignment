@@ -93,8 +93,12 @@
                         "dataFormat": "yyyy-MM-dd",
                         "startDateFieldId": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "label": "Time",
                         "datePickerType": "timeOnly",
