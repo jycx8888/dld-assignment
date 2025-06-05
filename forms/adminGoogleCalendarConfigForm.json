@@ -122,8 +122,12 @@
                             }
                         ],
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "Please choose a sync frequency!",
+                                "mandatory": "true"
+                            }
                         },
                         "workflowVariable": "",
                         "label": "Sync Frequency",
