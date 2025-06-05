@@ -31,7 +31,7 @@
         <Participant Id="systemNoticePosting" Name="System">
             <ParticipantType Type="ROLE"/>
         </Participant>
-        <Participant Id="process4_participant9" Name="Participant">
+        <Participant Id="adminProcessUser" Name="admin">
             <ParticipantType Type="ROLE"/>
         </Participant>
     </Participants>
@@ -280,7 +280,7 @@
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=residentNoticePosting,CONNECTING_ACTIVITY_ID=displayResidentUserview,X_OFFSET=524.0000228881836,Y_OFFSET=91.67500610351561,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
-        <WorkflowProcess Id="process4" Name="Admin System Configuration and User Management">
+        <WorkflowProcess Id="adminProcessUserAccount" Name="Admin Process User Account">
             <ProcessHeader DurationUnit="h"/>
             <DataFields>
                 <DataField Id="status" IsArray="FALSE">
@@ -290,38 +290,53 @@
                 </DataField>
             </DataFields>
             <Activities>
-                <Activity Id="activity1" Name="Activity 1">
+                <Activity Id="createEditUser" Name="Create/Edit User">
                     <Implementation>
                         <No/>
                     </Implementation>
-                    <Performer>process4_participant9</Performer>
+                    <Performer>adminProcessUser</Performer>
                     <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_participant9"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="185.8000030517578,21.187499237060546"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="adminProcessUser"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="219.00000762939453,69.18750305175782"/>
                     </ExtendedAttributes>
                 </Activity>
-                <Activity Id="activity2" Name="Activity 2">
+                <Activity Id="assignRole" Name="Assign Role">
                     <Implementation>
-                        <No/>
+                        <Tool Id="default_application"/>
                     </Implementation>
-                    <Performer>process4_participant9</Performer>
+                    <Performer>adminProcessUser</Performer>
                     <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_participant9"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="322.8000183105469,24.187499237060546"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="adminProcessUser"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="421.7999954223633,72.1749984741211"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="sendEmail" Name="Send Email">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>adminProcessUser</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="adminProcessUser"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="607.2000122070312,73.2"/>
                     </ExtendedAttributes>
                 </Activity>
             </Activities>
             <Transitions>
-                <Transition From="activity1" Id="transition_end_activity1" To="activity2">
+                <Transition From="createEditUser" Id="transition_end_formActivity" To="assignRole">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="assignRole" Id="transition2" To="sendEmail">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
             </Transitions>
             <ExtendedAttributes>
-                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process4_participant9"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process4_participant9,CONNECTING_ACTIVITY_ID=activity1,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process4_participant9,CONNECTING_ACTIVITY_ID=activity2,X_OFFSET=477.8000183105469,Y_OFFSET=37.99999923706055,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="adminProcessUser"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=adminProcessUser,CONNECTING_ACTIVITY_ID=createEditUser,X_OFFSET=92,Y_OFFSET=86.00000305175782,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=adminProcessUser,CONNECTING_ACTIVITY_ID=sendEmail,X_OFFSET=809.0000305175781,Y_OFFSET=97.87500305175782,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
     </WorkflowProcesses>
