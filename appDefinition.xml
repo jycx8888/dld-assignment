@@ -13,6 +13,7 @@
                <packageActivityForm>
                   <processDefId>adminManageUserAccount</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -66,6 +67,7 @@
                <packageActivityForm>
                   <processDefId>adminManageUserAccount</processDefId>
                   <activityDefId>activity3</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -118,6 +120,7 @@
                <packageActivityForm>
                   <processDefId>adminManageUserAccount</processDefId>
                   <activityDefId>editUser</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
