@@ -71,14 +71,39 @@
                             }
                         },
                         "format": "",
-                        "label": "Date and Time",
-                        "datePickerType": "timeOnly",
+                        "label": "Date",
+                        "datePickerType": "",
                         "currentDateAs": "minDate",
                         "endDateFieldId": "",
                         "readonly": "",
                         "allowManual": "true",
                         "workflowVariable": "",
-                        "id": "dateAndTime",
+                        "id": "date",
+                        "placeholder": "",
+                        "disableWeekends": "",
+                        "value": "",
+                        "readonlyLabel": "",
+                        "format24hr": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.DatePicker",
+                    "properties": {
+                        "yearRange": "c-10:c+10",
+                        "dataFormat": "yyyy-MM-dd",
+                        "startDateFieldId": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "label": "Time",
+                        "datePickerType": "timeOnly",
+                        "currentDateAs": "",
+                        "endDateFieldId": "",
+                        "readonly": "",
+                        "allowManual": "",
+                        "workflowVariable": "",
+                        "id": "time",
                         "placeholder": "",
                         "disableWeekends": "",
                         "value": "",
