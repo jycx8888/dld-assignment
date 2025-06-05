@@ -300,11 +300,28 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="185.8000030517578,21.187499237060546"/>
                     </ExtendedAttributes>
                 </Activity>
+                <Activity Id="activity2" Name="Activity 2">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>process4_participant9</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process4_participant9"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="322.8000183105469,24.187499237060546"/>
+                    </ExtendedAttributes>
+                </Activity>
             </Activities>
+            <Transitions>
+                <Transition From="activity1" Id="transition_end_activity1" To="activity2">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+            </Transitions>
             <ExtendedAttributes>
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process4_participant9"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process4_participant9,CONNECTING_ACTIVITY_ID=activity1,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process4_participant9,CONNECTING_ACTIVITY_ID=activity1,X_OFFSET=358.8000183105469,Y_OFFSET=42.000003051757815,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process4_participant9,CONNECTING_ACTIVITY_ID=activity2,X_OFFSET=477.8000183105469,Y_OFFSET=37.99999923706055,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
     </WorkflowProcesses>

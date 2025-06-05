@@ -41,6 +41,16 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process4::activity2</string>
+               <packageActivityForm>
+                  <processDefId>process4</processDefId>
+                  <activityDefId>activity2</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process4::runProcess</string>
                <packageActivityForm>
                   <processDefId>process4</processDefId>
