@@ -13,7 +13,6 @@
                <packageActivityForm>
                   <processDefId>adminSystemSettingsAndNotificationConfiguration</processDefId>
                   <activityDefId>updateSystemSettings</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -53,17 +52,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process6::activity1</string>
-               <packageActivityForm>
-                  <processDefId>process6</processDefId>
-                  <activityDefId>activity1</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>residentFeedbackProcess::submitsFeedback</string>
                <packageActivityForm>
                   <processDefId>residentFeedbackProcess</processDefId>
@@ -80,17 +68,6 @@
                   <processDefId>process1</processDefId>
                   <activityDefId>bookingRequest</activityDefId>
                   <formId>FacilitiesBookingRequestForm</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>adminSystemSettingsAndNotificationConfiguration::activity1</string>
-               <packageActivityForm>
-                  <processDefId>adminSystemSettingsAndNotificationConfiguration</processDefId>
-                  <activityDefId>activity1</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -121,7 +98,6 @@
                <packageActivityForm>
                   <processDefId>adminSystemSettingsAndNotificationConfiguration</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -153,17 +129,6 @@
                <packageActivityForm>
                   <processDefId>noticePostingProcess</processDefId>
                   <activityDefId>storeNotice</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process6::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>process6</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -252,15 +217,6 @@
                <string>noticePostingProcess::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>noticePostingProcess</processDefId>
-                  <participantId>processStartWhiteList</participantId>
-                  <type>role</type>
-                  <value>adminUser</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>process6::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>process6</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
