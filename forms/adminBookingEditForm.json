@@ -1,0 +1,40 @@
+{
+    "elements": [{
+        "elements": [{
+            "elements": [],
+            "className": "org.joget.apps.form.model.Column",
+            "properties": {"width": "100%"}
+        }],
+        "className": "org.joget.apps.form.model.Section",
+        "properties": {
+            "readonly": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "permissionReadonly": "",
+            "rules": "",
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "comment": "",
+            "label": "Booking Edit Form",
+            "id": "bookingEditForm",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "readonlyLabel": ""
+        }
+    }],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "Admin Booking Edit Form",
+        "description": "",
+        "id": "adminBookingEditForm",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "a_booking_edit"
+    }
+}
