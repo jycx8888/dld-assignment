@@ -36,8 +36,12 @@
                             }
                         ],
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "Please choose a notification type!",
+                                "mandatory": "true"
+                            }
                         },
                         "workflowVariable": "",
                         "label": "Notification Type",
@@ -52,8 +56,12 @@
                         "requiredSanitize": "",
                         "maxlength": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "Please enter an email subject!",
+                                "mandatory": "true"
+                            }
                         },
                         "label": "Email Subject",
                         "disableIncrementDecrementArrow": "",
@@ -67,6 +75,29 @@
                         "value": "",
                         "readonlyLabel": "",
                         "storeNumeric": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextArea",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "readonly": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "Please enter an email body!",
+                                "mandatory": "true"
+                            }
+                        },
+                        "workflowVariable": "",
+                        "label": "Email Body",
+                        "id": "emailBody",
+                        "placeholder": "",
+                        "rows": "5",
+                        "cols": "20",
+                        "value": "#form.booking_date#",
+                        "readonlyLabel": ""
                     }
                 }
             ],
