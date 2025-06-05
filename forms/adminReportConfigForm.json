@@ -97,7 +97,7 @@
                             }
                         },
                         "format": "",
-                        "label": "Start Date",
+                        "label": "Start Dates",
                         "datePickerType": "",
                         "currentDateAs": "",
                         "endDateFieldId": "",
