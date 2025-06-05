@@ -13,7 +13,6 @@
                <packageActivityForm>
                   <processDefId>process4</processDefId>
                   <activityDefId>activity1</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -46,7 +45,6 @@
                <packageActivityForm>
                   <processDefId>process4</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -100,7 +98,6 @@
                <packageActivityForm>
                   <processDefId>noticePostingProcess</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -111,7 +108,6 @@
                <packageActivityForm>
                   <processDefId>noticePostingProcess</processDefId>
                   <activityDefId>storeNotice</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -132,7 +128,6 @@
                <packageActivityForm>
                   <processDefId>noticePostingProcess</processDefId>
                   <activityDefId>displayResidentUserview</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
