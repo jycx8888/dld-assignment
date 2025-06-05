@@ -1,7 +1,16 @@
 {
     "elements": [{
         "elements": [{
-            "elements": [],
+            "elements": [{
+                "className": "org.joget.apps.form.lib.SelectBox",
+                "properties": {
+                    "readonly": "False",
+                    "multiple": "False",
+                    "label": "Select Box",
+                    "id": "field1",
+                    "readonlyLabel": "False"
+                }
+            }],
             "className": "org.joget.apps.form.model.Column",
             "properties": {"width": "100%"}
         }],
