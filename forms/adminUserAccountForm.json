@@ -10,19 +10,19 @@
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
-                                "type": "email",
-                                "message": "Please enter a valid email!",
+                                "type": "alphabet",
+                                "message": "Please enter a name!",
                                 "mandatory": "true"
                             }
                         },
-                        "label": "Email",
+                        "label": "Full Name",
                         "disableIncrementDecrementArrow": "",
                         "encryption": "",
                         "readonly": "",
                         "size": "",
                         "workflowVariable": "",
                         "style": "",
-                        "id": "email",
+                        "id": "fullName",
                         "placeholder": "",
                         "value": "",
                         "readonlyLabel": "",
@@ -37,19 +37,19 @@
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
-                                "type": "alphabet",
-                                "message": "Please enter a name!",
+                                "type": "email",
+                                "message": "Please enter a valid email!",
                                 "mandatory": "true"
                             }
                         },
-                        "label": "Full Name",
+                        "label": "Email",
                         "disableIncrementDecrementArrow": "",
                         "encryption": "",
                         "readonly": "",
                         "size": "",
                         "workflowVariable": "",
                         "style": "",
-                        "id": "fullName",
+                        "id": "email",
                         "placeholder": "",
                         "value": "",
                         "readonlyLabel": "",
