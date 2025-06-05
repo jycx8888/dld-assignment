@@ -24,9 +24,17 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "dateAndTime",
-            "id": "column_8",
-            "label": "Date and Time",
+            "name": "date",
+            "id": "column_1",
+            "label": "Date",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "time",
+            "id": "column_2",
+            "label": "Time",
             "sortable": "false"
         },
         {
