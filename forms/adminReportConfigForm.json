@@ -76,7 +76,7 @@
                             }
                         },
                         "workflowVariable": "",
-                        "label": "Facility ID",
+                        "label": "Facility IDs",
                         "id": "facilityID",
                         "value": "",
                         "readonlyLabel": ""
