@@ -39,8 +39,8 @@
                             }
                         },
                         "workflowVariable": "",
-                        "label": "Report Types",
-                        "id": "reportTypes",
+                        "label": "Report Type",
+                        "id": "reportType",
                         "value": "",
                         "readonlyLabel": ""
                     }
