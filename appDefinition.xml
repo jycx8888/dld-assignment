@@ -9,22 +9,10 @@
          <name>Residence Facilities Booking System</name>
          <packageActivityFormMap>
             <entry>
-               <string>process4::activity1</string>
-               <packageActivityForm>
-                  <processDefId>process4</processDefId>
-                  <activityDefId>activity1</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>adminProcessUserAccount::createEditUser</string>
                <packageActivityForm>
                   <processDefId>adminProcessUserAccount</processDefId>
                   <activityDefId>createEditUser</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -47,50 +35,6 @@
                   <processDefId>process1</processDefId>
                   <activityDefId>runProcess</activityDefId>
                   <formId>ResidenceFacilitiesBookingForm</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process4::activity2</string>
-               <packageActivityForm>
-                  <processDefId>process4</processDefId>
-                  <activityDefId>activity2</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>adminProcessUserAccount::formActivity</string>
-               <packageActivityForm>
-                  <processDefId>adminProcessUserAccount</processDefId>
-                  <activityDefId>formActivity</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process4::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>process4</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>adminUserAccountManagementWorkflow::formActivity</string>
-               <packageActivityForm>
-                  <processDefId>adminUserAccountManagementWorkflow</processDefId>
-                  <activityDefId>formActivity</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -123,18 +67,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>viewResults</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>adminUserAccountManagementWorkflow::activity1</string>
-               <packageActivityForm>
-                  <processDefId>adminUserAccountManagementWorkflow</processDefId>
-                  <activityDefId>activity1</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -145,7 +77,6 @@
                <packageActivityForm>
                   <processDefId>adminProcessUserAccount</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -193,17 +124,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>adminUserAccountManagementWorkflow::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>adminUserAccountManagementWorkflow</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>noticePostingProcess::displayResidentUserview</string>
                <packageActivityForm>
                   <processDefId>noticePostingProcess</processDefId>
@@ -227,15 +147,6 @@
          </packageActivityFormMap>
          <packageActivityPluginMap>
             <entry>
-               <string>adminUserAccountManagementWorkflow::tool1</string>
-               <packageActivityPlugin>
-                  <processDefId>adminUserAccountManagementWorkflow</processDefId>
-                  <activityDefId>tool1</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
                <string>adminProcessUserAccount::assignRole</string>
                <packageActivityPlugin>
                   <processDefId>adminProcessUserAccount</processDefId>
@@ -249,15 +160,6 @@
                <packageActivityPlugin>
                   <processDefId>process1</processDefId>
                   <activityDefId>tool2</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
-               <string>adminProcessUserAccount::tool1</string>
-               <packageActivityPlugin>
-                  <processDefId>adminProcessUserAccount</processDefId>
-                  <activityDefId>tool1</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
                </packageActivityPlugin>
@@ -304,15 +206,6 @@
                <string>noticePostingProcess::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>noticePostingProcess</processDefId>
-                  <participantId>processStartWhiteList</participantId>
-                  <type>role</type>
-                  <value>adminUser</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>adminUserAccountManagementWorkflow::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>adminUserAccountManagementWorkflow</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
