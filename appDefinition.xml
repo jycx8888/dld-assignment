@@ -42,10 +42,44 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>residentFeedbackProcess::submitsFeedback</string>
+               <packageActivityForm>
+                  <processDefId>residentFeedbackProcess</processDefId>
+                  <activityDefId>submitsFeedback</activityDefId>
+                  <formId>facilityFeedbackForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::bookingRequest</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>bookingRequest</activityDefId>
+                  <formId>FacilitiesBookingRequestForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminFacilityManagementWorkflow::addEditFacility</string>
+               <packageActivityForm>
+                  <processDefId>adminFacilityManagementWorkflow</processDefId>
+                  <activityDefId>addEditFacility</activityDefId>
+                  <formId>adminFacilityConfigurationForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>adminProcessUserAccount::runProcess</string>
                <packageActivityForm>
                   <processDefId>adminProcessUserAccount</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -73,6 +107,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>adminFacilityManagementWorkflow::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>adminFacilityManagementWorkflow</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>noticePostingProcess::storeNotice</string>
                <packageActivityForm>
                   <processDefId>noticePostingProcess</processDefId>
@@ -83,11 +128,11 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>residentFeedbackProcess::submitsFeedback</string>
+               <string>adminFacilityManagementWorkflow::activity1</string>
                <packageActivityForm>
-                  <processDefId>residentFeedbackProcess</processDefId>
-                  <activityDefId>submitsFeedback</activityDefId>
-                  <formId>facilityFeedbackForm</formId>
+                  <processDefId>adminFacilityManagementWorkflow</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -98,17 +143,6 @@
                <packageActivityForm>
                   <processDefId>noticePostingProcess</processDefId>
                   <activityDefId>displayResidentUserview</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process1::bookingRequest</string>
-               <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>bookingRequest</activityDefId>
-                  <formId>FacilitiesBookingRequestForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -127,6 +161,15 @@
             </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap>
+            <entry>
+               <string>adminFacilityManagementWorkflow::sendNotification</string>
+               <packageActivityPlugin>
+                  <processDefId>adminFacilityManagementWorkflow</processDefId>
+                  <activityDefId>sendNotification</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
             <entry>
                <string>adminProcessUserAccount::assignRole</string>
                <packageActivityPlugin>
@@ -154,6 +197,15 @@
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
+            <entry>
+               <string>adminProcessUserAccount::sendEmail</string>
+               <packageActivityPlugin>
+                  <processDefId>adminProcessUserAccount</processDefId>
+                  <activityDefId>sendEmail</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
          </packageActivityPluginMap>
          <packageParticipantMap>
             <entry>
@@ -178,6 +230,24 @@
                <string>noticePostingProcess::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>noticePostingProcess</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>adminFacilityManagementWorkflow::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>adminFacilityManagementWorkflow</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process5::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>process5</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
