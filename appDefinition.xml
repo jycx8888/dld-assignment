@@ -9,6 +9,17 @@
          <name>Residence Facilities Booking System</name>
          <packageActivityFormMap>
             <entry>
+               <string>adminProcessUserAccount::createEditUser</string>
+               <packageActivityForm>
+                  <processDefId>adminProcessUserAccount</processDefId>
+                  <activityDefId>createEditUser</activityDefId>
+                  <formId>adminUserAccountForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::reviewBookingRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -25,6 +36,17 @@
                   <processDefId>process1</processDefId>
                   <activityDefId>runProcess</activityDefId>
                   <formId>ResidenceFacilitiesBookingForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminProcessUserAccount::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>adminProcessUserAccount</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -52,6 +74,16 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>noticePostingProcess::storeNotice</string>
+               <packageActivityForm>
+                  <processDefId>noticePostingProcess</processDefId>
+                  <activityDefId>storeNotice</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>residentFeedbackProcess::submitsFeedback</string>
                <packageActivityForm>
                   <processDefId>residentFeedbackProcess</processDefId>
@@ -63,10 +95,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>noticePostingProcess::storeNotice</string>
+               <string>noticePostingProcess::displayResidentUserview</string>
                <packageActivityForm>
                   <processDefId>noticePostingProcess</processDefId>
-                  <activityDefId>storeNotice</activityDefId>
+                  <activityDefId>displayResidentUserview</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -78,16 +110,6 @@
                   <processDefId>process1</processDefId>
                   <activityDefId>bookingRequest</activityDefId>
                   <formId>FacilitiesBookingRequestForm</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>noticePostingProcess::displayResidentUserview</string>
-               <packageActivityForm>
-                  <processDefId>noticePostingProcess</processDefId>
-                  <activityDefId>displayResidentUserview</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -106,6 +128,15 @@
             </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap>
+            <entry>
+               <string>adminProcessUserAccount::assignRole</string>
+               <packageActivityPlugin>
+                  <processDefId>adminProcessUserAccount</processDefId>
+                  <activityDefId>assignRole</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
             <entry>
                <string>process1::tool2</string>
                <packageActivityPlugin>
