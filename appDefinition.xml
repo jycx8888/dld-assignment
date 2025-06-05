@@ -264,15 +264,6 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>process6::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>process6</processDefId>
-                  <participantId>processStartWhiteList</participantId>
-                  <type>role</type>
-                  <value>adminUser</value>
-               </packageParticipant>
-            </entry>
-            <entry>
                <string>adminSystemSettingsAndNotificationConfiguration::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>adminSystemSettingsAndNotificationConfiguration</processDefId>
