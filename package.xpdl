@@ -319,7 +319,7 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="377.70001220703125,198.7"/>
                     </ExtendedAttributes>
                 </Activity>
-                <Activity Id="confirmationNotification" Name="Confirmation/Notification">
+                <Activity Id="editUserAccountNotification" Name="Edit User Account Notification">
                     <Implementation>
                         <Tool Id="default_application"/>
                     </Implementation>
@@ -361,12 +361,12 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="createUser" Id="transition6" To="confirmationNotification">
+                <Transition From="createUser" Id="transition6" To="editUserAccountNotification">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="editUser" Id="transition7" To="confirmationNotification">
+                <Transition From="editUser" Id="transition7" To="editUserAccountNotification">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
@@ -375,7 +375,7 @@
             <ExtendedAttributes>
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="adminProcessUser"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=adminProcessUser,CONNECTING_ACTIVITY_ID=createEditUser,X_OFFSET=92,Y_OFFSET=86.00000305175782,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=adminProcessUser,CONNECTING_ACTIVITY_ID=confirmationNotification,X_OFFSET=1018,Y_OFFSET=115.87500305175782,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=adminProcessUser,CONNECTING_ACTIVITY_ID=editUserAccountNotification,X_OFFSET=1018,Y_OFFSET=115.87500305175782,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
         <WorkflowProcess Id="adminFacilityManagementWorkflow" Name="Admin Facility Management Workflow">
