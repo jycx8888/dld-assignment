@@ -9,31 +9,11 @@
          <name>Residence Facilities Booking System</name>
          <packageActivityFormMap>
             <entry>
-               <string>adminManageUserAccount::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>adminManageUserAccount</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>adminSystemSettingsAndNotificationConfiguration::updateSystemSettings</string>
-               <packageActivityForm>
-                  <processDefId>adminSystemSettingsAndNotificationConfiguration</processDefId>
-                  <activityDefId>updateSystemSettings</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>process1::reviewBookingRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>reviewBookingRequest</activityDefId>
-                  <formId>bookingApprovalForm</formId>
+                  <formId>booking_approval_form</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -51,21 +31,21 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>residentFeedbackProcess::submitsFeedback</string>
+               <string>process3::runProcess</string>
                <packageActivityForm>
-                  <processDefId>residentFeedbackProcess</processDefId>
-                  <activityDefId>submitsFeedback</activityDefId>
-                  <formId>facilityFeedbackForm</formId>
+                  <processDefId>process3</processDefId>
+                  <activityDefId>runProcess</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>adminManageUserAccount::activity3</string>
+               <string>residentFeedbackProcess::submitsFeedback</string>
                <packageActivityForm>
-                  <processDefId>adminManageUserAccount</processDefId>
-                  <activityDefId>activity3</activityDefId>
+                  <processDefId>residentFeedbackProcess</processDefId>
+                  <activityDefId>submitsFeedback</activityDefId>
+                  <formId>facilityFeedbackForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -93,72 +73,29 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>adminSystemSettingsAndNotificationConfiguration::runProcess</string>
+               <string>process3::activity1</string>
                <packageActivityForm>
-                  <processDefId>adminSystemSettingsAndNotificationConfiguration</processDefId>
+                  <processDefId>process3</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>residentFeedbackProcess::activity1</string>
+               <packageActivityForm>
+                  <processDefId>residentFeedbackProcess</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>residentFeedbackProcess::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>residentFeedbackProcess</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>noticePostingProcess::postNotice</string>
-               <packageActivityForm>
-                  <processDefId>noticePostingProcess</processDefId>
-                  <activityDefId>postNotice</activityDefId>
-                  <formId>noticeBoardForm</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>adminManageUserAccount::editUser</string>
-               <packageActivityForm>
-                  <processDefId>adminManageUserAccount</processDefId>
-                  <activityDefId>editUser</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>noticePostingProcess::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>noticePostingProcess</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>noticePostingProcess::storeNotice</string>
-               <packageActivityForm>
-                  <processDefId>noticePostingProcess</processDefId>
-                  <activityDefId>storeNotice</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>adminManageUserAccount::createUser</string>
-               <packageActivityForm>
-                  <processDefId>adminManageUserAccount</processDefId>
-                  <activityDefId>createUser</activityDefId>
-                  <formId>adminUserAccountForm</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>noticePostingProcess::displayResidentUserview</string>
-               <packageActivityForm>
-                  <processDefId>noticePostingProcess</processDefId>
-                  <activityDefId>displayResidentUserview</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -170,17 +107,6 @@
                   <processDefId>residentFeedbackProcess</processDefId>
                   <activityDefId>notifyManager</activityDefId>
                   <formId>feedbackResponseForm</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>adminManageUserAccount::createEditUser</string>
-               <packageActivityForm>
-                  <processDefId>adminManageUserAccount</processDefId>
-                  <activityDefId>createEditUser</activityDefId>
-                  <formId>adminUserAccountForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -206,24 +132,6 @@
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
-            <entry>
-               <string>adminManageUserAccount::confirmationNotification</string>
-               <packageActivityPlugin>
-                  <processDefId>adminManageUserAccount</processDefId>
-                  <activityDefId>confirmationNotification</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
-               <string>adminSystemSettingsAndNotificationConfiguration::applySettings</string>
-               <packageActivityPlugin>
-                  <processDefId>adminSystemSettingsAndNotificationConfiguration</processDefId>
-                  <activityDefId>applySettings</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
          </packageActivityPluginMap>
          <packageParticipantMap>
             <entry>
@@ -245,18 +153,18 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>noticePostingProcess::processStartWhiteList</string>
+               <string>bookingConflictResolution::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>noticePostingProcess</processDefId>
+                  <processDefId>bookingConflictResolution</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
                </packageParticipant>
             </entry>
             <entry>
-               <string>adminSystemSettingsAndNotificationConfiguration::processStartWhiteList</string>
+               <string>process3::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>adminSystemSettingsAndNotificationConfiguration</processDefId>
+                  <processDefId>process3</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
