@@ -9,20 +9,21 @@
          <name>Residence Facilities Booking System</name>
          <packageActivityFormMap>
             <entry>
-               <string>process1::viewResults</string>
+               <string>adminManageUserAccount::runProcess</string>
                <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>viewResults</activityDefId>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>adminManageUserAccount::runProcess</string>
+               <string>process1::viewResults</string>
                <packageActivityForm>
-                  <processDefId>adminManageUserAccount</processDefId>
-                  <activityDefId>runProcess</activityDefId>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>viewResults</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -120,6 +121,7 @@
                <packageActivityForm>
                   <processDefId>adminManageUserAccount</processDefId>
                   <activityDefId>createEditUser</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
