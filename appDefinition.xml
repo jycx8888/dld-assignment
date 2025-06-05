@@ -9,21 +9,21 @@
          <name>Residence Facilities Booking System</name>
          <packageActivityFormMap>
             <entry>
-               <string>adminSystemSettingsAndNotificationConfiguration::updateSystemSettings</string>
+               <string>adminManageUserAccount::runProcess</string>
                <packageActivityForm>
-                  <processDefId>adminSystemSettingsAndNotificationConfiguration</processDefId>
-                  <activityDefId>updateSystemSettings</activityDefId>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>adminManageUserAccount::runProcess</string>
+               <string>adminSystemSettingsAndNotificationConfiguration::updateSystemSettings</string>
                <packageActivityForm>
-                  <processDefId>adminManageUserAccount</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
+                  <processDefId>adminSystemSettingsAndNotificationConfiguration</processDefId>
+                  <activityDefId>updateSystemSettings</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -170,15 +170,6 @@
          </packageActivityFormMap>
          <packageActivityPluginMap>
             <entry>
-               <string>adminManageUserAccount::tool1</string>
-               <packageActivityPlugin>
-                  <processDefId>adminManageUserAccount</processDefId>
-                  <activityDefId>tool1</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
                <string>process1::tool2</string>
                <packageActivityPlugin>
                   <processDefId>process1</processDefId>
@@ -192,6 +183,15 @@
                <packageActivityPlugin>
                   <processDefId>process1</processDefId>
                   <activityDefId>tool1</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>adminManageUserAccount::confirmationNotification</string>
+               <packageActivityPlugin>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>confirmationNotification</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
                </packageActivityPlugin>
