@@ -19,6 +19,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>adminManageUserAccount::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::reviewBookingRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -41,11 +52,33 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>adminManageUserAccount::editUser</string>
+               <packageActivityForm>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>editUser</activityDefId>
+                  <formId>adminUserAccountForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>residentFeedbackProcess::submitsFeedback</string>
                <packageActivityForm>
                   <processDefId>residentFeedbackProcess</processDefId>
                   <activityDefId>submitsFeedback</activityDefId>
                   <formId>facilityFeedbackForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminManageUserAccount::createUser</string>
+               <packageActivityForm>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>createUser</activityDefId>
+                  <formId>adminUserAccountForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -83,6 +116,17 @@
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
+            <entry>
+               <string>adminManageUserAccount::createEditUser</string>
+               <packageActivityForm>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>createEditUser</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap>
             <entry>
@@ -99,6 +143,15 @@
                <packageActivityPlugin>
                   <processDefId>process1</processDefId>
                   <activityDefId>tool1</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>adminManageUserAccount::confirmationNotification</string>
+               <packageActivityPlugin>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>confirmationNotification</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
                </packageActivityPlugin>
