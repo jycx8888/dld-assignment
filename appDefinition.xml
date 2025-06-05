@@ -9,6 +9,17 @@
          <name>Residence Facilities Booking System</name>
          <packageActivityFormMap>
             <entry>
+               <string>adminProcessUserAccount::createEditUser</string>
+               <packageActivityForm>
+                  <processDefId>adminProcessUserAccount</processDefId>
+                  <activityDefId>createEditUser</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process4::activity1</string>
                <packageActivityForm>
                   <processDefId>process4</processDefId>
@@ -20,10 +31,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>adminProcessUserAccount::createEditUser</string>
+               <string>adminProcessUserAccount::formActivity</string>
                <packageActivityForm>
                   <processDefId>adminProcessUserAccount</processDefId>
-                  <activityDefId>createEditUser</activityDefId>
+                  <activityDefId>formActivity</activityDefId>
                   <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
@@ -64,9 +75,9 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>adminProcessUserAccount::formActivity</string>
+               <string>adminUserAccountManagementWorkflow::formActivity</string>
                <packageActivityForm>
-                  <processDefId>adminProcessUserAccount</processDefId>
+                  <processDefId>adminUserAccountManagementWorkflow</processDefId>
                   <activityDefId>formActivity</activityDefId>
                   <formId></formId>
                   <type>SINGLE</type>
@@ -79,17 +90,6 @@
                <packageActivityForm>
                   <processDefId>process4</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>adminUserAccountManagementWorkflow::formActivity</string>
-               <packageActivityForm>
-                  <processDefId>adminUserAccountManagementWorkflow</processDefId>
-                  <activityDefId>formActivity</activityDefId>
                   <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
@@ -119,10 +119,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process1::viewResults</string>
+               <string>adminUserAccountManagementWorkflow::activity1</string>
                <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>viewResults</activityDefId>
+                  <processDefId>adminUserAccountManagementWorkflow</processDefId>
+                  <activityDefId>activity1</activityDefId>
                   <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
@@ -130,10 +130,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>adminUserAccountManagementWorkflow::activity1</string>
+               <string>process1::viewResults</string>
                <packageActivityForm>
-                  <processDefId>adminUserAccountManagementWorkflow</processDefId>
-                  <activityDefId>activity1</activityDefId>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>viewResults</activityDefId>
                   <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
@@ -183,21 +183,21 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>residentFeedbackProcess::runProcess</string>
+               <string>adminUserAccountManagementWorkflow::runProcess</string>
                <packageActivityForm>
-                  <processDefId>residentFeedbackProcess</processDefId>
+                  <processDefId>adminUserAccountManagementWorkflow</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>adminUserAccountManagementWorkflow::runProcess</string>
+               <string>residentFeedbackProcess::runProcess</string>
                <packageActivityForm>
-                  <processDefId>adminUserAccountManagementWorkflow</processDefId>
+                  <processDefId>residentFeedbackProcess</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -304,6 +304,15 @@
                <string>noticePostingProcess::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>noticePostingProcess</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process4::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>process4</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
