@@ -7,8 +7,25 @@
         }],
         "className": "org.joget.apps.form.model.Section",
         "properties": {
-            "label": "Section",
-            "id": "section1"
+            "readonly": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "permissionReadonly": "",
+            "rules": "",
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "comment": "",
+            "label": "Booking Edit Form",
+            "id": "bookingEditForm",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "readonlyLabel": ""
         }
     }],
     "className": "org.joget.apps.form.model.Form",
