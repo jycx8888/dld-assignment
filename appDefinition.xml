@@ -62,21 +62,21 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>residentFeedbackProcess::submitsFeedback</string>
+               <string>noticePostingProcess::storeNotice</string>
                <packageActivityForm>
-                  <processDefId>residentFeedbackProcess</processDefId>
-                  <activityDefId>submitsFeedback</activityDefId>
-                  <formId>facilityFeedbackForm</formId>
+                  <processDefId>noticePostingProcess</processDefId>
+                  <activityDefId>storeNotice</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>noticePostingProcess::storeNotice</string>
+               <string>residentFeedbackProcess::submitsFeedback</string>
                <packageActivityForm>
-                  <processDefId>noticePostingProcess</processDefId>
-                  <activityDefId>storeNotice</activityDefId>
+                  <processDefId>residentFeedbackProcess</processDefId>
+                  <activityDefId>submitsFeedback</activityDefId>
+                  <formId>facilityFeedbackForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -93,21 +93,21 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process1::bookingRequest</string>
+               <string>noticePostingProcess::displayResidentUserview</string>
                <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>bookingRequest</activityDefId>
-                  <formId>FacilitiesBookingRequestForm</formId>
+                  <processDefId>noticePostingProcess</processDefId>
+                  <activityDefId>displayResidentUserview</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>noticePostingProcess::displayResidentUserview</string>
+               <string>process1::bookingRequest</string>
                <packageActivityForm>
-                  <processDefId>noticePostingProcess</processDefId>
-                  <activityDefId>displayResidentUserview</activityDefId>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>bookingRequest</activityDefId>
+                  <formId>FacilitiesBookingRequestForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -168,15 +168,6 @@
                <string>noticePostingProcess::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>noticePostingProcess</processDefId>
-                  <participantId>processStartWhiteList</participantId>
-                  <type>role</type>
-                  <value>adminUser</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>process3::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>process3</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
