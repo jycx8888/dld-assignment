@@ -13,7 +13,6 @@
                <packageActivityForm>
                   <processDefId>adminManageUserAccount</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
