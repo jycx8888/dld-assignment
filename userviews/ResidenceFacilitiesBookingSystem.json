@@ -16,6 +16,21 @@
                 }
             },
             {
+                "className": "org.joget.CalendarMenu",
+                "properties": {
+                    "eventAfterAllRender": "//console.log(view);",
+                    "userviewCacheDuration": "20",
+                    "eventClick": "//console.log(event); console.log(jsEvent); console.log(view);",
+                    "dateFormat": "yyyy-MM-dd",
+                    "userviewCacheScope": "",
+                    "eventAfterRender": "//console.log(event); console.log(element); console.log(view);",
+                    "eventRender": "//console.log(event); console.log(element); console.log(view);",
+                    "id": "B8F6C7B457CA4223F24B6C023CB7DA64",
+                    "label": "Calendar Menu",
+                    "autoHandleDateRange": "true"
+                }
+            },
+            {
                 "className": "org.joget.apps.userview.lib.RunProcess",
                 "properties": {
                     "runProcessDirectly": "Yes",
