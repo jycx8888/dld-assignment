@@ -179,18 +179,18 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>residentRescheduleRequest::processStartWhiteList</string>
+               <string>process8::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>residentRescheduleRequest</processDefId>
+                  <processDefId>process8</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
                </packageParticipant>
             </entry>
             <entry>
-               <string>process8::processStartWhiteList</string>
+               <string>residentRescheduleRequest::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>process8</processDefId>
+                  <processDefId>residentRescheduleRequest</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
