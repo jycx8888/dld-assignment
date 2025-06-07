@@ -303,18 +303,18 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>process1::processStartWhiteList</string>
+               <string>managerApproveRequests::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>process1</processDefId>
+                  <processDefId>managerApproveRequests</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
                </packageParticipant>
             </entry>
             <entry>
-               <string>managerApproveRequests::processStartWhiteList</string>
+               <string>process1::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>managerApproveRequests</processDefId>
+                  <processDefId>process1</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
@@ -330,18 +330,18 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>residentRescheduleRequest::processStartWhiteList</string>
+               <string>process8::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>residentRescheduleRequest</processDefId>
+                  <processDefId>process8</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
                </packageParticipant>
             </entry>
             <entry>
-               <string>process8::processStartWhiteList</string>
+               <string>residentRescheduleRequest::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>process8</processDefId>
+                  <processDefId>residentRescheduleRequest</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
