@@ -49,7 +49,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "workflowVariable": "",
+                        "workflowVariable": "status",
                         "label": "Status",
                         "id": "status",
                         "value": "",
