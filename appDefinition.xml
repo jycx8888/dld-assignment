@@ -46,6 +46,7 @@
                <packageActivityForm>
                   <processDefId>managerApproveBooking</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -95,6 +96,7 @@
                <packageActivityForm>
                   <processDefId>managerApproveBooking</processDefId>
                   <activityDefId>activity1</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -116,6 +118,7 @@
                <packageActivityForm>
                   <processDefId>managerApproveBooking</processDefId>
                   <activityDefId>activity3</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -137,6 +140,7 @@
                <packageActivityForm>
                   <processDefId>managerApproveBooking</processDefId>
                   <activityDefId>activity2</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
