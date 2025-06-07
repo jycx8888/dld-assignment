@@ -19,16 +19,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process1::viewResults</string>
-               <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>viewResults</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>process1::reviewBookingRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -105,7 +95,6 @@
                <packageActivityForm>
                   <processDefId>process7</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -116,7 +105,6 @@
                <packageActivityForm>
                   <processDefId>process7</processDefId>
                   <activityDefId>activity1</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
