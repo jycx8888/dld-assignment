@@ -128,6 +128,15 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process8::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>process8</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>managerRescheduleRequests::approvesOrRejectRequests</string>
                <packageActivityForm>
                   <processDefId>managerRescheduleRequests</processDefId>
@@ -155,6 +164,15 @@
                   <processDefId>residentFeedbackProcess</processDefId>
                   <activityDefId>runProcess</activityDefId>
                   <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process8::activity1</string>
+               <packageActivityForm>
+                  <processDefId>process8</processDefId>
+                  <activityDefId>activity1</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -223,6 +241,15 @@
                <string>residentRescheduleRequest::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>residentRescheduleRequest</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process8::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>process8</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
