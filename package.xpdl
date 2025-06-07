@@ -43,6 +43,9 @@
         <Participant Id="RrescheduleRequest" Name="Resident">
             <ParticipantType Type="ROLE"/>
         </Participant>
+        <Participant Id="managerApproveRequest" Name="Manager">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
     </Participants>
     <Applications>
         <Application Id="default_application"/>
@@ -495,11 +498,28 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="204,48.187503051757815"/>
                     </ExtendedAttributes>
                 </Activity>
+                <Activity Id="approveRequests" Name="Approve Requests">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>managerApproveRequest</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="managerApproveRequest"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="199.98749685287476,71.67500610351561"/>
+                    </ExtendedAttributes>
+                </Activity>
             </Activities>
+            <Transitions>
+                <Transition From="rescheduleRequest" Id="transition3" To="approveRequests">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+            </Transitions>
             <ExtendedAttributes>
-                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="RrescheduleRequest"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="RrescheduleRequest;managerApproveRequest"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=RrescheduleRequest,CONNECTING_ACTIVITY_ID=rescheduleRequest,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=RrescheduleRequest,CONNECTING_ACTIVITY_ID=rescheduleRequest,X_OFFSET=453,Y_OFFSET=85.8624984741211,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=RrescheduleRequest,CONNECTING_ACTIVITY_ID=approveRequests,X_OFFSET=499.99999380111694,Y_OFFSET=78.8624984741211,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
     </WorkflowProcesses>

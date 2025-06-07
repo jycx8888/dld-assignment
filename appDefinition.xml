@@ -41,6 +41,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>residentRescheduleRequest::approveRequests</string>
+               <packageActivityForm>
+                  <processDefId>residentRescheduleRequest</processDefId>
+                  <activityDefId>approveRequests</activityDefId>
+                  <formId>bookingApprovalForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>residentFeedbackProcess::submitsFeedback</string>
                <packageActivityForm>
                   <processDefId>residentFeedbackProcess</processDefId>
@@ -66,6 +77,16 @@
                <packageActivityForm>
                   <processDefId>residentRescheduleRequest</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>residentRescheduleRequest::activity2</string>
+               <packageActivityForm>
+                  <processDefId>residentRescheduleRequest</processDefId>
+                  <activityDefId>activity2</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -98,6 +119,7 @@
                <packageActivityForm>
                   <processDefId>residentRescheduleRequest</processDefId>
                   <activityDefId>rescheduleRequest</activityDefId>
+                  <formId>ResidenceRescheduleBookingForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
