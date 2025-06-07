@@ -62,14 +62,14 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.SubForm",
+                    "className": "org.joget.plugin.enterprise.MultiSelectBox",
                     "properties": {
-                        "readonly": "False",
-                        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
-                        "noframe": "false",
+                        "readonly": "false",
+                        "multiple": "true",
+                        "width": "40%",
+                        "label": "Multi Select Box",
                         "id": "field3",
-                        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
-                        "readonlyLabel": "False"
+                        "readonlyLabel": "false"
                     }
                 }
             ],
