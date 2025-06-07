@@ -40,6 +40,9 @@
         <Participant Id="process6_participant11" Name="Participant">
             <ParticipantType Type="ROLE"/>
         </Participant>
+        <Participant Id="RrescheduleRequest" Name="Resident">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
     </Participants>
     <Applications>
         <Application Id="default_application"/>
@@ -470,6 +473,33 @@
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process6_participant11"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process6_participant11,CONNECTING_ACTIVITY_ID=updateSystemSettings,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process6_participant11,CONNECTING_ACTIVITY_ID=applySettings,X_OFFSET=609.0000152587891,Y_OFFSET=72.85000152587891,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+            </ExtendedAttributes>
+        </WorkflowProcess>
+        <WorkflowProcess Id="residentRescheduleRequest" Name="Resident Reschedule Request">
+            <ProcessHeader DurationUnit="h"/>
+            <DataFields>
+                <DataField Id="status" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+            </DataFields>
+            <Activities>
+                <Activity Id="rescheduleRequest" Name="Reschedule Request">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>RrescheduleRequest</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="RrescheduleRequest"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="204,48.187503051757815"/>
+                    </ExtendedAttributes>
+                </Activity>
+            </Activities>
+            <ExtendedAttributes>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="RrescheduleRequest"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=RrescheduleRequest,CONNECTING_ACTIVITY_ID=rescheduleRequest,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=RrescheduleRequest,CONNECTING_ACTIVITY_ID=rescheduleRequest,X_OFFSET=453,Y_OFFSET=85.8624984741211,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
     </WorkflowProcesses>

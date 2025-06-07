@@ -13,6 +13,7 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>viewResults</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -62,6 +63,28 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>residentRescheduleRequest::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>residentRescheduleRequest</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process7::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>process7</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::bookingRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -78,6 +101,28 @@
                   <processDefId>residentFeedbackProcess</processDefId>
                   <activityDefId>notifyManager</activityDefId>
                   <formId>feedbackResponseForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>residentRescheduleRequest::rescheduleRequest</string>
+               <packageActivityForm>
+                  <processDefId>residentRescheduleRequest</processDefId>
+                  <activityDefId>rescheduleRequest</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>residentRescheduleRequest::activity1</string>
+               <packageActivityForm>
+                  <processDefId>residentRescheduleRequest</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -115,9 +160,27 @@
                </packageParticipant>
             </entry>
             <entry>
+               <string>process7::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>process7</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>process1::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>process1</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>residentRescheduleRequest::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>residentRescheduleRequest</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
