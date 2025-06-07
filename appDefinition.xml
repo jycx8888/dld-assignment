@@ -13,6 +13,7 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>viewResults</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -52,6 +53,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process8::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>process8</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>residentFeedbackProcess::submitsFeedback</string>
                <packageActivityForm>
                   <processDefId>residentFeedbackProcess</processDefId>
@@ -83,10 +95,11 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>residentRescheduleRequest::activity2</string>
+               <string>process8::activity1</string>
                <packageActivityForm>
-                  <processDefId>residentRescheduleRequest</processDefId>
-                  <activityDefId>activity2</activityDefId>
+                  <processDefId>process8</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -169,6 +182,15 @@
                <string>residentRescheduleRequest::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>residentRescheduleRequest</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process8::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>process8</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
