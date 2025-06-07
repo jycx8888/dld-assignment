@@ -13,7 +13,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>viewResults</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -219,7 +218,6 @@
          <appId>ResidenceFacilitiesBookingSystem</appId>
          <appVersion>1</appVersion>
          <filesize>78350</filesize>
-         <permissionClass></permissionClass>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
    </resourceList>
