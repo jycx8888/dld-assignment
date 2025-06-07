@@ -77,7 +77,6 @@
                <packageActivityForm>
                   <processDefId>residentRescheduleRequest</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -88,7 +87,6 @@
                <packageActivityForm>
                   <processDefId>residentRescheduleRequest</processDefId>
                   <activityDefId>activity2</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
