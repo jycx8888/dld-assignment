@@ -71,6 +71,59 @@
                     "rowCount": "",
                     "id": "2CD2E17C65C642AFE4621809234E5447"
                 }
+            },
+            {
+                "className": "org.joget.apps.userview.lib.DataListMenu",
+                "properties": {
+                    "cacheAllLinks": "",
+                    "customHeader": "",
+                    "keyName": "",
+                    "customFooter": "",
+                    "label": "User Account List",
+                    "enableOffline": "",
+                    "customId": "userAccountList",
+                    "buttonPosition": "bothLeft",
+                    "datalistId": "userAccountList",
+                    "checkboxPosition": "left",
+                    "selectionType": "multiple",
+                    "userviewCacheDuration": "20",
+                    "cacheListAction": "",
+                    "userviewCacheScope": "",
+                    "rowCount": "",
+                    "id": "E3EF9CD68DF9487BADD5EEFB832766E9"
+                }
+            },
+            {
+                "className": "org.joget.apps.userview.lib.FormMenu",
+                "properties": {
+                    "loadDataWithKey": "",
+                    "redirectUrlOnCancel": "",
+                    "actionOnCancel": "",
+                    "redirectTargetOnCancel": "top",
+                    "customFooter": "",
+                    "paramName": "",
+                    "enableOffline": "",
+                    "afterSavedReloadTarget": "true",
+                    "customId": "userAccountForm",
+                    "showInPopupDialog": "",
+                    "readonly": "",
+                    "cancelButtonLabel": "",
+                    "actionAfterSaved": "",
+                    "id": "937D152610D54DF62F33CB23B8A0CF41",
+                    "redirectUrlAfterComplete": "",
+                    "fieldPassover": "",
+                    "formId": "adminUserAccountForm",
+                    "customHeader": "",
+                    "fieldPassoverMethod": "append",
+                    "redirectTargetOnComplete": "",
+                    "keyName": "",
+                    "label": "User Account Form",
+                    "userviewCacheDuration": "20",
+                    "messageShowAfterComplete": "",
+                    "submitButtonLabel": "",
+                    "userviewCacheScope": "",
+                    "readonlyLabel": "true"
+                }
             }
         ],
         "properties": {
