@@ -9,16 +9,6 @@
          <name>Residence Facilities Booking System</name>
          <packageActivityFormMap>
             <entry>
-               <string>process1::viewResults</string>
-               <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>viewResults</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>process1::runProcess</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -73,16 +63,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>residentFeedbackProcess::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>residentFeedbackProcess</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>residentRescheduleRequest::runProcess</string>
                <packageActivityForm>
                   <processDefId>residentRescheduleRequest</processDefId>
@@ -109,6 +89,26 @@
                   <processDefId>residentRescheduleRequest</processDefId>
                   <activityDefId>rescheduleRequest</activityDefId>
                   <formId>ResidenceRescheduleBookingForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::viewResults</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>viewResults</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>residentFeedbackProcess::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>residentFeedbackProcess</processDefId>
+                  <activityDefId>runProcess</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
