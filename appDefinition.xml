@@ -173,15 +173,6 @@
             <entry>
                <string>residentFeedbackProcess::runProcess</string>
                <packageActivityForm>
-                  <processDefId>process8</processDefId>
-                  <activityDefId>activity3</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>residentFeedbackProcess::runProcess</string>
-               <packageActivityForm>
                   <processDefId>residentFeedbackProcess</processDefId>
                   <activityDefId>runProcess</activityDefId>
                   <type>SINGLE</type>
