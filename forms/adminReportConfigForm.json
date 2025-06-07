@@ -172,7 +172,7 @@
                             }
                         },
                         "workflowVariable": "",
-                        "label": "Export Format",
+                        "label": "Export Formats",
                         "id": "exportFormat",
                         "value": "",
                         "readonlyLabel": ""
