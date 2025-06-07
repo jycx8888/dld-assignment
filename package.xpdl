@@ -46,7 +46,10 @@
         <Participant Id="managerApproveRequest" Name="Manager">
             <ParticipantType Type="ROLE"/>
         </Participant>
-        <Participant Id="process8_participant14" Name="Participant">
+        <Participant Id="residentReschedule" Name="Resident">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="managerReschedule" Name="Manager">
             <ParticipantType Type="ROLE"/>
         </Participant>
     </Participants>
@@ -527,7 +530,7 @@
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=RrescheduleRequest,CONNECTING_ACTIVITY_ID=approveRequests,X_OFFSET=499.99999380111694,Y_OFFSET=78.8624984741211,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
-        <WorkflowProcess Id="process8" Name="Process 8">
+        <WorkflowProcess Id="managerRescheduleRequests" Name="Manager Reschedule Requests">
             <ProcessHeader DurationUnit="h"/>
             <DataFields>
                 <DataField Id="status" IsArray="FALSE">
@@ -537,21 +540,66 @@
                 </DataField>
             </DataFields>
             <Activities>
-                <Activity Id="activity1" Name="Activity 1">
+                <Activity Id="rescheduleRequests" Name="Reschedule Requests">
                     <Implementation>
                         <No/>
                     </Implementation>
-                    <Performer>process8_participant14</Performer>
+                    <Performer>residentReschedule</Performer>
                     <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process8_participant14"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="261,60.187503051757815"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="residentReschedule"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="250,47.187503051757815"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="approvesOrRejectRequests" Name="Approves Or Reject Requests">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>managerReschedule</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="managerReschedule"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="243,59.6250030517578"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="route1">
+                    <Route/>
+                    <Performer>managerReschedule</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="managerReschedule"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="470,70.06251831054686"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="activity2" Name="Activity 2">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>managerReschedule</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="managerReschedule"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="626,60.7500030517578"/>
                     </ExtendedAttributes>
                 </Activity>
             </Activities>
+            <Transitions>
+                <Transition From="rescheduleRequests" Id="transition2" To="approvesOrRejectRequests">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="approvesOrRejectRequests" Id="transition3" To="route1">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route1" Id="transition4" To="activity2">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+            </Transitions>
             <ExtendedAttributes>
-                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process8_participant14"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process8_participant14,CONNECTING_ACTIVITY_ID=activity1,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process8_participant14,CONNECTING_ACTIVITY_ID=activity1,X_OFFSET=541,Y_OFFSET=71.87500305175782,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="residentReschedule;managerReschedule"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=residentReschedule,CONNECTING_ACTIVITY_ID=rescheduleRequests,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=residentReschedule,CONNECTING_ACTIVITY_ID=activity2,X_OFFSET=712,Y_OFFSET=74.87500305175782,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
     </WorkflowProcesses>
