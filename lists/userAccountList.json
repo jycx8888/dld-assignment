@@ -68,6 +68,32 @@
             "extraCondition": ""
         }
     },
-    "actions": [],
+    "actions": [
+        {
+            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
+            "id": "action_0",
+            "properties": {
+                "deleteFiles": "false",
+                "deleteGridData": "false",
+                "deleteSubformData": "false",
+                "label": "Delete",
+                "abortRelatedRunningProcesses": "false"
+            }
+        },
+        {
+            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+            "id": "action_1",
+            "properties": {
+                "visible": "",
+                "hrefColumn": "",
+                "hrefParam": "",
+                "label": "Hyperlink",
+                "href": "https://youtu.be/dQw4w9WgXcQ?si=E3yvTQ-fUSEzeTJJ",
+                "confirmation": "",
+                "datalist_type": "action",
+                "target": "_self"
+            }
+        }
+    ],
     "order": ""
 }
