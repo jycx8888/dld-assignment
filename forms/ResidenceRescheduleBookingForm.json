@@ -85,6 +85,32 @@
                 {
                     "className": "org.joget.apps.form.lib.DatePicker",
                     "properties": {
+                        "permissionHidden": "",
+                        "yearRange": "c-10:c+10",
+                        "dataFormat": "yyyy-MM-dd",
+                        "startDateFieldId": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "format": "",
+                        "label": "Current Booking Date",
+                        "datePickerType": "",
+                        "currentDateAs": "",
+                        "endDateFieldId": "",
+                        "readonly": "true",
+                        "allowManual": "",
+                        "workflowVariable": "",
+                        "id": "currentBookingDate",
+                        "placeholder": "",
+                        "disableWeekends": "",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.DatePicker",
+                    "properties": {
                         "yearRange": "c-10:c+10",
                         "dataFormat": "yyyy-MM-dd",
                         "startDateFieldId": "",
@@ -92,7 +118,7 @@
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
                                 "type": "",
-                                "message": "",
+                                "message": "Please fill in this field",
                                 "mandatory": "true"
                             }
                         },
@@ -119,13 +145,13 @@
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
                                 "type": "",
-                                "message": "",
+                                "message": "Please fill in this field",
                                 "mandatory": "true"
                             }
                         },
                         "workflowVariable": "",
-                        "label": "New End Time",
-                        "id": "new_end_time",
+                        "label": "New Start Time",
+                        "id": "newStartTime",
                         "value": "",
                         "readonlyLabel": "",
                         "format24hr": "true"
@@ -134,18 +160,15 @@
                 {
                     "className": "org.joget.plugin.enterprise.TimePicker",
                     "properties": {
-                        "readonly": "",
+                        "permissionHidden": "",
+                        "readonly": "true",
                         "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "type": "",
-                                "message": "",
-                                "mandatory": "true"
-                            }
+                            "className": "",
+                            "properties": {}
                         },
                         "workflowVariable": "",
-                        "label": "New Start Time",
-                        "id": "field5",
+                        "label": "New End Time",
+                        "id": "new_end_time",
                         "value": "",
                         "readonlyLabel": "",
                         "format24hr": "true"
@@ -160,13 +183,13 @@
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
                                 "type": "",
-                                "message": "",
+                                "message": "Please fill in this field",
                                 "mandatory": "true"
                             }
                         },
                         "workflowVariable": "",
                         "label": "Reason For Change",
-                        "id": "field6",
+                        "id": "rescheduleReasonForChange",
                         "placeholder": "",
                         "rows": "5",
                         "cols": "20",
