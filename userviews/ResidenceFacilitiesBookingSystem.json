@@ -87,10 +87,14 @@
         "id": "ResidenceFacilitiesBookingSystem"
     },
     "setting": {"properties": {
+        "tempDisablePermissionChecking": "",
         "userviewDescription": "",
         "userviewId": "ResidenceFacilitiesBookingSystem",
+        "hideThisUserviewInAppCenter": "",
+        "userview_thumbnail": "#appResource.Screenshot_2025-06-07_163533.png#",
+        "userview_category": "",
         "theme": {
-            "className": "org.joget.apps.userview.lib.Dx8TrimedaTheme",
+            "className": "",
             "properties": {
                 "mobileViewDisabled": "",
                 "mobileCacheEnabled": ""
