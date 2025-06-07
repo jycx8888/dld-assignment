@@ -13,7 +13,6 @@
                <packageActivityForm>
                   <processDefId>managerApproveRescheduleRequests</processDefId>
                   <activityDefId>activity1</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -24,7 +23,6 @@
                <packageActivityForm>
                   <processDefId>managerApproveRescheduleRequests</processDefId>
                   <activityDefId>activity2</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -35,7 +33,6 @@
                <packageActivityForm>
                   <processDefId>managerApproveRescheduleRequests</processDefId>
                   <activityDefId>activity3</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -142,7 +139,6 @@
                <packageActivityForm>
                   <processDefId>managerApproveRescheduleRequests</processDefId>
                   <activityDefId>rescheduleRequests</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -153,7 +149,6 @@
                <packageActivityForm>
                   <processDefId>managerApproveRescheduleRequests</processDefId>
                   <activityDefId>manageRequests</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -175,7 +170,6 @@
                <packageActivityForm>
                   <processDefId>managerApproveRescheduleRequests</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
