@@ -46,46 +46,29 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.TextField",
+                    "className": "org.joget.apps.form.lib.FileUpload",
                     "properties": {
-                        "encryption": "false",
+                        "resizeMethod": "",
+                        "permissionType": "",
+                        "maxSizeMsg": "File size limit exceeded",
+                        "removeFile": "false",
                         "readonly": "False",
-                        "style": "",
-                        "label": "Text Field",
-                        "id": "field2",
-                        "readonlyLabel": "False",
-                        "storeNumeric": "False"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "encryption": "false",
-                        "readonly": "False",
-                        "style": "",
-                        "label": "Text Field",
-                        "id": "field4",
-                        "readonlyLabel": "False",
-                        "storeNumeric": "False"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.PasswordField",
-                    "properties": {
-                        "strengthChecker": "False",
-                        "readonly": "False",
-                        "label": "Password Field",
-                        "id": "field3",
-                        "readonlyLabel": "False"
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.SelectBox",
-                    "properties": {
-                        "readonly": "False",
+                        "attachment": "true",
+                        "fileTypeMsg": "Invalid file type",
                         "multiple": "False",
-                        "label": "Select Box",
-                        "id": "field5",
+                        "label": "File Upload",
+                        "id": "field2",
+                        "resizeQuality": "0.8"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SubForm",
+                    "properties": {
+                        "readonly": "False",
+                        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+                        "noframe": "false",
+                        "id": "field3",
+                        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
                         "readonlyLabel": "False"
                     }
                 }
