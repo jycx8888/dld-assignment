@@ -148,7 +148,7 @@
                     </ExtendedAttributes>
                 </Transition>
                 <Transition From="route1" Id="transition5" To="tool2">
-                    <Condition Type="CONDITION">status ==='Reject'</Condition>
+                    <Condition Type="OTHERWISE"/>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
