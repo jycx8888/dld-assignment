@@ -89,13 +89,13 @@
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
                                 "type": "",
-                                "message": "Please select an end time!",
+                                "message": "Please select a start time!",
                                 "mandatory": "true"
                             }
                         },
                         "workflowVariable": "",
-                        "label": "End Time",
-                        "id": "endTime",
+                        "label": "Start Time",
+                        "id": "startTime",
                         "value": "",
                         "readonlyLabel": "",
                         "format24hr": "true"
@@ -109,13 +109,13 @@
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
                                 "type": "",
-                                "message": "Please select a start time!",
+                                "message": "Please select an end time!",
                                 "mandatory": "true"
                             }
                         },
                         "workflowVariable": "",
-                        "label": "Start Time",
-                        "id": "startTime",
+                        "label": "End Time",
+                        "id": "endTime",
                         "value": "",
                         "readonlyLabel": "",
                         "format24hr": "true"
