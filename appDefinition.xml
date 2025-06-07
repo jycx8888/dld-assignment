@@ -228,6 +228,14 @@
          <permissionClass></permissionClass>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
+      <appResource>
+         <id>Screenshot_2025-06-07_163502.png</id>
+         <appId>ResidenceFacilitiesBookingSystem</appId>
+         <appVersion>1</appVersion>
+         <filesize>107357</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
    </resourceList>
    <license>ZWQMTAimLxgbJvoHng9u/2YEjRhTYHiWgLH98aHaAczVfdFunFK4Dk1eeuApjg6iEJz2VCHXGDRevxQZ5Jusb9hAuaBAr8QO4izOE6VLhmaqcd8Qd9ysRw==</license>
 </appDefinition>
