@@ -190,19 +190,19 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process8::activity1</string>
+               <string>managerApproveRequests::activity2</string>
                <packageActivityForm>
-                  <processDefId>process8</processDefId>
-                  <activityDefId>activity1</activityDefId>
+                  <processDefId>managerApproveRequests</processDefId>
+                  <activityDefId>activity2</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>managerApproveRequests::activity2</string>
+               <string>process8::activity1</string>
                <packageActivityForm>
-                  <processDefId>managerApproveRequests</processDefId>
-                  <activityDefId>activity2</activityDefId>
+                  <processDefId>process8</processDefId>
+                  <activityDefId>activity1</activityDefId>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
