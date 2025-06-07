@@ -139,6 +139,44 @@
                         "value": "",
                         "readonlyLabel": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "readonly": "",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "multiple": "",
+                        "options": [
+                            {
+                                "label": "CSV",
+                                "value": "CSV",
+                                "grouping": "Export Format"
+                            },
+                            {
+                                "label": "PDF",
+                                "value": "PDF",
+                                "grouping": "Export Format"
+                            }
+                        ],
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "Please select an export format!",
+                                "mandatory": "true"
+                            }
+                        },
+                        "workflowVariable": "",
+                        "label": "Export Type",
+                        "id": "exportType",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
                 }
             ],
             "className": "org.joget.apps.form.model.Column",
