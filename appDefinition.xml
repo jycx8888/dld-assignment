@@ -9,6 +9,16 @@
          <name>Residence Facilities Booking System</name>
          <packageActivityFormMap>
             <entry>
+               <string>process1::viewResults</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>viewResults</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::runProcess</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -25,157 +35,6 @@
                   <processDefId>residentRescheduleRequest</processDefId>
                   <activityDefId>approveRequests</activityDefId>
                   <formId>bookingApprovalForm</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>managerApproveRequests::activity3</string>
-               <packageActivityForm>
-                  <processDefId>managerApproveRequests</processDefId>
-                  <activityDefId>activity3</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>residentFeedbackProcess::submitsFeedback</string>
-               <packageActivityForm>
-                  <processDefId>residentFeedbackProcess</processDefId>
-                  <activityDefId>submitsFeedback</activityDefId>
-                  <formId>facilityFeedbackForm</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>managerApproveRequests::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>managerApproveRequests</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>managerApproveBooking::activity1</string>
-               <packageActivityForm>
-                  <processDefId>managerApproveBooking</processDefId>
-                  <activityDefId>activity1</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process1::bookingRequest</string>
-               <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>bookingRequest</activityDefId>
-                  <formId>FacilitiesBookingRequestForm</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>managerApproveBooking::activity3</string>
-               <packageActivityForm>
-                  <processDefId>managerApproveBooking</processDefId>
-                  <activityDefId>activity3</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>residentRescheduleRequest::rescheduleRequest</string>
-               <packageActivityForm>
-                  <processDefId>residentRescheduleRequest</processDefId>
-                  <activityDefId>rescheduleRequest</activityDefId>
-                  <formId>ResidenceRescheduleBookingForm</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>managerApproveBooking::activity2</string>
-               <packageActivityForm>
-                  <processDefId>managerApproveBooking</processDefId>
-                  <activityDefId>activity2</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process8::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>process8</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process8::activity2</string>
-               <packageActivityForm>
-                  <processDefId>process8</processDefId>
-                  <activityDefId>activity2</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>residentFeedbackProcess::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>residentFeedbackProcess</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process8::activity1</string>
-               <packageActivityForm>
-                  <processDefId>process8</processDefId>
-                  <activityDefId>activity1</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>managerApproveRescheduleRequests::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>managerApproveRescheduleRequests</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>managerApproveRescheduleRequests::activity1</string>
-               <packageActivityForm>
-                  <processDefId>managerApproveRescheduleRequests</processDefId>
-                  <activityDefId>activity1</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>managerApproveRescheduleRequests::activity2</string>
-               <packageActivityForm>
-                  <processDefId>managerApproveRescheduleRequests</processDefId>
-                  <activityDefId>activity2</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -204,9 +63,20 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>managerApproveBooking::runProcess</string>
+               <string>residentFeedbackProcess::submitsFeedback</string>
                <packageActivityForm>
-                  <processDefId>managerApproveBooking</processDefId>
+                  <processDefId>residentFeedbackProcess</processDefId>
+                  <activityDefId>submitsFeedback</activityDefId>
+                  <formId>facilityFeedbackForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>residentFeedbackProcess::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>residentFeedbackProcess</processDefId>
                   <activityDefId>runProcess</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
@@ -224,29 +94,23 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process1::viewResults</string>
+               <string>process1::bookingRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
-                  <activityDefId>viewResults</activityDefId>
+                  <activityDefId>bookingRequest</activityDefId>
+                  <formId>FacilitiesBookingRequestForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>managerApproveRequests::activity1</string>
+               <string>residentRescheduleRequest::rescheduleRequest</string>
                <packageActivityForm>
-                  <processDefId>managerApproveRequests</processDefId>
-                  <activityDefId>activity1</activityDefId>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>managerApproveRequests::activity2</string>
-               <packageActivityForm>
-                  <processDefId>managerApproveRequests</processDefId>
-                  <activityDefId>activity2</activityDefId>
+                  <processDefId>residentRescheduleRequest</processDefId>
+                  <activityDefId>rescheduleRequest</activityDefId>
+                  <formId>ResidenceRescheduleBookingForm</formId>
+                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
@@ -257,6 +121,17 @@
                   <processDefId>residentFeedbackProcess</processDefId>
                   <activityDefId>notifyManager</activityDefId>
                   <formId>feedbackResponseForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>managerApproveRescheduleRequests::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>managerApproveRescheduleRequests</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -303,36 +178,9 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>managerApproveRequests::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>managerApproveRequests</processDefId>
-                  <participantId>processStartWhiteList</participantId>
-                  <type>role</type>
-                  <value>adminUser</value>
-               </packageParticipant>
-            </entry>
-            <entry>
                <string>process1::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>process1</processDefId>
-                  <participantId>processStartWhiteList</participantId>
-                  <type>role</type>
-                  <value>adminUser</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>managerApproveBooking::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>managerApproveBooking</processDefId>
-                  <participantId>processStartWhiteList</participantId>
-                  <type>role</type>
-                  <value>adminUser</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>process8::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>process8</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
