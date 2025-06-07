@@ -166,7 +166,7 @@
                         },
                         "workflowVariable": "",
                         "label": "Reason For Change",
-                        "id": "field6",
+                        "id": "rescheduleReasonForChange",
                         "placeholder": "",
                         "rows": "5",
                         "cols": "20",
