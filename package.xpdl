@@ -49,7 +49,7 @@
         <Participant Id="residentSendRequests" Name="Resident">
             <ParticipantType Type="ROLE"/>
         </Participant>
-        <Participant Id="managerApproveRequests_participant2" Name="Manager">
+        <Participant Id="managerApproveRequests" Name="Manager">
             <ParticipantType Type="ROLE"/>
         </Participant>
     </Participants>
@@ -530,7 +530,7 @@
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=RrescheduleRequest,CONNECTING_ACTIVITY_ID=approveRequests,X_OFFSET=499.99999380111694,Y_OFFSET=78.8624984741211,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
-        <WorkflowProcess Id="managerApproveBooking" Name="Manager Approve Booking">
+        <WorkflowProcess Id="managerApproveRescheduleRequests" Name="Manager Approve Reschedule Requests">
             <ProcessHeader DurationUnit="h"/>
             <DataFields>
                 <DataField Id="status" IsArray="FALSE">
@@ -584,7 +584,7 @@
                 </Transition>
             </Transitions>
             <ExtendedAttributes>
-                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="residentSendRequests;managerApproveRequests_participant2"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="residentSendRequests;managerApproveRequests"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=residentSendRequests,CONNECTING_ACTIVITY_ID=activity1,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=residentSendRequests,CONNECTING_ACTIVITY_ID=activity3,X_OFFSET=922,Y_OFFSET=134.8750030517578,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
