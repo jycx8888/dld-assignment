@@ -78,6 +78,16 @@
                         "id": "field3",
                         "readonlyLabel": "False"
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "readonly": "False",
+                        "multiple": "False",
+                        "label": "Select Box",
+                        "id": "field5",
+                        "readonlyLabel": "False"
+                    }
                 }
             ],
             "className": "org.joget.apps.form.model.Column",
