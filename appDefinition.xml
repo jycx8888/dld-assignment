@@ -171,7 +171,7 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process8::activity3</string>
+               <string>residentFeedbackProcess::runProcess</string>
                <packageActivityForm>
                   <processDefId>process8</processDefId>
                   <activityDefId>activity3</activityDefId>
