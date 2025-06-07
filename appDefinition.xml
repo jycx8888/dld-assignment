@@ -99,7 +99,6 @@
                <packageActivityForm>
                   <processDefId>process8</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -110,7 +109,16 @@
                <packageActivityForm>
                   <processDefId>process8</processDefId>
                   <activityDefId>activity2</activityDefId>
-                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process8::activity3</string>
+               <packageActivityForm>
+                  <processDefId>process8</processDefId>
+                  <activityDefId>activity3</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -127,22 +135,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process8::activity3</string>
-               <packageActivityForm>
-                  <processDefId>process8</processDefId>
-                  <activityDefId>activity3</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>process8::activity1</string>
                <packageActivityForm>
                   <processDefId>process8</processDefId>
                   <activityDefId>activity1</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
