@@ -19,6 +19,16 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process1::viewResults</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>viewResults</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::reviewBookingRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -160,15 +170,6 @@
                <string>residentFeedbackProcess::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>residentFeedbackProcess</processDefId>
-                  <participantId>processStartWhiteList</participantId>
-                  <type>role</type>
-                  <value>adminUser</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>process7::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>process7</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
