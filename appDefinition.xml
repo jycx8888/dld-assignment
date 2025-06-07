@@ -35,6 +35,16 @@
                <packageActivityForm>
                   <processDefId>process3</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>managerApproveBooking::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>managerApproveBooking</processDefId>
+                  <activityDefId>runProcess</activityDefId>
                   <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
@@ -53,11 +63,44 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>managerApproveBooking::activity1</string>
+               <packageActivityForm>
+                  <processDefId>managerApproveBooking</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::bookingRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>bookingRequest</activityDefId>
                   <formId>FacilitiesBookingRequestForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>managerApproveBooking::activity3</string>
+               <packageActivityForm>
+                  <processDefId>managerApproveBooking</processDefId>
+                  <activityDefId>activity3</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>managerApproveBooking::activity2</string>
+               <packageActivityForm>
+                  <processDefId>managerApproveBooking</processDefId>
+                  <activityDefId>activity2</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -93,10 +136,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process8::activity3</string>
+               <string>residentFeedbackProcess::runProcess</string>
                <packageActivityForm>
-                  <processDefId>process8</processDefId>
-                  <activityDefId>activity3</activityDefId>
+                  <processDefId>residentFeedbackProcess</processDefId>
+                  <activityDefId>runProcess</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -148,6 +191,15 @@
                <string>process1::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>process1</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>managerApproveBooking::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>managerApproveBooking</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
