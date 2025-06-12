@@ -135,16 +135,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>adminFacilityManagementWorkflow::activity2</string>
-               <packageActivityForm>
-                  <processDefId>adminFacilityManagementWorkflow</processDefId>
-                  <activityDefId>activity2</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>managerApproveRescheduleRequests::manageRequests</string>
                <packageActivityForm>
                   <processDefId>managerApproveRescheduleRequests</processDefId>
@@ -169,6 +159,16 @@
                <packageActivityForm>
                   <processDefId>residentFeedbackProcess</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminFacilityManagementWorkflow::activity2</string>
+               <packageActivityForm>
+                  <processDefId>adminFacilityManagementWorkflow</processDefId>
+                  <activityDefId>activity2</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
