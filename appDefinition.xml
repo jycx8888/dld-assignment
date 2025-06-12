@@ -115,6 +115,28 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>adminFacilityManagementWorkflow::addEditFacility</string>
+               <packageActivityForm>
+                  <processDefId>adminFacilityManagementWorkflow</processDefId>
+                  <activityDefId>addEditFacility</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminFacilityManagementWorkflow::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>adminFacilityManagementWorkflow</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>managerApproveRescheduleRequests::manageRequests</string>
                <packageActivityForm>
                   <processDefId>managerApproveRescheduleRequests</processDefId>
@@ -167,6 +189,15 @@
             </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap>
+            <entry>
+               <string>adminFacilityManagementWorkflow::sendNotification</string>
+               <packageActivityPlugin>
+                  <processDefId>adminFacilityManagementWorkflow</processDefId>
+                  <activityDefId>sendNotification</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;&quot;,&quot;properties&quot;:{}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
             <entry>
                <string>process1::route1</string>
                <packageActivityPlugin>

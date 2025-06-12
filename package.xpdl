@@ -428,24 +428,9 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="526.1500244140625,29.850001525878906"/>
                     </ExtendedAttributes>
                 </Activity>
-                <Activity Id="activity2" Name="Test Activity Indian">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>process5_participant10</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process5_participant10"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="337.8000183105469,34.17500228881836"/>
-                    </ExtendedAttributes>
-                </Activity>
             </Activities>
             <Transitions>
-                <Transition From="addEditFacility" Id="transition2" To="activity2">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="activity2" Id="transition3" To="sendNotification">
+                <Transition From="addEditFacility" Id="transition2" To="sendNotification">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
