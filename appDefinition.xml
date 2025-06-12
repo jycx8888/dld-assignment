@@ -116,6 +116,36 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>adminFacilityManagementWorkflow::addEditFacility</string>
+               <packageActivityForm>
+                  <processDefId>adminFacilityManagementWorkflow</processDefId>
+                  <activityDefId>addEditFacility</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminFacilityManagementWorkflow::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>adminFacilityManagementWorkflow</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminFacilityManagementWorkflow::activity2</string>
+               <packageActivityForm>
+                  <processDefId>adminFacilityManagementWorkflow</processDefId>
+                  <activityDefId>activity2</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>managerApproveRescheduleRequests::manageRequests</string>
                <packageActivityForm>
                   <processDefId>managerApproveRescheduleRequests</processDefId>
@@ -168,6 +198,15 @@
             </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap>
+            <entry>
+               <string>adminFacilityManagementWorkflow::sendNotification</string>
+               <packageActivityPlugin>
+                  <processDefId>adminFacilityManagementWorkflow</processDefId>
+                  <activityDefId>sendNotification</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
             <entry>
                <string>process1::route1</string>
                <packageActivityPlugin>
