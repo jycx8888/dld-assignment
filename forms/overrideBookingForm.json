@@ -156,7 +156,7 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "Manager Override Booking Form",
+        "name": "Manager Override Booking Form OLD",
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {
