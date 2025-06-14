@@ -428,6 +428,16 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="526.1500244140625,29.850001525878906"/>
                     </ExtendedAttributes>
                 </Activity>
+                <Activity Id="activity2" Name="Nigerian Activity">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>process5_participant10</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process5_participant10"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="356.8000183105469,34.2"/>
+                    </ExtendedAttributes>
+                </Activity>
             </Activities>
             <Transitions>
                 <Transition From="addEditFacilitys" Id="transition2" To="sendNotification">
