@@ -631,7 +631,7 @@
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=managerApproveRequests,CONNECTING_ACTIVITY_ID=activity2,X_OFFSET=882.7999877929688,Y_OFFSET=245.81251831054686,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
-        <WorkflowProcess Id="process9" Name="Process 9">
+        <WorkflowProcess Id="addNewFacility" Name="Add New Facility">
             <ProcessHeader DurationUnit="h"/>
             <DataFields>
                 <DataField Id="status" IsArray="FALSE">
