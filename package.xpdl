@@ -34,9 +34,6 @@
         <Participant Id="adminProcessUser" Name="admin">
             <ParticipantType Type="ROLE"/>
         </Participant>
-        <Participant Id="process5_participant10" Name="Admin">
-            <ParticipantType Type="ROLE"/>
-        </Participant>
         <Participant Id="process6_participant11" Name="Participant">
             <ParticipantType Type="ROLE"/>
         </Participant>
@@ -399,50 +396,6 @@
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=adminProcessUser,CONNECTING_ACTIVITY_ID=createEditUser,X_OFFSET=92,Y_OFFSET=86.00000305175782,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=adminProcessUser,CONNECTING_ACTIVITY_ID=editUserAccountNotification,X_OFFSET=1018,Y_OFFSET=115.87500305175782,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=adminProcessUser,CONNECTING_ACTIVITY_ID=createUserAccountNotification_2,X_OFFSET=1012.0000305175781,Y_OFFSET=221.0625030517578,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
-            </ExtendedAttributes>
-        </WorkflowProcess>
-        <WorkflowProcess Id="adminFacilityManagementWorkflow" Name="Admin Facility Management Workflow">
-            <ProcessHeader DurationUnit="h"/>
-            <DataFields>
-                <DataField Id="status" IsArray="FALSE">
-                    <DataType>
-                        <BasicType Type="STRING"/>
-                    </DataType>
-                </DataField>
-            </DataFields>
-            <Activities>
-                <Activity Id="addEditFacility" Name="Add/Edit Facility">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>process5_participant10</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process5_participant10"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="188,28.187499237060546"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="sendNotification" Name="Send Notification">
-                    <Implementation>
-                        <Tool Id="default_application"/>
-                    </Implementation>
-                    <Performer>process5_participant10</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process5_participant10"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="526.1500244140625,29.850001525878906"/>
-                    </ExtendedAttributes>
-                </Activity>
-            </Activities>
-            <Transitions>
-                <Transition From="addEditFacility" Id="transition2" To="sendNotification">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-            </Transitions>
-            <ExtendedAttributes>
-                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process5_participant10"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process5_participant10,CONNECTING_ACTIVITY_ID=addEditFacility,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process5_participant10,CONNECTING_ACTIVITY_ID=sendNotification,X_OFFSET=699.8500366210938,Y_OFFSET=67.18750305175782,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
         <WorkflowProcess Id="adminSystemSettingsAndNotificationConfiguration" Name="Admin System Settings and Notification Configuration">
