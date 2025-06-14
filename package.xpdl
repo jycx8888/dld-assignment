@@ -408,7 +408,7 @@
                 </DataField>
             </DataFields>
             <Activities>
-                <Activity Id="addEditFacilitys" Name="Add/Edit Facilitys">
+                <Activity Id="addEditFacility" Name="Add/Edit Facility">
                     <Implementation>
                         <No/>
                     </Implementation>
@@ -430,7 +430,7 @@
                 </Activity>
             </Activities>
             <Transitions>
-                <Transition From="addEditFacilitys" Id="transition2" To="sendNotification">
+                <Transition From="addEditFacility" Id="transition2" To="sendNotification">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
