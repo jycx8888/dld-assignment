@@ -83,17 +83,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>adminFacilityManagementWorkflow::addEditFacilities</string>
-               <packageActivityForm>
-                  <processDefId>adminFacilityManagementWorkflow</processDefId>
-                  <activityDefId>addEditFacilities</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>process1::bookingRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -120,17 +109,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>viewResults</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>adminFacilityManagementWorkflow::addEditFacility</string>
-               <packageActivityForm>
-                  <processDefId>adminFacilityManagementWorkflow</processDefId>
-                  <activityDefId>addEditFacility</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -178,10 +156,12 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>adminFacilityManagementWorkflow::activity2</string>
+               <string>adminFacilityManagementWorkflow::addEditFacilitiesssss</string>
                <packageActivityForm>
                   <processDefId>adminFacilityManagementWorkflow</processDefId>
-                  <activityDefId>activity2</activityDefId>
+                  <activityDefId>addEditFacilitiesssss</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
