@@ -9,37 +9,21 @@
                         "readonly": "",
                         "size": "",
                         "optionsBinder": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "true",
+                                "groupingColumn": "",
+                                "useAjax": "",
+                                "formDefId": "adminAddFacility",
+                                "labelColumn": "newFacilityName",
+                                "extraCondition": "",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "idColumn": "newFacilityName"
+                            }
                         },
                         "multiple": "",
-                        "options": [
-                            {
-                                "label": "BBQ Pit",
-                                "value": "BBQ Pit",
-                                "grouping": "facility"
-                            },
-                            {
-                                "label": "Multipurpose Hall",
-                                "value": "Multipurpose Hall",
-                                "grouping": "facility"
-                            },
-                            {
-                                "label": "Meeting Room",
-                                "value": "Meeting Room",
-                                "grouping": "facility"
-                            },
-                            {
-                                "label": "Sauna",
-                                "value": "Sauna",
-                                "grouping": "facility"
-                            },
-                            {
-                                "label": "Pickleball Court",
-                                "value": "Pickleball Court",
-                                "grouping": "facility"
-                            }
-                        ],
+                        "options": [],
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
