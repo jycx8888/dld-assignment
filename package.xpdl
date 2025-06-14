@@ -408,7 +408,7 @@
                 </DataField>
             </DataFields>
             <Activities>
-                <Activity Id="addEditFacility" Name="Add/Edit Facility">
+                <Activity Id="addEditFacilities" Name="Add/Edit Facilities">
                     <Implementation>
                         <No/>
                     </Implementation>
@@ -425,12 +425,12 @@
                     <Performer>process5_participant10</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process5_participant10"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="526.1500244140625,29.850001525878906"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="452.13067626953125,28.83522510107422"/>
                     </ExtendedAttributes>
                 </Activity>
             </Activities>
             <Transitions>
-                <Transition From="addEditFacility" Id="transition2" To="sendNotification">
+                <Transition From="addEditFacilities" Id="transition2" To="sendNotification">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
@@ -438,8 +438,8 @@
             </Transitions>
             <ExtendedAttributes>
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process5_participant10"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process5_participant10,CONNECTING_ACTIVITY_ID=addEditFacility,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process5_participant10,CONNECTING_ACTIVITY_ID=sendNotification,X_OFFSET=699.8500366210938,Y_OFFSET=67.18750305175782,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process5_participant10,CONNECTING_ACTIVITY_ID=addEditFacilities,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process5_participant10,CONNECTING_ACTIVITY_ID=sendNotification,X_OFFSET=673.835205078125,Y_OFFSET=51.17897891577148,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
         <WorkflowProcess Id="adminSystemSettingsAndNotificationConfiguration" Name="Admin System Settings and Notification Configuration">
