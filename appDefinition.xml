@@ -83,6 +83,15 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>adminFacilityManagementWorkflow::addEditFacilitys</string>
+               <packageActivityForm>
+                  <processDefId>adminFacilityManagementWorkflow</processDefId>
+                  <activityDefId>addEditFacilitys</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::bookingRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>

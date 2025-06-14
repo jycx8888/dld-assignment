@@ -408,7 +408,7 @@
                 </DataField>
             </DataFields>
             <Activities>
-                <Activity Id="addEditFacility" Name="Add/Edit Facilitys">
+                <Activity Id="addEditFacility" Name="Add/Edit Facility">
                     <Implementation>
                         <No/>
                     </Implementation>
