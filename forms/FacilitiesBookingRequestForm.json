@@ -11,7 +11,7 @@
                         "optionsBinder": {
                             "className": "org.joget.apps.form.lib.FormOptionsBinder",
                             "properties": {
-                                "addEmptyOption": "true",
+                                "addEmptyOption": "",
                                 "groupingColumn": "",
                                 "useAjax": "",
                                 "formDefId": "adminAddFacility",
