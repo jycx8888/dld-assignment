@@ -115,7 +115,7 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>adminFacilityManagementWorkflow::addEditFacility</string>
+               <string>adminFacilityManagementWorkflow::runProcess</string>
                <packageActivityForm>
                   <processDefId>adminFacilityManagementWorkflow</processDefId>
                   <activityDefId>runProcess</activityDefId>
