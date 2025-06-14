@@ -9,6 +9,17 @@
          <name>Residence Facilities Booking System</name>
          <packageActivityFormMap>
             <entry>
+               <string>adminManageUserAccount::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>managerApproveRescheduleRequests::activity2</string>
                <packageActivityForm>
                   <processDefId>managerApproveRescheduleRequests</processDefId>
@@ -115,6 +126,39 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>adminManageUserAccount::editUser</string>
+               <packageActivityForm>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>editUser</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process8::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>process8</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminManageUserAccount::createUser</string>
+               <packageActivityForm>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>createUser</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>managerApproveRescheduleRequests::manageRequests</string>
                <packageActivityForm>
                   <processDefId>managerApproveRescheduleRequests</processDefId>
@@ -145,6 +189,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process8::activity1</string>
+               <packageActivityForm>
+                  <processDefId>process8</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>residentFeedbackProcess::notifyManager</string>
                <packageActivityForm>
                   <processDefId>residentFeedbackProcess</processDefId>
@@ -165,6 +220,17 @@
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
+            <entry>
+               <string>adminManageUserAccount::createEditUser</string>
+               <packageActivityForm>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>createEditUser</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap>
             <entry>
@@ -177,12 +243,30 @@
                </packageActivityPlugin>
             </entry>
             <entry>
+               <string>adminManageUserAccount::editUserAccountNotification</string>
+               <packageActivityPlugin>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>editUserAccountNotification</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
                <string>process1::tool2</string>
                <packageActivityPlugin>
                   <processDefId>process1</processDefId>
                   <activityDefId>tool2</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
                   <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;TP077360@mail.apu.edu.my&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Rejected Facility Booking Request Notification&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;Dear #form.booking_approval.createdByName#,\nYour Facility Booking Request, #form.facilities_book.facilityName# on #form.facilities_book.date# #form.facilities_book.time# Has Been #form.booking_approval.status#.&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%dyvMMbe92Gc1l4UdFjlscTkFVy/Wxf8nF+EJTBa7Aes=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%4wO/YUEe/GGE85PM3y1vt1MJB5TBjxZdtEs90O5oDAY=%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;justinyongggggg050917@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;justinyongggggg050917@gmail.com&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>adminManageUserAccount::createUserAccountNotification_2</string>
+               <packageActivityPlugin>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>createUserAccountNotification_2</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
@@ -218,6 +302,15 @@
                <string>residentRescheduleRequest::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>residentRescheduleRequest</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process8::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>process8</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
