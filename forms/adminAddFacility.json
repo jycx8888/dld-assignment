@@ -8,7 +8,7 @@
                     "readonly": "False",
                     "style": "",
                     "label": "Text Field",
-                    "id": "field2",
+                    "id": "field1",
                     "readonlyLabel": "False",
                     "storeNumeric": "False"
                 }
