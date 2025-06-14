@@ -83,6 +83,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>adminFacilityManagementWorkflow::addEditFacilitys</string>
+               <packageActivityForm>
+                  <processDefId>adminFacilityManagementWorkflow</processDefId>
+                  <activityDefId>addEditFacilitys</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::bookingRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -109,17 +120,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>viewResults</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>adminFacilityManagementWorkflow::addEditFacility</string>
-               <packageActivityForm>
-                  <processDefId>adminFacilityManagementWorkflow</processDefId>
-                  <activityDefId>addEditFacility</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
