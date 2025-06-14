@@ -87,7 +87,6 @@
                <packageActivityForm>
                   <processDefId>adminFacilityManagementWorkflow</processDefId>
                   <activityDefId>addEditFacilitys</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -130,7 +129,6 @@
                <packageActivityForm>
                   <processDefId>adminFacilityManagementWorkflow</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
