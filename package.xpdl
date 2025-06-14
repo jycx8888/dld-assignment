@@ -408,7 +408,7 @@
                 </DataField>
             </DataFields>
             <Activities>
-                <Activity Id="addEditFacilitys" Name="Add/Edit Facilitys">
+                <Activity Id="addEditFacility" Name="Add/Edit Facilitys">
                     <Implementation>
                         <No/>
                     </Implementation>
@@ -430,7 +430,7 @@
                 </Activity>
             </Activities>
             <Transitions>
-                <Transition From="addEditFacilitys" Id="transition2" To="sendNotification">
+                <Transition From="addEditFacility" Id="transition2" To="sendNotification">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
@@ -438,7 +438,7 @@
             </Transitions>
             <ExtendedAttributes>
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process5_participant10"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process5_participant10,CONNECTING_ACTIVITY_ID=addEditFacilitys,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process5_participant10,CONNECTING_ACTIVITY_ID=addEditFacility,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process5_participant10,CONNECTING_ACTIVITY_ID=sendNotification,X_OFFSET=699.8500366210938,Y_OFFSET=67.18750305175782,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
