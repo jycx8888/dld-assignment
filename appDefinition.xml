@@ -93,17 +93,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process9::activity1</string>
-               <packageActivityForm>
-                  <processDefId>process9</processDefId>
-                  <activityDefId>activity1</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>process1::bookingRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -136,31 +125,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process9::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>process9</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>adminManageUserAccount::editUser</string>
                <packageActivityForm>
                   <processDefId>adminManageUserAccount</processDefId>
                   <activityDefId>editUser</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process8::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>process8</processDefId>
-                  <activityDefId>runProcess</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -208,21 +176,21 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process8::activity1</string>
+               <string>residentFeedbackProcess::notifyManager</string>
                <packageActivityForm>
-                  <processDefId>process8</processDefId>
-                  <activityDefId>activity1</activityDefId>
+                  <processDefId>residentFeedbackProcess</processDefId>
+                  <activityDefId>notifyManager</activityDefId>
+                  <formId>feedbackResponseForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>residentFeedbackProcess::notifyManager</string>
+               <string>addNewFacility::runProcess</string>
                <packageActivityForm>
-                  <processDefId>residentFeedbackProcess</processDefId>
-                  <activityDefId>notifyManager</activityDefId>
-                  <formId>feedbackResponseForm</formId>
+                  <processDefId>addNewFacility</processDefId>
+                  <activityDefId>runProcess</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -243,17 +211,6 @@
                <packageActivityForm>
                   <processDefId>managerApproveRescheduleRequests</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>addNewFacility::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>addNewFacility</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -321,15 +278,6 @@
                <string>process1::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>process1</processDefId>
-                  <participantId>processStartWhiteList</participantId>
-                  <type>role</type>
-                  <value>adminUser</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>process8::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>process8</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
