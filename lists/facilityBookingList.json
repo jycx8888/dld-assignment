@@ -83,16 +83,6 @@
             "functionColumns": []
         }
     },
-    "actions": [{
-        "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-        "id": "action_0",
-        "properties": {
-            "deleteFiles": "false",
-            "deleteGridData": "false",
-            "deleteSubformData": "false",
-            "label": "Delete",
-            "abortRelatedRunningProcesses": "false"
-        }
-    }],
+    "actions": [],
     "order": ""
 }
