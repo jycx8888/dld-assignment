@@ -245,7 +245,7 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "Residents Registration Form OLD",
+        "name": "Residents Registration Form",
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {
