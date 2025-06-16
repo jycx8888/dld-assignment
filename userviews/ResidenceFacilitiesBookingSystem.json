@@ -51,7 +51,7 @@
                     "enableOffline": "",
                     "edit-afterSavedReloadTarget": "true",
                     "selectionType": "multiple",
-                    "addFormId": "",
+                    "addFormId": "FacilitiesBookingRequestForm",
                     "id": "39B2EC37222441FFBAE6BA4A30EB47FD",
                     "edit-readonlyLabel": "true",
                     "add-messageShowAfterComplete": "",
