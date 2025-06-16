@@ -47,6 +47,17 @@
                         "readonlyLabel": "",
                         "storeNumeric": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextArea",
+                    "properties": {
+                        "readonly": "False",
+                        "label": "Text Area",
+                        "id": "field3",
+                        "rows": "5",
+                        "cols": "20",
+                        "readonlyLabel": "False"
+                    }
                 }
             ],
             "className": "org.joget.apps.form.model.Column",
