@@ -32,25 +32,10 @@
         {
             "filterable": true,
             "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Contact Number",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "contactNumber",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_3",
-            "alignment": ""
+            "name": "contactNumb",
+            "id": "column_6",
+            "label": "contact numb",
+            "sortable": "false"
         },
         {
             "filterable": true,
