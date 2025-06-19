@@ -62,10 +62,48 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "dateCreated",
-            "id": "column_2",
-            "label": "Date Created",
-            "sortable": "false"
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Booking Date",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "facilities_book.date",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_6",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Booking Time",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "facilities_book.time",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_5",
+            "alignment": ""
         },
         {
             "filterable": true,
