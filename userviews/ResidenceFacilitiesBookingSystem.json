@@ -178,7 +178,7 @@
                         "sortingOrder": "ASC",
                         "customHeader": "",
                         "showExportLinks": "true",
-                        "valueAxisLabel": "Value",
+                        "valueAxisLabel": "New User Amount",
                         "smoothLine": "",
                         "sortingOrderByColumn": "role",
                         "query": "SELECT \r\n  DATE_FORMAT(dateCreated, '%Y-%m-%d') AS label, \r\n  COUNT(id) AS value\r\nFROM \r\n  app_fd_resident_register\r\nWHERE \r\n  dateCreated IS NOT NULL\r\nGROUP BY \r\n  label\r\nORDER BY \r\n  label ASC\r\n\r\n\r\n\r\n\r\n",
