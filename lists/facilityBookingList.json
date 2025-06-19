@@ -86,7 +86,7 @@
             "filters": [{
                 "field": "facilities_book.createdByName",
                 "join": "AND",
-                "value": "#form.facilities_book.createdByName#",
+                "value": "#currentUser.fullName#",
                 "operator": "="
             }],
             "groupBy": "",
