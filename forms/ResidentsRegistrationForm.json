@@ -158,7 +158,7 @@
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
-                                "type": "numeric",
+                                "type": "",
                                 "message": "Invalid contact number",
                                 "mandatory": "true"
                             }
