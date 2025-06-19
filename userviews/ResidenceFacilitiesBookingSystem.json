@@ -187,6 +187,29 @@
                     "edit-backButtonLabel": "",
                     "list-editLinkTarget": ""
                 }
+            },
+            {
+                "className": "org.joget.apps.userview.lib.RunProcess",
+                "properties": {
+                    "runProcessDirectly": "Yes",
+                    "fieldPassoverMethod": "append",
+                    "keyName": "",
+                    "label": "Post Notice",
+                    "redirectTarget": "",
+                    "enableOffline": "",
+                    "afterSavedReloadTarget": "true",
+                    "customId": "postNotice",
+                    "userviewCacheDuration": "20",
+                    "messageShowAfterComplete": "",
+                    "showInPopupDialog": "",
+                    "userviewCacheScope": "",
+                    "actionAfterSaved": "",
+                    "runProcessSubmitLabel": "",
+                    "id": "D663EE7CAD3541971A427152500A1172",
+                    "processDefId": "noticePostingProcess",
+                    "redirectUrlAfterComplete": "",
+                    "fieldPassover": ""
+                }
             }
         ],
         "properties": {
