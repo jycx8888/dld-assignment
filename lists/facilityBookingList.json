@@ -76,13 +76,13 @@
             "filters": [
                 {
                     "field": "facilities_book.createdBy",
-                    "join": "AND",
+                    "join": "OR",
                     "value": "#currentUser.username#",
                     "operator": "="
                 },
                 {
                     "field": "booking_approval.status",
-                    "join": "AND",
+                    "join": "OR",
                     "value": "Approve",
                     "operator": "="
                 }
