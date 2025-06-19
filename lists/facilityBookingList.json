@@ -84,7 +84,7 @@
                     "field": "booking_approval.status",
                     "join": "AND",
                     "value": "Approve",
-                    "operator": "<>"
+                    "operator": "="
                 }
             ],
             "groupBy": "",
