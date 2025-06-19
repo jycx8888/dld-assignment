@@ -267,6 +267,51 @@
                     "redirectUrlAfterComplete": "",
                     "fieldPassover": ""
                 }
+            },
+            {
+                "className": "org.joget.plugin.enterprise.SqlChartMenu",
+                "properties": {
+                    "stack": "",
+                    "xAxisDisplayAS": "",
+                    "showLegend": "true",
+                    "customFooter": "",
+                    "enableOffline": "",
+                    "title": "Approved User Account List",
+                    "customId": "approvedUserAccountList",
+                    "chartHeight": "80%",
+                    "mapping_x": "role",
+                    "yaxisPrefix": "",
+                    "categoryAxisLabel": "Category",
+                    "horizontal": "",
+                    "library": "echart",
+                    "theme": "",
+                    "showValueLabel": "true",
+                    "id": "16A2FCAE8A3449A4084E4C37041F38B7",
+                    "series_customization": [],
+                    "sortingOrder": "ASC",
+                    "customHeader": "",
+                    "showExportLinks": "true",
+                    "valueAxisLabel": "Value",
+                    "sortingOrderByColumn": "role",
+                    "keyName": "",
+                    "label": "Approved User Account List",
+                    "datalistId": "userAccountList",
+                    "chartWidth": "100%",
+                    "userviewCacheDuration": "20",
+                    "xAxisBoundaryGap": "",
+                    "userviewCacheScope": "",
+                    "showFilter": "true",
+                    "datasource": "datalist",
+                    "mapping_ys": [{
+                        "customization": "[{\r\n  \"name\": \"Total Users\",\r\n  \"type\": \"bar\",\r\n  \"itemStyle\": {\r\n    \"color\": \"#4CAF50\"  // Green bar color\r\n  },\r\n  \"label\": {\r\n    \"show\": true,\r\n    \"position\": \"top\"\r\n  },\r\n  \"barWidth\": \"40%\"\r\n}]\r\n",
+                        "legend": "Total User",
+                        "y": "username"
+                    }],
+                    "chartType": "bar",
+                    "showTable": "top",
+                    "optionCustomization": "",
+                    "chartUseAllDataRows": "true"
+                }
             }
         ],
         "properties": {
