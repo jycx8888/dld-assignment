@@ -23,7 +23,7 @@
             "aggregateField": [],
             "formDefId": "FacilitiesBookingRequestForm",
             "customSelectionValue": "",
-            "extraCondition": "e.customProperties.createdByName = '#currentUser.fullName#'",
+            "extraCondition": "",
             "filters": [{
                 "field": "facilities_book.createdByName",
                 "join": "AND",
