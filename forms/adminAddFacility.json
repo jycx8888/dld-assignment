@@ -8,8 +8,12 @@
                         "requiredSanitize": "",
                         "maxlength": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "label": "Facility ID",
                         "disableIncrementDecrementArrow": "",
@@ -31,8 +35,12 @@
                         "requiredSanitize": "",
                         "maxlength": "",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
                         },
                         "label": "New Facility Name",
                         "disableIncrementDecrementArrow": "",
