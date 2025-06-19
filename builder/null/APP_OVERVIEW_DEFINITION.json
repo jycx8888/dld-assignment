@@ -1,0 +1,276 @@
+{
+    "process:managerApproveRescheduleRequests": {
+        "data": [],
+        "lastModifiedDate": "Jun 16, 2025, 4:36:18 PM"
+    },
+    "process:noticePostingProcess": {
+        "data": [],
+        "lastModifiedDate": "Jun 16, 2025, 4:36:18 PM"
+    },
+    "process:adminManageUserAccount": {
+        "data": [],
+        "lastModifiedDate": "Jun 16, 2025, 4:36:18 PM"
+    },
+    "form:adminAddFacility": {
+        "data": [],
+        "lastModifiedDate": "Jun 16, 2025, 4:36:01 PM"
+    },
+    "form:feedbackResponseForm": {
+        "data": [],
+        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+    },
+    "process:process1": {
+        "data": [
+            {
+                "path": "activityPlugins.process1::tool2.properties.tools[0].properties.message",
+                "isError": false,
+                "label": "#form.booking_approval.createdByName#",
+                "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+                "content": "Dear #form.booking_approval.createdByName#,\nYour Facility Booking Request, #form.facilities_book.facilityName# on #form.facilities_book.date# #form.facilities_book.time# Has Been #form.booking_approval.status#."
+            },
+            {
+                "path": "activityPlugins.process1::tool2.properties.tools[0].properties.message",
+                "isError": false,
+                "label": "#form.facilities_book.facilityName#",
+                "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+                "content": "Dear #form.booking_approval.createdByName#,\nYour Facility Booking Request, #form.facilities_book.facilityName# on #form.facilities_book.date# #form.facilities_book.time# Has Been #form.booking_approval.status#."
+            },
+            {
+                "path": "activityPlugins.process1::tool2.properties.tools[0].properties.message",
+                "isError": false,
+                "label": "#form.facilities_book.date#",
+                "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+                "content": "Dear #form.booking_approval.createdByName#,\nYour Facility Booking Request, #form.facilities_book.facilityName# on #form.facilities_book.date# #form.facilities_book.time# Has Been #form.booking_approval.status#."
+            },
+            {
+                "path": "activityPlugins.process1::tool2.properties.tools[0].properties.message",
+                "isError": false,
+                "label": "#form.facilities_book.time#",
+                "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+                "content": "Dear #form.booking_approval.createdByName#,\nYour Facility Booking Request, #form.facilities_book.facilityName# on #form.facilities_book.date# #form.facilities_book.time# Has Been #form.booking_approval.status#."
+            },
+            {
+                "path": "activityPlugins.process1::tool2.properties.tools[0].properties.message",
+                "isError": false,
+                "label": "#form.booking_approval.status#",
+                "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+                "content": "Dear #form.booking_approval.createdByName#,\nYour Facility Booking Request, #form.facilities_book.facilityName# on #form.facilities_book.date# #form.facilities_book.time# Has Been #form.booking_approval.status#."
+            },
+            {
+                "badgeColor": "#795548",
+                "path": "activityPlugins.process1::tool2.properties.tools[0].properties.host",
+                "badge": "SMTP",
+                "isError": false,
+                "label": "",
+                "tool": "org.joget.apps.app.lib.IntegrationOverviewTool",
+                "content": "smtp.gmail.com"
+            },
+            {
+                "path": "activityPlugins.process1::tool1.properties.tools[0].properties.message",
+                "isError": false,
+                "label": "#form.booking_approval.createdByName#",
+                "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+                "content": "Dear #form.booking_approval.createdByName#,\nYour Facility Booking Request, #form.facilities_book.facilityName# on #form.facilities_book.date# #form.facilities_book.time# Has Been #form.booking_approval.status#."
+            },
+            {
+                "path": "activityPlugins.process1::tool1.properties.tools[0].properties.message",
+                "isError": false,
+                "label": "#form.facilities_book.facilityName#",
+                "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+                "content": "Dear #form.booking_approval.createdByName#,\nYour Facility Booking Request, #form.facilities_book.facilityName# on #form.facilities_book.date# #form.facilities_book.time# Has Been #form.booking_approval.status#."
+            },
+            {
+                "path": "activityPlugins.process1::tool1.properties.tools[0].properties.message",
+                "isError": false,
+                "label": "#form.facilities_book.date#",
+                "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+                "content": "Dear #form.booking_approval.createdByName#,\nYour Facility Booking Request, #form.facilities_book.facilityName# on #form.facilities_book.date# #form.facilities_book.time# Has Been #form.booking_approval.status#."
+            },
+            {
+                "path": "activityPlugins.process1::tool1.properties.tools[0].properties.message",
+                "isError": false,
+                "label": "#form.facilities_book.time#",
+                "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+                "content": "Dear #form.booking_approval.createdByName#,\nYour Facility Booking Request, #form.facilities_book.facilityName# on #form.facilities_book.date# #form.facilities_book.time# Has Been #form.booking_approval.status#."
+            },
+            {
+                "path": "activityPlugins.process1::tool1.properties.tools[0].properties.message",
+                "isError": false,
+                "label": "#form.booking_approval.status#",
+                "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+                "content": "Dear #form.booking_approval.createdByName#,\nYour Facility Booking Request, #form.facilities_book.facilityName# on #form.facilities_book.date# #form.facilities_book.time# Has Been #form.booking_approval.status#."
+            },
+            {
+                "badgeColor": "#795548",
+                "path": "activityPlugins.process1::tool1.properties.tools[0].properties.host",
+                "badge": "SMTP",
+                "isError": false,
+                "label": "",
+                "tool": "org.joget.apps.app.lib.IntegrationOverviewTool",
+                "content": "smtp.gmail.com"
+            }
+        ],
+        "lastModifiedDate": "Jun 16, 2025, 4:36:18 PM"
+    },
+    "datalist:userAccountList": {
+        "data": [],
+        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+    },
+    "form:residentsCancelBookingForm": {
+        "data": [],
+        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+    },
+    "datalist:facilityBookingList": {
+        "data": [],
+        "lastModifiedDate": "Jun 16, 2025, 4:45:07 PM"
+    },
+    "datalist:facilityList": {
+        "data": [],
+        "lastModifiedDate": "Jun 16, 2025, 4:36:01 PM"
+    },
+    "form:adminGoogleCalendarConfigForm": {
+        "data": [],
+        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+    },
+    "form:facilitySettingsForm": {
+        "data": [],
+        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+    },
+    "form:adminUserAccountForm": {
+        "data": [{
+            "path": "elements[0].elements[0].elements[7].properties.value",
+            "isError": false,
+            "label": "#date.yyyy-MM-dd#",
+            "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+            "content": "#date.yyyy-MM-dd#"
+        }],
+        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+    },
+    "form:ResidentsRegistrationForm": {
+        "data": [],
+        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+    },
+    "form:overrideBookingForm": {
+        "data": [],
+        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+    },
+    "form:FacilitiesBookingRequestForm": {
+        "data": [{
+            "path": "elements[0].elements[0].elements[6].properties.value",
+            "isError": false,
+            "label": "",
+            "tool": "org.joget.apps.app.lib.WebCodingOverviewTool",
+            "content": "<script>\r\n$(document).ready(function () {\r\n    const durations = {\r\n        \"BBQ Pit\": 4,\r\n        \"Multipurpose Hall\": 6,\r\n        \"Meeting Room\": 3,\r\n        \"Sauna\": 1,\r\n        \"Pickleball Court\": 2\r\n    };\r\n\r\n    function getHour(dateTimeStr) {\r\n        const d = new Date(dateTimeStr);\r\n        return d.getHours();\r\n    }\r\n\r\n    function pad(n) {\r\n        return n < 10 ? \"0\" + n : n;\r\n    }\r\n\r\n    function addHours(dateTimeStr, hours) {\r\n        const d = new Date(dateTimeStr);\r\n        d.setHours(d.getHours() + hours);\r\n        return pad(d.getHours()) + \":\" + pad(d.getMinutes());\r\n    }\r\n\r\n    // Force user to choose hour only (no minutes)\r\n    $(\"#dateAndTime\").on(\"change\", function () {\r\n        let raw = $(this).val();\r\n        if (!raw) return;\r\n\r\n        let date = new Date(raw);\r\n        let h = date.getHours();\r\n\r\n        if (h < 10 || h > 21) {\r\n            alert(\"Time must be between 10:00 AM and 9:00 PM.\");\r\n            $(this).val('');\r\n            $(\"#auto_end_display\").html(\"\");\r\n            return;\r\n        }\r\n\r\n        // Force minutes = 00\r\n        date.setMinutes(0);\r\n        let iso = date.toISOString().slice(0, 16);\r\n        $(this).val(iso); // format: YYYY-MM-DDTHH:mm\r\n\r\n        const facility = $(\"#facilityName\").val();\r\n        if (facility && durations[facility]) {\r\n            const end = addHours(date, durations[facility]);\r\n            $(\"#auto_end_display\").html(\"End Time: \" + end);\r\n        }\r\n    });\r\n\r\n    // Recalculate when facility changes\r\n    $(\"#facilityName\").on(\"change\", function () {\r\n        $(\"#dateAndTime\").trigger(\"change\");\r\n    });\r\n});\r\n<\/script>\r\n"
+        }],
+        "lastModifiedDate": "Jun 16, 2025, 4:36:01 PM"
+    },
+    "form:adminEmailConfigForm": {
+        "data": [{
+            "path": "elements[0].elements[0].elements[2].properties.value",
+            "isError": false,
+            "label": "#form.booking_date#",
+            "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+            "content": "#form.booking_date#"
+        }],
+        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+    },
+    "form:adminReportConfigForm": {
+        "data": [],
+        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+    },
+    "form:ResidenceRescheduleBookingForm": {
+        "data": [],
+        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+    },
+    "form:managerBookingRescheduleApproval": {
+        "data": [],
+        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+    },
+    "form:bookingApprovalForm": {
+        "data": [],
+        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+    },
+    "form:adminTimeSlotConfigForm": {
+        "data": [],
+        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+    },
+    "process:adminSystemSettingsAndNotificationConfiguration": {
+        "data": [],
+        "lastModifiedDate": "Jun 16, 2025, 4:36:18 PM"
+    },
+    "userview:ResidenceFacilitiesBookingSystem": {
+        "data": [
+            {
+                "path": "properties.welcomeMessage",
+                "isError": false,
+                "label": "#date.EEE, d MMM yyyy#",
+                "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+                "content": "#date.EEE, d MMM yyyy#"
+            },
+            {
+                "path": "categories[0].menus[0].properties.content",
+                "isError": false,
+                "label": "#request.contextPath#",
+                "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+                "content": "<div class=\"ui-welcome\">\n<h1>Apps and Workflow Made Simple<\/h1>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"#request.contextPath#/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Build apps, not just processes!<\/h3>\n<p>Create full-fledged apps with support for data records management.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"#request.contextPath#/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Increased Efficiency and Productivity<\/h3>\n<p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"#request.contextPath#/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Lowered Cost<\/h3>\n<p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p>\n<\/div>\n<\/div>"
+            },
+            {
+                "path": "categories[0].menus[0].properties.content",
+                "isError": false,
+                "label": "#request.contextPath#",
+                "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+                "content": "<div class=\"ui-welcome\">\n<h1>Apps and Workflow Made Simple<\/h1>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"#request.contextPath#/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Build apps, not just processes!<\/h3>\n<p>Create full-fledged apps with support for data records management.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"#request.contextPath#/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Increased Efficiency and Productivity<\/h3>\n<p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"#request.contextPath#/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Lowered Cost<\/h3>\n<p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p>\n<\/div>\n<\/div>"
+            },
+            {
+                "path": "categories[0].menus[0].properties.content",
+                "isError": false,
+                "label": "#request.contextPath#",
+                "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+                "content": "<div class=\"ui-welcome\">\n<h1>Apps and Workflow Made Simple<\/h1>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"#request.contextPath#/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Build apps, not just processes!<\/h3>\n<p>Create full-fledged apps with support for data records management.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"#request.contextPath#/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Increased Efficiency and Productivity<\/h3>\n<p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"#request.contextPath#/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Lowered Cost<\/h3>\n<p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p>\n<\/div>\n<\/div>"
+            },
+            {
+                "path": "categories[0].menus[0].properties.content",
+                "isError": false,
+                "label": "",
+                "tool": "org.joget.apps.app.lib.WebCodingOverviewTool",
+                "content": "<div class=\"ui-welcome\">\n<h1>Apps and Workflow Made Simple<\/h1>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"#request.contextPath#/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Build apps, not just processes!<\/h3>\n<p>Create full-fledged apps with support for data records management.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"#request.contextPath#/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Increased Efficiency and Productivity<\/h3>\n<p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"#request.contextPath#/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Lowered Cost<\/h3>\n<p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p>\n<\/div>\n<\/div>"
+            },
+            {
+                "path": "properties.welcomeMessage",
+                "isError": false,
+                "label": "#date.EEE, d MMM yyyy#",
+                "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+                "content": "#date.EEE, d MMM yyyy#"
+            }
+        ],
+        "lastModifiedDate": "Jun 16, 2025, 4:45:07 PM"
+    },
+    "form:noticeBoardForm": {
+        "data": [],
+        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+    },
+    "form:maintenanceAction": {
+        "data": [],
+        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+    },
+    "form:facilityFeedbackForm": {
+        "data": [],
+        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+    },
+    "process:addNewFacility": {
+        "data": [],
+        "lastModifiedDate": "Jun 16, 2025, 4:36:18 PM"
+    },
+    "process:residentRescheduleRequest": {
+        "data": [],
+        "lastModifiedDate": "Jun 16, 2025, 4:36:18 PM"
+    },
+    "form:adminBookingEditForm": {
+        "data": [],
+        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+    },
+    "process:residentFeedbackProcess": {
+        "data": [],
+        "lastModifiedDate": "Jun 16, 2025, 4:36:18 PM"
+    }
+}
