@@ -11,7 +11,8 @@
             "name": "createdByName",
             "id": "column_3",
             "label": "Created By Name",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column"
         },
         {
             "filterable": true,
@@ -73,12 +74,21 @@
     "binder": {
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
-            "joins": [],
+            "joins": [{
+                "joinFieldId": "createdByName",
+                "tableName": "user_account",
+                "fieldId": "user_account.createdByName"
+            }],
             "aggregateField": [],
             "formDefId": "FacilitiesBookingRequestForm",
             "customSelectionValue": "",
             "extraCondition": "",
-            "filters": [],
+            "filters": [{
+                "field": "createdByName",
+                "join": "AND",
+                "value": "#currentUser.fullName#",
+                "operator": "="
+            }],
             "groupBy": "",
             "functionColumns": []
         }
