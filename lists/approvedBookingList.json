@@ -16,18 +16,48 @@
         {
             "filterable": true,
             "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Facility Name",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
             "name": "facilities_book.facilityName",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
             "id": "column_3",
-            "label": "facilities_book.facilityName",
-            "sortable": "false"
+            "alignment": ""
         },
         {
             "filterable": true,
             "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Number of Participants",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
             "name": "facilities_book.noOfParticipants",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
             "id": "column_4",
-            "label": "facilities_book.noOfParticipants",
-            "sortable": "false"
+            "alignment": ""
         },
         {
             "filterable": true,
