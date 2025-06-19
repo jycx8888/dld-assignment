@@ -96,6 +96,42 @@
                 }
             },
             {
+                "className": "org.joget.apps.userview.lib.InboxMenu",
+                "properties": {
+                    "appFilter": "all",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": "",
+                    "showPopup": "false",
+                    "label": "Inbox",
+                    "rowCount": "false",
+                    "id": "FE44C7756E354D8B8B91AD6BAC2981DD",
+                    "buttonPosition": "bothLeft"
+                }
+            },
+            {
+                "className": "org.joget.apps.userview.lib.RunProcess",
+                "properties": {
+                    "runProcessDirectly": "Yes",
+                    "fieldPassoverMethod": "append",
+                    "keyName": "",
+                    "label": "Add Facility",
+                    "redirectTarget": "",
+                    "enableOffline": "",
+                    "afterSavedReloadTarget": "true",
+                    "customId": "",
+                    "userviewCacheDuration": "20",
+                    "messageShowAfterComplete": "",
+                    "showInPopupDialog": "",
+                    "userviewCacheScope": "",
+                    "actionAfterSaved": "",
+                    "runProcessSubmitLabel": "",
+                    "id": "522A69EDF63D44DFF0334CB1E8285D20",
+                    "processDefId": "addNewFacility",
+                    "redirectUrlAfterComplete": "",
+                    "fieldPassover": ""
+                }
+            },
+            {
                 "className": "org.joget.plugin.enterprise.CrudMenu",
                 "properties": {
                     "list-customFooter": "",
@@ -150,19 +186,6 @@
                     "list-moreActions": [],
                     "edit-backButtonLabel": "",
                     "list-editLinkTarget": ""
-                }
-            },
-            {
-                "className": "org.joget.apps.userview.lib.InboxMenu",
-                "properties": {
-                    "appFilter": "all",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": "",
-                    "showPopup": "false",
-                    "label": "Inbox",
-                    "rowCount": "false",
-                    "id": "FE44C7756E354D8B8B91AD6BAC2981DD",
-                    "buttonPosition": "bothLeft"
                 }
             }
         ],
