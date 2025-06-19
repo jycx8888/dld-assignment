@@ -58,7 +58,7 @@
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
             "joins": [{
-                "joinFieldId": "facilities_book.createdByName",
+                "joinFieldId": "createdByName",
                 "tableName": "facilities_book",
                 "fieldId": "facilities_book.createdByName"
             }],
@@ -67,9 +67,9 @@
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [{
-                "field": "facilities_book.createdByName",
+                "field": "facilities_book.createdBy",
                 "join": "AND",
-                "value": "#currentUser.fullName#",
+                "value": "#currentUser.username#",
                 "operator": "="
             }],
             "groupBy": "",
