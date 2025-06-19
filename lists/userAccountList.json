@@ -32,9 +32,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "contactNumb",
-            "id": "column_6",
-            "label": "contact numb",
+            "name": "contactNumber",
+            "id": "column_3",
+            "label": "Contact Number",
             "sortable": "false"
         },
         {
