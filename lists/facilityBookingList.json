@@ -76,8 +76,8 @@
         "properties": {
             "joins": [{
                 "joinFieldId": "createdByName",
-                "tableName": "user_account",
-                "fieldId": "user_account.createdByName"
+                "tableName": "facilities_book",
+                "fieldId": "facilities_book.createdByName"
             }],
             "aggregateField": [],
             "formDefId": "FacilitiesBookingRequestForm",
