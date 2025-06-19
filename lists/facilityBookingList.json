@@ -4,7 +4,49 @@
         "properties": {}
     },
     "rowActions": [],
-    "columns": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "createdByName",
+            "id": "column_0",
+            "label": "Created By Name",
+            "sortable": "false",
+            "datalist_type": "column"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "facilityName",
+            "id": "column_1",
+            "label": "Facility Name",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "date",
+            "id": "column_2",
+            "label": "Date",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "time",
+            "id": "column_3",
+            "label": "Time",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "noOfParticipants",
+            "id": "column_4",
+            "label": "No. of Participants",
+            "sortable": "false"
+        }
+    ],
     "pageSize": "0",
     "orderBy": "",
     "description": "",
