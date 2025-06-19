@@ -1,23 +1,23 @@
 {
     "process:managerApproveRescheduleRequests": {
         "data": [],
-        "lastModifiedDate": "Jun 16, 2025, 4:36:18 PM"
+        "lastModifiedDate": "Jun 19, 2025, 2:44:31 PM"
     },
     "process:noticePostingProcess": {
         "data": [],
-        "lastModifiedDate": "Jun 16, 2025, 4:36:18 PM"
+        "lastModifiedDate": "Jun 19, 2025, 2:44:31 PM"
     },
     "process:adminManageUserAccount": {
         "data": [],
-        "lastModifiedDate": "Jun 16, 2025, 4:36:18 PM"
+        "lastModifiedDate": "Jun 19, 2025, 2:44:31 PM"
     },
     "form:adminAddFacility": {
         "data": [],
-        "lastModifiedDate": "Jun 16, 2025, 4:36:01 PM"
+        "lastModifiedDate": "Jun 19, 2025, 2:44:34 PM"
     },
     "form:feedbackResponseForm": {
         "data": [],
-        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
     },
     "process:process1": {
         "data": [
@@ -110,31 +110,31 @@
                 "content": "smtp.gmail.com"
             }
         ],
-        "lastModifiedDate": "Jun 16, 2025, 4:36:18 PM"
+        "lastModifiedDate": "Jun 19, 2025, 2:44:31 PM"
     },
     "datalist:userAccountList": {
         "data": [],
-        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
     },
     "form:residentsCancelBookingForm": {
         "data": [],
-        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
     },
     "datalist:facilityBookingList": {
         "data": [],
-        "lastModifiedDate": "Jun 16, 2025, 4:45:07 PM"
+        "lastModifiedDate": "Jun 19, 2025, 2:44:34 PM"
     },
     "datalist:facilityList": {
         "data": [],
-        "lastModifiedDate": "Jun 16, 2025, 4:36:01 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
     },
     "form:adminGoogleCalendarConfigForm": {
         "data": [],
-        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
     },
     "form:facilitySettingsForm": {
         "data": [],
-        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
     },
     "form:adminUserAccountForm": {
         "data": [{
@@ -144,15 +144,19 @@
             "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
             "content": "#date.yyyy-MM-dd#"
         }],
-        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
     },
     "form:ResidentsRegistrationForm": {
         "data": [],
-        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+        "lastModifiedDate": "Jun 19, 2025, 2:44:34 PM"
     },
     "form:overrideBookingForm": {
         "data": [],
-        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
+    },
+    "datalist:managerPostNotice": {
+        "data": [],
+        "lastModifiedDate": "Jun 19, 2025, 2:51:17 PM"
     },
     "form:FacilitiesBookingRequestForm": {
         "data": [{
@@ -162,7 +166,7 @@
             "tool": "org.joget.apps.app.lib.WebCodingOverviewTool",
             "content": "<script>\r\n$(document).ready(function () {\r\n    const durations = {\r\n        \"BBQ Pit\": 4,\r\n        \"Multipurpose Hall\": 6,\r\n        \"Meeting Room\": 3,\r\n        \"Sauna\": 1,\r\n        \"Pickleball Court\": 2\r\n    };\r\n\r\n    function getHour(dateTimeStr) {\r\n        const d = new Date(dateTimeStr);\r\n        return d.getHours();\r\n    }\r\n\r\n    function pad(n) {\r\n        return n < 10 ? \"0\" + n : n;\r\n    }\r\n\r\n    function addHours(dateTimeStr, hours) {\r\n        const d = new Date(dateTimeStr);\r\n        d.setHours(d.getHours() + hours);\r\n        return pad(d.getHours()) + \":\" + pad(d.getMinutes());\r\n    }\r\n\r\n    // Force user to choose hour only (no minutes)\r\n    $(\"#dateAndTime\").on(\"change\", function () {\r\n        let raw = $(this).val();\r\n        if (!raw) return;\r\n\r\n        let date = new Date(raw);\r\n        let h = date.getHours();\r\n\r\n        if (h < 10 || h > 21) {\r\n            alert(\"Time must be between 10:00 AM and 9:00 PM.\");\r\n            $(this).val('');\r\n            $(\"#auto_end_display\").html(\"\");\r\n            return;\r\n        }\r\n\r\n        // Force minutes = 00\r\n        date.setMinutes(0);\r\n        let iso = date.toISOString().slice(0, 16);\r\n        $(this).val(iso); // format: YYYY-MM-DDTHH:mm\r\n\r\n        const facility = $(\"#facilityName\").val();\r\n        if (facility && durations[facility]) {\r\n            const end = addHours(date, durations[facility]);\r\n            $(\"#auto_end_display\").html(\"End Time: \" + end);\r\n        }\r\n    });\r\n\r\n    // Recalculate when facility changes\r\n    $(\"#facilityName\").on(\"change\", function () {\r\n        $(\"#dateAndTime\").trigger(\"change\");\r\n    });\r\n});\r\n<\/script>\r\n"
         }],
-        "lastModifiedDate": "Jun 16, 2025, 4:36:01 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
     },
     "form:adminEmailConfigForm": {
         "data": [{
@@ -172,31 +176,31 @@
             "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
             "content": "#form.booking_date#"
         }],
-        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
     },
     "form:adminReportConfigForm": {
         "data": [],
-        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
     },
     "form:ResidenceRescheduleBookingForm": {
         "data": [],
-        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
     },
     "form:managerBookingRescheduleApproval": {
         "data": [],
-        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
     },
     "form:bookingApprovalForm": {
         "data": [],
-        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
     },
     "form:adminTimeSlotConfigForm": {
         "data": [],
-        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
     },
     "process:adminSystemSettingsAndNotificationConfiguration": {
         "data": [],
-        "lastModifiedDate": "Jun 16, 2025, 4:36:18 PM"
+        "lastModifiedDate": "Jun 19, 2025, 2:44:31 PM"
     },
     "userview:ResidenceFacilitiesBookingSystem": {
         "data": [
@@ -243,34 +247,34 @@
                 "content": "#date.EEE, d MMM yyyy#"
             }
         ],
-        "lastModifiedDate": "Jun 16, 2025, 4:45:07 PM"
+        "lastModifiedDate": "Jun 19, 2025, 2:44:34 PM"
     },
     "form:noticeBoardForm": {
         "data": [],
-        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
     },
     "form:maintenanceAction": {
         "data": [],
-        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
     },
     "form:facilityFeedbackForm": {
         "data": [],
-        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
     },
     "process:addNewFacility": {
         "data": [],
-        "lastModifiedDate": "Jun 16, 2025, 4:36:18 PM"
+        "lastModifiedDate": "Jun 19, 2025, 2:44:31 PM"
     },
     "process:residentRescheduleRequest": {
         "data": [],
-        "lastModifiedDate": "Jun 16, 2025, 4:36:18 PM"
+        "lastModifiedDate": "Jun 19, 2025, 2:44:31 PM"
     },
     "form:adminBookingEditForm": {
         "data": [],
-        "lastModifiedDate": "Jun 14, 2025, 4:29:48 PM"
+        "lastModifiedDate": "Jun 16, 2025, 8:01:36 PM"
     },
     "process:residentFeedbackProcess": {
         "data": [],
-        "lastModifiedDate": "Jun 16, 2025, 4:36:18 PM"
+        "lastModifiedDate": "Jun 19, 2025, 2:44:31 PM"
     }
 }
