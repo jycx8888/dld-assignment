@@ -279,7 +279,7 @@
                         "enableOffline": "",
                         "edit-afterSavedReloadTarget": "true",
                         "selectionType": "multiple",
-                        "addFormId": "",
+                        "addFormId": "FacilitiesBookingRequestForm",
                         "id": "468B639987A3434D817B88A311EAA6F7",
                         "edit-readonlyLabel": "true",
                         "add-messageShowAfterComplete": "",
