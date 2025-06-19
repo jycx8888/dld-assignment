@@ -160,6 +160,7 @@
                     "properties": {
                         "stack": "",
                         "xAxisDisplayAS": "",
+                        "dateFormat": "",
                         "showLegend": "true",
                         "customFooter": "",
                         "enableOffline": "",
@@ -168,7 +169,7 @@
                         "chartHeight": "80%",
                         "mapping_x": "role",
                         "yaxisPrefix": "",
-                        "categoryAxisLabel": "Category",
+                        "categoryAxisLabel": "Date",
                         "horizontal": "",
                         "library": "echart",
                         "theme": "",
