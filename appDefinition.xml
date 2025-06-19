@@ -72,6 +72,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>addNewFacility::activity2</string>
+               <packageActivityForm>
+                  <processDefId>addNewFacility</processDefId>
+                  <activityDefId>activity2</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>residentFeedbackProcess::submitsFeedback</string>
                <packageActivityForm>
                   <processDefId>residentFeedbackProcess</processDefId>
@@ -191,6 +202,7 @@
                <packageActivityForm>
                   <processDefId>addNewFacility</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
