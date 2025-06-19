@@ -611,7 +611,7 @@
                     <Performer>process9_participant16</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process9_participant16"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="383.727294921875,38.272727"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="397.727294921875,32.272727"/>
                     </ExtendedAttributes>
                 </Activity>
             </Activities>
@@ -625,7 +625,7 @@
             <ExtendedAttributes>
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process9_participant16"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process9_participant16,CONNECTING_ACTIVITY_ID=add_new_facility,X_OFFSET=101,Y_OFFSET=46.000003051757815,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process9_participant16,CONNECTING_ACTIVITY_ID=activity2,X_OFFSET=558.727294921875,Y_OFFSET=63.99999903369141,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process9_participant16,CONNECTING_ACTIVITY_ID=activity2,X_OFFSET=576.727294921875,Y_OFFSET=52.99999903369141,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
     </WorkflowProcesses>
