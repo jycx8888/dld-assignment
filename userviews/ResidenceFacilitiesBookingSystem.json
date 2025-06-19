@@ -199,6 +199,29 @@
                         "optionCustomization": "",
                         "chartUseAllDataRows": "true"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.RunProcess",
+                    "properties": {
+                        "runProcessDirectly": "Yes",
+                        "fieldPassoverMethod": "append",
+                        "keyName": "",
+                        "label": "Register",
+                        "redirectTarget": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "register",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "showInPopupDialog": "",
+                        "userviewCacheScope": "",
+                        "actionAfterSaved": "",
+                        "runProcessSubmitLabel": "",
+                        "id": "626D82A74C87408C8CAF76F1386D77D5",
+                        "processDefId": "residentRegister",
+                        "redirectUrlAfterComplete": "",
+                        "fieldPassover": ""
+                    }
                 }
             ],
             "properties": {
