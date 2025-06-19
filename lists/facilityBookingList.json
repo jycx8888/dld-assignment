@@ -85,7 +85,7 @@
             "extraCondition": "",
             "filters": [{
                 "field": "createdByName",
-                "join": "AND",
+                "join": "OR",
                 "value": "#currentUser.fullN#form.facilities_book.createdByName#ame#",
                 "operator": "="
             }],
