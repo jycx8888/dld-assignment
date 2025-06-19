@@ -8,9 +8,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "createdBy",
-            "id": "column_0",
-            "label": "Created By",
+            "name": "createdByName",
+            "id": "column_3",
+            "label": "Created By Name",
             "sortable": "false"
         },
         {
