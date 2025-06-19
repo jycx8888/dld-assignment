@@ -16,6 +16,22 @@
         {
             "filterable": true,
             "hidden": "false",
+            "name": "facilities_book.facilityName",
+            "id": "column_3",
+            "label": "facilities_book.facilityName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "facilities_book.noOfParticipants",
+            "id": "column_4",
+            "label": "facilities_book.noOfParticipants",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "name": "dateCreated",
             "id": "column_2",
             "label": "Date Created",
@@ -40,7 +56,11 @@
     "binder": {
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
-            "joins": [],
+            "joins": [{
+                "joinFieldId": "facilities_book.facilityName",
+                "tableName": "facilities_book",
+                "fieldId": "facilities_book.facilityName"
+            }],
             "aggregateField": [],
             "formDefId": "bookingApprovalForm",
             "customSelectionValue": "",
