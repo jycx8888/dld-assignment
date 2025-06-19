@@ -4,70 +4,11 @@
         "properties": {}
     },
     "rowActions": [],
-    "columns": [
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "createdByName",
-            "id": "column_3",
-            "label": "Created By Name",
-            "sortable": "false",
-            "datalist_type": "column"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "facilityName",
-            "id": "column_7",
-            "label": "Facility Name",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "date",
-            "id": "column_1",
-            "label": "Date",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "time",
-            "id": "column_2",
-            "label": "Time",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "noOfParticipants",
-            "id": "column_10",
-            "label": "No. of Participants",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "specialRequest",
-            "id": "column_9",
-            "label": "Special Request",
-            "sortable": "false"
-        }
-    ],
+    "columns": [],
     "pageSize": "0",
     "orderBy": "",
     "description": "",
-    "filters": [{
-        "name": "facilityName",
-        "id": "filter_0",
-        "label": "Facility Name",
-        "type": {
-            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-            "properties": {}
-        },
-        "filterParamName": "d-1750834-fn_facilityName"
-    }],
+    "filters": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "name": "Facility Booking List",
     "id": "facilityBookingList",
@@ -82,7 +23,7 @@
             "aggregateField": [],
             "formDefId": "FacilitiesBookingRequestForm",
             "customSelectionValue": "",
-            "extraCondition": "",
+            "extraCondition": "e.customProperties.createdByName = '#currentUser.fullName#'",
             "filters": [{
                 "field": "facilities_book.createdByName",
                 "join": "AND",
