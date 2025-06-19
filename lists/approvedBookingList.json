@@ -1,0 +1,55 @@
+{
+    "template": {
+        "className": "",
+        "properties": {}
+    },
+    "rowActions": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "createdByName",
+            "id": "column_0",
+            "label": "Created By Name",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "dateCreated",
+            "id": "column_2",
+            "label": "Date Created",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "status",
+            "id": "column_1",
+            "label": "Status",
+            "sortable": "false"
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "Approved Booking List",
+    "id": "approvedBookingList",
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "joins": [],
+            "aggregateField": [],
+            "formDefId": "bookingApprovalForm",
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "groupBy": "",
+            "functionColumns": []
+        }
+    },
+    "actions": [],
+    "order": ""
+}
