@@ -179,7 +179,9 @@
                         "customHeader": "",
                         "showExportLinks": "true",
                         "valueAxisLabel": "Value",
+                        "smoothLine": "",
                         "sortingOrderByColumn": "role",
+                        "query": "SELECT \r\n  DATE_FORMAT(dateCreated, '%Y-%m-%d') AS label, \r\n  COUNT(id) AS value\r\nFROM \r\n  app_fd_resident_register\r\nWHERE \r\n  dateCreated IS NOT NULL\r\nGROUP BY \r\n  label\r\nORDER BY \r\n  label ASC\r\n\r\n\r\n\r\n\r\n",
                         "keyName": "",
                         "label": "Approved User Account List",
                         "datalistId": "userAccountList",
@@ -188,13 +190,13 @@
                         "xAxisBoundaryGap": "",
                         "userviewCacheScope": "",
                         "showFilter": "true",
-                        "datasource": "datalist",
+                        "datasource": "default",
                         "mapping_ys": [{
-                            "customization": "[{\r\n  \"name\": \"Total Users\",\r\n  \"type\": \"bar\",\r\n  \"itemStyle\": {\r\n    \"color\": \"#4CAF50\"  // Green bar color\r\n  },\r\n  \"label\": {\r\n    \"show\": true,\r\n    \"position\": \"top\"\r\n  },\r\n  \"barWidth\": \"40%\"\r\n}]\r\n",
+                            "customization": "",
                             "legend": "Total User",
                             "y": "username"
                         }],
-                        "chartType": "bar",
+                        "chartType": "line",
                         "showTable": "top",
                         "optionCustomization": "",
                         "chartUseAllDataRows": "true"
