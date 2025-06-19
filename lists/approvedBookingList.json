@@ -16,6 +16,14 @@
         {
             "filterable": true,
             "hidden": "false",
+            "name": "dateCreated",
+            "id": "column_2",
+            "label": "Date Created",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "name": "status",
             "id": "column_1",
             "label": "Status",
