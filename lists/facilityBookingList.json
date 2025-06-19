@@ -59,7 +59,7 @@
         "properties": {
             "joins": [
                 {
-                    "joinFieldId": "createdByName",
+                    "joinFieldId": "facilities_book.createdByName",
                     "tableName": "facilities_book",
                     "fieldId": "facilities_book.createdByName"
                 },
