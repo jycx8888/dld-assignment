@@ -27,13 +27,12 @@
                 "tableName": "facilities_book",
                 "fieldId": "facilities_book.facilityName"
             }],
-            "having": [],
             "aggregateField": [],
             "formDefId": "bookingApprovalForm",
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
-            "groupBy": "createdByName",
+            "groupBy": "",
             "functionColumns": []
         }
     },
