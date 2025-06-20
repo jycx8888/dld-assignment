@@ -75,7 +75,7 @@
                     "properties": {
                         "yearRange": "c-10:c+10",
                         "dataFormat": "yyyy-MM-dd",
-                        "startDateFieldId": "",
+                        "startDateFieldId": "time",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
@@ -87,7 +87,7 @@
                         "label": "Time",
                         "datePickerType": "timeOnly",
                         "currentDateAs": "",
-                        "endDateFieldId": "",
+                        "endDateFieldId": "time",
                         "readonly": "",
                         "allowManual": "",
                         "workflowVariable": "",
