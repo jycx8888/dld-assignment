@@ -96,7 +96,7 @@
                     "operator": "="
                 }
             ],
-            "groupBy": "createdByName;date;time;noOfParticipants;specialRequest;facilityName",
+            "groupBy": "createdByName;date;time;noOfParticipants;specialRequest;facilityName;field8",
             "functionColumns": []
         }
     },
