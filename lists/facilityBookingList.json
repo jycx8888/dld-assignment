@@ -54,7 +54,7 @@
                     "operator": "="
                 }
             ],
-            "groupBy": "createdByName",
+            "groupBy": "createdByName;date;time;noOfParticipants;specialRequest",
             "functionColumns": []
         }
     },
