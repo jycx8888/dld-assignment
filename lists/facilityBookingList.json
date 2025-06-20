@@ -41,6 +41,14 @@
         {
             "filterable": true,
             "hidden": "false",
+            "name": "bookingHour",
+            "id": "column_5",
+            "label": "Booking Hour",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "name": "noOfParticipants",
             "id": "column_4",
             "label": "No. of Participants",
