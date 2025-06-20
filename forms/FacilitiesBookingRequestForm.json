@@ -193,9 +193,9 @@
                             "className": "",
                             "properties": {}
                         },
-                        "workflowVariable": "",
+                        "workflowVariable": "#variable.status#",
                         "id": "field8",
-                        "value": "#variable.status#"
+                        "value": ""
                     }
                 }
             ],
