@@ -57,9 +57,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "field8",
-            "id": "column_6",
-            "label": "field8",
+            "name": "status",
+            "id": "column_7",
+            "label": "status",
             "sortable": "false"
         }
     ],
