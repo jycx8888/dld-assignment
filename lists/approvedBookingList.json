@@ -4,139 +4,14 @@
         "properties": {}
     },
     "rowActions": [],
-    "columns": [
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "createdByName",
-            "id": "column_0",
-            "label": "Created By Name",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Facility Name",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "facilities_book.facilityName",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_3",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Number of Participants",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "facilities_book.noOfParticipants",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_4",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Booking Date",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "facilities_book.date",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_6",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Booking Time",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "facilities_book.time",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_5",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Special Request",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "facilities_book.specialRequest",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_2",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "status",
-            "id": "column_1",
-            "label": "Status",
-            "sortable": "false"
-        }
-    ],
+    "columns": [{
+        "filterable": true,
+        "hidden": "false",
+        "name": "createdByName",
+        "id": "column_0",
+        "label": "Created By Name",
+        "sortable": "false"
+    }],
     "pageSize": "0",
     "orderBy": "",
     "description": "",
@@ -152,12 +27,13 @@
                 "tableName": "facilities_book",
                 "fieldId": "facilities_book.facilityName"
             }],
+            "having": [],
             "aggregateField": [],
             "formDefId": "bookingApprovalForm",
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
-            "groupBy": "",
+            "groupBy": "createdByName",
             "functionColumns": []
         }
     },
