@@ -4,7 +4,24 @@
         "properties": {}
     },
     "rowActions": [],
-    "columns": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "facilityName",
+            "id": "column_1",
+            "label": "Facility Name",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "field8",
+            "id": "column_0",
+            "label": "field8",
+            "sortable": "false"
+        }
+    ],
     "pageSize": "0",
     "orderBy": "",
     "description": "",
