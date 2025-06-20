@@ -88,7 +88,7 @@
                     "operator": "="
                 }
             ],
-            "groupBy": "createdByName;date;time;noOfParticipants;specialRequest",
+            "groupBy": "createdByName;date;time;noOfParticipants;specialRequest;facilityName",
             "functionColumns": []
         }
     },
