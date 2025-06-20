@@ -53,6 +53,14 @@
             "id": "column_3",
             "label": "Special Request",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "field8",
+            "id": "column_6",
+            "label": "field8",
+            "sortable": "false"
         }
     ],
     "pageSize": "0",
