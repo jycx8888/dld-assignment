@@ -92,7 +92,7 @@
                 {
                     "field": "booking_approval.status",
                     "join": "AND",
-                    "value": "Approve",
+                    "value": "Pending",
                     "operator": "="
                 }
             ],
