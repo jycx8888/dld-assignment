@@ -3,6 +3,43 @@
         "elements": [{
             "elements": [
                 {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "readonly": "",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "",
+                                "groupingColumn": "",
+                                "useAjax": "",
+                                "formDefId": "adminAddFacility",
+                                "labelColumn": "newFacilityName",
+                                "extraCondition": "",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "idColumn": "newFacilityName"
+                            }
+                        },
+                        "multiple": "",
+                        "options": [],
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
+                        },
+                        "workflowVariable": "",
+                        "label": "Facility Name",
+                        "id": "facilityName",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
                     "className": "org.joget.apps.form.lib.DatePicker",
                     "properties": {
                         "permissionHidden": "",
@@ -60,43 +97,6 @@
                         "value": "",
                         "readonlyLabel": "",
                         "format24hr": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.SelectBox",
-                    "properties": {
-                        "controlField": "",
-                        "readonly": "",
-                        "size": "",
-                        "optionsBinder": {
-                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
-                            "properties": {
-                                "addEmptyOption": "",
-                                "groupingColumn": "",
-                                "useAjax": "",
-                                "formDefId": "adminAddFacility",
-                                "labelColumn": "newFacilityName",
-                                "extraCondition": "",
-                                "cacheInterval": "",
-                                "emptyLabel": "",
-                                "idColumn": "newFacilityName"
-                            }
-                        },
-                        "multiple": "",
-                        "options": [],
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "type": "",
-                                "message": "",
-                                "mandatory": "true"
-                            }
-                        },
-                        "workflowVariable": "",
-                        "label": "Facility Name",
-                        "id": "facilityName",
-                        "value": "",
-                        "readonlyLabel": ""
                     }
                 },
                 {
