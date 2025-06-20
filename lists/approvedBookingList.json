@@ -153,13 +153,12 @@
                 "tableName": "facilities_book",
                 "fieldId": "facilities_book.facilityName"
             }],
-            "having": [],
             "aggregateField": [],
             "formDefId": "bookingApprovalForm",
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
-            "groupBy": "createdByName;facilities_book.facilityName;facilities_book.date;facilities_book.time;facilities_book.noOfParticipants;facilities_book.specialRequest;status",
+            "groupBy": "",
             "functionColumns": []
         }
     },
