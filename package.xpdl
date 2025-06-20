@@ -187,6 +187,7 @@
                     </ExtendedAttributes>
                 </Transition>
                 <Transition From="route2" Id="transition9" To="reviewBookingRequest">
+                    <Condition Type="CONDITION">status==="Pending"</Condition>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
