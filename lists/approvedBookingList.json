@@ -17,10 +17,25 @@
         {
             "filterable": true,
             "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Facilities Name",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
             "name": "facilities_book.facilityName",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
             "id": "column_6",
-            "label": "facilities_book.facilityName",
-            "sortable": "false"
+            "alignment": ""
         },
         {
             "filterable": true,
