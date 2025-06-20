@@ -157,7 +157,20 @@
             "formDefId": "bookingApprovalForm",
             "customSelectionValue": "",
             "extraCondition": "",
-            "filters": [],
+            "filters": [
+                {
+                    "field": "status",
+                    "join": "AND",
+                    "value": "Approve",
+                    "operator": "="
+                },
+                {
+                    "field": "status",
+                    "join": "AND",
+                    "value": "Reject",
+                    "operator": "="
+                }
+            ],
             "groupBy": "",
             "functionColumns": []
         }
