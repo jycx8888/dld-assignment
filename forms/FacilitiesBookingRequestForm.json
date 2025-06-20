@@ -194,7 +194,7 @@
                             "properties": {}
                         },
                         "workflowVariable": "#variable.status#",
-                        "id": "status",
+                        "id": "wait",
                         "value": "Pending"
                     }
                 }
