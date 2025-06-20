@@ -92,7 +92,7 @@
                     </TransitionRestrictions>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="resident"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="457.2749938964844,26.787501525878906"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="458.2749938964844,28.787501525878906"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="reviewBookingRequest" Name="Review Booking Request">
