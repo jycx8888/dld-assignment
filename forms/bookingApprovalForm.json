@@ -3,6 +3,19 @@
         "elements": [{
             "elements": [
                 {
+                    "className": "org.joget.apps.form.lib.HiddenField",
+                    "properties": {
+                        "useDefaultWhenEmpty": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "id": "field3",
+                        "value": "#variable.status#"
+                    }
+                },
+                {
                     "className": "org.joget.apps.form.lib.SubForm",
                     "properties": {
                         "parentSubFormId": "",
