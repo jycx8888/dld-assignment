@@ -17,6 +17,14 @@
         {
             "filterable": true,
             "hidden": "false",
+            "name": "facilities_book.facilityName",
+            "id": "column_6",
+            "label": "facilities_book.facilityName",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "renderHtml": "",
             "format": {
                 "className": "",
