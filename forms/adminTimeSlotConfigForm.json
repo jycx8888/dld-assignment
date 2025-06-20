@@ -203,7 +203,7 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "Admin Time Slot Config Form OLD",
+        "name": "OLD Admin Time Slot Config Form",
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {
