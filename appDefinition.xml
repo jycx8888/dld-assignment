@@ -192,7 +192,6 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>activity3</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
