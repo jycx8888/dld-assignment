@@ -50,7 +50,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "workflowVariable": "#variable.status#",
+                        "workflowVariable": "status",
                         "label": "Status",
                         "id": "status",
                         "value": "",
