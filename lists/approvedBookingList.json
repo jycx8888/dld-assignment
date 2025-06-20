@@ -160,13 +160,13 @@
             "filters": [
                 {
                     "field": "status",
-                    "join": "AND",
+                    "join": "OR",
                     "value": "Approve",
                     "operator": "="
                 },
                 {
                     "field": "status",
-                    "join": "AND",
+                    "join": "OR",
                     "value": "Reject",
                     "operator": "="
                 }
