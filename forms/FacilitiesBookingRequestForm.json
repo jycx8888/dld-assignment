@@ -100,6 +100,23 @@
                     }
                 },
                 {
+                    "className": "org.joget.plugin.enterprise.TimePicker",
+                    "properties": {
+                        "permissionHidden": "",
+                        "readonly": "true",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Booking Hour",
+                        "id": "bookingHour",
+                        "value": "",
+                        "readonlyLabel": "",
+                        "format24hr": "true"
+                    }
+                },
+                {
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "requiredSanitize": "",
