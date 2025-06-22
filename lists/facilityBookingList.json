@@ -54,14 +54,6 @@
             "label": "status",
             "sortable": "false",
             "datalist_type": "column"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "facilities_book.status",
-            "id": "column_6",
-            "label": "facilities_book.status",
-            "sortable": "false"
         }
     ],
     "pageSize": "0",
