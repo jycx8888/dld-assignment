@@ -134,15 +134,8 @@
             "name": "approvalstatus",
             "id": "column_1",
             "label": "Approval Status",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "facilities_book.status",
-            "id": "column_9",
-            "label": "facilities_book.status",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column"
         }
     ],
     "pageSize": "0",
