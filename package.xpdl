@@ -105,7 +105,7 @@
                     <Performer>manager</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="manager"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="203.796875,95.375"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="208.796875,42.375"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="tool1" Name="Notify Approved Booking">
@@ -150,10 +150,10 @@
                     <Implementation>
                         <Tool Id="default_application"/>
                     </Implementation>
-                    <Performer>manager</Performer>
+                    <Performer>resident</Performer>
                     <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="manager"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="213,10"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="resident"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="211,138.265625"/>
                     </ExtendedAttributes>
                 </Activity>
             </Activities>

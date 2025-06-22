@@ -222,6 +222,7 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>viewResults</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -331,7 +332,7 @@
                   <processDefId>process1</processDefId>
                   <activityDefId>setInitialStatus</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.plugin.enterprise.FormDataUpdateTool&quot;,&quot;properties&quot;:{&quot;formDefId&quot;:&quot;bookingApprovalForm&quot;,&quot;fields&quot;:[{&quot;field&quot;:&quot;status&quot;,&quot;value&quot;:&quot;Pending&quot;}]}}]}</pluginProperties>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;true&quot;,&quot;waitAllFinish&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.plugin.enterprise.FormDataUpdateTool&quot;,&quot;properties&quot;:{&quot;formDefId&quot;:&quot;bookingApprovalForm&quot;,&quot;fields&quot;:[{&quot;field&quot;:&quot;status&quot;,&quot;value&quot;:&quot;Pending&quot;}]}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
          </packageActivityPluginMap>
