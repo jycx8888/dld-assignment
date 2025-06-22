@@ -38,12 +38,12 @@
                             {
                                 "label": "Approve",
                                 "value": "Approved",
-                                "grouping": "status"
+                                "grouping": "approvalstatus"
                             },
                             {
                                 "label": "Reject",
                                 "value": "Rejected",
-                                "grouping": "status"
+                                "grouping": "approvalstatus"
                             }
                         ],
                         "validator": {
@@ -51,8 +51,8 @@
                             "properties": {}
                         },
                         "workflowVariable": "status",
-                        "label": "Status",
-                        "id": "status",
+                        "label": "Approval Status",
+                        "id": "approvalstatus",
                         "value": "",
                         "readonlyLabel": ""
                     }
