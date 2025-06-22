@@ -80,7 +80,7 @@
                     <Performer>resident</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="resident"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="280.71875,30.265625"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="211.71875,32.265625"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="viewResults" Name="View Results">
@@ -105,7 +105,7 @@
                     <Performer>manager</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="manager"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="209.8000030517578,47.3750030517578"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="203.796875,95.375"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="tool1" Name="Notify Approved Booking">
@@ -150,10 +150,10 @@
                     <Implementation>
                         <Tool Id="default_application"/>
                     </Implementation>
-                    <Performer>resident</Performer>
+                    <Performer>manager</Performer>
                     <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="resident"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="119,30"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="manager"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="213,10"/>
                     </ExtendedAttributes>
                 </Activity>
             </Activities>
@@ -176,11 +176,6 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="bookingRequest" Id="transition6" To="reviewBookingRequest">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
                 <Transition From="tool1" Id="transition7" To="viewResults">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
@@ -191,7 +186,12 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="setInitialStatus" Id="transition10" To="bookingRequest">
+                <Transition From="bookingRequest" Id="transition10" To="setInitialStatus">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="setInitialStatus" Id="transition11" To="reviewBookingRequest">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
@@ -199,7 +199,7 @@
             </Transitions>
             <ExtendedAttributes>
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="resident;manager;system"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=resident,CONNECTING_ACTIVITY_ID=setInitialStatus,X_OFFSET=44,Y_OFFSET=32,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=resident,CONNECTING_ACTIVITY_ID=bookingRequest,X_OFFSET=44,Y_OFFSET=32,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=resident,CONNECTING_ACTIVITY_ID=viewResults,X_OFFSET=758.7250366210938,Y_OFFSET=46.27500457763672,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
