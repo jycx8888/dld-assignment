@@ -56,6 +56,7 @@
                <packageActivityForm>
                   <processDefId>managerManageBookings</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -105,21 +106,22 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>noticePostingProcess::postNotice</string>
+               <string>managerManageBookings::approveOrRejectBookings</string>
                <packageActivityForm>
-                  <processDefId>noticePostingProcess</processDefId>
-                  <activityDefId>postNotice</activityDefId>
-                  <formId>noticeBoardForm</formId>
+                  <processDefId>managerManageBookings</processDefId>
+                  <activityDefId>approveOrRejectBookings</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>managerManageBookings::approveOrRejectBookings</string>
+               <string>noticePostingProcess::postNotice</string>
                <packageActivityForm>
-                  <processDefId>managerManageBookings</processDefId>
-                  <activityDefId>approveOrRejectBookings</activityDefId>
+                  <processDefId>noticePostingProcess</processDefId>
+                  <activityDefId>postNotice</activityDefId>
+                  <formId>noticeBoardForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -197,6 +199,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>managerManageBookings::activity2</string>
+               <packageActivityForm>
+                  <processDefId>managerManageBookings</processDefId>
+                  <activityDefId>activity2</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::reviewBookingRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -208,20 +221,11 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>managerManageBookings::activity2</string>
-               <packageActivityForm>
-                  <processDefId>managerManageBookings</processDefId>
-                  <activityDefId>activity2</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>managerManageBookings::activity1</string>
                <packageActivityForm>
                   <processDefId>managerManageBookings</processDefId>
                   <activityDefId>activity1</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
