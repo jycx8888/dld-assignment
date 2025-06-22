@@ -11,8 +11,7 @@
             "name": "createdByName",
             "id": "column_0",
             "label": "Created By Name",
-            "sortable": "false",
-            "datalist_type": "column"
+            "sortable": "false"
         },
         {
             "filterable": true,
@@ -22,11 +21,11 @@
                 "className": "",
                 "properties": {}
             },
-            "label": "Date",
+            "label": "Facility Name",
             "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
-            "name": "facilities_book.date",
+            "name": "facilities_book.facilityName",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -34,30 +33,7 @@
                 "properties": {}
             },
             "style": "",
-            "id": "column_1",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Start Time",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "facilities_book.time",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_4",
+            "id": "column_3",
             "alignment": ""
         },
         {
@@ -80,7 +56,53 @@
                 "properties": {}
             },
             "style": "",
-            "id": "column_2",
+            "id": "column_4",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Booking Date",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "facilities_book.date",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_6",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Booking Time",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "facilities_book.time",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_5",
             "alignment": ""
         },
         {
@@ -103,14 +125,14 @@
                 "properties": {}
             },
             "style": "",
-            "id": "column_3",
+            "id": "column_2",
             "alignment": ""
         },
         {
             "filterable": true,
             "hidden": "false",
             "name": "status",
-            "id": "column_5",
+            "id": "column_1",
             "label": "Status",
             "sortable": "false"
         }

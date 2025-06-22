@@ -17,8 +17,16 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "date",
+            "name": "facilityName",
             "id": "column_1",
+            "label": "Facility Name",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "date",
+            "id": "column_2",
             "label": "Date",
             "sortable": "false"
         },
@@ -26,10 +34,9 @@
             "filterable": true,
             "hidden": "false",
             "name": "time",
-            "id": "column_2",
+            "id": "column_3",
             "label": "Time",
-            "sortable": "false",
-            "datalist_type": "column"
+            "sortable": "false"
         },
         {
             "filterable": true,
@@ -37,17 +44,7 @@
             "name": "noOfParticipants",
             "id": "column_4",
             "label": "No. of Participants",
-            "sortable": "false",
-            "datalist_type": "column"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "specialRequest",
-            "id": "column_3",
-            "label": "Special Request",
-            "sortable": "false",
-            "datalist_type": "column"
+            "sortable": "false"
         }
     ],
     "pageSize": "0",

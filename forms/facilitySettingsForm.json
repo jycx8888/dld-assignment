@@ -127,7 +127,7 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "OLD Manager Facility Settings Form",
+        "name": "Manager Facility Settings Form OLD",
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {
