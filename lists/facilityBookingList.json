@@ -72,29 +72,21 @@
                     "fieldId": "facilities_book.createdByName"
                 },
                 {
-                    "joinFieldId": "booking_approval.status",
+                    "joinFieldId": "status",
                     "tableName": "booking_approval",
-                    "fieldId": "booking_approval.status"
+                    "fieldId": "booking_approval.approvalstatus"
                 }
             ],
             "aggregateField": [],
             "formDefId": "FacilitiesBookingRequestForm",
             "customSelectionValue": "",
             "extraCondition": "",
-            "filters": [
-                {
-                    "field": "facilities_book.createdBy",
-                    "join": "AND",
-                    "value": "#currentUser.username#",
-                    "operator": "="
-                },
-                {
-                    "field": "booking_approval.status",
-                    "join": "AND",
-                    "value": "Approve",
-                    "operator": "="
-                }
-            ],
+            "filters": [{
+                "field": "facilities_book.createdBy",
+                "join": "AND",
+                "value": "#currentUser.username#",
+                "operator": "="
+            }],
             "groupBy": "",
             "functionColumns": []
         }
