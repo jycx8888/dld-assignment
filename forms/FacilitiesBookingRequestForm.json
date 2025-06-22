@@ -184,19 +184,6 @@
                         "id": "field6",
                         "value": "<script>\r\n$(document).ready(function () {\r\n    const durations = {\r\n        \"BBQ Pit\": 4,\r\n        \"Multipurpose Hall\": 6,\r\n        \"Meeting Room\": 3,\r\n        \"Sauna\": 1,\r\n        \"Pickleball Court\": 2\r\n    };\r\n\r\n    function getHour(dateTimeStr) {\r\n        const d = new Date(dateTimeStr);\r\n        return d.getHours();\r\n    }\r\n\r\n    function pad(n) {\r\n        return n < 10 ? \"0\" + n : n;\r\n    }\r\n\r\n    function addHours(dateTimeStr, hours) {\r\n        const d = new Date(dateTimeStr);\r\n        d.setHours(d.getHours() + hours);\r\n        return pad(d.getHours()) + \":\" + pad(d.getMinutes());\r\n    }\r\n\r\n    // Force user to choose hour only (no minutes)\r\n    $(\"#dateAndTime\").on(\"change\", function () {\r\n        let raw = $(this).val();\r\n        if (!raw) return;\r\n\r\n        let date = new Date(raw);\r\n        let h = date.getHours();\r\n\r\n        if (h < 10 || h > 21) {\r\n            alert(\"Time must be between 10:00 AM and 9:00 PM.\");\r\n            $(this).val('');\r\n            $(\"#auto_end_display\").html(\"\");\r\n            return;\r\n        }\r\n\r\n        // Force minutes = 00\r\n        date.setMinutes(0);\r\n        let iso = date.toISOString().slice(0, 16);\r\n        $(this).val(iso); // format: YYYY-MM-DDTHH:mm\r\n\r\n        const facility = $(\"#facilityName\").val();\r\n        if (facility && durations[facility]) {\r\n            const end = addHours(date, durations[facility]);\r\n            $(\"#auto_end_display\").html(\"End Time: \" + end);\r\n        }\r\n    });\r\n\r\n    // Recalculate when facility changes\r\n    $(\"#facilityName\").on(\"change\", function () {\r\n        $(\"#dateAndTime\").trigger(\"change\");\r\n    });\r\n});\r\n<\/script>\r\n"
                     }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.HiddenField",
-                    "properties": {
-                        "useDefaultWhenEmpty": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "workflowVariable": "",
-                        "id": "status",
-                        "value": "Pending"
-                    }
                 }
             ],
             "className": "org.joget.apps.form.model.Column",
