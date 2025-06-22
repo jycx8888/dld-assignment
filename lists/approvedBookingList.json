@@ -136,7 +136,7 @@
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
-            "groupBy": "createdByName;facilities_book.date;facilities_book.time;facilities_book.noOfParticipants;facilities_book.specialRequest;status",
+            "groupBy": "createdByName;facilities_book.date;facilities_book.time;facilities_book.noOfParticipants;facilities_book.specialRequest;status;createdBy;dateCreated;dateModified;id;modifiedBy;modifiedByName",
             "functionColumns": []
         }
     },
