@@ -72,7 +72,6 @@
                     "fieldId": "booking_approval.status"
                 }
             ],
-            "having": [],
             "aggregateField": [],
             "formDefId": "FacilitiesBookingRequestForm",
             "customSelectionValue": "",
@@ -91,7 +90,7 @@
                     "operator": "="
                 }
             ],
-            "groupBy": "createdByName;date;time;noOfParticipants;specialRequest;createdBy;dateCreated;dateModified;facilityName;id;modifiedBy;modifiedByName;termsAgreement;booking_approval.createdBy;booking_approval.createdByName;booking_approval.dateCreated;booking_approval.dateModified;booking_approval.id;booking_approval.modifiedBy;booking_approval.modifiedByName;booking_approval.status",
+            "groupBy": "",
             "functionColumns": []
         }
     },
