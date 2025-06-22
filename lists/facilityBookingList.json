@@ -28,7 +28,8 @@
             "name": "time",
             "id": "column_2",
             "label": "Time",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column"
         },
         {
             "filterable": true,
@@ -36,7 +37,8 @@
             "name": "noOfParticipants",
             "id": "column_4",
             "label": "No. of Participants",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column"
         },
         {
             "filterable": true,
@@ -44,7 +46,8 @@
             "name": "specialRequest",
             "id": "column_3",
             "label": "Special Request",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column"
         }
     ],
     "pageSize": "0",
@@ -88,7 +91,7 @@
                     "operator": "="
                 }
             ],
-            "groupBy": "createdByName;date;time;noOfParticipants;specialRequest",
+            "groupBy": "createdByName;date;time;noOfParticipants;specialRequest;createdBy;dateCreated;dateModified;facilityName;id;modifiedBy;modifiedByName;termsAgreement",
             "functionColumns": []
         }
     },
