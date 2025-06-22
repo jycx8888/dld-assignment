@@ -37,12 +37,12 @@
                         "options": [
                             {
                                 "label": "Approve",
-                                "value": "Approve",
+                                "value": "Approved",
                                 "grouping": "status"
                             },
                             {
                                 "label": "Reject",
-                                "value": "Reject",
+                                "value": "Rejected",
                                 "grouping": "status"
                             },
                             {
