@@ -131,9 +131,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "status",
-            "id": "column_8",
-            "label": "Status",
+            "name": "approvalstatus",
+            "id": "column_1",
+            "label": "Approval Status",
             "sortable": "false"
         },
         {
