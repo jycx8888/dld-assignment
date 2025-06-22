@@ -44,6 +44,11 @@
                                 "label": "Reject",
                                 "value": "Reject",
                                 "grouping": "status"
+                            },
+                            {
+                                "label": "Pending",
+                                "value": "Pending",
+                                "grouping": "status"
                             }
                         ],
                         "validator": {
