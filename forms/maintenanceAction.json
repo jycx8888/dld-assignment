@@ -258,7 +258,7 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "OLD Manager maintenance action",
+        "name": "Manager maintenance action OLD",
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {

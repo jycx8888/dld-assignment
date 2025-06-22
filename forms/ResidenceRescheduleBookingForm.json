@@ -235,7 +235,7 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "OLD Residents Reschedule Booking Form",
+        "name": "Residents Reschedule Booking Form",
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {

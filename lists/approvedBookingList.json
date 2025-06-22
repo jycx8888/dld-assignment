@@ -11,106 +11,21 @@
             "name": "createdByName",
             "id": "column_0",
             "label": "Created By Name",
-            "sortable": "false",
-            "datalist_type": "column"
+            "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Date",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "facilities_book.date",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_1",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Start Time",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "facilities_book.time",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_4",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Number of Participants",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "facilities_book.noOfParticipants",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
+            "name": "dateCreated",
             "id": "column_2",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Special Request",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "facilities_book.specialRequest",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_3",
-            "alignment": ""
+            "label": "Date Created",
+            "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
             "name": "status",
-            "id": "column_5",
+            "id": "column_1",
             "label": "Status",
             "sortable": "false"
         }
@@ -125,18 +40,13 @@
     "binder": {
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
-            "joins": [{
-                "joinFieldId": "facilities_book.facilityName",
-                "tableName": "facilities_book",
-                "fieldId": "facilities_book.facilityName"
-            }],
-            "having": [],
+            "joins": [],
             "aggregateField": [],
             "formDefId": "bookingApprovalForm",
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
-            "groupBy": "createdByName;facilities_book.date;facilities_book.time;facilities_book.noOfParticipants;facilities_book.specialRequest;status",
+            "groupBy": "",
             "functionColumns": []
         }
     },

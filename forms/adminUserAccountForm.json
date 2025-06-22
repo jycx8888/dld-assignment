@@ -254,27 +254,11 @@
     }],
     "className": "org.joget.apps.form.model.Form",
     "properties": {
-        "noPermissionMessage": "",
-        "loadBinder": {
-            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-            "properties": {}
-        },
-        "name": "OLD Admin User Account Form",
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "Admin User Account Form",
         "description": "",
-        "postProcessorRunOn": "create",
-        "permission": {
-            "className": "",
-            "properties": {}
-        },
         "id": "adminUserAccountForm",
-        "postProcessor": {
-            "className": "",
-            "properties": {}
-        },
-        "storeBinder": {
-            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-            "properties": {}
-        },
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
         "tableName": "user_account"
     }
 }

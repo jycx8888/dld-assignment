@@ -198,7 +198,7 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "OLD Admin Booking Edit Form",
+        "name": "Admin Booking Edit Form OLD",
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {

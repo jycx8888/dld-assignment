@@ -179,7 +179,7 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "OLD Admin Report Config Form",
+        "name": "Admin Report Config Form OLD",
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {

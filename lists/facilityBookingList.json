@@ -8,11 +8,18 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "createdByName",
+            "name": "createdBy",
             "id": "column_0",
-            "label": "Created By Name",
-            "sortable": "false",
-            "datalist_type": "column"
+            "label": "Created By",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "facilityName",
+            "id": "column_7",
+            "label": "Facility Name",
+            "sortable": "false"
         },
         {
             "filterable": true,
@@ -34,7 +41,7 @@
             "filterable": true,
             "hidden": "false",
             "name": "noOfParticipants",
-            "id": "column_4",
+            "id": "column_10",
             "label": "No. of Participants",
             "sortable": "false"
         },
@@ -42,7 +49,7 @@
             "filterable": true,
             "hidden": "false",
             "name": "specialRequest",
-            "id": "column_3",
+            "id": "column_9",
             "label": "Special Request",
             "sortable": "false"
         }
@@ -50,45 +57,29 @@
     "pageSize": "0",
     "orderBy": "",
     "description": "",
-    "filters": [],
+    "filters": [{
+        "name": "facilityName",
+        "id": "filter_0",
+        "label": "Facility Name",
+        "type": {
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {}
+        },
+        "filterParamName": "d-1750834-fn_facilityName"
+    }],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "name": "Facility Booking List",
     "id": "facilityBookingList",
     "binder": {
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
-            "joins": [
-                {
-                    "joinFieldId": "createdByName",
-                    "tableName": "facilities_book",
-                    "fieldId": "facilities_book.createdByName"
-                },
-                {
-                    "joinFieldId": "booking_approval.status",
-                    "tableName": "booking_approval",
-                    "fieldId": "booking_approval.status"
-                }
-            ],
-            "having": [],
+            "joins": [],
             "aggregateField": [],
             "formDefId": "FacilitiesBookingRequestForm",
             "customSelectionValue": "",
             "extraCondition": "",
-            "filters": [
-                {
-                    "field": "facilities_book.createdBy",
-                    "join": "AND",
-                    "value": "#currentUser.username#",
-                    "operator": "="
-                },
-                {
-                    "field": "booking_approval.status",
-                    "join": "AND",
-                    "value": "Approve",
-                    "operator": "="
-                }
-            ],
-            "groupBy": "createdByName;date;time;noOfParticipants;specialRequest",
+            "filters": [],
+            "groupBy": "",
             "functionColumns": []
         }
     },
