@@ -83,6 +83,27 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>residentRegister::register</string>
+               <packageActivityForm>
+                  <processDefId>residentRegister</processDefId>
+                  <activityDefId>register</activityDefId>
+                  <formId>ResidentsRegistrationForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>residentRegister::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>residentRegister</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>residentRescheduleRequest::runProcess</string>
                <packageActivityForm>
                   <processDefId>residentRescheduleRequest</processDefId>
@@ -299,6 +320,15 @@
                <string>process1::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>process1</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>residentRegister::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>residentRegister</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>

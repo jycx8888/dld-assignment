@@ -153,7 +153,7 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "Admin Google Calendar Config Form OLD",
+        "name": "OLD Admin Google Calendar Config Form",
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {

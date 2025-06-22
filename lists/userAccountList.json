@@ -8,48 +8,40 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "fullName",
+            "name": "first_name",
             "id": "column_0",
-            "label": "Full Name",
+            "label": "First Name",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "email",
+            "name": "last_name",
             "id": "column_1",
-            "label": "Email",
+            "label": "Last Name",
             "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "username",
+            "name": "email_address",
+            "id": "column_2",
+            "label": "Email Address",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "contactNumber",
+            "id": "column_3",
+            "label": "Contact Number",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "dateCreated",
             "id": "column_4",
-            "label": "Username",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "role",
-            "id": "column_5",
-            "label": "Role",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "userStatus",
-            "id": "column_6",
-            "label": "Status",
-            "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "userDateCreated",
-            "id": "column_7",
             "label": "Date Created",
             "sortable": "false"
         }
@@ -64,36 +56,10 @@
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "formDefId": "adminUserAccountForm",
+            "formDefId": "ResidentsRegistrationForm",
             "extraCondition": ""
         }
     },
-    "actions": [
-        {
-            "className": "org.joget.apps.datalist.lib.FormRowDeleteDataListAction",
-            "id": "action_0",
-            "properties": {
-                "deleteFiles": "false",
-                "deleteGridData": "false",
-                "deleteSubformData": "false",
-                "label": "Delete",
-                "abortRelatedRunningProcesses": "false"
-            }
-        },
-        {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "id": "action_1",
-            "properties": {
-                "visible": "",
-                "hrefColumn": "",
-                "hrefParam": "",
-                "label": "Hyperlink",
-                "href": "https://youtu.be/dQw4w9WgXcQ?si=E3yvTQ-fUSEzeTJJ",
-                "confirmation": "",
-                "datalist_type": "action",
-                "target": "_self"
-            }
-        }
-    ],
+    "actions": [],
     "order": ""
 }

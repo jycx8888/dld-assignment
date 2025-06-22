@@ -158,7 +158,7 @@
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
-                                "type": "numeric",
+                                "type": "",
                                 "message": "Invalid Contact Number",
                                 "mandatory": "true"
                             }
@@ -170,7 +170,7 @@
                         "size": "",
                         "workflowVariable": "",
                         "style": "",
-                        "id": "contact_number",
+                        "id": "contactNumber",
                         "placeholder": "",
                         "value": "",
                         "readonlyLabel": "",

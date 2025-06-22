@@ -11,21 +11,106 @@
             "name": "createdByName",
             "id": "column_0",
             "label": "Created By Name",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column"
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "dateCreated",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Date",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "facilities_book.date",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_1",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Start Time",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "facilities_book.time",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_4",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Number of Participants",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "facilities_book.noOfParticipants",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
             "id": "column_2",
-            "label": "Date Created",
-            "sortable": "false"
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Special Request",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "facilities_book.specialRequest",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_3",
+            "alignment": ""
         },
         {
             "filterable": true,
             "hidden": "false",
             "name": "status",
-            "id": "column_1",
+            "id": "column_5",
             "label": "Status",
             "sortable": "false"
         }
@@ -40,13 +125,18 @@
     "binder": {
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
-            "joins": [],
+            "joins": [{
+                "joinFieldId": "facilities_book.facilityName",
+                "tableName": "facilities_book",
+                "fieldId": "facilities_book.facilityName"
+            }],
+            "having": [],
             "aggregateField": [],
             "formDefId": "bookingApprovalForm",
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
-            "groupBy": "",
+            "groupBy": "createdByName;facilities_book.date;facilities_book.time;facilities_book.noOfParticipants;facilities_book.specialRequest;status",
             "functionColumns": []
         }
     },

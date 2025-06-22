@@ -6,7 +6,8 @@
                     "className": "org.joget.apps.form.lib.SubForm",
                     "properties": {
                         "parentSubFormId": "",
-                        "readonly": "",
+                        "permissionHidden": "",
+                        "readonly": "true",
                         "loadBinder": {
                             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
                             "properties": {}
