@@ -65,18 +65,11 @@
     "binder": {
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
-            "joins": [
-                {
-                    "joinFieldId": "createdByName",
-                    "tableName": "facilities_book",
-                    "fieldId": "facilities_book.createdByName"
-                },
-                {
-                    "joinFieldId": "status",
-                    "tableName": "booking_approval",
-                    "fieldId": "booking_approval.approvalstatus"
-                }
-            ],
+            "joins": [{
+                "joinFieldId": "createdByName",
+                "tableName": "facilities_book",
+                "fieldId": "facilities_book.createdByName"
+            }],
             "aggregateField": [],
             "formDefId": "FacilitiesBookingRequestForm",
             "customSelectionValue": "",
