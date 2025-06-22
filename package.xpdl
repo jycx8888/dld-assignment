@@ -146,16 +146,6 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="239.30001831054688,186.7"/>
                     </ExtendedAttributes>
                 </Activity>
-                <Activity Id="setInitialStatus" Name="Set Initial Status">
-                    <Implementation>
-                        <Tool Id="default_application"/>
-                    </Implementation>
-                    <Performer>resident</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="resident"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="211,138.265625"/>
-                    </ExtendedAttributes>
-                </Activity>
             </Activities>
             <Transitions>
                 <Transition From="reviewBookingRequest" Id="transition3" To="route1">
@@ -186,12 +176,7 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
-                <Transition From="bookingRequest" Id="transition10" To="setInitialStatus">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-                <Transition From="setInitialStatus" Id="transition11" To="reviewBookingRequest">
+                <Transition From="bookingRequest" Id="transition9" To="reviewBookingRequest">
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
