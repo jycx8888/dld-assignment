@@ -132,8 +132,16 @@
             "filterable": true,
             "hidden": "false",
             "name": "status",
-            "id": "column_1",
+            "id": "column_8",
             "label": "Status",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "facilities_book.status",
+            "id": "column_9",
+            "label": "facilities_book.status",
             "sortable": "false"
         }
     ],
