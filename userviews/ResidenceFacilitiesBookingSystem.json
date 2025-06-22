@@ -455,68 +455,41 @@
         },
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [
-                {
-                    "className": "org.joget.plugin.enterprise.SqlChartMenu",
-                    "properties": {
-                        "xAxisDisplayAS": "",
-                        "dateFormat": "",
-                        "showLegend": "true",
-                        "customFooter": "",
-                        "enableOffline": "",
-                        "title": "New User Account List (Daily)",
-                        "customId": "newUserAccountListDaily",
-                        "chartHeight": "80%",
-                        "yaxisPrefix": "",
-                        "categoryAxisLabel": "Date",
-                        "library": "echart",
-                        "theme": "",
-                        "showValueLabel": "true",
-                        "id": "552544448D5E4D54D45100BFAE53BC77",
-                        "series_customization": [],
-                        "sortingOrder": "ASC",
-                        "customHeader": "",
-                        "valueAxisLabel": "Total New User (Daily)",
-                        "smoothLine": "",
-                        "query": "SELECT \r\n  DATE_FORMAT(dateCreated, '%Y-%m-%d') AS label, \r\n  COUNT(id) AS value\r\nFROM \r\n  app_fd_resident_register\r\nWHERE \r\n  dateCreated IS NOT NULL\r\nGROUP BY \r\n  label\r\nORDER BY \r\n  label ASC",
-                        "keyName": "",
-                        "label": "New User Account List (Daily)",
-                        "chartWidth": "100%",
-                        "userviewCacheDuration": "20",
-                        "xAxisBoundaryGap": "",
-                        "userviewCacheScope": "",
-                        "datasource": "default",
-                        "chartType": "line",
-                        "showTable": "",
-                        "optionCustomization": "",
-                        "chartUseAllDataRows": ""
-                    }
-                },
-                {
-                    "className": "org.joget.plugin.enterprise.SqlChartMenu",
-                    "properties": {
-                        "sortingOrder": "ASC",
-                        "xAxisDisplayAS": "",
-                        "valueAxisLabel": "Value",
-                        "showLegend": "true",
-                        "label": "Chart",
-                        "title": "Chart Title",
-                        "chartHeight": "80%",
-                        "categoryAxisLabel": "Category",
-                        "chartWidth": "100%",
-                        "userviewCacheDuration": "20",
-                        "library": "echart",
-                        "userviewCacheScope": "",
-                        "datasource": "datalist",
-                        "chartType": "area",
-                        "showTable": "",
-                        "theme": "",
-                        "showValueLabel": "true",
-                        "id": "B588779DA39044BF7AED82A63EA6AB90",
-                        "chartUseAllDataRows": ""
-                    }
+            "menus": [{
+                "className": "org.joget.plugin.enterprise.SqlChartMenu",
+                "properties": {
+                    "xAxisDisplayAS": "",
+                    "showLegend": "true",
+                    "customFooter": "",
+                    "enableOffline": "",
+                    "title": "User Account Chart",
+                    "customId": "userAccountChart",
+                    "chartHeight": "80%",
+                    "yaxisPrefix": "",
+                    "categoryAxisLabel": "Date",
+                    "library": "echart",
+                    "theme": "tech-blue",
+                    "showValueLabel": "true",
+                    "id": "DEACCBF6C01A4847477B1B457A76C63E",
+                    "series_customization": [],
+                    "sortingOrder": "ASC",
+                    "customHeader": "",
+                    "valueAxisLabel": "Total New User (Daily)",
+                    "smoothLine": "",
+                    "query": "SELECT \r\n  DATE_FORMAT(dateCreated, '%Y-%m-%d') AS label, \r\n  COUNT(id) AS value\r\nFROM \r\n  app_fd_resident_register\r\nWHERE \r\n  dateCreated IS NOT NULL\r\nGROUP BY \r\n  label\r\nORDER BY \r\n  label ASC",
+                    "keyName": "",
+                    "label": "User Account Chart",
+                    "chartWidth": "100%",
+                    "userviewCacheDuration": "20",
+                    "xAxisBoundaryGap": "",
+                    "userviewCacheScope": "",
+                    "datasource": "default",
+                    "chartType": "line",
+                    "showTable": "",
+                    "optionCustomization": "",
+                    "chartUseAllDataRows": ""
                 }
-            ],
+            }],
             "properties": {
                 "hide": "",
                 "permission": {
@@ -524,8 +497,8 @@
                     "properties": {}
                 },
                 "comment": "",
-                "label": "Reports for Admin",
-                "id": "category-D017042EECF94F65CC0D39DB76CE4F73"
+                "label": "Reports for Manager",
+                "id": "category-6523A5DDFECE4211400888476C1BDDB8"
             }
         }
     ],
