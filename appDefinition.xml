@@ -317,15 +317,6 @@
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>process1::tool3</string>
-               <packageActivityPlugin>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>tool3</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
                <string>process1::tool1</string>
                <packageActivityPlugin>
                   <processDefId>process1</processDefId>
