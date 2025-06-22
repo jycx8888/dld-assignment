@@ -154,7 +154,7 @@
                     </ExtendedAttributes>
                 </Transition>
                 <Transition From="route1" Id="transition4" To="tool1">
-                    <Condition Type="CONDITION">status ==='Approve'</Condition>
+                    <Condition Type="CONDITION">status ==='Approved'</Condition>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
