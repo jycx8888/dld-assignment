@@ -49,9 +49,9 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "booking_approval.status",
+            "name": "status",
             "id": "column_5",
-            "label": "booking_approval.status",
+            "label": "status",
             "sortable": "false"
         }
     ],
