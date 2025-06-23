@@ -3,6 +3,9 @@
         "className": "",
         "properties": {}
     },
+    "considerFilterWhenGetTotal": "",
+    "useSession": "",
+    "responsiveMode": "",
     "rowActions": [],
     "columns": [
         {
@@ -11,7 +14,8 @@
             "name": "id",
             "id": "column_0",
             "label": "ID",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column"
         },
         {
             "filterable": true,
@@ -70,12 +74,20 @@
             "sortable": "false"
         }
     ],
+    "draggabletable": "",
+    "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "",
+    "orderBy": "dateCreated",
     "description": "",
     "filters": [],
+    "showDataWhenFilterSet": "",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "hidePageSize": "",
+    "disableResponsive": "",
+    "cardCollapseByDefault": "",
     "name": "Manager Manage Bookings",
+    "rowActionsMode": "",
+    "showhidecolumns": "",
     "id": "managerManageBookings",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
@@ -85,5 +97,5 @@
         }
     },
     "actions": [],
-    "order": ""
+    "order": "2"
 }
