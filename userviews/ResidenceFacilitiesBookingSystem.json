@@ -487,7 +487,7 @@
                         "valueAxisLabel": "Value",
                         "smoothLine": "",
                         "sortingOrderByColumn": "",
-                        "query": "SELECT\r\n    DATE_FORMAT(`Booking Date`, '%Y-%m-%d') AS label,\r\n    COUNT(*) AS total_approved\r\nFROM\r\n    app_fd_booking_approval\r\nWHERE\r\n    `status` = 'Approve'\r\nGROUP BY\r\n    `date`\r\nORDER BY\r\n    `date` ASC",
+                        "query": "SELECT\r\n    DATE_FORMAT(`Booking Date`, '%Y-%m-%d') AS label,\r\n    COUNT(*) AS total_approved\r\nFROM\r\n    app_fd_booking_approval\r\nWHERE\r\n    `status` = 'Approved'\r\nGROUP BY\r\n    `date`\r\nORDER BY\r\n    `date` ASC",
                         "keyName": "",
                         "label": "Approved Bookings Chart",
                         "chartWidth": "100%",
