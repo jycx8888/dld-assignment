@@ -1,0 +1,30 @@
+{
+    "rowActions": [],
+    "columns": [],
+    "name": "Manager Post Notice",
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "id": "managerPostNotice",
+    "filters": [],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {
+            "joins": [{
+                "joinFieldId": "createdBy",
+                "tableName": "facility_notices",
+                "fieldId": "facility_notices.createdBy"
+            }],
+            "aggregateField": [],
+            "formDefId": "noticeBoardForm",
+            "customSelectionValue": "",
+            "extraCondition": "",
+            "filters": [],
+            "groupBy": "",
+            "functionColumns": []
+        }
+    },
+    "actions": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "order": ""
+}
