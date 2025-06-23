@@ -282,6 +282,27 @@
                         "edit-backButtonLabel": "",
                         "list-editLinkTarget": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Approve Bookings",
+                        "enableOffline": "",
+                        "customId": "approveBookings",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "managerManageBookings",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "5BD43CABF89941603A3C4F83EB291625"
+                    }
                 }
             ],
             "properties": {
