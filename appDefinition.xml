@@ -52,6 +52,17 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process10::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>process10</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>residentRegister::runProcess</string>
                <packageActivityForm>
                   <processDefId>residentRegister</processDefId>
@@ -62,10 +73,11 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process10::runProcess</string>
+               <string>process10::bookingRequests</string>
                <packageActivityForm>
                   <processDefId>process10</processDefId>
-                  <activityDefId>runProcess</activityDefId>
+                  <activityDefId>bookingRequests</activityDefId>
+                  <formId>FacilitiesBookingRequestForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -99,16 +111,6 @@
                   <processDefId>noticePostingProcess</processDefId>
                   <activityDefId>postNotice</activityDefId>
                   <formId>noticeBoardForm</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process10::activity1</string>
-               <packageActivityForm>
-                  <processDefId>process10</processDefId>
-                  <activityDefId>activity1</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -212,6 +214,17 @@
                <packageActivityForm>
                   <processDefId>residentRescheduleRequest</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process10::approveRejectBooking</string>
+               <packageActivityForm>
+                  <processDefId>process10</processDefId>
+                  <activityDefId>approveRejectBooking</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
