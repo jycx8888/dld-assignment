@@ -117,6 +117,15 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process10::activity1</string>
+               <packageActivityForm>
+                  <processDefId>process10</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>addNewFacility::add_new_facility</string>
                <packageActivityForm>
                   <processDefId>addNewFacility</processDefId>
@@ -224,7 +233,7 @@
                <packageActivityForm>
                   <processDefId>process10</processDefId>
                   <activityDefId>approveRejectBooking</activityDefId>
-                  <formId></formId>
+                  <formId>bookingApprovalForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
