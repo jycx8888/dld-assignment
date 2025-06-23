@@ -204,19 +204,6 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.userview.lib.DataListMenu",
-                    "properties": {
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": "",
-                        "label": "List",
-                        "rowCount": "false",
-                        "id": "33CF089CBAC54A6EA48FF9F6BAD74A62",
-                        "buttonPosition": "bothLeft"
-                    }
-                },
-                {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
                         "runProcessDirectly": "Yes",
@@ -294,29 +281,6 @@
                         "list-moreActions": [],
                         "edit-backButtonLabel": "",
                         "list-editLinkTarget": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.RunProcess",
-                    "properties": {
-                        "runProcessDirectly": "Yes",
-                        "fieldPassoverMethod": "append",
-                        "keyName": "",
-                        "label": "Manager Approve Booking",
-                        "redirectTarget": "",
-                        "enableOffline": "",
-                        "afterSavedReloadTarget": "true",
-                        "customId": "managerApproveBooking",
-                        "userviewCacheDuration": "20",
-                        "messageShowAfterComplete": "",
-                        "showInPopupDialog": "",
-                        "userviewCacheScope": "",
-                        "actionAfterSaved": "",
-                        "runProcessSubmitLabel": "",
-                        "id": "BE4741084E30468EEBBE932FA8BBD825",
-                        "processDefId": "managerManageBookings",
-                        "redirectUrlAfterComplete": "",
-                        "fieldPassover": ""
                     }
                 }
             ],
