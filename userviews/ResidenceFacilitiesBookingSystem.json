@@ -288,7 +288,7 @@
                     "properties": {
                         "list-customFooter": "",
                         "edit-customHeader": "",
-                        "editFormId": "",
+                        "editFormId": "bookingApprovalForm",
                         "cacheAllLinks": "",
                         "edit-saveButtonLabel": "",
                         "list-showDeleteButton": "",
