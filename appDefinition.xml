@@ -45,6 +45,7 @@
                <packageActivityForm>
                   <processDefId>managerManageBookings</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -110,6 +111,17 @@
                   <processDefId>addNewFacility</processDefId>
                   <activityDefId>add_new_facility</activityDefId>
                   <formId>adminAddFacility</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>managerManageBookings::receivesBookingRequests</string>
+               <packageActivityForm>
+                  <processDefId>managerManageBookings</processDefId>
+                  <activityDefId>receivesBookingRequests</activityDefId>
+                  <formId>FacilitiesBookingRequestForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -187,16 +199,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>managerManageBookings::activity1</string>
-               <packageActivityForm>
-                  <processDefId>managerManageBookings</processDefId>
-                  <activityDefId>activity1</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>residentRegister::register</string>
                <packageActivityForm>
                   <processDefId>residentRegister</processDefId>
@@ -252,6 +254,17 @@
                <packageActivityForm>
                   <processDefId>managerApproveRescheduleRequests</processDefId>
                   <activityDefId>rescheduleRequests</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>managerManageBookings::sendsBookingRequests</string>
+               <packageActivityForm>
+                  <processDefId>managerManageBookings</processDefId>
+                  <activityDefId>sendsBookingRequests</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
