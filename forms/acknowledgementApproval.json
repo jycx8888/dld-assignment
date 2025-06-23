@@ -1,0 +1,64 @@
+{
+    "elements": [{
+        "elements": [{
+            "elements": [{
+                "className": "org.joget.apps.form.lib.SubForm",
+                "properties": {
+                    "parentSubFormId": "",
+                    "readonly": "",
+                    "loadBinder": {
+                        "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                        "properties": {}
+                    },
+                    "noframe": "",
+                    "formDefId": "bookingApprovalForm",
+                    "subFormParentId": "",
+                    "id": "field1",
+                    "label": "",
+                    "storeBinder": {
+                        "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                        "properties": {}
+                    },
+                    "readonlyLabel": ""
+                }
+            }],
+            "className": "org.joget.apps.form.model.Column",
+            "properties": {"width": "100%"}
+        }],
+        "className": "org.joget.apps.form.model.Section",
+        "properties": {
+            "visibilityControl": "",
+            "permissionReadonly": "",
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Acknowledgement Approval",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityValue": "",
+            "regex": "",
+            "readonly": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "comment": "",
+            "id": "acknowledgementApproval",
+            "join": "",
+            "readonlyLabel": ""
+        }
+    }],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "Acknowledgement Approval ",
+        "description": "",
+        "id": "acknowledgementApproval",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "ack_approve"
+    }
+}
