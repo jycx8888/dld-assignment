@@ -55,12 +55,6 @@
         <Participant Id="process9_participant17" Name="Participant">
             <ParticipantType Type="ROLE"/>
         </Participant>
-        <Participant Id="residentAb" Name="Resident">
-            <ParticipantType Type="ROLE"/>
-        </Participant>
-        <Participant Id="managerAb" Name="Manager">
-            <ParticipantType Type="ROLE"/>
-        </Participant>
     </Participants>
     <Applications>
         <Application Id="default_application"/>
@@ -630,50 +624,6 @@
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process9_participant17"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process9_participant17,CONNECTING_ACTIVITY_ID=register,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process9_participant17,CONNECTING_ACTIVITY_ID=register,X_OFFSET=417,Y_OFFSET=56.05682276416016,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
-            </ExtendedAttributes>
-        </WorkflowProcess>
-        <WorkflowProcess Id="process10" Name="Manager Approve Bookings">
-            <ProcessHeader DurationUnit="h"/>
-            <DataFields>
-                <DataField Id="status" IsArray="FALSE">
-                    <DataType>
-                        <BasicType Type="STRING"/>
-                    </DataType>
-                </DataField>
-            </DataFields>
-            <Activities>
-                <Activity Id="bookingRequests" Name="Booking Requests">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>residentAb</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="residentAb"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="187,51.1749984741211"/>
-                    </ExtendedAttributes>
-                </Activity>
-                <Activity Id="approveRejectBooking" Name="Approve/Reject Booking">
-                    <Implementation>
-                        <No/>
-                    </Implementation>
-                    <Performer>managerAb</Performer>
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="managerAb"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="193,50.6875030517578"/>
-                    </ExtendedAttributes>
-                </Activity>
-            </Activities>
-            <Transitions>
-                <Transition From="bookingRequests" Id="transition3" To="approveRejectBooking">
-                    <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                    </ExtendedAttributes>
-                </Transition>
-            </Transitions>
-            <ExtendedAttributes>
-                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="residentAb;managerAb"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=residentAb,CONNECTING_ACTIVITY_ID=bookingRequests,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=managerAb,CONNECTING_ACTIVITY_ID=approveRejectBooking,X_OFFSET=424,Y_OFFSET=73.68748779296874,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
     </WorkflowProcesses>
