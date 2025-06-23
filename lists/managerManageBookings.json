@@ -33,28 +33,7 @@
     "pageSize": "0",
     "orderBy": "",
     "description": "",
-    "filters": [{
-        "hidden": "",
-        "name": "approvalstatus",
-        "id": "filter_0",
-        "label": "Filter",
-        "type": {
-            "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
-            "properties": {
-                "controlField": "",
-                "size": "",
-                "optionsBinder": {
-                    "className": "",
-                    "properties": {}
-                },
-                "defaultValue": "",
-                "multiple": "",
-                "options": []
-            }
-        },
-        "datalist_type": "filter",
-        "filterParamName": "d-1383590-fn_approvalstatus"
-    }],
+    "filters": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "name": "Manager Manage Bookings",
     "id": "managerManageBookings",
