@@ -1,12 +1,24 @@
 {
+    "template": {
+        "className": "",
+        "properties": {}
+    },
     "rowActions": [],
-    "columns": [],
-    "name": "Manager Manage Bookings",
+    "columns": [{
+        "filterable": true,
+        "hidden": "false",
+        "name": "id",
+        "id": "column_0",
+        "label": "ID",
+        "sortable": "false"
+    }],
     "pageSize": "0",
     "orderBy": "",
     "description": "",
-    "id": "managerManageBookings",
     "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "Manager Manage Bookings",
+    "id": "managerManageBookings",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
@@ -15,6 +27,5 @@
         }
     },
     "actions": [],
-    "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "order": ""
 }
