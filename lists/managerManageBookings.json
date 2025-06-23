@@ -39,11 +39,17 @@
         "id": "filter_0",
         "label": "Filter",
         "type": {
-            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
             "properties": {
+                "controlField": "",
+                "size": "",
+                "optionsBinder": {
+                    "className": "",
+                    "properties": {}
+                },
                 "defaultValue": "",
-                "filterSelection": "Number;String",
-                "searchFields": ""
+                "multiple": "",
+                "options": []
             }
         },
         "datalist_type": "filter",
