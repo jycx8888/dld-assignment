@@ -45,7 +45,6 @@
                <packageActivityForm>
                   <processDefId>managerManageBookings</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -99,7 +98,6 @@
                <packageActivityForm>
                   <processDefId>managerManageBookings</processDefId>
                   <activityDefId>rejectedBooking</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -214,7 +212,6 @@
                <packageActivityForm>
                   <processDefId>managerManageBookings</processDefId>
                   <activityDefId>activity2</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -255,7 +252,6 @@
                <packageActivityForm>
                   <processDefId>managerManageBookings</processDefId>
                   <activityDefId>activity3</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -306,7 +302,6 @@
                <packageActivityForm>
                   <processDefId>managerManageBookings</processDefId>
                   <activityDefId>sendsBookingRequests</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
