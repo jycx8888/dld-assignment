@@ -140,6 +140,7 @@
                <packageActivityForm>
                   <processDefId>process1</processDefId>
                   <activityDefId>viewResults</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
