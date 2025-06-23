@@ -721,10 +721,10 @@
                     </ExtendedAttributes>
                 </Transition>
                 <Transition From="acceptRejectMb" Id="transition7" Name="Reject" To="rejectedBooking">
-                    <Condition Type="CONDITION">status === ''</Condition>
+                    <Condition Type="CONDITION">status === 'Reject'</Condition>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
-                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;&quot;}]"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;Reject&quot;}]"/>
                     </ExtendedAttributes>
                 </Transition>
             </Transitions>
