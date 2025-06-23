@@ -690,7 +690,7 @@
                     <Performer>systemMb</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="systemMb"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="245,169.2"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="244,168.18751831054686"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="rejectedBooking" Name="Rejected">
@@ -716,8 +716,10 @@
                     </ExtendedAttributes>
                 </Transition>
                 <Transition From="acceptRejectMb" Id="transition5" Name="Accept" To="acceptedBooking">
+                    <Condition Type="CONDITION">status === 'Approve'</Condition>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="PBUILDER_TRANSITION_CONDITIONS" Value="[{&quot;join&quot;:&quot;&amp;&amp;&quot;,&quot;variable&quot;:&quot;status&quot;,&quot;operator&quot;:&quot;===&quot;,&quot;value&quot;:&quot;Approve&quot;}]"/>
                     </ExtendedAttributes>
                 </Transition>
                 <Transition From="acceptRejectMb" Id="transition7" Name="Reject" To="rejectedBooking">
@@ -731,7 +733,7 @@
             <ExtendedAttributes>
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="residentMb;MangerMb;systemMb"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=residentMb,CONNECTING_ACTIVITY_ID=sendsBookingRequests,X_OFFSET=83,Y_OFFSET=86.00000305175782,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=systemMb,CONNECTING_ACTIVITY_ID=acceptedBooking,X_OFFSET=594,Y_OFFSET=193.6375,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=systemMb,CONNECTING_ACTIVITY_ID=acceptedBooking,X_OFFSET=566,Y_OFFSET=188.6375,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=systemMb,CONNECTING_ACTIVITY_ID=rejectedBooking,X_OFFSET=732,Y_OFFSET=66.21248168945311,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
