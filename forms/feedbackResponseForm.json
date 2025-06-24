@@ -129,7 +129,7 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "name": "Manager Feedback Response Form OLD",
+        "name": "OLD Manager Feedback Response Form",
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {
