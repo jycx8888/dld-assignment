@@ -45,12 +45,13 @@
                 "tableName": "facility_notices",
                 "fieldId": "facility_notices.createdBy"
             }],
+            "having": [],
             "aggregateField": [],
             "formDefId": "noticeBoardForm",
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
-            "groupBy": "",
+            "groupBy": "title;publishDate;message",
             "functionColumns": []
         }
     },
