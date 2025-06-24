@@ -1,0 +1,23 @@
+{
+    "elements": [
+        {
+            "className": "org.joget.plugin.enterprise.DashboardMenu",
+            "properties": {
+                "mode": "plugins",
+                "userviewCacheDuration": "20",
+                "customHeader": "#form.facility_notices.message#",
+                "defaultPortletHeight": "250",
+                "userviewCacheScope": "",
+                "plugins": [],
+                "customFooter": "",
+                "label": "Dashboard",
+                "id": "75C58693C8594E48069E5313C8634F4C",
+                "enableOffline": "",
+                "customId": ""
+            }
+        },
+        {"className": "menu-component"}
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-8a9f98b7-6300-4465-b808-5648ac5431c2"}
+}
