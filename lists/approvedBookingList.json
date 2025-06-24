@@ -17,10 +17,9 @@
             "filterable": true,
             "hidden": "false",
             "name": "approvalstatus",
-            "id": "column_1",
+            "id": "column_2",
             "label": "Approval Status",
-            "sortable": "false",
-            "datalist_type": "column"
+            "sortable": "false"
         }
     ],
     "pageSize": "0",
@@ -38,13 +37,12 @@
                 "tableName": "facilities_book",
                 "fieldId": "facilities_book.facilityName"
             }],
-            "having": [],
             "aggregateField": [],
             "formDefId": "bookingApprovalForm",
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
-            "groupBy": "approvalstatus;createdBy;createdByName;dateCreated;dateModified;id;modifiedBy;modifiedByName",
+            "groupBy": "",
             "functionColumns": []
         }
     },
