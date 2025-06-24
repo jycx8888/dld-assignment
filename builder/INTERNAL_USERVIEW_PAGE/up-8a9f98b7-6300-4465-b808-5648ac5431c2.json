@@ -2,17 +2,24 @@
     "elements": [
         {"className": "menu-component"},
         {
-            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+            "className": "org.joget.apps.userview.lib.DataListMenu",
             "properties": {
-                "template": "<!--{sampleWidth: '250px'}-->\n<div class=\"card flex-row align-items-center align-items-stretch border-0\" style=\"background-color:{{color||#348fe2}}; color:#fff;\">\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-left\" style=\"background:rgba(0,0,0,.4); font-size: 48px; color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8\">\n        <p style=\"font-size: 24px; font-weight: 600; margin-bottom: 10px;\">{{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 12px;margin: 5px 0;\">{{title||TOTAL VISITORS}}<\/h4>\n    <\/div>\n<\/div>",
-                "attr-data-events-listening": [],
-                "color": "#348FE2",
-                "icon": "<i class=\"fas fa-globe\"><\/i>",
-                "link": "",
-                "id": "869A8EEBAABF4130A20310AAFFB88313",
-                "title": "TOTAL VISITS",
-                "value": "#form.facility_notices.message#",
-                "customId": ""
+                "cacheAllLinks": "",
+                "customHeader": "",
+                "keyName": "",
+                "customFooter": "",
+                "label": "List",
+                "enableOffline": "",
+                "customId": "",
+                "buttonPosition": "bothLeft",
+                "datalistId": "managerPostNotice",
+                "checkboxPosition": "left",
+                "selectionType": "multiple",
+                "userviewCacheDuration": "20",
+                "cacheListAction": "",
+                "userviewCacheScope": "",
+                "rowCount": "",
+                "id": "E154ADAF70184EC55687048758147365"
             }
         }
     ],
