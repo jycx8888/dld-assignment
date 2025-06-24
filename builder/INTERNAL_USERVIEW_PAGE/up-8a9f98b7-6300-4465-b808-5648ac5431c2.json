@@ -3,17 +3,22 @@
         {
             "className": "org.joget.plugin.enterprise.DashboardMenu",
             "properties": {
-                "mode": "plugins",
-                "userviewCacheDuration": "20",
-                "customHeader": "#form.facility_notices.message#",
+                "defaultPortletWidth": "1",
+                "customHeader": "#form.facility_notices.title#",
+                "autoHeight": "",
                 "defaultPortletHeight": "250",
-                "userviewCacheScope": "",
+                "resizable": "",
                 "plugins": [],
-                "customFooter": "",
+                "customFooter": "#form.facility_notices.message#\n#form.facility_notices.publishDate#",
                 "label": "Dashboard",
-                "id": "75C58693C8594E48069E5313C8634F4C",
                 "enableOffline": "",
-                "customId": ""
+                "customId": "",
+                "mode": "",
+                "userviewCacheDuration": "20",
+                "userviewCacheScope": "",
+                "userviewId": "ResidenceFacilitiesBookingSystem",
+                "id": "75C58693C8594E48069E5313C8634F4C",
+                "customPortletSetting": []
             }
         },
         {"className": "menu-component"}
