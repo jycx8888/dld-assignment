@@ -41,6 +41,28 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>noticePostingProcess::postNotice</string>
+               <packageActivityForm>
+                  <processDefId>noticePostingProcess</processDefId>
+                  <activityDefId>postNotice</activityDefId>
+                  <formId>noticeBoardForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>noticePostingProcess::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>noticePostingProcess</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>process1::activity2</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
@@ -62,22 +84,22 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>residentRescheduleRequest::rescheduleRequest</string>
+               <string>residentFeedbackProcess::notifyManager</string>
                <packageActivityForm>
-                  <processDefId>residentRescheduleRequest</processDefId>
-                  <activityDefId>rescheduleRequest</activityDefId>
-                  <formId>ResidenceRescheduleBookingForm</formId>
+                  <processDefId>residentFeedbackProcess</processDefId>
+                  <activityDefId>notifyManager</activityDefId>
+                  <formId>feedbackResponseForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>residentFeedbackProcess::notifyManager</string>
+               <string>residentRescheduleRequest::rescheduleRequest</string>
                <packageActivityForm>
-                  <processDefId>residentFeedbackProcess</processDefId>
-                  <activityDefId>notifyManager</activityDefId>
-                  <formId>feedbackResponseForm</formId>
+                  <processDefId>residentRescheduleRequest</processDefId>
+                  <activityDefId>rescheduleRequest</activityDefId>
+                  <formId>ResidenceRescheduleBookingForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
