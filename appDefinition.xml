@@ -62,32 +62,22 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process1::activity2</string>
-               <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>activity2</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process1::mainPage</string>
-               <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>bookingRequest</activityDefId>
-                  <formId>FacilitiesBookingRequestForm</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>residentFeedbackProcess::notifyManager</string>
+               <string>residentFeedbackProcess::submitsFeedback</string>
                <packageActivityForm>
                   <processDefId>residentFeedbackProcess</processDefId>
-                  <activityDefId>notifyManager</activityDefId>
-                  <formId>feedbackResponseForm</formId>
+                  <activityDefId>submitsFeedback</activityDefId>
+                  <formId>facilityFeedbackForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>residentFeedbackProcess::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>residentFeedbackProcess</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
