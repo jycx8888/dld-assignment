@@ -1,0 +1,28 @@
+{
+    "elements": [
+        {"className": "menu-component"},
+        {
+            "className": "org.joget.apps.userview.lib.DataListMenu",
+            "properties": {
+                "cacheAllLinks": "",
+                "customHeader": "",
+                "keyName": "",
+                "customFooter": "",
+                "label": "List",
+                "enableOffline": "",
+                "customId": "",
+                "buttonPosition": "bothLeft",
+                "datalistId": "managerPostNotice",
+                "checkboxPosition": "left",
+                "selectionType": "multiple",
+                "userviewCacheDuration": "20",
+                "cacheListAction": "",
+                "userviewCacheScope": "",
+                "rowCount": "",
+                "id": "E154ADAF70184EC55687048758147365"
+            }
+        }
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-8a9f98b7-6300-4465-b808-5648ac5431c2"}
+}
