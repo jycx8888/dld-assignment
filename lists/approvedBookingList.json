@@ -1,0 +1,56 @@
+{
+    "template": {
+        "className": "",
+        "properties": {}
+    },
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "id": "rowAction_0",
+        "properties": {
+            "hrefColumn": "",
+            "hrefParam": "",
+            "rules": [],
+            "label": "Booking",
+            "href": "facilities_book",
+            "confirmation": "",
+            "link-css-display-type": "btn btn-sm btn-primary",
+            "datalist_type": "row_action",
+            "target": "_self",
+            "header_label": ""
+        }
+    }],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "createdByName",
+            "id": "column_3",
+            "label": "Created By Name",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "approvalstatus",
+            "id": "column_0",
+            "label": "Approval Status",
+            "sortable": "false"
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "Approved Booking List",
+    "id": "approvedBookingList",
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "bookingApprovalForm",
+            "extraCondition": ""
+        }
+    },
+    "actions": [],
+    "order": ""
+}
