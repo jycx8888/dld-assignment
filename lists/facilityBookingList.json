@@ -45,6 +45,15 @@
             "id": "column_4",
             "label": "No. of Participants",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "status",
+            "id": "column_5",
+            "label": "status",
+            "sortable": "false",
+            "datalist_type": "column"
         }
     ],
     "pageSize": "0",
@@ -55,40 +64,10 @@
     "name": "Facility Booking List",
     "id": "facilityBookingList",
     "binder": {
-        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "joins": [
-                {
-                    "joinFieldId": "createdByName",
-                    "tableName": "facilities_book",
-                    "fieldId": "facilities_book.createdByName"
-                },
-                {
-                    "joinFieldId": "booking_approval.status",
-                    "tableName": "booking_approval",
-                    "fieldId": "booking_approval.status"
-                }
-            ],
-            "aggregateField": [],
             "formDefId": "FacilitiesBookingRequestForm",
-            "customSelectionValue": "",
-            "extraCondition": "",
-            "filters": [
-                {
-                    "field": "facilities_book.createdBy",
-                    "join": "AND",
-                    "value": "#currentUser.username#",
-                    "operator": "="
-                },
-                {
-                    "field": "booking_approval.status",
-                    "join": "AND",
-                    "value": "Approve",
-                    "operator": "="
-                }
-            ],
-            "groupBy": "",
-            "functionColumns": []
+            "extraCondition": ""
         }
     },
     "actions": [],

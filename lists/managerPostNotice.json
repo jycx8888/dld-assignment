@@ -1,12 +1,42 @@
 {
+    "template": {
+        "className": "",
+        "properties": {}
+    },
     "rowActions": [],
-    "columns": [],
-    "name": "Manager Post Notice",
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "title",
+            "id": "column_2",
+            "label": "Title",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "message",
+            "id": "column_0",
+            "label": "Message",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "publishDate",
+            "id": "column_1",
+            "label": "Publish Date",
+            "sortable": "false"
+        }
+    ],
     "pageSize": "0",
     "orderBy": "",
     "description": "",
-    "id": "managerPostNotice",
     "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "Manager Post Notice",
+    "id": "managerPostNotice",
     "binder": {
         "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
         "properties": {
@@ -15,16 +45,16 @@
                 "tableName": "facility_notices",
                 "fieldId": "facility_notices.createdBy"
             }],
+            "having": [],
             "aggregateField": [],
             "formDefId": "noticeBoardForm",
             "customSelectionValue": "",
             "extraCondition": "",
             "filters": [],
-            "groupBy": "",
+            "groupBy": "title;publishDate;message",
             "functionColumns": []
         }
     },
     "actions": [],
-    "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "order": ""
 }

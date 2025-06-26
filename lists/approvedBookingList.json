@@ -8,10 +8,25 @@
         {
             "filterable": true,
             "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Name",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
             "name": "createdByName",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
             "id": "column_0",
-            "label": "Created By Name",
-            "sortable": "false"
+            "alignment": ""
         },
         {
             "filterable": true,
@@ -33,7 +48,53 @@
                 "properties": {}
             },
             "style": "",
+            "id": "column_4",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Date",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "facilities_book.date",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
             "id": "column_3",
+            "alignment": ""
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Time",
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "facilities_book.time",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_7",
             "alignment": ""
         },
         {
@@ -49,52 +110,6 @@
             "datalist_type": "column",
             "exclude_export": "",
             "name": "facilities_book.noOfParticipants",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_4",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Booking Date",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "facilities_book.date",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_6",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Booking Time",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "facilities_book.time",
             "width": "",
             "headerAlignment": "",
             "action": {
@@ -125,15 +140,15 @@
                 "properties": {}
             },
             "style": "",
-            "id": "column_2",
+            "id": "column_6",
             "alignment": ""
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "status",
-            "id": "column_1",
-            "label": "Status",
+            "name": "approvalstatus",
+            "id": "column_2",
+            "label": "Approval Status",
             "sortable": "false"
         }
     ],
