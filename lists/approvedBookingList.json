@@ -3,151 +3,36 @@
         "className": "",
         "properties": {}
     },
-    "rowActions": [],
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "id": "rowAction_0",
+        "properties": {
+            "hrefColumn": "",
+            "hrefParam": "",
+            "rules": [],
+            "label": "Booking",
+            "href": "facilityBookingList",
+            "confirmation": "",
+            "link-css-display-type": "btn btn-sm btn-primary",
+            "datalist_type": "row_action",
+            "target": "_self",
+            "header_label": ""
+        }
+    }],
     "columns": [
         {
             "filterable": true,
             "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Name",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
             "name": "createdByName",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_0",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Facility Name",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "facilities_book.facilityName",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_4",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Date",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "facilities_book.date",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
             "id": "column_3",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Time",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "facilities_book.time",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_7",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Number of Participants",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "facilities_book.noOfParticipants",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_5",
-            "alignment": ""
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "renderHtml": "",
-            "format": {
-                "className": "",
-                "properties": {}
-            },
-            "label": "Special Request",
-            "sortable": "false",
-            "datalist_type": "column",
-            "exclude_export": "",
-            "name": "facilities_book.specialRequest",
-            "width": "",
-            "headerAlignment": "",
-            "action": {
-                "className": "",
-                "properties": {}
-            },
-            "style": "",
-            "id": "column_6",
-            "alignment": ""
+            "label": "Created By Name",
+            "sortable": "false"
         },
         {
             "filterable": true,
             "hidden": "false",
             "name": "approvalstatus",
-            "id": "column_2",
+            "id": "column_4",
             "label": "Approval Status",
             "sortable": "false"
         }
@@ -160,20 +45,10 @@
     "name": "Approved Booking List",
     "id": "approvedBookingList",
     "binder": {
-        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "joins": [{
-                "joinFieldId": "facilities_book.facilityName",
-                "tableName": "facilities_book",
-                "fieldId": "facilities_book.facilityName"
-            }],
-            "aggregateField": [],
             "formDefId": "bookingApprovalForm",
-            "customSelectionValue": "",
-            "extraCondition": "",
-            "filters": [],
-            "groupBy": "",
-            "functionColumns": []
+            "extraCondition": ""
         }
     },
     "actions": [],
