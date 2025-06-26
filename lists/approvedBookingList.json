@@ -37,11 +37,31 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "createdByName",
-            "id": "column_3",
+            "renderHtml": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Created By Name",
             "sortable": "false",
-            "datalist_type": "column"
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "createdByName",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "hrefColumn": "createdByName",
+                    "hrefParam": "id",
+                    "href": "FacilitiesBookingRequestForm",
+                    "confirmation": "",
+                    "target": "_self"
+                }
+            },
+            "style": "",
+            "id": "column_3",
+            "alignment": ""
         },
         {
             "filterable": true,
