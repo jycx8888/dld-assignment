@@ -64,25 +64,10 @@
     "name": "Facility Booking List",
     "id": "facilityBookingList",
     "binder": {
-        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "joins": [{
-                "joinFieldId": "createdByName",
-                "tableName": "facilities_book",
-                "fieldId": "facilities_book.createdByName"
-            }],
-            "aggregateField": [],
             "formDefId": "FacilitiesBookingRequestForm",
-            "customSelectionValue": "",
-            "extraCondition": "",
-            "filters": [{
-                "field": "facilities_book.createdBy",
-                "join": "AND",
-                "value": "#currentUser.username#",
-                "operator": "="
-            }],
-            "groupBy": "",
-            "functionColumns": []
+            "extraCondition": ""
         }
     },
     "actions": [],
