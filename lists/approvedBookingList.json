@@ -32,7 +32,7 @@
             "filterable": true,
             "hidden": "false",
             "name": "approvalstatus",
-            "id": "column_4",
+            "id": "column_0",
             "label": "Approval Status",
             "sortable": "false"
         }
