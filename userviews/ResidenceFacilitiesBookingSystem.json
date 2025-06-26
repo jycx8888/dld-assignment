@@ -410,7 +410,7 @@
                     "className": "org.joget.plugin.enterprise.CrudMenu",
                     "properties": {
                         "list-customFooter": "",
-                        "editFormId": "",
+                        "editFormId": "bookingApprovalForm",
                         "cacheAllLinks": "",
                         "edit-saveButtonLabel": "",
                         "list-showDeleteButton": "yes",
