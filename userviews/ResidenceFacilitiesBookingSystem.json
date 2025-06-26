@@ -550,7 +550,7 @@
                         "datasource": "datalist",
                         "mapping_ys": [{
                             "customization": "",
-                            "legend": "",
+                            "legend": "Created By Name",
                             "y": "createdByName"
                         }],
                         "chartType": "bar",
