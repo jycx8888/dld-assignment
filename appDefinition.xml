@@ -72,17 +72,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process10::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>process10</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>process1::bookingRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
