@@ -53,6 +53,14 @@
             "id": "column_4",
             "label": "No. of Participants",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "specialRequest",
+            "id": "column_6",
+            "label": "Special Request",
+            "sortable": "false"
         }
     ],
     "pageSize": "0",
