@@ -45,15 +45,6 @@
             "id": "column_4",
             "label": "No. of Participants",
             "sortable": "false"
-        },
-        {
-            "filterable": true,
-            "hidden": "false",
-            "name": "status",
-            "id": "column_5",
-            "label": "status",
-            "sortable": "false",
-            "datalist_type": "column"
         }
     ],
     "pageSize": "0",
