@@ -596,7 +596,7 @@
         "welcomeMessage": "#date.EEE, d MMM yyyy#",
         "name": "Residence Facilities Booking System",
         "description": "",
-        "footerMessage": "Powered by Joget",
+        "footerMessage": "",
         "id": "ResidenceFacilitiesBookingSystem"
     },
     "setting": {"properties": {
