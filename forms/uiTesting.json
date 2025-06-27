@@ -1,7 +1,16 @@
 {
     "elements": [{
         "elements": [{
-            "elements": [],
+            "elements": [{
+                "className": "org.joget.apps.form.lib.CustomHTML",
+                "properties": {
+                    "requiredSanitize": "",
+                    "autoPopulate": "",
+                    "label": "",
+                    "id": "field1",
+                    "value": "<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        const startButton = document.getElementById('startButton');\n        const learnMoreButton = document.getElementById('learnMoreButton');\n\n        if (startButton) {\n            startButton.addEventListener('click', function() {\n                // Replace with the actual URL or page ID of your booking page in Joget\n                // Example for a Userview page: window.location.href = '#/pages/your_booking_page_id';\n                // Or a direct URL if applicable: window.location.href = 'https://yourjogetsite.com/jw/web/userview/yourUserviewId/yourBookingPagePath';\n                alert('Redirecting to the booking page!'); // For demonstration\n                // window.location.href = 'your-booking-page-url';\n            });\n        }\n\n        if (learnMoreButton) {\n            learnMoreButton.addEventListener('click', function() {\n                // Replace with the actual URL or page ID of your \"Learn More\" or \"About\" page\n                alert('Redirecting to the \"Learn More\" page!'); // For demonstration\n                // window.location.href = 'your-about-page-url';\n            });\n        }\n\n        // You could add more dynamic effects here, e.g.,\n        // - A simple welcome message that appears after a delay\n        // - Fetching dynamic content (e.g., number of facilities) if you have an API\n    });\n<\/script>"
+                }
+            }],
             "className": "org.joget.apps.form.model.Column",
             "properties": {"width": "100%"}
         }],
