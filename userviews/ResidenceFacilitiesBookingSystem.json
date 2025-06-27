@@ -611,8 +611,7 @@
             "properties": {
                 "mobileViewDisabled": "",
                 "sidebar-style-background-size": "cover",
-                "mobileCacheEnabled": "",
-                "sidebar-style-background-image": "#appResource.what-is-a-condominium-condo-1919150576.jpg#"
+                "mobileCacheEnabled": ""
             }
         },
         "permission": {
