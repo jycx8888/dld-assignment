@@ -609,6 +609,8 @@
         "theme": {
             "className": "",
             "properties": {
+                "header-style-background-color": "#5E8B7E",
+                "sidebar-style-background-color": "#5E8B7E",
                 "mobileViewDisabled": "",
                 "mobileCacheEnabled": ""
             }
