@@ -609,11 +609,9 @@
         "theme": {
             "className": "",
             "properties": {
-                "sidebar-style-background-color": "#FFFFFF",
                 "mobileViewDisabled": "",
-                "sidebar-style-background-position-x": "0px",
-                "sidebar-style-background-size": "cover",
-                "mobileCacheEnabled": ""
+                "mobileCacheEnabled": "",
+                "sidebar-style-custom": "/* Example for Custom CSS */\n.userview-sidebar {\n    background-color: #343A40; /* Sidebar Background */\n}\n\n.userview-sidebar .nav-sidebar > li > a {\n    color: #F8F9FA; /* Sidebar Menu Color */\n}\n\n.userview-sidebar .nav-sidebar > li > a:hover {\n    background-color: #495057; /* Sidebar Menu Hover Background */\n    color: #F8F9FA; /* Sidebar Menu Hover Color */\n}\n\n.userview-sidebar .nav-sidebar > li.active > a {\n    background-color: #17A2B8; /* Sidebar Menu Active Background */\n    color: #FFFFFF; /* Sidebar Menu Active Color */\n}"
             }
         },
         "permission": {
