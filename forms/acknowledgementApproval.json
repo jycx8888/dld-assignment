@@ -4,6 +4,7 @@
             "elements": [{
                 "className": "org.joget.apps.form.lib.SubForm",
                 "properties": {
+                    "style-background-color": "#C496FA",
                     "parentSubFormId": "",
                     "readonly": "",
                     "loadBinder": {
@@ -27,6 +28,8 @@
         }],
         "className": "org.joget.apps.form.model.Section",
         "properties": {
+            "header-style-background-color": "#8632E9",
+            "style-background-color": "#C496FA",
             "visibilityControl": "",
             "permissionReadonly": "",
             "permission": {
