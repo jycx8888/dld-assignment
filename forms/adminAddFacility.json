@@ -20,6 +20,8 @@
                         "encryption": "",
                         "readonly": "",
                         "size": "",
+                        "fieldInput-style-background-color": "#FFFBC1",
+                        "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "style": "",
                         "id": "facilityID",
@@ -47,6 +49,8 @@
                         "encryption": "",
                         "readonly": "",
                         "size": "",
+                        "fieldInput-style-background-color": "#FFFBC1",
+                        "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "style": "",
                         "id": "newFacilityName",
@@ -62,13 +66,18 @@
         }],
         "className": "org.joget.apps.form.model.Section",
         "properties": {
+            "header-style-background-color": "#8632E9",
+            "style-background-color": "#C496FA",
             "visibilityControl": "",
             "permissionReadonly": "",
+            "style-color": "#000000",
+            "header-style-border-color": "#000000",
             "permission": {
                 "className": "",
                 "properties": {}
             },
             "label": "Add Facility",
+            "style-border-color": "#000000",
             "reverse": "",
             "storeBinder": {
                 "className": "",
