@@ -194,6 +194,7 @@
         }],
         "className": "org.joget.apps.form.model.Section",
         "properties": {
+            "style-background-color": "#EC5D5D",
             "visibilityControl": "",
             "permissionReadonly": "",
             "permission": {
