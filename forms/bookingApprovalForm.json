@@ -67,11 +67,13 @@
             "style-background-color": "#C496FA",
             "visibilityControl": "",
             "permissionReadonly": "",
+            "header-style-border-color": "#000000",
             "permission": {
                 "className": "",
                 "properties": {}
             },
             "label": "Booking Approval Form",
+            "style-border-color": "#000000",
             "reverse": "",
             "storeBinder": {
                 "className": "",
