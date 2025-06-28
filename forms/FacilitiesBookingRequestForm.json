@@ -178,6 +178,7 @@
                                 "mandatory": "true"
                             }
                         },
+                        "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "label": "Terms Agreement",
                         "id": "termsAgreement",
