@@ -17,6 +17,7 @@
                         "subFormParentId": "",
                         "id": "subform",
                         "label": "",
+                        "style-border-color": "#000000",
                         "storeBinder": {
                             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
                             "properties": {}
