@@ -522,7 +522,7 @@
                         "showLegend": "true",
                         "mapping_r": "createdByName",
                         "enableOffline": "",
-                        "yaxisPrefix": "",
+                        "yaxisPrefix": "Total Approved Booking List (Daily)",
                         "mapping_x": "approvalstatus",
                         "horizontal": "",
                         "id": "B6F792C12C704F5478C766073C7C2A32",
@@ -531,14 +531,14 @@
                         "showExportLinks": "",
                         "valueAxisLabel": "Total Approved Booking List (Daily)",
                         "smoothLine": "",
-                        "query": "SELECT\r\n  approvalstatus,\r\n  COUNT(*) AS total\r\nFROM\r\n  app_fd_booking_approval\r\nGROUP BY\r\n  approvalstatus\r\n",
+                        "query": "SELECT \r\n  c_approvalstatus AS label, \r\n  COUNT(*) AS total \r\nFROM \r\n  app_fd_booking_approval \r\nWHERE \r\n  c_approvalstatus IS NOT NULL\r\nGROUP BY \r\n  c_approvalstatus\r\n\r\n",
                         "mapping_high": "id",
                         "mapping_date": "approvalstatus",
                         "datalistId": "approvedBookingList",
                         "userviewCacheDuration": "20",
                         "xAxisBoundaryGap": "",
                         "showFilter": "",
-                        "datasource": "datalist",
+                        "datasource": "default",
                         "showTable": "top",
                         "mapping_label": "createdByName",
                         "chartUseAllDataRows": "",
@@ -567,14 +567,14 @@
                         "mapping_legend": "approvalstatus",
                         "label": "Approved Booking Report",
                         "chartWidth": "100%",
-                        "showValue": "",
+                        "showValue": "true",
                         "userviewCacheScope": "",
                         "mapping_ys": [{
                             "customization": "",
                             "legend": "Created By Name",
                             "y": "createdByName"
                         }],
-                        "chartType": "pie",
+                        "chartType": "bar",
                         "optionCustomization": ""
                     }
                 }
