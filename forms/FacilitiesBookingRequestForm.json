@@ -214,6 +214,7 @@
                 "properties": {}
             },
             "label": "Facilities Booking",
+            "style-border-color": "#000000",
             "reverse": "",
             "storeBinder": {
                 "className": "",
