@@ -6,6 +6,16 @@
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
+                        "multiple": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
+                        },
+                        "label": "Facility Name",
                         "readonly": "",
                         "size": "",
                         "optionsBinder": {
@@ -22,18 +32,10 @@
                                 "idColumn": "newFacilityName"
                             }
                         },
-                        "multiple": "",
+                        "fieldInput-style-background-color": "#F7FF95",
                         "options": [],
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "type": "",
-                                "message": "",
-                                "mandatory": "true"
-                            }
-                        },
+                        "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
-                        "label": "Facility Name",
                         "id": "facilityName",
                         "value": "",
                         "readonlyLabel": ""
@@ -61,6 +63,8 @@
                         "endDateFieldId": "",
                         "readonly": "",
                         "allowManual": "true",
+                        "fieldInput-style-background-color": "#F7FF95",
+                        "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "id": "date",
                         "placeholder": "",
@@ -90,6 +94,8 @@
                         "endDateFieldId": "",
                         "readonly": "",
                         "allowManual": "",
+                        "fieldInput-style-background-color": "#F7FF95",
+                        "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "id": "time",
                         "placeholder": "",
@@ -117,6 +123,8 @@
                         "encryption": "",
                         "readonly": "",
                         "size": "",
+                        "fieldInput-style-background-color": "#F7FF95",
+                        "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "style": "",
                         "id": "noOfParticipants",
@@ -130,16 +138,18 @@
                     "className": "org.joget.apps.form.lib.TextArea",
                     "properties": {
                         "requiredSanitize": "",
-                        "readonly": "",
                         "validator": {
                             "className": "",
                             "properties": {}
                         },
-                        "workflowVariable": "",
                         "label": "Special Request",
+                        "rows": "5",
+                        "readonly": "",
+                        "fieldInput-style-background-color": "#FFFBC1",
+                        "fieldInput-style-border-color": "#000000",
+                        "workflowVariable": "",
                         "id": "specialRequest",
                         "placeholder": "",
-                        "rows": "5",
                         "cols": "20",
                         "value": "",
                         "readonlyLabel": ""
@@ -194,9 +204,11 @@
         }],
         "className": "org.joget.apps.form.model.Section",
         "properties": {
-            "style-background-color": "#EC5D5D",
+            "style-background-color": "#C496FA",
+            "header-style-background-color": "#8632E9",
             "visibilityControl": "",
             "permissionReadonly": "",
+            "style-color": "#000000",
             "permission": {
                 "className": "",
                 "properties": {}
@@ -208,6 +220,7 @@
                 "properties": {}
             },
             "visibilityValue": "",
+            "style-background-size": "contain",
             "regex": "",
             "readonly": "",
             "loadBinder": {
