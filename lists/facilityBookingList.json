@@ -74,7 +74,22 @@
     "pageSize": "0",
     "orderBy": "",
     "description": "",
-    "filters": [],
+    "filters": [{
+        "hidden": "true",
+        "name": "status",
+        "id": "filter_0",
+        "label": "status",
+        "type": {
+            "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+            "properties": {
+                "defaultValue": "Pending",
+                "filterSelection": "",
+                "searchFields": ""
+            }
+        },
+        "datalist_type": "filter",
+        "filterParamName": "d-1750834-fn_status"
+    }],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "name": "Facility Booking List",
     "id": "facilityBookingList",
