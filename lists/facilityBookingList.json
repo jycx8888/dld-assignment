@@ -61,6 +61,14 @@
             "id": "column_6",
             "label": "Special Request",
             "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "status",
+            "id": "column_7",
+            "label": "status",
+            "sortable": "false"
         }
     ],
     "pageSize": "0",
