@@ -627,7 +627,7 @@
                         "checkboxPosition": "left",
                         "selectionType": "multiple",
                         "add-customFooter": "",
-                        "addFormId": "bookingApprovalForm",
+                        "addFormId": "",
                         "edit-allowRecordTraveling": "",
                         "rowCount": "",
                         "id": "133EB8FE288043D2AC1FA4DEBA55A8C9",
@@ -654,7 +654,24 @@
                         "userviewCacheScope": "",
                         "edit-moreActions": [],
                         "add-afterSaved": "list",
-                        "list-moreActions": [],
+                        "list-moreActions": [
+                            {
+                                "hrefColumn": "status",
+                                "hrefParam": "status",
+                                "hrefTarget": "_self",
+                                "label": "Approve",
+                                "href": "?status=Approved",
+                                "confirmation": ""
+                            },
+                            {
+                                "hrefColumn": "status",
+                                "hrefParam": "status",
+                                "hrefTarget": "_self",
+                                "label": "Reject",
+                                "href": "?status=Rejected",
+                                "confirmation": ""
+                            }
+                        ],
                         "edit-backButtonLabel": "",
                         "list-editLinkTarget": "",
                         "list-customHeader": ""
