@@ -20,6 +20,8 @@
                         "encryption": "",
                         "readonly": "",
                         "size": "",
+                        "fieldInput-style-background-color": "#FFFBC1",
+                        "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "style": "",
                         "id": "first_name",
@@ -47,6 +49,8 @@
                         "encryption": "",
                         "readonly": "",
                         "size": "",
+                        "fieldInput-style-background-color": "#FFFBC1",
+                        "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "style": "",
                         "id": "last_name",
@@ -74,6 +78,8 @@
                         "encryption": "",
                         "readonly": "",
                         "size": "",
+                        "fieldInput-style-background-color": "#FFFBC1",
+                        "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "style": "",
                         "id": "email_address",
@@ -90,6 +96,7 @@
                         "readonly": "",
                         "size": "",
                         "maxlength": "",
+                        "fieldInput-style-background-color": "#FFFBC1",
                         "validator": {
                             "className": "org.joget.plugin.enterprise.PasswordValidator",
                             "properties": {
@@ -97,6 +104,7 @@
                                 "confirmPasswordField": "confirm_password"
                             }
                         },
+                        "fieldInput-style-border-color": "#000000",
                         "label": "Password",
                         "id": "password",
                         "value": "%%%%XgSKMyEXNwYwphBri/KfIA==%%%%",
@@ -110,6 +118,7 @@
                         "readonly": "",
                         "size": "",
                         "maxlength": "",
+                        "fieldInput-style-background-color": "#FFFBC1",
                         "validator": {
                             "className": "org.joget.plugin.enterprise.EqualValueValidator",
                             "properties": {
@@ -117,6 +126,7 @@
                                 "errorMsg": "Password is Not Match"
                             }
                         },
+                        "fieldInput-style-border-color": "#000000",
                         "label": "Confirm Password",
                         "id": "confirm_password",
                         "value": "%%%%XgSKMyEXNwYwphBri/KfIA==%%%%",
@@ -141,6 +151,8 @@
                         "encryption": "",
                         "readonly": "",
                         "size": "",
+                        "fieldInput-style-background-color": "#FFFBC1",
+                        "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "style": "",
                         "id": "unit_number",
@@ -168,6 +180,8 @@
                         "encryption": "",
                         "readonly": "",
                         "size": "",
+                        "fieldInput-style-background-color": "#FFFBC1",
+                        "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "style": "",
                         "id": "contactNumber",
@@ -213,8 +227,11 @@
         }],
         "className": "org.joget.apps.form.model.Section",
         "properties": {
+            "header-style-background-color": "#8632E9",
+            "style-background-color": "#C496FA",
             "visibilityControl": "",
             "permissionReadonly": "",
+            "style-color": "#000000",
             "permission": {
                 "className": "",
                 "properties": {}
