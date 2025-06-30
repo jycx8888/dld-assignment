@@ -113,10 +113,15 @@
     }],
     "className": "org.joget.apps.form.model.Form",
     "properties": {
-        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "noPermissionMessage": "",
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "permission_rules": [],
         "name": "Admin Add Facillity",
         "description": "",
+        "postProcessorRunOn": "create",
         "permission": {
             "className": "org.joget.apps.userview.lib.GroupPermission",
             "properties": {
@@ -125,7 +130,14 @@
             }
         },
         "id": "adminAddFacility",
-        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "postProcessor": {
+            "className": "",
+            "properties": {}
+        },
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
         "tableName": "add_facility"
     }
 }
