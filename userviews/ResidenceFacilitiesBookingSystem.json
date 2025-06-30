@@ -10,6 +10,7 @@
                         "userviewCacheDuration": "",
                         "userviewCacheScope": "",
                         "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
                             "f192aecd-18e0-a905-7525-7a9738648a81": {}
                         },
@@ -26,6 +27,10 @@
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {
                                 "permissionHidden": "true",
                                 "permissionDeny": ""
@@ -60,6 +65,10 @@
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": "",
                         "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
                             "f192aecd-18e0-a905-7525-7a9738648a81": {}
                         },
@@ -77,6 +86,10 @@
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {
                                 "permissionHidden": "true",
                                 "permissionDeny": ""
@@ -136,6 +149,10 @@
                         "edit-customHeader": "",
                         "list-abortRelatedRunningProcesses": "",
                         "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {
                                 "permissionHidden": "",
                                 "permissionDeny": ""
@@ -175,6 +192,10 @@
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
                             "f192aecd-18e0-a905-7525-7a9738648a81": {
                                 "permissionHidden": "true",
@@ -207,6 +228,7 @@
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {
                                 "permissionHidden": "true",
                                 "permissionDeny": ""
@@ -269,6 +291,10 @@
                         "edit-customHeader": "",
                         "list-abortRelatedRunningProcesses": "",
                         "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
                             "f192aecd-18e0-a905-7525-7a9738648a81": {
                                 "permissionHidden": "true",
@@ -304,6 +330,7 @@
             ],
             "properties": {
                 "permission_rules": {
+                    "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
                     "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
                     "f192aecd-18e0-a905-7525-7a9738648a81": {}
                 },
@@ -346,6 +373,7 @@
                         "edit-customHeader": "",
                         "list-abortRelatedRunningProcesses": "",
                         "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
                             "f192aecd-18e0-a905-7525-7a9738648a81": {}
                         },
@@ -407,6 +435,7 @@
                         "edit-customHeader": "",
                         "list-abortRelatedRunningProcesses": "true",
                         "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
                             "f192aecd-18e0-a905-7525-7a9738648a81": {}
                         },
@@ -440,6 +469,10 @@
             "properties": {
                 "hide": "",
                 "permission_rules": {
+                    "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                        "hide": "yes",
+                        "permissionDeny": ""
+                    },
                     "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
                     "f192aecd-18e0-a905-7525-7a9738648a81": {
                         "hide": "yes",
@@ -463,6 +496,7 @@
                     "properties": {
                         "xAxisDisplayAS": "",
                         "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
                             "f192aecd-18e0-a905-7525-7a9738648a81": {}
                         },
@@ -531,6 +565,7 @@
                         "xAxisDisplayAS": "",
                         "mapping_value": "createdByName",
                         "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
                             "f192aecd-18e0-a905-7525-7a9738648a81": {}
                         },
@@ -570,6 +605,10 @@
             "properties": {
                 "hide": "yes",
                 "permission_rules": {
+                    "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                        "hide": "yes",
+                        "permissionDeny": ""
+                    },
                     "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
                     "f192aecd-18e0-a905-7525-7a9738648a81": {
                         "hide": "yes",
@@ -601,6 +640,14 @@
         "userviewId": "ResidenceFacilitiesBookingSystem",
         "hideThisUserviewInAppCenter": "",
         "permission_rules": [
+            {
+                "permission_key": "7d39a41d-0c1c-ea38-169a-d8868f3acae8",
+                "permission": {
+                    "className": "org.joget.plugin.enterprise.AnonymousUserviewPermission",
+                    "properties": {}
+                },
+                "permission_name": "Anonymous"
+            },
             {
                 "permission_key": "f192aecd-18e0-a905-7525-7a9738648a81",
                 "permission": {
