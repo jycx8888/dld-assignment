@@ -9,6 +9,7 @@
                     "properties": {
                         "userviewCacheDuration": "",
                         "userviewCacheScope": "",
+                        "permission_rules": {"ba08158f-845d-0f98-dd74-0618f6d5381c": {}},
                         "id": "8a9f98b7-6300-4465-b808-5648ac5431c2",
                         "label": "Main Page",
                         "enableOffline": "",
@@ -21,6 +22,10 @@
                     "properties": {
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
+                        "permission_rules": {"ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                            "permissionHidden": "true",
+                            "permissionDeny": ""
+                        }},
                         "keyName": "",
                         "label": "Book Facility",
                         "redirectTarget": "",
@@ -45,6 +50,7 @@
                         "appFilter": "all",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": "",
+                        "permission_rules": {"ba08158f-845d-0f98-dd74-0618f6d5381c": {}},
                         "showPopup": "false",
                         "label": "Inbox",
                         "rowCount": "false",
@@ -57,6 +63,7 @@
                     "properties": {
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
+                        "permission_rules": {"ba08158f-845d-0f98-dd74-0618f6d5381c": {}},
                         "keyName": "",
                         "label": "Add Facility",
                         "redirectTarget": "",
@@ -106,6 +113,7 @@
                         "list-customHeader": "",
                         "edit-customHeader": "",
                         "list-abortRelatedRunningProcesses": "",
+                        "permission_rules": {"ba08158f-845d-0f98-dd74-0618f6d5381c": {}},
                         "edit-prevButtonLabel": "",
                         "customId": "",
                         "edit-afterSaved": "list",
@@ -137,6 +145,7 @@
                     "properties": {
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
+                        "permission_rules": {"ba08158f-845d-0f98-dd74-0618f6d5381c": {}},
                         "keyName": "",
                         "label": "Post Notice",
                         "redirectTarget": "",
@@ -160,6 +169,10 @@
                     "properties": {
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
+                        "permission_rules": {"ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                            "permissionHidden": "true",
+                            "permissionDeny": ""
+                        }},
                         "keyName": "",
                         "label": "Register",
                         "redirectTarget": "",
@@ -209,6 +222,7 @@
                         "list-customHeader": "",
                         "edit-customHeader": "",
                         "list-abortRelatedRunningProcesses": "",
+                        "permission_rules": {"ba08158f-845d-0f98-dd74-0618f6d5381c": {}},
                         "edit-prevButtonLabel": "",
                         "customId": "",
                         "edit-afterSaved": "list",
@@ -237,6 +251,7 @@
                 }
             ],
             "properties": {
+                "permission_rules": {"ba08158f-845d-0f98-dd74-0618f6d5381c": {}},
                 "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
                 "label": "<i class='fa fa-home'><\/i> Home"
             }
@@ -275,6 +290,7 @@
                         "list-customHeader": "",
                         "edit-customHeader": "",
                         "list-abortRelatedRunningProcesses": "",
+                        "permission_rules": {"ba08158f-845d-0f98-dd74-0618f6d5381c": {}},
                         "edit-prevButtonLabel": "",
                         "customId": "",
                         "edit-afterSaved": "list",
@@ -332,6 +348,7 @@
                         "list-customHeader": "",
                         "edit-customHeader": "",
                         "list-abortRelatedRunningProcesses": "true",
+                        "permission_rules": {"ba08158f-845d-0f98-dd74-0618f6d5381c": {}},
                         "edit-prevButtonLabel": "",
                         "customId": "",
                         "edit-afterSaved": "list",
@@ -361,6 +378,7 @@
             ],
             "properties": {
                 "hide": "",
+                "permission_rules": {"ba08158f-845d-0f98-dd74-0618f6d5381c": {}},
                 "permission": {
                     "className": "",
                     "properties": {}
@@ -377,6 +395,7 @@
                     "className": "org.joget.plugin.enterprise.SqlChartMenu",
                     "properties": {
                         "xAxisDisplayAS": "",
+                        "permission_rules": {"ba08158f-845d-0f98-dd74-0618f6d5381c": {}},
                         "showLegend": "true",
                         "customFooter": "",
                         "enableOffline": "",
@@ -441,6 +460,7 @@
                         "mapping_open": "createdByName",
                         "xAxisDisplayAS": "",
                         "mapping_value": "createdByName",
+                        "permission_rules": {"ba08158f-845d-0f98-dd74-0618f6d5381c": {}},
                         "mapping_close": "approvalstatus",
                         "customFooter": "",
                         "title": "Chart Title",
@@ -476,6 +496,7 @@
             ],
             "properties": {
                 "hide": "",
+                "permission_rules": {"ba08158f-845d-0f98-dd74-0618f6d5381c": {}},
                 "permission": {
                     "className": "",
                     "properties": {}
@@ -499,6 +520,17 @@
         "userviewDescription": "",
         "userviewId": "ResidenceFacilitiesBookingSystem",
         "hideThisUserviewInAppCenter": "",
+        "permission_rules": [{
+            "permission_key": "ba08158f-845d-0f98-dd74-0618f6d5381c",
+            "permission": {
+                "className": "org.joget.apps.userview.lib.GroupPermission",
+                "properties": {
+                    "orgId": "ORG-001",
+                    "allowedGroupIds": "G-001"
+                }
+            },
+            "permission_name": "Manager"
+        }],
         "userview_thumbnail": "",
         "userview_category": "",
         "theme": {
