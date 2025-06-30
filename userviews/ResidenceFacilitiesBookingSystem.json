@@ -24,7 +24,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
-                        "permissionHidden": "true",
+                        "permissionHidden": "",
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
@@ -65,7 +65,7 @@
                     "properties": {
                         "appFilter": "all",
                         "userviewCacheDuration": "20",
-                        "permissionHidden": "true",
+                        "permissionHidden": "",
                         "userviewCacheScope": "",
                         "permission_rules": {
                             "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
@@ -492,7 +492,8 @@
                 },
                 "comment": "",
                 "label": "My Bookings",
-                "id": "category-6DECC0D6856D48EB428A7EC0E08F25B6"
+                "id": "category-6DECC0D6856D48EB428A7EC0E08F25B6",
+                "permissionDeny": ""
             }
         },
         {
@@ -693,8 +694,11 @@
             }
         },
         "permission": {
-            "className": "org.joget.plugin.enterprise.AnonymousUserviewPermission",
-            "properties": {}
+            "className": "org.joget.apps.userview.lib.GroupPermission",
+            "properties": {
+                "orgId": "ORG-001",
+                "allowedGroupIds": "facilityResident"
+            }
         },
         "userviewName": "Residence Facilities Booking System"
     }}
