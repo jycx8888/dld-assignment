@@ -232,11 +232,13 @@
             "visibilityControl": "",
             "permissionReadonly": "",
             "style-color": "#000000",
+            "header-style-border-color": "#000000",
             "permission": {
                 "className": "",
                 "properties": {}
             },
             "label": "Residents Registration Form",
+            "style-border-color": "#000000",
             "reverse": "",
             "storeBinder": {
                 "className": "",
