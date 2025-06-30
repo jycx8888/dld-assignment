@@ -7,6 +7,7 @@
                     "properties": {
                         "requiredSanitize": "",
                         "maxlength": "",
+                        "permission_rules": {"050f5aab-b44a-fbd9-ae53-de7ba4181afe": {}},
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
@@ -36,6 +37,7 @@
                     "properties": {
                         "requiredSanitize": "",
                         "maxlength": "",
+                        "permission_rules": {"050f5aab-b44a-fbd9-ae53-de7ba4181afe": {}},
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
@@ -69,8 +71,10 @@
             "header-style-background-color": "#8632E9",
             "style-background-color": "#C496FA",
             "visibilityControl": "",
+            "permissionHidden": "true",
             "permissionReadonly": "",
             "style-color": "#000000",
+            "permission_rules": {"050f5aab-b44a-fbd9-ae53-de7ba4181afe": {}},
             "header-style-border-color": "#000000",
             "permission": {
                 "className": "",
@@ -99,8 +103,26 @@
     "className": "org.joget.apps.form.model.Form",
     "properties": {
         "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "permission_rules": [{
+            "permission_key": "050f5aab-b44a-fbd9-ae53-de7ba4181afe",
+            "permission": {
+                "className": "org.joget.apps.userview.lib.GroupPermission",
+                "properties": {
+                    "orgId": "ORG-001",
+                    "allowedGroupIds": "G-001"
+                }
+            },
+            "permission_name": "Manager"
+        }],
         "name": "Admin Add Facillity",
         "description": "",
+        "permission": {
+            "className": "org.joget.apps.userview.lib.GroupPermission",
+            "properties": {
+                "orgId": "ORG-001",
+                "allowedGroupIds": "ResidenceFacilitiesBookingSystem"
+            }
+        },
         "id": "adminAddFacility",
         "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
         "tableName": "add_facility"
