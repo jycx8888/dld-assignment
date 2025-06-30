@@ -29,7 +29,7 @@
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
                             "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
-                                "permissionHidden": "",
+                                "permissionHidden": "true",
                                 "permissionDeny": ""
                             },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {
@@ -69,7 +69,7 @@
                         "userviewCacheScope": "",
                         "permission_rules": {
                             "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
-                                "permissionHidden": "",
+                                "permissionHidden": "true",
                                 "permissionDeny": ""
                             },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
@@ -233,7 +233,7 @@
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
                             "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
-                                "permissionHidden": "true",
+                                "permissionHidden": "",
                                 "permissionDeny": ""
                             },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {
@@ -477,7 +477,7 @@
                 "hide": "",
                 "permission_rules": {
                     "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
-                        "hide": "",
+                        "hide": "yes",
                         "permissionDeny": ""
                     },
                     "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
@@ -652,13 +652,10 @@
             {
                 "permission_key": "7d39a41d-0c1c-ea38-169a-d8868f3acae8",
                 "permission": {
-                    "className": "org.joget.apps.userview.lib.GroupPermission",
-                    "properties": {
-                        "orgId": "ORG-001",
-                        "allowedGroupIds": "facilityResident"
-                    }
+                    "className": "org.joget.plugin.enterprise.AnonymousUserviewPermission",
+                    "properties": {}
                 },
-                "permission_name": "Resident"
+                "permission_name": "Anonymous"
             },
             {
                 "permission_key": "f192aecd-18e0-a905-7525-7a9738648a81",
