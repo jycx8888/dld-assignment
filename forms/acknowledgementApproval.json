@@ -1,32 +1,44 @@
 {
     "elements": [{
         "elements": [{
-            "elements": [{
-                "className": "org.joget.apps.form.lib.SubForm",
-                "properties": {
-                    "style-background-color": "#C496FA",
-                    "parentSubFormId": "",
-                    "readonly": "",
-                    "loadBinder": {
-                        "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-                        "properties": {}
-                    },
-                    "noframe": "",
-                    "formDefId": "bookingApprovalForm",
-                    "permission_rules": {
-                        "d7758f62-ea83-e8f9-e0b4-075474d783b4": {},
-                        "d87feafe-4b49-7b4d-19db-c25c8ee3b381": {}
-                    },
-                    "subFormParentId": "",
-                    "id": "field1",
-                    "label": "",
-                    "storeBinder": {
-                        "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-                        "properties": {}
-                    },
-                    "readonlyLabel": ""
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.SubForm",
+                    "properties": {
+                        "style-background-color": "#C496FA",
+                        "parentSubFormId": "",
+                        "readonly": "",
+                        "loadBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "noframe": "",
+                        "formDefId": "bookingApprovalForm",
+                        "permission_rules": {
+                            "d7758f62-ea83-e8f9-e0b4-075474d783b4": {},
+                            "d87feafe-4b49-7b4d-19db-c25c8ee3b381": {}
+                        },
+                        "subFormParentId": "",
+                        "id": "field1",
+                        "label": "",
+                        "storeBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "autoPopulate": "",
+                        "label": "",
+                        "id": "field9",
+                        "value": "<style type=\"text/css\">\n    .form-container, .form-body {\n        background-color: #F8F0FF;\n    }\n    body {\n        background-color: #F8F0FF;\n    }\n<\/style>"
+                    }
                 }
-            }],
+            ],
             "className": "org.joget.apps.form.model.Column",
             "properties": {"width": "100%"}
         }],
