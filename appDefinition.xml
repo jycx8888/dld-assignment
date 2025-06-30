@@ -405,7 +405,6 @@
          <appId>ResidenceFacilitiesBookingSystem</appId>
          <appVersion>1</appVersion>
          <filesize>83612</filesize>
-         <permissionClass></permissionClass>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
       <appResource>
