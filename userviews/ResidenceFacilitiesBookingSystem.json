@@ -24,6 +24,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
+                        "permissionHidden": "true",
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
@@ -53,6 +54,7 @@
                         "actionAfterSaved": "",
                         "runProcessSubmitLabel": "",
                         "id": "3BD16A8C96E34173F39F8E2FC5564AD5",
+                        "permissionDeny": "",
                         "processDefId": "process1",
                         "redirectUrlAfterComplete": "",
                         "fieldPassover": ""
@@ -63,6 +65,7 @@
                     "properties": {
                         "appFilter": "all",
                         "userviewCacheDuration": "20",
+                        "permissionHidden": "true",
                         "userviewCacheScope": "",
                         "permission_rules": {
                             "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
@@ -76,6 +79,7 @@
                         "label": "Inbox",
                         "rowCount": "false",
                         "id": "FE44C7756E354D8B8B91AD6BAC2981DD",
+                        "permissionDeny": "",
                         "buttonPosition": "bothLeft"
                     }
                 },
@@ -224,7 +228,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
-                        "permissionHidden": "true",
+                        "permissionHidden": "",
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
@@ -683,11 +687,8 @@
             }
         },
         "permission": {
-            "className": "org.joget.apps.userview.lib.GroupPermission",
-            "properties": {
-                "orgId": "ORG-001",
-                "allowedGroupIds": "facilityResident"
-            }
+            "className": "org.joget.plugin.enterprise.AnonymousUserviewPermission",
+            "properties": {}
         },
         "userviewName": "Residence Facilities Booking System"
     }}
