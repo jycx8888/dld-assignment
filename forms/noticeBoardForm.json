@@ -21,6 +21,7 @@
                         "readonly": "",
                         "size": "",
                         "fieldInput-style-background-color": "#FFFBC1",
+                        "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "style": "",
                         "id": "title",
@@ -34,8 +35,6 @@
                     "className": "org.joget.apps.form.lib.TextArea",
                     "properties": {
                         "requiredSanitize": "",
-                        "readonly": "",
-                        "fieldInput-style-background-color": "#FFFBC1",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
@@ -44,11 +43,14 @@
                                 "mandatory": "true"
                             }
                         },
-                        "workflowVariable": "",
                         "label": "Message",
+                        "rows": "5",
+                        "readonly": "",
+                        "fieldInput-style-background-color": "#FFFBC1",
+                        "fieldInput-style-border-color": "#000000",
+                        "workflowVariable": "",
                         "id": "message",
                         "placeholder": "",
-                        "rows": "5",
                         "cols": "20",
                         "value": "",
                         "readonlyLabel": ""
@@ -76,6 +78,7 @@
                         "readonly": "",
                         "allowManual": "",
                         "fieldInput-style-background-color": "#FFFBC1",
+                        "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "id": "publishDate",
                         "placeholder": "",
