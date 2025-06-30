@@ -73,6 +73,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
+                        "permissionHidden": "true",
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
@@ -95,6 +96,7 @@
                         "actionAfterSaved": "",
                         "runProcessSubmitLabel": "",
                         "id": "522A69EDF63D44DFF0334CB1E8285D20",
+                        "permissionDeny": "",
                         "processDefId": "addNewFacility",
                         "redirectUrlAfterComplete": "",
                         "fieldPassover": ""
@@ -120,6 +122,7 @@
                         "list-editLinkLabel": "",
                         "add-cancelButtonLabel": "",
                         "list-deleteFiles": "",
+                        "permissionHidden": "true",
                         "add-afterSavedReloadTarget": "true",
                         "add-customHeader": "",
                         "edit-readonly": "",
@@ -128,6 +131,7 @@
                         "list-confirmation": "",
                         "userviewCacheDuration": "20",
                         "add-afterSaved": "list",
+                        "permissionDeny": "",
                         "list-customHeader": "",
                         "edit-customHeader": "",
                         "list-abortRelatedRunningProcesses": "",
@@ -167,6 +171,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
+                        "permissionHidden": "true",
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
@@ -189,6 +194,7 @@
                         "actionAfterSaved": "",
                         "runProcessSubmitLabel": "",
                         "id": "D663EE7CAD3541971A427152500A1172",
+                        "permissionDeny": "",
                         "processDefId": "noticePostingProcess",
                         "redirectUrlAfterComplete": "",
                         "fieldPassover": ""
@@ -197,6 +203,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
+                        "permissionHidden": "true",
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
@@ -222,6 +229,7 @@
                         "actionAfterSaved": "",
                         "runProcessSubmitLabel": "",
                         "id": "626D82A74C87408C8CAF76F1386D77D5",
+                        "permissionDeny": "",
                         "processDefId": "residentRegister",
                         "redirectUrlAfterComplete": "",
                         "fieldPassover": ""
@@ -247,6 +255,7 @@
                         "list-editLinkLabel": "",
                         "add-cancelButtonLabel": "",
                         "list-deleteFiles": "",
+                        "permissionHidden": "true",
                         "add-afterSavedReloadTarget": "true",
                         "add-customHeader": "",
                         "edit-readonly": "",
@@ -255,6 +264,7 @@
                         "list-confirmation": "",
                         "userviewCacheDuration": "20",
                         "add-afterSaved": "list",
+                        "permissionDeny": "",
                         "list-customHeader": "",
                         "edit-customHeader": "",
                         "list-abortRelatedRunningProcesses": "",
@@ -558,7 +568,7 @@
                 }
             ],
             "properties": {
-                "hide": "",
+                "hide": "yes",
                 "permission_rules": {
                     "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
                     "f192aecd-18e0-a905-7525-7a9738648a81": {
@@ -572,7 +582,8 @@
                 },
                 "comment": "",
                 "label": "Reports for Manager",
-                "id": "category-6523A5DDFECE4211400888476C1BDDB8"
+                "id": "category-6523A5DDFECE4211400888476C1BDDB8",
+                "permissionDeny": ""
             }
         }
     ],
