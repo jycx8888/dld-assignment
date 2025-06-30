@@ -13,7 +13,10 @@
                     },
                     "noframe": "",
                     "formDefId": "bookingApprovalForm",
-                    "permission_rules": {"d7758f62-ea83-e8f9-e0b4-075474d783b4": {}},
+                    "permission_rules": {
+                        "d7758f62-ea83-e8f9-e0b4-075474d783b4": {},
+                        "d87feafe-4b49-7b4d-19db-c25c8ee3b381": {}
+                    },
                     "subFormParentId": "",
                     "id": "field1",
                     "label": "",
@@ -34,7 +37,13 @@
             "visibilityControl": "",
             "permissionHidden": "true",
             "permissionReadonly": "",
-            "permission_rules": {"d7758f62-ea83-e8f9-e0b4-075474d783b4": {}},
+            "permission_rules": {
+                "d7758f62-ea83-e8f9-e0b4-075474d783b4": {
+                    "permissionHidden": "true",
+                    "readonly": ""
+                },
+                "d87feafe-4b49-7b4d-19db-c25c8ee3b381": {}
+            },
             "header-style-border-color": "#000000",
             "permission": {
                 "className": "",
@@ -63,14 +72,27 @@
     "className": "org.joget.apps.form.model.Form",
     "properties": {
         "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
-        "permission_rules": [{
-            "permission_key": "d7758f62-ea83-e8f9-e0b4-075474d783b4",
-            "permission": {
-                "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
-                "properties": {}
+        "permission_rules": [
+            {
+                "permission_key": "d87feafe-4b49-7b4d-19db-c25c8ee3b381",
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.GroupPermission",
+                    "properties": {
+                        "orgId": "ORG-001",
+                        "allowedGroupIds": "G-001"
+                    }
+                },
+                "permission_name": "Manager"
             },
-            "permission_name": "Admin"
-        }],
+            {
+                "permission_key": "d7758f62-ea83-e8f9-e0b4-075474d783b4",
+                "permission": {
+                    "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
+                    "properties": {}
+                },
+                "permission_name": "Admin"
+            }
+        ],
         "name": "Acknowledgement Approval ",
         "description": "",
         "permission": {
