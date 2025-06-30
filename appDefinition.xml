@@ -401,6 +401,14 @@
    <messageList/>
    <resourceList>
       <appResource>
+         <id>pure-black-background-y8wp2r83b15xxdi6-2562109216.jpg</id>
+         <appId>ResidenceFacilitiesBookingSystem</appId>
+         <appVersion>1</appVersion>
+         <filesize>83612</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
          <id>Screenshot_2025-06-07_163107.png</id>
          <appId>ResidenceFacilitiesBookingSystem</appId>
          <appVersion>1</appVersion>
