@@ -20,6 +20,7 @@
                         "encryption": "",
                         "readonly": "",
                         "size": "",
+                        "fieldInput-style-background-color": "#FFFBC1",
                         "workflowVariable": "",
                         "style": "",
                         "id": "title",
@@ -34,6 +35,7 @@
                     "properties": {
                         "requiredSanitize": "",
                         "readonly": "",
+                        "fieldInput-style-background-color": "#FFFBC1",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
@@ -73,6 +75,7 @@
                         "endDateFieldId": "",
                         "readonly": "",
                         "allowManual": "",
+                        "fieldInput-style-background-color": "#FFFBC1",
                         "workflowVariable": "",
                         "id": "publishDate",
                         "placeholder": "",
@@ -87,8 +90,34 @@
         }],
         "className": "org.joget.apps.form.model.Section",
         "properties": {
+            "header-style-background-color": "#8632E9",
+            "style-background-color": "#C496FA",
+            "visibilityControl": "",
+            "permissionReadonly": "",
+            "style-color": "#000000",
+            "header-style-border-color": "#000000",
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Section",
-            "id": "section1"
+            "style-border-color": "#000000",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityValue": "",
+            "regex": "",
+            "readonly": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "comment": "",
+            "id": "section1",
+            "join": "",
+            "readonlyLabel": ""
         }
     }],
     "className": "org.joget.apps.form.model.Form",
