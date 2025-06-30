@@ -13,6 +13,7 @@
                     },
                     "noframe": "",
                     "formDefId": "bookingApprovalForm",
+                    "permission_rules": {"d7758f62-ea83-e8f9-e0b4-075474d783b4": {}},
                     "subFormParentId": "",
                     "id": "field1",
                     "label": "",
@@ -31,7 +32,9 @@
             "header-style-background-color": "#8632E9",
             "style-background-color": "#C496FA",
             "visibilityControl": "",
+            "permissionHidden": "true",
             "permissionReadonly": "",
+            "permission_rules": {"d7758f62-ea83-e8f9-e0b4-075474d783b4": {}},
             "header-style-border-color": "#000000",
             "permission": {
                 "className": "",
@@ -60,8 +63,20 @@
     "className": "org.joget.apps.form.model.Form",
     "properties": {
         "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "permission_rules": [{
+            "permission_key": "d7758f62-ea83-e8f9-e0b4-075474d783b4",
+            "permission": {
+                "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
+                "properties": {}
+            },
+            "permission_name": "Admin"
+        }],
         "name": "Acknowledgement Approval ",
         "description": "",
+        "permission": {
+            "className": "org.joget.apps.userview.lib.LoggedInUserPermission",
+            "properties": {}
+        },
         "id": "acknowledgementApproval",
         "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
         "tableName": "ack_approve"
