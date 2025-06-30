@@ -228,7 +228,7 @@
                         "autoPopulate": "",
                         "label": "",
                         "id": "field9",
-                        "value": "<style type=\"text/css\">\n    .form-container, .form-body {\n        background-color: #F8F0FF;\n    }\n    body {\n        background-color: #F8F0FF;\n    }\n<\/style>"
+                        "value": "<style type=\"text/css\">\n    .form-container, .form-body {\n        background-color: #D8BCF8;\n    }\n    body {\n        background-color: #D8BCF8;\n    }\n<\/style>"
                     }
                 }
             ],
