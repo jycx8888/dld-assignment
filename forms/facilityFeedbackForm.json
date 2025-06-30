@@ -6,7 +6,6 @@
                     "className": "org.joget.apps.form.lib.TextArea",
                     "properties": {
                         "requiredSanitize": "",
-                        "readonly": "",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
@@ -15,11 +14,14 @@
                                 "mandatory": "true"
                             }
                         },
-                        "workflowVariable": "",
                         "label": "Comments",
+                        "rows": "5",
+                        "readonly": "",
+                        "fieldInput-style-background-color": "#FFFBC1",
+                        "fieldInput-style-border-color": "#000000",
+                        "workflowVariable": "",
                         "id": "comments",
                         "placeholder": "",
-                        "rows": "5",
                         "cols": "20",
                         "value": "",
                         "readonlyLabel": ""
@@ -43,8 +45,11 @@
                         "encryption": "",
                         "readonly": "",
                         "size": "",
+                        "fieldInput-style-background-color": "#FFFBC1",
+                        "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "style": "",
+                        "fieldInput-style-color": "#000000",
                         "id": "bookingID",
                         "placeholder": "",
                         "value": "",
@@ -56,13 +61,23 @@
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
+                        "multiple": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
+                        },
+                        "label": "Rating",
                         "readonly": "",
                         "size": "",
                         "optionsBinder": {
                             "className": "",
                             "properties": {}
                         },
-                        "multiple": "",
+                        "fieldInput-style-background-color": "#FFFBC1",
                         "options": [
                             {
                                 "label": "5",
@@ -90,16 +105,8 @@
                                 "grouping": "rate"
                             }
                         ],
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "type": "",
-                                "message": "",
-                                "mandatory": "true"
-                            }
-                        },
+                        "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
-                        "label": "Rating",
                         "id": "rating",
                         "value": "",
                         "readonlyLabel": ""
@@ -111,13 +118,17 @@
         }],
         "className": "org.joget.apps.form.model.Section",
         "properties": {
+            "header-style-background-color": "#8632E9",
+            "style-background-color": "#C496FA",
             "visibilityControl": "",
             "permissionReadonly": "",
+            "style-color": "#000000",
             "permission": {
                 "className": "",
                 "properties": {}
             },
             "label": "Feedback Form",
+            "style-border-color": "#000000",
             "reverse": "",
             "storeBinder": {
                 "className": "",
