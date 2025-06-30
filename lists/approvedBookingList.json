@@ -6,15 +6,20 @@
     "rowActions": [],
     "columns": [
         {
+            "header-style-background-color": "#8632E9",
+            "style-background-color": "#C496FA",
             "filterable": true,
             "hidden": "false",
             "renderHtml": "",
+            "style-color": "#000000",
             "format": {
                 "className": "",
                 "properties": {}
             },
+            "header-style-border-color": "#000000",
             "label": "ID",
             "sortable": "false",
+            "style-border-color": "#000000",
             "datalist_type": "column",
             "exclude_export": "",
             "name": "id",
@@ -35,15 +40,20 @@
             "alignment": ""
         },
         {
+            "header-style-background-color": "#8632E9",
+            "style-background-color": "#C496FA",
             "filterable": true,
             "hidden": "false",
             "renderHtml": "",
+            "style-color": "#000000",
             "format": {
                 "className": "",
                 "properties": {}
             },
+            "header-style-border-color": "#000000",
             "label": "Created By Name",
             "sortable": "false",
+            "style-border-color": "#000000",
             "datalist_type": "column",
             "exclude_export": "",
             "name": "createdByName",
@@ -58,12 +68,33 @@
             "alignment": ""
         },
         {
+            "header-style-background-color": "#8632E9",
+            "style-background-color": "#C496FA",
             "filterable": true,
             "hidden": "false",
-            "name": "approvalstatus",
-            "id": "column_0",
+            "renderHtml": "",
+            "style-color": "#000000",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "header-style-border-color": "#000000",
             "label": "Approval Status",
-            "sortable": "false"
+            "sortable": "false",
+            "style-border-color": "#000000",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "style-text-align": "left",
+            "name": "approvalstatus",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_0",
+            "alignment": ""
         }
     ],
     "pageSize": "0",

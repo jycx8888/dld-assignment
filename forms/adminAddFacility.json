@@ -61,6 +61,16 @@
                         "readonlyLabel": "",
                         "storeNumeric": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "autoPopulate": "",
+                        "label": "",
+                        "id": "field3",
+                        "value": "<style type=\"text/css\">\n    .form-container, .form-body {\n        background-color: #F8F0FF;\n    }\n    body {\n        background-color: #F8F0FF;\n    }\n<\/style>"
+                    }
                 }
             ],
             "className": "org.joget.apps.form.model.Column",
