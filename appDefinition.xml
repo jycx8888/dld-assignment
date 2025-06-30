@@ -41,6 +41,15 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>managerManageBookings::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>managerManageBookings</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>residentFeedbackProcess::submitsFeedback</string>
                <packageActivityForm>
                   <processDefId>residentFeedbackProcess</processDefId>
@@ -56,17 +65,6 @@
                <packageActivityForm>
                   <processDefId>residentRegister</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process10::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>process10</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -100,17 +98,6 @@
                   <processDefId>noticePostingProcess</processDefId>
                   <activityDefId>postNotice</activityDefId>
                   <formId>noticeBoardForm</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>process10::activity1</string>
-               <packageActivityForm>
-                  <processDefId>process10</processDefId>
-                  <activityDefId>activity1</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -199,6 +186,15 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>managerManageBookings::activity1</string>
+               <packageActivityForm>
+                  <processDefId>managerManageBookings</processDefId>
+                  <activityDefId>activity1</activityDefId>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>residentRegister::register</string>
                <packageActivityForm>
                   <processDefId>residentRegister</processDefId>
@@ -255,6 +251,17 @@
                <packageActivityForm>
                   <processDefId>managerApproveRescheduleRequests</processDefId>
                   <activityDefId>rescheduleRequests</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>residentFeedbackProcess::notifyManager</string>
+               <packageActivityForm>
+                  <processDefId>residentFeedbackProcess</processDefId>
+                  <activityDefId>notifyManager</activityDefId>
+                  <formId>feedbackResponseForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -338,15 +345,6 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>process10::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>process10</processDefId>
-                  <participantId>processStartWhiteList</participantId>
-                  <type>role</type>
-                  <value>adminUser</value>
-               </packageParticipant>
-            </entry>
-            <entry>
                <string>residentRegister::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>residentRegister</processDefId>
@@ -359,6 +357,15 @@
                <string>residentRescheduleRequest::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>residentRescheduleRequest</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>managerManageBookings::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>managerManageBookings</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
