@@ -26,14 +26,8 @@
             "width": "",
             "headerAlignment": "",
             "action": {
-                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-                "properties": {
-                    "hrefColumn": "id",
-                    "hrefParam": "id",
-                    "href": "FacilitiesBookingRequestForm",
-                    "confirmation": "",
-                    "target": "_self"
-                }
+                "className": "",
+                "properties": {}
             },
             "style": "",
             "id": "column_1",
