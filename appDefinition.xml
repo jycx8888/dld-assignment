@@ -86,9 +86,8 @@
             <entry>
                <string>noticePostingProcess::postNotice</string>
                <packageActivityForm>
-                  <processDefId>noticePostingProcess</processDefId>
-                  <activityDefId>postNotice</activityDefId>
-                  <formId>noticeBoardForm</formId>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>editUser</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -116,10 +115,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>residentFeedbackProcess::runProcess</string>
+               <string>managerApproveRescheduleRequests::rescheduleRequests</string>
                <packageActivityForm>
-                  <processDefId>residentFeedbackProcess</processDefId>
-                  <activityDefId>runProcess</activityDefId>
+                  <processDefId>managerApproveRescheduleRequests</processDefId>
+                  <activityDefId>rescheduleRequests</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -136,10 +135,10 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>managerApproveRescheduleRequests::runProcess</string>
+               <string>adminManageUserAccount::createEditUser</string>
                <packageActivityForm>
-                  <processDefId>managerApproveRescheduleRequests</processDefId>
-                  <activityDefId>runProcess</activityDefId>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>createEditUser</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -241,8 +240,8 @@
             <entry>
                <string>adminManageUserAccount::createEditUser</string>
                <packageActivityForm>
-                  <processDefId>adminManageUserAccount</processDefId>
-                  <activityDefId>createEditUser</activityDefId>
+                  <processDefId>managerApproveRescheduleRequests</processDefId>
+                  <activityDefId>runProcess</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
