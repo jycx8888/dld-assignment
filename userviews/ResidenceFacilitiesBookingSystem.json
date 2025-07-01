@@ -7,6 +7,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.HtmlPage",
                     "properties": {
+                        "style-background-color": "#D8BCF8",
                         "userviewCacheDuration": "",
                         "userviewCacheScope": "",
                         "permission_rules": {
@@ -20,6 +21,7 @@
                         "id": "8a9f98b7-6300-4465-b808-5648ac5431c2",
                         "label": "Main Page",
                         "enableOffline": "",
+                        "style-border-color": "#D8BCF8",
                         "customId": "mainPage",
                         "content": "<div class=\"ui-welcome\">\n<h1>Resident Facilities Booking System<\/h1>\n<p>&nbsp;<\/p>\n<br>\n<div class=\"message\"><\/div>\n<div class=\"message\">\n<p><\/p>\n<\/div>\n<\/div>"
                     }

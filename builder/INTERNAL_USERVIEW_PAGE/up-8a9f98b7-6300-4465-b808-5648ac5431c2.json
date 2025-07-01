@@ -4,13 +4,14 @@
         {
             "className": "org.joget.apps.userview.lib.DataListMenu",
             "properties": {
-                "style-background-color": "#FFFFFF",
+                "style-background-color": "#D8BCF8",
                 "cacheAllLinks": "",
                 "customHeader": "",
                 "keyName": "",
                 "customFooter": "",
                 "label": "List",
                 "enableOffline": "",
+                "style-border-color": "#D8BCF8",
                 "customId": "",
                 "buttonPosition": "bothLeft",
                 "datalistId": "managerPostNotice",
@@ -21,6 +22,15 @@
                 "userviewCacheScope": "",
                 "rowCount": "",
                 "id": "E154ADAF70184EC55687048758147365"
+            }
+        },
+        {
+            "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "textContent": "<style type=\"text/css\">\n    .form-container, .form-body {\n        background-color: #D8BCF8;\n    }\n    body {\n        background-color: #D8BCF8;\n    }\n<\/style>",
+                "id": "5020E736EA2C48FAB6D33524F574F89B",
+                "customId": ""
             }
         }
     ],
