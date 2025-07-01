@@ -60,6 +60,19 @@
                     }
                 },
                 {
+                    "className": "org.joget.apps.form.lib.HiddenField",
+                    "properties": {
+                        "useDefaultWhenEmpty": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "id": "id",
+                        "value": ""
+                    }
+                },
+                {
                     "className": "org.joget.apps.form.lib.CustomHTML",
                     "properties": {
                         "requiredSanitize": "",
