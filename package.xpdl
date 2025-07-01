@@ -113,7 +113,7 @@
                     <Performer>system</Performer>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="system"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="471.8000183105469,77.01249999999999"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="468.8000183105469,80.00001831054686"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="route1" Name="Approve?">
