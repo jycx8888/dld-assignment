@@ -619,7 +619,7 @@
                 }
             ],
             "properties": {
-                "hide": "",
+                "hide": "yes",
                 "permission_rules": {
                     "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
                     "ba08158f-845d-0f98-dd74-0618f6d5381c": {}
@@ -630,7 +630,8 @@
                 },
                 "comment": "",
                 "label": "Manage Bookings",
-                "id": "category-A38C8E8953664B01EBC13DB9C1E397A5"
+                "id": "category-A38C8E8953664B01EBC13DB9C1E397A5",
+                "permissionDeny": ""
             }
         },
         {
