@@ -94,7 +94,7 @@
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
                             "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
-                                "permissionHidden": "true",
+                                "permissionHidden": "",
                                 "permissionDeny": ""
                             },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {
@@ -616,6 +616,11 @@
                     "className": "org.joget.plugin.enterprise.SqlChartMenu",
                     "properties": {
                         "xAxisDisplayAS": "",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                        },
                         "showLegend": "true",
                         "customFooter": "",
                         "enableOffline": "",
