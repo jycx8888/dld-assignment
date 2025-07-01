@@ -23,7 +23,7 @@
                         "enableOffline": "",
                         "style-border-color": "#D8BCF8",
                         "customId": "mainPage",
-                        "content": "<div class=\"ui-welcome\">\n<h1 style=\"text-align: center;\">Resident Facilities Booking System<\/h1>\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style=\"font-size: 18pt;\">Your convenient portal for booking residential amenities.<\/span><\/p>\n<\/div>"
+                        "content": "<div class=\"ui-welcome\">\n<h1 style=\"text-align: left;\">Resident Facilities Booking System<\/h1>\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style=\"font-size: 18pt;\">Your convenient portal for booking residential amenities.<\/span><\/p>\n<\/div>"
                     }
                 },
                 {
