@@ -75,11 +75,10 @@
                     }
                 },
                 {
-                    "className": "org.joget.apps.form.lib.DatePicker",
+                    "className": "org.joget.plugin.enterprise.MultiSelectBox",
                     "properties": {
-                        "yearRange": "c-10:c+10",
-                        "dataFormat": "yyyy-MM-dd",
-                        "startDateFieldId": "",
+                        "controlField": "",
+                        "multiple": "true",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
@@ -89,20 +88,79 @@
                             }
                         },
                         "label": "Time",
-                        "datePickerType": "timeOnly",
-                        "currentDateAs": "",
-                        "endDateFieldId": "",
                         "readonly": "",
-                        "allowManual": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
                         "fieldInput-style-background-color": "#FFFBC1",
-                        "fieldInput-style-border-color": "#000000",
+                        "width": "40%",
+                        "options": [
+                            {
+                                "label": "12am to 2am",
+                                "value": "12am to 2am",
+                                "grouping": "time"
+                            },
+                            {
+                                "label": "2am to 4am",
+                                "value": "2am to 4am",
+                                "grouping": "time"
+                            },
+                            {
+                                "label": "4am to 6am",
+                                "value": "4am to 6am",
+                                "grouping": "time"
+                            },
+                            {
+                                "label": "6am to 8am",
+                                "value": "6am to 8am",
+                                "grouping": "time"
+                            },
+                            {
+                                "label": "8am to 10am",
+                                "value": "8am to 10am",
+                                "grouping": "time"
+                            },
+                            {
+                                "label": "10am to 12pm",
+                                "value": "10am to 12pm",
+                                "grouping": "time"
+                            },
+                            {
+                                "label": "12pm to 2pm",
+                                "value": "12pm to 2pm",
+                                "grouping": "time"
+                            },
+                            {
+                                "label": "2pm to 4pm",
+                                "value": "2pm to 4pm",
+                                "grouping": "time"
+                            },
+                            {
+                                "label": "4pm to 6pm",
+                                "value": "4pm to 6pm",
+                                "grouping": "time"
+                            },
+                            {
+                                "label": "6pm to 8pm",
+                                "value": "6pm to 8pm",
+                                "grouping": "time"
+                            },
+                            {
+                                "label": "8pm to 10pm",
+                                "value": "8pm to 10pm",
+                                "grouping": "time"
+                            },
+                            {
+                                "label": "10pm to 12am",
+                                "value": "10pm to 12am",
+                                "grouping": "time"
+                            }
+                        ],
                         "workflowVariable": "",
                         "id": "time",
-                        "placeholder": "",
-                        "disableWeekends": "",
                         "value": "",
-                        "readonlyLabel": "",
-                        "format24hr": ""
+                        "readonlyLabel": ""
                     }
                 },
                 {
