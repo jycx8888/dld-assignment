@@ -1,18 +1,49 @@
 {
-    "rowActions": [],
-    "columns": [],
-    "name": "Manager Notice List",
-    "pageSize": "0",
-    "orderBy": "",
-    "description": "",
-    "id": "noticeList",
-    "filters": [],
-    "binder": {
-        "name": "",
+    "template": {
         "className": "",
         "properties": {}
     },
-    "actions": [],
+    "rowActions": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "title",
+            "id": "column_2",
+            "label": "Title",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "message",
+            "id": "column_0",
+            "label": "Message",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "publishDate",
+            "id": "column_1",
+            "label": "Publish Date",
+            "sortable": "false"
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "Manager Notice List",
+    "id": "noticeList",
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "noticeBoardForm",
+            "extraCondition": ""
+        }
+    },
+    "actions": [],
     "order": ""
 }
