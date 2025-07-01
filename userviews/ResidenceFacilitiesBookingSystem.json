@@ -363,7 +363,7 @@
                         "fieldPassoverMethod": "append",
                         "redirectTargetOnComplete": "",
                         "keyName": "",
-                        "label": "Form",
+                        "label": "Approval Form",
                         "userviewCacheDuration": "20",
                         "messageShowAfterComplete": "",
                         "submitButtonLabel": "",
