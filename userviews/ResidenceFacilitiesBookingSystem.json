@@ -69,9 +69,10 @@
                     "className": "org.joget.apps.userview.lib.InboxMenu",
                     "properties": {
                         "appFilter": "all",
-                        "userviewCacheDuration": "20",
+                        "list-customFooter": "",
+                        "cacheAllLinks": "",
                         "permissionHidden": "",
-                        "userviewCacheScope": "",
+                        "assignment-customHeader": "",
                         "permission_rules": {
                             "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
                                 "permissionHidden": "true",
@@ -80,12 +81,18 @@
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
                             "f192aecd-18e0-a905-7525-7a9738648a81": {}
                         },
-                        "showPopup": "false",
+                        "assignment-customFooter": "",
                         "label": "Inbox",
-                        "rowCount": "false",
+                        "enableOffline": "",
+                        "customId": "inbox",
+                        "buttonPosition": "bothLeft",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": "",
+                        "showPopup": "",
+                        "rowCount": "",
                         "id": "FE44C7756E354D8B8B91AD6BAC2981DD",
                         "permissionDeny": "",
-                        "buttonPosition": "bothLeft"
+                        "list-customHeader": ""
                     }
                 },
                 {
