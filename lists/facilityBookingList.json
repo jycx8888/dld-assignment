@@ -9,12 +9,7 @@
         "properties": {
             "hrefColumn": "",
             "hrefParam": "",
-            "rules": [{
-                "field": "#user.admin.firstName#",
-                "join": "AND",
-                "value": "Admin",
-                "operator": "="
-            }],
+            "rules": [],
             "label": "Hyperlink",
             "href": "",
             "confirmation": "",
