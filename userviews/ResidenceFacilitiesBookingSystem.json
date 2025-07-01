@@ -356,7 +356,7 @@
                         "cancelButtonLabel": "",
                         "actionAfterSaved": "",
                         "id": "48850CC0CBDA440851141D2F32760EB1",
-                        "redirectUrlAfterComplete": "",
+                        "redirectUrlAfterComplete": "pending",
                         "fieldPassover": "",
                         "formId": "bookingApprovalForm",
                         "customHeader": "",
