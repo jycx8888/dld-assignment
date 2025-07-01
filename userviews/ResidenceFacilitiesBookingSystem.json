@@ -465,7 +465,7 @@
                         "label": "Approved Booking List",
                         "list-newLinkTarget": "",
                         "edit-lastButtonLabel": "",
-                        "buttonPosition": "bothLeft",
+                        "buttonPosition": "bottomLeft",
                         "edit-firstButtonLabel": "",
                         "add-saveButtonLabel": "",
                         "edit-messageShowAfterComplete": "",
