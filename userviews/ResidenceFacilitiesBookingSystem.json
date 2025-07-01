@@ -244,7 +244,7 @@
                                 "permissionDeny": ""
                             },
                             "f192aecd-18e0-a905-7525-7a9738648a81": {
-                                "permissionHidden": "true",
+                                "permissionHidden": "",
                                 "permissionDeny": ""
                             }
                         },
@@ -610,6 +610,48 @@
                         }],
                         "chartType": "bar",
                         "optionCustomization": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.SqlChartMenu",
+                    "properties": {
+                        "xAxisDisplayAS": "",
+                        "showLegend": "true",
+                        "customFooter": "",
+                        "enableOffline": "",
+                        "title": "Chart Title",
+                        "customId": "",
+                        "chartHeight": "80%",
+                        "mapping_x": "createdByName",
+                        "yaxisPrefix": "",
+                        "categoryAxisLabel": "Category",
+                        "library": "echart",
+                        "theme": "",
+                        "showValueLabel": "true",
+                        "id": "DCED58BB4BC4409C1154A8AABA719D74",
+                        "series_customization": [],
+                        "sortingOrder": "ASC",
+                        "customHeader": "",
+                        "valueAxisLabel": "Value",
+                        "smoothLine": "",
+                        "sortingOrderByColumn": "",
+                        "keyName": "",
+                        "label": "testing Chart",
+                        "datalistId": "facilityBookingList",
+                        "chartWidth": "100%",
+                        "userviewCacheDuration": "20",
+                        "xAxisBoundaryGap": "",
+                        "userviewCacheScope": "",
+                        "datasource": "datalist",
+                        "mapping_ys": [{
+                            "customization": "",
+                            "legend": "",
+                            "y": "facilityName"
+                        }],
+                        "chartType": "area",
+                        "showTable": "",
+                        "optionCustomization": "",
+                        "chartUseAllDataRows": ""
                     }
                 }
             ],
