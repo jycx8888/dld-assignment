@@ -316,15 +316,6 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>residentRegister::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>residentRegister</processDefId>
-                  <participantId>processStartWhiteList</participantId>
-                  <type>role</type>
-                  <value>adminUser</value>
-               </packageParticipant>
-            </entry>
-            <entry>
                <string>residentRescheduleRequest::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>residentRescheduleRequest</processDefId>
