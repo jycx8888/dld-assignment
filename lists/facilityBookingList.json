@@ -10,9 +10,9 @@
             "hrefColumn": "",
             "hrefParam": "",
             "rules": [{
-                "field": "#currentUser.username#",
+                "field": "#user.clark.firstName#",
                 "join": "AND",
-                "value": "clark",
+                "value": "Clark",
                 "operator": "="
             }],
             "label": "Hyperlink",
