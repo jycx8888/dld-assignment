@@ -127,6 +127,7 @@
                                 "grouping": "time"
                             }
                         ],
+                        "fieldInput-style-border-color": "#FFFFFF",
                         "workflowVariable": "",
                         "id": "time",
                         "value": "",
