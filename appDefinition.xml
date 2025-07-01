@@ -98,6 +98,7 @@
                <packageActivityForm>
                   <processDefId>residentRegister</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -310,15 +311,6 @@
                <string>process1::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>process1</processDefId>
-                  <participantId>processStartWhiteList</participantId>
-                  <type>role</type>
-                  <value>adminUser</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>residentRegister::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>residentRegister</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
