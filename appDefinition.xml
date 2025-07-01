@@ -198,20 +198,20 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>residentRescheduleRequest::runProcess</string>
+               <string>managerApproveFacilityBookings::activity1</string>
                <packageActivityForm>
-                  <processDefId>residentRescheduleRequest</processDefId>
-                  <activityDefId>runProcess</activityDefId>
+                  <processDefId>managerApproveFacilityBookings</processDefId>
+                  <activityDefId>activity1</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>managerApproveFacilityBookings::activity1</string>
+               <string>residentRescheduleRequest::runProcess</string>
                <packageActivityForm>
-                  <processDefId>managerApproveFacilityBookings</processDefId>
-                  <activityDefId>activity1</activityDefId>
+                  <processDefId>residentRescheduleRequest</processDefId>
+                  <activityDefId>runProcess</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -336,15 +336,6 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>process10::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>process10</processDefId>
-                  <participantId>processStartWhiteList</participantId>
-                  <type>role</type>
-                  <value>adminUser</value>
-               </packageParticipant>
-            </entry>
-            <entry>
                <string>residentRegister::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>residentRegister</processDefId>
@@ -375,15 +366,6 @@
                <string>addNewFacility::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>addNewFacility</processDefId>
-                  <participantId>processStartWhiteList</participantId>
-                  <type>role</type>
-                  <value>adminUser</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>process11::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>process11</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
