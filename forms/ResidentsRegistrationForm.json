@@ -278,7 +278,7 @@
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {
-            "className": "",
+            "className": "org.joget.plugin.enterprise.AnonymousUserviewPermission",
             "properties": {}
         },
         "id": "ResidentsRegistrationForm",
