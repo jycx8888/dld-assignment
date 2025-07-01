@@ -561,7 +561,7 @@
                         "series_customization": [],
                         "customHeader": "",
                         "showExportLinks": "",
-                        "valueAxisLabel": "Total Approved Booking List (Daily)",
+                        "valueAxisLabel": "Total Approved Booking List",
                         "smoothLine": "",
                         "query": "SELECT \r\n  c_approvalstatus AS label, \r\n  COUNT(*) AS total \r\nFROM \r\n  app_fd_booking_approval \r\nWHERE \r\n  c_approvalstatus IS NOT NULL\r\nGROUP BY \r\n  c_approvalstatus\r\n\r\n",
                         "mapping_high": "id",
