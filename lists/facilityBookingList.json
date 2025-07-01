@@ -7,8 +7,8 @@
         "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
         "id": "rowAction_0",
         "properties": {
-            "hrefColumn": "",
-            "hrefParam": "",
+            "hrefColumn": "id",
+            "hrefParam": "id",
             "rules": [],
             "label": "Approve",
             "href": "approvalForm",
@@ -20,6 +20,15 @@
         }
     }],
     "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "id",
+            "id": "column_5",
+            "label": "ID",
+            "sortable": "false",
+            "datalist_type": "column"
+        },
         {
             "filterable": true,
             "hidden": "false",
@@ -35,7 +44,8 @@
             "name": "facilityName",
             "id": "column_1",
             "label": "Facility Name",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column"
         },
         {
             "filterable": true,
@@ -43,7 +53,8 @@
             "name": "date",
             "id": "column_2",
             "label": "Date",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column"
         },
         {
             "filterable": true,
@@ -51,7 +62,8 @@
             "name": "time",
             "id": "column_3",
             "label": "Time",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column"
         },
         {
             "filterable": true,
@@ -59,7 +71,8 @@
             "name": "noOfParticipants",
             "id": "column_4",
             "label": "No. of Participants",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column"
         },
         {
             "filterable": true,
@@ -67,7 +80,8 @@
             "name": "specialRequest",
             "id": "column_6",
             "label": "Special Request",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column"
         },
         {
             "filterable": true,
@@ -75,7 +89,8 @@
             "name": "status",
             "id": "column_7",
             "label": "status",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column"
         }
     ],
     "pageSize": "0",
