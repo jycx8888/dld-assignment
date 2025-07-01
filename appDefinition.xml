@@ -325,12 +325,30 @@
                </packageParticipant>
             </entry>
             <entry>
+               <string>process1::resident</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>resident</participantId>
+                  <type>group</type>
+                  <value>facilityResident</value>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>addNewFacility::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>addNewFacility</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process1::manager</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>manager</participantId>
+                  <type>group</type>
+                  <value>facilityManager</value>
                </packageParticipant>
             </entry>
             <entry>
