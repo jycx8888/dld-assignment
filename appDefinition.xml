@@ -334,6 +334,15 @@
                </packageParticipant>
             </entry>
             <entry>
+               <string>managerApproveFacilityBookings::processStartWhiteList</string>
+               <packageParticipant>
+                  <processDefId>managerApproveFacilityBookings</processDefId>
+                  <participantId>processStartWhiteList</participantId>
+                  <type>role</type>
+                  <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
                <string>addNewFacility::processStartWhiteList</string>
                <packageParticipant>
                   <processDefId>addNewFacility</processDefId>

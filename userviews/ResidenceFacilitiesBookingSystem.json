@@ -24,6 +24,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
+                        "permissionHidden": "",
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
@@ -53,6 +54,7 @@
                         "actionAfterSaved": "",
                         "runProcessSubmitLabel": "",
                         "id": "3BD16A8C96E34173F39F8E2FC5564AD5",
+                        "permissionDeny": "",
                         "processDefId": "process1",
                         "redirectUrlAfterComplete": "",
                         "fieldPassover": ""
@@ -63,10 +65,11 @@
                     "properties": {
                         "appFilter": "all",
                         "userviewCacheDuration": "20",
+                        "permissionHidden": "",
                         "userviewCacheScope": "",
                         "permission_rules": {
                             "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
-                                "permissionHidden": "true",
+                                "permissionHidden": "",
                                 "permissionDeny": ""
                             },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
@@ -76,6 +79,7 @@
                         "label": "Inbox",
                         "rowCount": "false",
                         "id": "FE44C7756E354D8B8B91AD6BAC2981DD",
+                        "permissionDeny": "",
                         "buttonPosition": "bothLeft"
                     }
                 },
@@ -224,11 +228,14 @@
                 {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
-                        "permissionHidden": "true",
+                        "permissionHidden": "",
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
-                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "",
+                                "permissionDeny": ""
+                            },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {
                                 "permissionHidden": "true",
                                 "permissionDeny": ""
@@ -485,7 +492,8 @@
                 },
                 "comment": "",
                 "label": "My Bookings",
-                "id": "category-6DECC0D6856D48EB428A7EC0E08F25B6"
+                "id": "category-6DECC0D6856D48EB428A7EC0E08F25B6",
+                "permissionDeny": ""
             }
         },
         {
@@ -599,6 +607,74 @@
                         }],
                         "chartType": "bar",
                         "optionCustomization": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "list-customFooter": "",
+                        "edit-customHeader": "",
+                        "editFormId": "",
+                        "cacheAllLinks": "",
+                        "edit-saveButtonLabel": "",
+                        "list-showDeleteButton": "",
+                        "list-newButtonLabel": "",
+                        "edit-prevButtonLabel": "",
+                        "enableOffline": "",
+                        "customId": "",
+                        "edit-afterSavedReloadTarget": "true",
+                        "edit-afterSaved": "list",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "add-customFooter": "",
+                        "addFormId": "",
+                        "edit-allowRecordTraveling": "",
+                        "rowCount": "",
+                        "id": "133EB8FE288043D2AC1FA4DEBA55A8C9",
+                        "edit-readonlyLabel": "true",
+                        "add-messageShowAfterComplete": "",
+                        "list-editLinkLabel": "",
+                        "add-cancelButtonLabel": "",
+                        "edit-customFooter": "",
+                        "add-afterSavedReloadTarget": "true",
+                        "keyName": "",
+                        "label": "Manager Approve Booking",
+                        "list-newLinkTarget": "",
+                        "add-customHeader": "",
+                        "edit-lastButtonLabel": "",
+                        "edit-readonly": "",
+                        "buttonPosition": "bothLeft",
+                        "edit-firstButtonLabel": "",
+                        "datalistId": "facilityBookingList",
+                        "add-saveButtonLabel": "",
+                        "edit-nextButtonLabel": "",
+                        "userviewCacheDuration": "20",
+                        "edit-messageShowAfterComplete": "",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "edit-moreActions": [],
+                        "add-afterSaved": "list",
+                        "list-moreActions": [
+                            {
+                                "hrefColumn": "status",
+                                "hrefParam": "status",
+                                "hrefTarget": "_self",
+                                "label": "Approve",
+                                "href": "?status=Approved",
+                                "confirmation": ""
+                            },
+                            {
+                                "hrefColumn": "status",
+                                "hrefParam": "status",
+                                "hrefTarget": "_self",
+                                "label": "Reject",
+                                "href": "?status=Rejected",
+                                "confirmation": ""
+                            }
+                        ],
+                        "edit-backButtonLabel": "",
+                        "list-editLinkTarget": "",
+                        "list-customHeader": ""
                     }
                 }
             ],
