@@ -24,7 +24,7 @@
                         "enableOffline": "",
                         "style-border-color": "#D8BCF8",
                         "customId": "mainPage",
-                        "content": "<div class=\"ui-welcome\">\n<h1 style=\"text-align: left;\"><img src=\"https://properly.com.my/wp-content/uploads/2022/07/Savio-Facade-scaled-1.jpg\" width=\"2048\" height=\"1855\" alt=\"\">Resident Facilities Booking System<\/h1>\n<p style=\"text-align: left;\"><span style=\"font-size: 18pt;\">Your convenient portal for booking residential amenities.<\/span><\/p>\n<\/div>"
+                        "content": "<div class=\"ui-welcome\">\n<h1 style=\"text-align: left;\"><img src=\"https://properly.com.my/wp-content/uploads/2022/07/Savio-Facade-scaled-1.jpg\" width=\"1048\" height=\"949\" alt=\"\">Resident Facilities Booking System<\/h1>\n<p style=\"text-align: left;\"><span style=\"font-size: 18pt;\">Your convenient portal for booking residential amenities.<\/span><\/p>\n<\/div>"
                     }
                 },
                 {
