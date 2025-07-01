@@ -10,7 +10,10 @@
                         "userviewCacheDuration": "",
                         "userviewCacheScope": "",
                         "permission_rules": {
-                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
                             "f192aecd-18e0-a905-7525-7a9738648a81": {}
                         },
@@ -607,74 +610,6 @@
                         }],
                         "chartType": "bar",
                         "optionCustomization": ""
-                    }
-                },
-                {
-                    "className": "org.joget.plugin.enterprise.CrudMenu",
-                    "properties": {
-                        "list-customFooter": "",
-                        "edit-customHeader": "",
-                        "editFormId": "",
-                        "cacheAllLinks": "",
-                        "edit-saveButtonLabel": "",
-                        "list-showDeleteButton": "",
-                        "list-newButtonLabel": "",
-                        "edit-prevButtonLabel": "",
-                        "enableOffline": "",
-                        "customId": "",
-                        "edit-afterSavedReloadTarget": "true",
-                        "edit-afterSaved": "list",
-                        "checkboxPosition": "left",
-                        "selectionType": "multiple",
-                        "add-customFooter": "",
-                        "addFormId": "",
-                        "edit-allowRecordTraveling": "",
-                        "rowCount": "",
-                        "id": "133EB8FE288043D2AC1FA4DEBA55A8C9",
-                        "edit-readonlyLabel": "true",
-                        "add-messageShowAfterComplete": "",
-                        "list-editLinkLabel": "",
-                        "add-cancelButtonLabel": "",
-                        "edit-customFooter": "",
-                        "add-afterSavedReloadTarget": "true",
-                        "keyName": "",
-                        "label": "Manager Approve Booking",
-                        "list-newLinkTarget": "",
-                        "add-customHeader": "",
-                        "edit-lastButtonLabel": "",
-                        "edit-readonly": "",
-                        "buttonPosition": "bothLeft",
-                        "edit-firstButtonLabel": "",
-                        "datalistId": "facilityBookingList",
-                        "add-saveButtonLabel": "",
-                        "edit-nextButtonLabel": "",
-                        "userviewCacheDuration": "20",
-                        "edit-messageShowAfterComplete": "",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "edit-moreActions": [],
-                        "add-afterSaved": "list",
-                        "list-moreActions": [
-                            {
-                                "hrefColumn": "status",
-                                "hrefParam": "status",
-                                "hrefTarget": "_self",
-                                "label": "Approve",
-                                "href": "?status=Approved",
-                                "confirmation": ""
-                            },
-                            {
-                                "hrefColumn": "status",
-                                "hrefParam": "status",
-                                "hrefTarget": "_self",
-                                "label": "Reject",
-                                "href": "?status=Rejected",
-                                "confirmation": ""
-                            }
-                        ],
-                        "edit-backButtonLabel": "",
-                        "list-editLinkTarget": "",
-                        "list-customHeader": ""
                     }
                 }
             ],
