@@ -525,7 +525,8 @@
                         "list-showDeleteButton": "",
                         "permission_rules": {
                             "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
-                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {}
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
                         },
                         "list-newButtonLabel": "",
                         "edit-prevButtonLabel": "",
@@ -580,7 +581,8 @@
                         "list-showDeleteButton": "",
                         "permission_rules": {
                             "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
-                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {}
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
                         },
                         "list-newButtonLabel": "",
                         "edit-prevButtonLabel": "",
@@ -629,7 +631,11 @@
                 "hide": "yes",
                 "permission_rules": {
                     "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
-                    "ba08158f-845d-0f98-dd74-0618f6d5381c": {}
+                    "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                    "f192aecd-18e0-a905-7525-7a9738648a81": {
+                        "hide": "yes",
+                        "permissionDeny": ""
+                    }
                 },
                 "permission": {
                     "className": "",
