@@ -141,8 +141,8 @@
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
-                                "type": "alphanumeric",
-                                "message": "Invalid Unit Number",
+                                "type": "",
+                                "message": "Please enter a unit number!",
                                 "mandatory": "true"
                             }
                         },
