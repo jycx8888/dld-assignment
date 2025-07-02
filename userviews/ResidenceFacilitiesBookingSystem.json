@@ -765,6 +765,30 @@
                         "chartType": "bar",
                         "optionCustomization": ""
                     }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.SqlChartMenu",
+                    "properties": {
+                        "sortingOrder": "ASC",
+                        "xAxisDisplayAS": "",
+                        "valueAxisLabel": "Value",
+                        "showLegend": "true",
+                        "label": "Chart",
+                        "title": "Chart Title",
+                        "chartHeight": "80%",
+                        "categoryAxisLabel": "Category",
+                        "chartWidth": "100%",
+                        "userviewCacheDuration": "20",
+                        "library": "echart",
+                        "userviewCacheScope": "",
+                        "datasource": "datalist",
+                        "chartType": "area",
+                        "showTable": "",
+                        "theme": "",
+                        "showValueLabel": "true",
+                        "id": "A327423FB88A4959B76B2F5D15FD2DC1",
+                        "chartUseAllDataRows": ""
+                    }
                 }
             ],
             "properties": {
