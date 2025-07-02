@@ -33,11 +33,11 @@
             "alignment": ""
         },
         {
-            "header-style-background-color": "#8632E9",
-            "style-background-color": "#C496FA",
+            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
             "renderHtml": "",
+            "style-color": "#000000",
             "format": {
                 "className": "",
                 "properties": {}
@@ -60,8 +60,7 @@
             "alignment": ""
         },
         {
-            "header-style-background-color": "#8632E9",
-            "style-background-color": "#C496FA",
+            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
             "renderHtml": "",
