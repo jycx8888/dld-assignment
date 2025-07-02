@@ -3,63 +3,29 @@
         "elements": [{
             "elements": [
                 {
-                    "className": "org.joget.apps.form.lib.TextField",
+                    "className": "org.joget.apps.form.lib.SubForm",
                     "properties": {
-                        "requiredSanitize": "",
-                        "maxlength": "",
-                        "permission_rules": {},
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "type": "",
-                                "message": "",
-                                "mandatory": "true"
-                            }
-                        },
-                        "label": "Facility ID",
-                        "disableIncrementDecrementArrow": "",
-                        "encryption": "",
+                        "style-background-color": "#C496FA",
+                        "parentSubFormId": "",
                         "readonly": "",
-                        "size": "",
-                        "fieldInput-style-background-color": "#FFFBC1",
-                        "fieldInput-style-border-color": "#000000",
-                        "workflowVariable": "",
-                        "style": "",
-                        "id": "facilityID",
-                        "placeholder": "",
-                        "value": "",
-                        "readonlyLabel": "",
-                        "storeNumeric": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "requiredSanitize": "",
-                        "maxlength": "",
-                        "permission_rules": {},
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "type": "",
-                                "message": "",
-                                "mandatory": "true"
-                            }
+                        "loadBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
                         },
-                        "label": "New Facility Name",
-                        "disableIncrementDecrementArrow": "",
-                        "encryption": "",
-                        "readonly": "",
-                        "size": "",
-                        "fieldInput-style-background-color": "#FFFBC1",
-                        "fieldInput-style-border-color": "#000000",
-                        "workflowVariable": "",
-                        "style": "",
-                        "id": "newFacilityName",
-                        "placeholder": "",
-                        "value": "",
-                        "readonlyLabel": "",
-                        "storeNumeric": ""
+                        "noframe": "",
+                        "formDefId": "bookingApprovalForm",
+                        "permission_rules": {
+                            "d7758f62-ea83-e8f9-e0b4-075474d783b4": {},
+                            "d87feafe-4b49-7b4d-19db-c25c8ee3b381": {}
+                        },
+                        "subFormParentId": "",
+                        "id": "field1",
+                        "label": "",
+                        "storeBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "readonlyLabel": ""
                     }
                 },
                 {
@@ -67,9 +33,8 @@
                     "properties": {
                         "requiredSanitize": "",
                         "autoPopulate": "",
-                        "permission_rules": {},
                         "label": "",
-                        "id": "hhh",
+                        "id": "field9",
                         "value": "<style type=\"text/css\">\r\n    body {\r\n        background-image: url(\"https://properly.com.my/wp-content/uploads/2022/07/Savio-Facade-scaled-1.jpg\");\r\n        background-size: 1500px 800px; /* This sets the width and height */\r\n        background-repeat: no-repeat; /* Prevents the image from repeating if it's smaller than the body */\r\n    }\r\n<\/style>\r\n"
                     }
                 }
@@ -79,19 +44,24 @@
         }],
         "className": "org.joget.apps.form.model.Section",
         "properties": {
-            "header-style-background-color": "#4C65F7",
-            "style-background-color": "#ADD2F7",
+            "header-style-background-color": "#8632E9",
+            "style-background-color": "#C496FA",
             "visibilityControl": "",
-            "permissionHidden": "",
+            "permissionHidden": "true",
             "permissionReadonly": "",
-            "style-color": "#000000",
-            "permission_rules": {},
+            "permission_rules": {
+                "d7758f62-ea83-e8f9-e0b4-075474d783b4": {
+                    "permissionHidden": "true",
+                    "readonly": ""
+                },
+                "d87feafe-4b49-7b4d-19db-c25c8ee3b381": {}
+            },
             "header-style-border-color": "#000000",
             "permission": {
                 "className": "",
                 "properties": {}
             },
-            "label": "Add Facility",
+            "label": "Acknowledgement Approval",
             "style-border-color": "#000000",
             "reverse": "",
             "storeBinder": {
@@ -106,38 +76,43 @@
                 "properties": {}
             },
             "comment": "",
-            "id": "section1",
+            "id": "acknowledgementApproval",
             "join": "",
             "readonlyLabel": ""
         }
     }],
     "className": "org.joget.apps.form.model.Form",
     "properties": {
-        "noPermissionMessage": "",
-        "loadBinder": {
-            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-            "properties": {}
-        },
-        "permission_rules": [],
-        "name": "Admin Add Facillity",
-        "description": "",
-        "postProcessorRunOn": "create",
-        "permission": {
-            "className": "org.joget.apps.userview.lib.GroupPermission",
-            "properties": {
-                "orgId": "ORG-001",
-                "allowedGroupIds": "ResidenceFacilitiesBookingSystem"
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "permission_rules": [
+            {
+                "permission_key": "d87feafe-4b49-7b4d-19db-c25c8ee3b381",
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.GroupPermission",
+                    "properties": {
+                        "orgId": "ORG-001",
+                        "allowedGroupIds": "G-001"
+                    }
+                },
+                "permission_name": "Manager"
+            },
+            {
+                "permission_key": "d7758f62-ea83-e8f9-e0b4-075474d783b4",
+                "permission": {
+                    "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
+                    "properties": {}
+                },
+                "permission_name": "Admin"
             }
+        ],
+        "name": "Acknowledgement Approval ",
+        "description": "",
+        "permission": {
+            "className": "org.joget.apps.userview.lib.LoggedInUserPermission",
+            "properties": {}
         },
         "id": "adminAddFacility",
-        "postProcessor": {
-            "className": "",
-            "properties": {}
-        },
-        "storeBinder": {
-            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
-            "properties": {}
-        },
-        "tableName": "add_facility"
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "ack_approve"
     }
 }
