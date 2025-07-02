@@ -63,15 +63,15 @@
                     <Implementation>
                         <No/>
                     </Implementation>
-                    <Performer>manager</Performer>
+                    <Performer>resident</Performer>
                     <TransitionRestrictions>
                         <TransitionRestriction>
                             <Join Type="XOR"/>
                         </TransitionRestriction>
                     </TransitionRestrictions>
                     <ExtendedAttributes>
-                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="manager"/>
-                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="482.2749938964844,40.52501220703124"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="resident"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="525.2750244140625,30.787501525878906"/>
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="reviewBookingRequest" Name="Review Booking Request">
@@ -161,7 +161,7 @@
             <ExtendedAttributes>
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="resident;manager;system"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=resident,CONNECTING_ACTIVITY_ID=bookingRequest,X_OFFSET=44,Y_OFFSET=32,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
-                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=manager,CONNECTING_ACTIVITY_ID=viewResults,X_OFFSET=652.7250366210938,Y_OFFSET=62.01249999999999,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=resident,CONNECTING_ACTIVITY_ID=viewResults,X_OFFSET=690.7250366210938,Y_OFFSET=52.2625,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
         <WorkflowProcess Id="residentFeedbackProcess" Name="Resident Feedback Process">
