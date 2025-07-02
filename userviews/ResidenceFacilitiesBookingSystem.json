@@ -316,7 +316,7 @@
                             },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
                             "f192aecd-18e0-a905-7525-7a9738648a81": {
-                                "permissionHidden": "true",
+                                "permissionHidden": "",
                                 "permissionDeny": ""
                             }
                         },
