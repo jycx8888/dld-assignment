@@ -40,7 +40,9 @@
     </Applications>
     <WorkflowProcesses>
         <WorkflowProcess Id="process1" Name="Facility Booking Request Process">
-            <ProcessHeader DurationUnit="h"/>
+            <ProcessHeader DurationUnit="m">
+                <Limit>5</Limit>
+            </ProcessHeader>
             <DataFields>
                 <DataField Id="status" IsArray="FALSE">
                     <DataType>
@@ -75,10 +77,21 @@
                     </ExtendedAttributes>
                 </Activity>
                 <Activity Id="reviewBookingRequest" Name="Review Booking Request">
+                    <Limit>5</Limit>
                     <Implementation>
                         <No/>
                     </Implementation>
                     <Performer>manager</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition3"/>
+                                    <TransitionRef Id="transition10"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
                     <ExtendedAttributes>
                         <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="manager"/>
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="208.796875,42.375"/>
@@ -122,6 +135,16 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="239.30001831054688,186.7"/>
                     </ExtendedAttributes>
                 </Activity>
+                <Activity Id="tool3" Name="Send Reminder">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>system</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="system"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="88.20000457763672,45.62498779296874"/>
+                    </ExtendedAttributes>
+                </Activity>
             </Activities>
             <Transitions>
                 <Transition From="reviewBookingRequest" Id="transition3" To="route1">
@@ -157,11 +180,18 @@
                         <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
                     </ExtendedAttributes>
                 </Transition>
+                <Transition From="reviewBookingRequest" Id="transition10" To="tool3">
+                    <Condition Type="EXCEPTION">NOTIFY</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
             </Transitions>
             <ExtendedAttributes>
                 <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="resident;manager;system"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=resident,CONNECTING_ACTIVITY_ID=bookingRequest,X_OFFSET=44,Y_OFFSET=32,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
                 <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=resident,CONNECTING_ACTIVITY_ID=viewResults,X_OFFSET=690.7250366210938,Y_OFFSET=52.2625,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=system,CONNECTING_ACTIVITY_ID=tool3,X_OFFSET=127.88749694824219,Y_OFFSET=147.8875,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
             </ExtendedAttributes>
         </WorkflowProcess>
         <WorkflowProcess Id="residentFeedbackProcess" Name="Resident Feedback Process">
