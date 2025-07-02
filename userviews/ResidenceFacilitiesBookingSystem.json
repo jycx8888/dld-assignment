@@ -774,7 +774,7 @@
                         "customFooter": "",
                         "enableOffline": "",
                         "title": "Chart Title",
-                        "customId": "",
+                        "customId": "dailyBookingRecord",
                         "chartHeight": "80%",
                         "mapping_x": "date",
                         "yaxisPrefix": "",
