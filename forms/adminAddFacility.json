@@ -7,6 +7,7 @@
                     "properties": {
                         "requiredSanitize": "",
                         "maxlength": "",
+                        "permission_rules": {},
                         "validator": {
                             "className": "",
                             "properties": {}
@@ -32,6 +33,7 @@
                     "properties": {
                         "requiredSanitize": "",
                         "maxlength": "",
+                        "permission_rules": {},
                         "validator": {
                             "className": "",
                             "properties": {}
@@ -57,6 +59,7 @@
                     "properties": {
                         "requiredSanitize": "",
                         "autoPopulate": "",
+                        "permission_rules": {},
                         "label": "",
                         "id": "field9",
                         "value": "<style type=\"text/css\">\r\n    body {\r\n        background-image: url(\"https://properly.com.my/wp-content/uploads/2022/07/Savio-Facade-scaled-1.jpg\");\r\n        background-size: 1500px 800px; /* This sets the width and height */\r\n        background-repeat: no-repeat; /* Prevents the image from repeating if it's smaller than the body */\r\n    }\r\n<\/style>\r\n"
@@ -71,15 +74,9 @@
             "header-style-background-color": "#8632E9",
             "style-background-color": "#C496FA",
             "visibilityControl": "",
-            "permissionHidden": "true",
+            "permissionHidden": "",
             "permissionReadonly": "",
-            "permission_rules": {
-                "d7758f62-ea83-e8f9-e0b4-075474d783b4": {
-                    "permissionHidden": "true",
-                    "readonly": ""
-                },
-                "d87feafe-4b49-7b4d-19db-c25c8ee3b381": {}
-            },
+            "permission_rules": {},
             "style-color": "#000000",
             "header-style-border-color": "#000000",
             "permission": {
@@ -113,27 +110,7 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "permission_rules": [
-            {
-                "permission_key": "d87feafe-4b49-7b4d-19db-c25c8ee3b381",
-                "permission": {
-                    "className": "org.joget.apps.userview.lib.GroupPermission",
-                    "properties": {
-                        "orgId": "ORG-001",
-                        "allowedGroupIds": "G-001"
-                    }
-                },
-                "permission_name": "Manager"
-            },
-            {
-                "permission_key": "d7758f62-ea83-e8f9-e0b4-075474d783b4",
-                "permission": {
-                    "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
-                    "properties": {}
-                },
-                "permission_name": "Admin"
-            }
-        ],
+        "permission_rules": [],
         "name": "Admin Add Facillity",
         "description": "",
         "postProcessorRunOn": "create",
