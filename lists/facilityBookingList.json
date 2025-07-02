@@ -6,67 +6,186 @@
     "rowActions": [],
     "columns": [
         {
+            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
-            "name": "id",
-            "id": "column_5",
+            "renderHtml": "",
+            "style-color": "#000000",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "ID",
             "sortable": "false",
-            "datalist_type": "column"
+            "style-border-color": "#000000",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "id",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_5",
+            "alignment": ""
         },
         {
+            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
-            "name": "createdByName",
-            "id": "column_0",
+            "renderHtml": "",
+            "style-color": "#000000",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Created By Name",
             "sortable": "false",
-            "datalist_type": "column"
+            "style-border-color": "#000000",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "createdByName",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_0",
+            "alignment": ""
         },
         {
+            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
-            "name": "facilityName",
-            "id": "column_1",
+            "renderHtml": "",
+            "style-color": "#000000",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Facility Name",
             "sortable": "false",
-            "datalist_type": "column"
+            "style-border-color": "#000000",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "facilityName",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_1",
+            "alignment": ""
         },
         {
+            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
-            "name": "date",
-            "id": "column_2",
+            "renderHtml": "",
+            "style-color": "#000000",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Date",
             "sortable": "false",
-            "datalist_type": "column"
+            "style-border-color": "#000000",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "date",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_2",
+            "alignment": ""
         },
         {
+            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
-            "name": "time",
-            "id": "column_3",
+            "renderHtml": "",
+            "style-color": "#000000",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Time",
             "sortable": "false",
-            "datalist_type": "column"
+            "style-border-color": "#000000",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "time",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_3",
+            "alignment": ""
         },
         {
+            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
-            "name": "noOfParticipants",
-            "id": "column_4",
+            "renderHtml": "",
+            "style-color": "#000000",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "No. of Participants",
             "sortable": "false",
-            "datalist_type": "column"
+            "style-border-color": "#000000",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "noOfParticipants",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_4",
+            "alignment": ""
         },
         {
+            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
-            "name": "specialRequest",
-            "id": "column_6",
+            "renderHtml": "",
+            "style-color": "#000000",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Special Request",
             "sortable": "false",
-            "datalist_type": "column"
+            "style-border-color": "#000000",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "specialRequest",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_6",
+            "alignment": ""
         },
         {
             "filterable": true,
