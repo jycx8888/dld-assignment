@@ -61,14 +61,6 @@
                         "readonlyLabel": "",
                         "storeNumeric": ""
                     }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.CustomHTML",
-                    "properties": {
-                        "autoPopulate": "False",
-                        "label": "",
-                        "id": "field4"
-                    }
                 }
             ],
             "className": "org.joget.apps.form.model.Column",
@@ -88,6 +80,7 @@
                 },
                 "d87feafe-4b49-7b4d-19db-c25c8ee3b381": {}
             },
+            "style-color": "#000000",
             "header-style-border-color": "#000000",
             "permission": {
                 "className": "",
