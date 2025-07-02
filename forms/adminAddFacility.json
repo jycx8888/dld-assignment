@@ -115,7 +115,7 @@
         "description": "",
         "postProcessorRunOn": "create",
         "permission": {
-            "className": "org.joget.apps.userview.lib.LoggedInUserPermission",
+            "className": "",
             "properties": {}
         },
         "id": "adminAddFacility",
