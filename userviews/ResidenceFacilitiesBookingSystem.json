@@ -769,6 +769,7 @@
                 {
                     "className": "org.joget.plugin.enterprise.SqlChartMenu",
                     "properties": {
+                        "stack": "",
                         "xAxisDisplayAS": "",
                         "showLegend": "true",
                         "customFooter": "",
@@ -779,6 +780,7 @@
                         "mapping_x": "date",
                         "yaxisPrefix": "",
                         "categoryAxisLabel": "Category",
+                        "horizontal": "",
                         "library": "echart",
                         "theme": "",
                         "showValueLabel": "true",
@@ -802,7 +804,7 @@
                             "legend": "",
                             "y": "facilityName"
                         }],
-                        "chartType": "line",
+                        "chartType": "bar",
                         "showTable": "",
                         "optionCustomization": "",
                         "chartUseAllDataRows": ""
