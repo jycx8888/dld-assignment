@@ -1,0 +1,118 @@
+{
+    "elements": [{
+        "elements": [{
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.SubForm",
+                    "properties": {
+                        "style-background-color": "#ADD2F7",
+                        "parentSubFormId": "",
+                        "readonly": "",
+                        "loadBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "noframe": "",
+                        "formDefId": "bookingApprovalForm",
+                        "permission_rules": {
+                            "d7758f62-ea83-e8f9-e0b4-075474d783b4": {},
+                            "d87feafe-4b49-7b4d-19db-c25c8ee3b381": {}
+                        },
+                        "subFormParentId": "",
+                        "id": "field1",
+                        "label": "",
+                        "storeBinder": {
+                            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                            "properties": {}
+                        },
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "autoPopulate": "",
+                        "label": "",
+                        "id": "field9",
+                        "value": "<style type=\"text/css\">\r\n    body {\r\n        background-image: url(\"https://properly.com.my/wp-content/uploads/2022/07/Savio-Facade-scaled-1.jpg\");\r\n        background-size: 1500px 800px; /* This sets the width and height */\r\n        background-repeat: no-repeat; /* Prevents the image from repeating if it's smaller than the body */\r\n    }\r\n<\/style>\r\n"
+                    }
+                }
+            ],
+            "className": "org.joget.apps.form.model.Column",
+            "properties": {"width": "100%"}
+        }],
+        "className": "org.joget.apps.form.model.Section",
+        "properties": {
+            "header-style-background-color": "#8632E9",
+            "style-background-color": "#ADD2F7",
+            "visibilityControl": "",
+            "permissionHidden": "true",
+            "permissionReadonly": "",
+            "permission_rules": {
+                "d7758f62-ea83-e8f9-e0b4-075474d783b4": {
+                    "permissionHidden": "true",
+                    "readonly": ""
+                },
+                "d87feafe-4b49-7b4d-19db-c25c8ee3b381": {}
+            },
+            "header-style-border-color": "#000000",
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Acknowledgement Approval",
+            "style-border-color": "#000000",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityValue": "",
+            "regex": "",
+            "readonly": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "comment": "",
+            "id": "acknowledgementApproval",
+            "join": "",
+            "readonlyLabel": ""
+        }
+    }],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "permission_rules": [
+            {
+                "permission_key": "d87feafe-4b49-7b4d-19db-c25c8ee3b381",
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.GroupPermission",
+                    "properties": {
+                        "orgId": "ORG-001",
+                        "allowedGroupIds": "G-001"
+                    }
+                },
+                "permission_name": "Manager"
+            },
+            {
+                "permission_key": "d7758f62-ea83-e8f9-e0b4-075474d783b4",
+                "permission": {
+                    "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
+                    "properties": {}
+                },
+                "permission_name": "Admin"
+            }
+        ],
+        "name": "Acknowledgement Approval ",
+        "description": "",
+        "permission": {
+            "className": "org.joget.apps.userview.lib.LoggedInUserPermission",
+            "properties": {}
+        },
+        "id": "acknowledgementApproval",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "ack_approve"
+    }
+}

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Package xmlns="http://www.wfmc.org/2002/XPDL1.0" xmlns:xpdl="http://www.wfmc.org/2002/XPDL1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="ResidenceFacilitiesBookingSystem" Name="Residence Facilities Booking System" xsi:schemaLocation="http://www.wfmc.org/2002/XPDL1.0 http://wfmc.org/standards/docs/TC-1025_schema_10_xpdl.xsd">
+    <PackageHeader>
+        <XPDLVersion>1.0</XPDLVersion>
+        <Vendor/>
+        <Created/>
+    </PackageHeader>
+    <Script Type="text/javascript"/>
+    <Participants>
+        <Participant Id="resident" Name="Resident">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="manager" Name="Manager">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="system" Name="System">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="residentFeesbackProcess" Name="Resident">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="managerNoticePosting" Name="Manager">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="adminProcessUser" Name="admin">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="process9_participant16" Name="Participant">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+        <Participant Id="process9_participant17" Name="Participant">
+            <ParticipantType Type="ROLE"/>
+        </Participant>
+    </Participants>
+    <Applications>
+        <Application Id="default_application"/>
+    </Applications>
+    <WorkflowProcesses>
+        <WorkflowProcess Id="process1" Name="Facility Booking Request Process">
+            <ProcessHeader DurationUnit="m">
+                <Limit>5</Limit>
+            </ProcessHeader>
+            <DataFields>
+                <DataField Id="status" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+            </DataFields>
+            <Activities>
+                <Activity Id="bookingRequest" Name="Submit Booking Request">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>resident</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="resident"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="211.71875,32.265625"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="viewResults" Name="View Results">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>manager</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Join Type="XOR"/>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="manager"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="495.2750244140625,39.52501220703124"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="reviewBookingRequest" Name="Review Booking Request">
+                    <Limit>5</Limit>
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>manager</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition3"/>
+                                    <TransitionRef Id="transition10"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="manager"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="208.796875,42.375"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="tool1" Name="Notify Approved Booking">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>system</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="system"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="223.8000030517578,78.00001831054686"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="tool2" Name="Notify Rejected Booking">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>system</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="system"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="468.8000183105469,80.00001831054686"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="route1" Name="Approve?">
+                    <Route/>
+                    <Performer>manager</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition4"/>
+                                    <TransitionRef Id="transition5"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="manager"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="239.30001831054688,186.7"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="tool3" Name="Send Reminder">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>system</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="system"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="88.20000457763672,45.62498779296874"/>
+                    </ExtendedAttributes>
+                </Activity>
+            </Activities>
+            <Transitions>
+                <Transition From="reviewBookingRequest" Id="transition3" To="route1">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route1" Id="transition4" To="tool1">
+                    <Condition Type="CONDITION">status ==='Approved'</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route1" Id="transition5" To="tool2">
+                    <Condition Type="OTHERWISE"/>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_BREAK_POINTS" Value="orthogonal"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="tool1" Id="transition7" To="viewResults">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="tool2" Id="transition8" To="viewResults">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="bookingRequest" Id="transition9" To="reviewBookingRequest">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="reviewBookingRequest" Id="transition10" To="tool3">
+                    <Condition Type="EXCEPTION">NOTIFY</Condition>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+            </Transitions>
+            <ExtendedAttributes>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="resident;manager;system"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=resident,CONNECTING_ACTIVITY_ID=bookingRequest,X_OFFSET=44,Y_OFFSET=32,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=manager,CONNECTING_ACTIVITY_ID=viewResults,X_OFFSET=641.7250366210938,Y_OFFSET=62.0000030517578,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=system,CONNECTING_ACTIVITY_ID=tool3,X_OFFSET=127.88749694824219,Y_OFFSET=147.8875,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+            </ExtendedAttributes>
+        </WorkflowProcess>
+        <WorkflowProcess Id="residentFeedbackProcess" Name="Resident Feedback Process">
+            <ProcessHeader DurationUnit="h"/>
+            <DataFields>
+                <DataField Id="status" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+            </DataFields>
+            <Activities>
+                <Activity Id="submitsFeedback" Name="Submits Feedback">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>residentFeesbackProcess</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="residentFeesbackProcess"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="245,28.17500228881836"/>
+                    </ExtendedAttributes>
+                </Activity>
+            </Activities>
+            <ExtendedAttributes>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="residentFeesbackProcess"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=residentFeesbackProcess,CONNECTING_ACTIVITY_ID=submitsFeedback,X_OFFSET=75,Y_OFFSET=46.000003051757815,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=residentFeesbackProcess,CONNECTING_ACTIVITY_ID=submitsFeedback,X_OFFSET=498,Y_OFFSET=50.0499984741211,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+            </ExtendedAttributes>
+        </WorkflowProcess>
+        <WorkflowProcess Id="noticePostingProcess" Name="Manager Notice Posting Process">
+            <ProcessHeader DurationUnit="h"/>
+            <DataFields>
+                <DataField Id="status" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+            </DataFields>
+            <Activities>
+                <Activity Id="postNotice" Name="Post Notice">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>managerNoticePosting</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="managerNoticePosting"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="205,27.98750228881836"/>
+                    </ExtendedAttributes>
+                </Activity>
+            </Activities>
+            <ExtendedAttributes>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="managerNoticePosting"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=managerNoticePosting,CONNECTING_ACTIVITY_ID=postNotice,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=managerNoticePosting,CONNECTING_ACTIVITY_ID=postNotice,X_OFFSET=426,Y_OFFSET=35.650000762939456,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+            </ExtendedAttributes>
+        </WorkflowProcess>
+        <WorkflowProcess Id="adminManageUserAccount" Name="Admin Manage User Account">
+            <ProcessHeader DurationUnit="h"/>
+            <DataFields>
+                <DataField Id="status" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+            </DataFields>
+            <Activities>
+                <Activity Id="createEditUser" Name="Create/Edit User">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>adminProcessUser</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="adminProcessUser"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="219.00000762939453,69.18750305175782"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="route1" Name="Is this an existing user?">
+                    <Route/>
+                    <Performer>adminProcessUser</Performer>
+                    <TransitionRestrictions>
+                        <TransitionRestriction>
+                            <Split Type="XOR">
+                                <TransitionRefs>
+                                    <TransitionRef Id="transition5"/>
+                                    <TransitionRef Id="transition3"/>
+                                </TransitionRefs>
+                            </Split>
+                        </TransitionRestriction>
+                    </TransitionRestrictions>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="adminProcessUser"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="401.3000183105469,80.50000305175782"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="createUser" Name="Create User">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>adminProcessUser</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="adminProcessUser"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="377.70001220703125,198.7"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="editUserAccountNotification" Name="Edit User Account Notification">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>adminProcessUser</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="adminProcessUser"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="740.7000122070312,80.7"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="editUser" Name="Edit User">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>adminProcessUser</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="adminProcessUser"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="553.2000007629395,82.2"/>
+                    </ExtendedAttributes>
+                </Activity>
+                <Activity Id="createUserAccountNotification_2" Name="Create User Account Notification">
+                    <Implementation>
+                        <Tool Id="default_application"/>
+                    </Implementation>
+                    <Performer>adminProcessUser</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="adminProcessUser"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="735,191.0000030517578"/>
+                    </ExtendedAttributes>
+                </Activity>
+            </Activities>
+            <Transitions>
+                <Transition From="createEditUser" Id="transition_end_formActivity" To="route1">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route1" Id="transition5" Name="No" To="createUser">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="route1" Id="transition3" Name="Yes" To="editUser">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="createUser" Id="transition6" To="createUserAccountNotification_2">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+                <Transition From="editUser" Id="transition7" To="editUserAccountNotification">
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_TRANSITION_STYLE" Value="NO_ROUTING_ORTHOGONAL"/>
+                    </ExtendedAttributes>
+                </Transition>
+            </Transitions>
+            <ExtendedAttributes>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="adminProcessUser"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=adminProcessUser,CONNECTING_ACTIVITY_ID=createEditUser,X_OFFSET=92,Y_OFFSET=86.00000305175782,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=adminProcessUser,CONNECTING_ACTIVITY_ID=editUserAccountNotification,X_OFFSET=1018,Y_OFFSET=115.87500305175782,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=adminProcessUser,CONNECTING_ACTIVITY_ID=createUserAccountNotification_2,X_OFFSET=1012.0000305175781,Y_OFFSET=221.0625030517578,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+            </ExtendedAttributes>
+        </WorkflowProcess>
+        <WorkflowProcess Id="addNewFacility" Name="Add New Facility">
+            <ProcessHeader DurationUnit="h"/>
+            <DataFields>
+                <DataField Id="status" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+            </DataFields>
+            <Activities>
+                <Activity Id="add_new_facility" Name="Add new facility">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>process9_participant16</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process9_participant16"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="228,31.187499237060546"/>
+                    </ExtendedAttributes>
+                </Activity>
+            </Activities>
+            <ExtendedAttributes>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process9_participant16"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process9_participant16,CONNECTING_ACTIVITY_ID=add_new_facility,X_OFFSET=101,Y_OFFSET=46.000003051757815,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process9_participant16,CONNECTING_ACTIVITY_ID=add_new_facility,X_OFFSET=429.7250061035156,Y_OFFSET=57.000003051757815,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+            </ExtendedAttributes>
+        </WorkflowProcess>
+        <WorkflowProcess Id="residentRegister" Name="Resident Register">
+            <ProcessHeader DurationUnit="h"/>
+            <DataFields>
+                <DataField Id="status" IsArray="FALSE">
+                    <DataType>
+                        <BasicType Type="STRING"/>
+                    </DataType>
+                </DataField>
+            </DataFields>
+            <Activities>
+                <Activity Id="register" Name="Register">
+                    <Implementation>
+                        <No/>
+                    </Implementation>
+                    <Performer>process9_participant17</Performer>
+                    <ExtendedAttributes>
+                        <ExtendedAttribute Name="JaWE_GRAPH_PARTICIPANT_ID" Value="process9_participant17"/>
+                        <ExtendedAttribute Name="JaWE_GRAPH_OFFSET" Value="211,35.272727"/>
+                    </ExtendedAttributes>
+                </Activity>
+            </Activities>
+            <ExtendedAttributes>
+                <ExtendedAttribute Name="JaWE_GRAPH_WORKFLOW_PARTICIPANT_ORDER" Value="process9_participant17"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_START_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process9_participant17,CONNECTING_ACTIVITY_ID=register,X_OFFSET=75,Y_OFFSET=46,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=START_DEFAULT"/>
+                <ExtendedAttribute Name="JaWE_GRAPH_END_OF_WORKFLOW" Value="JaWE_GRAPH_PARTICIPANT_ID=process9_participant17,CONNECTING_ACTIVITY_ID=register,X_OFFSET=417,Y_OFFSET=56.05682276416016,JaWE_GRAPH_TRANSITION_STYLE=NO_ROUTING_ORTHOGONAL,TYPE=END_DEFAULT"/>
+            </ExtendedAttributes>
+        </WorkflowProcess>
+    </WorkflowProcesses>
+</Package>
