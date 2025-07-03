@@ -102,6 +102,15 @@
             "extraCondition": ""
         }
     },
-    "actions": [],
+    "actions": [{
+        "className": "org.joget.plugin.enterprise.BeanShellDatalistAction",
+        "id": "action_0",
+        "properties": {
+            "label": "BeanShell",
+            "confirmation": "",
+            "datalist_type": "action",
+            "script": "// Ensure jQuery is loaded and the DOM is ready\r\n$(document).ready(function() {\r\n\r\n    // IMPORTANT:\r\n    // 1. INSPECT YOUR JOGET LIST'S HTML IN BROWSER DEVELOPER TOOLS (F12).\r\n    //    Find the exact selector for your list's table rows.\r\n    //    Common Joget list table selector is '.dataList table tbody tr'.\r\n    //    If yours is different, replace '.dataList table tbody tr' below.\r\n    // 2. VERIFY THE COLUMN INDEX FOR \"Approval Status\".\r\n    //    In your image, \"Approval Status\" is the 3rd column (ID, Created By Name, Approval Status).\r\n    //    So, its 0-indexed position is 2 (td:eq(2)).\r\n    //    If your list columns change, you MUST update this index.\r\n\r\n    var $listRows = $('.dataList table tbody tr');\r\n\r\n    $listRows.each(function() {\r\n        var $row = $(this);\r\n        // Get the text content of the 'Approval Status' column\r\n        // Adjust 'td:eq(2)' if the column index changes in your list\r\n        var approvalStatusCellText = $row.find('td:eq(2)').text().trim();\r\n\r\n        if (approvalStatusCellText === 'Approved') {\r\n            $row.addClass('approved-row');\r\n        } else if (approvalStatusCellText === 'Rejected') {\r\n            $row.addClass('rejected-row');\r\n        }\r\n        // You can add more conditions here if you have other statuses\r\n        // else if (approvalStatusCellText === 'Pending') {\r\n        //     $row.addClass('pending-row');\r\n        // }\r\n    });\r\n});"
+        }
+    }],
     "order": ""
 }
