@@ -6,6 +6,7 @@
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "requiredSanitize": "",
+                        "fieldInput-style-hover-background-color": "#FBF484",
                         "maxlength": "",
                         "permission_rules": {},
                         "validator": {
@@ -32,6 +33,7 @@
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "requiredSanitize": "",
+                        "fieldInput-style-hover-background-color": "#FBF484",
                         "maxlength": "",
                         "permission_rules": {},
                         "validator": {
