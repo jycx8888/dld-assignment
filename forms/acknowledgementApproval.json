@@ -44,7 +44,7 @@
         }],
         "className": "org.joget.apps.form.model.Section",
         "properties": {
-            "header-style-background-color": "#8632E9",
+            "header-style-background-color": "#307DC0",
             "style-background-color": "#ADD2F7",
             "visibilityControl": "",
             "permissionHidden": "true",
