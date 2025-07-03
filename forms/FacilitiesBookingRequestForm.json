@@ -245,7 +245,7 @@
         "className": "org.joget.apps.form.model.Section",
         "properties": {
             "style-background-color": "#ADD2F7",
-            "header-style-background-color": "#4C65F7",
+            "header-style-background-color": "#307DC0",
             "visibilityControl": "",
             "permissionReadonly": "",
             "style-color": "#000000",
