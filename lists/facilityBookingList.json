@@ -176,11 +176,26 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "status",
-            "id": "column_7",
+            "renderHtml": "",
+            "style-color": "#000000",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "status",
             "sortable": "false",
-            "datalist_type": "column"
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "status",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_7",
+            "alignment": ""
         }
     ],
     "pageSize": "0",
