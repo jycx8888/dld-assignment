@@ -3,9 +3,10 @@
         "elements": [{
             "elements": [
                 {
-                    "className": "org.joget.apps.form.lib.TextArea",
+                    "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
-                        "requiredSanitize": "",
+                        "controlField": "",
+                        "multiple": "",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
@@ -14,47 +15,29 @@
                                 "mandatory": "true"
                             }
                         },
-                        "label": "Comments",
-                        "rows": "5",
-                        "readonly": "",
-                        "fieldInput-style-background-color": "#FFFBC1",
-                        "fieldInput-style-border-color": "#000000",
-                        "workflowVariable": "",
-                        "id": "comments",
-                        "placeholder": "",
-                        "cols": "20",
-                        "value": "",
-                        "readonlyLabel": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "requiredSanitize": "",
-                        "maxlength": "",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
-                            "properties": {
-                                "type": "",
-                                "message": "",
-                                "mandatory": "true"
-                            }
-                        },
-                        "label": "Booking ID",
-                        "disableIncrementDecrementArrow": "",
-                        "encryption": "",
+                        "label": "Facility",
                         "readonly": "",
                         "size": "",
-                        "fieldInput-style-background-color": "#FFFBC1",
-                        "fieldInput-style-border-color": "#000000",
+                        "optionsBinder": {
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "",
+                                "groupingColumn": "",
+                                "useAjax": "",
+                                "formDefId": "adminAddFacility",
+                                "labelColumn": "newFacilityName",
+                                "extraCondition": "",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "idColumn": "newFacilityName"
+                            }
+                        },
+                        "fieldInput-style-background-color": "#FFFFFF",
+                        "options": [],
                         "workflowVariable": "",
-                        "style": "",
-                        "fieldInput-style-color": "#000000",
-                        "id": "bookingID",
-                        "placeholder": "",
+                        "id": "facility",
                         "value": "",
-                        "readonlyLabel": "",
-                        "storeNumeric": ""
+                        "readonlyLabel": ""
                     }
                 },
                 {
@@ -108,6 +91,31 @@
                         "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "id": "rating",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextArea",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
+                        },
+                        "label": "Comments",
+                        "rows": "5",
+                        "readonly": "",
+                        "fieldInput-style-background-color": "#FFFBC1",
+                        "fieldInput-style-border-color": "#000000",
+                        "workflowVariable": "",
+                        "id": "comments",
+                        "placeholder": "",
+                        "cols": "20",
                         "value": "",
                         "readonlyLabel": ""
                     }
