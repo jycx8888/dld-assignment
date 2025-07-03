@@ -79,10 +79,6 @@
                         <No/>
                     </Implementation>
                     <Performer>manager</Performer>
-                    <Deadline Execution="ASYNCHR">
-                        <DeadlineCondition>var m=new java.util.Date(); m.setTime(ACTIVITY_ACTIVATED_TIME.getTime()+(5*60000)); m;</DeadlineCondition>
-                        <ExceptionName>NOTIFY</ExceptionName>
-                    </Deadline>
                     <TransitionRestrictions>
                         <TransitionRestriction>
                             <Split Type="XOR">
