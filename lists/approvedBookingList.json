@@ -14,10 +14,8 @@
                 "className": "",
                 "properties": {}
             },
-            "header-style-border-color": "#000000",
             "label": "ID",
             "sortable": "false",
-            "style-border-color": "#000000",
             "datalist_type": "column",
             "exclude_export": "",
             "name": "id",
@@ -40,10 +38,8 @@
                 "className": "",
                 "properties": {}
             },
-            "header-style-border-color": "#000000",
             "label": "Created By Name",
             "sortable": "false",
-            "style-border-color": "#000000",
             "datalist_type": "column",
             "exclude_export": "",
             "name": "createdByName",
@@ -66,10 +62,8 @@
                 "className": "",
                 "properties": {}
             },
-            "header-style-border-color": "#000000",
             "label": "Approval Status",
             "sortable": "false",
-            "style-border-color": "#000000",
             "datalist_type": "column",
             "exclude_export": "",
             "style-text-align": "left",
