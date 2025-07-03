@@ -425,7 +425,7 @@
                 </DataField>
             </DataFields>
             <Activities>
-                <Activity Id="activity1" Name="Activity 1">
+                <Activity Id="activity1" Name="testtt">
                     <Implementation>
                         <No/>
                     </Implementation>
