@@ -105,7 +105,7 @@
     "actions": [
         {
             "className": "org.joget.plugin.enterprise.BeanShellDatalistAction",
-            "id": "action_0",
+            "id": "action_1",
             "properties": {
                 "label": "BeanShell",
                 "confirmation": "",
@@ -115,7 +115,7 @@
         },
         {
             "className": "org.joget.plugin.enterprise.BeanShellDatalistAction",
-            "id": "action_1",
+            "id": "action_0",
             "properties": {
                 "label": "BeanShell",
                 "confirmation": "",
