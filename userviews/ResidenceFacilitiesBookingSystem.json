@@ -354,6 +354,20 @@
                     "properties": {
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            }
+                        },
                         "keyName": "",
                         "label": "Facility Feedback",
                         "redirectTarget": "",
@@ -381,6 +395,14 @@
                         "cacheAllLinks": "",
                         "edit-saveButtonLabel": "",
                         "list-showDeleteButton": "",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                        },
                         "list-newButtonLabel": "",
                         "edit-prevButtonLabel": "",
                         "enableOffline": "",
@@ -818,6 +840,11 @@
                             "height": ""
                         }
                     ],
+                    "permission_rules": {
+                        "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
+                        "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                        "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                    },
                     "customFooter": "<div style=\"background-color: #f5f5f5; color: #555; padding: 12px 20px; border-radius: 0 0 10px 10px; font-size: 13px; text-align: center; box-shadow: 0 -2px 6px rgba(0,0,0,0.05); margin-top: 10px;\">\n    <div style=\"margin-bottom: 5px;\">\n        Need help? Contact <a href=\"mailto:support@residence-booking.com\" style=\"color: #003366; text-decoration: none;\">support@residence-booking.com<\/a> |\n        <a href=\"/userview/facilities/1/help\" style=\"color: #003366; text-decoration: none;\">Help Center<\/a>\n    <\/div>\n    <div>\n        &copy; 2025 Residence Management System. All rights reserved. | Powered by <strong>Joget DX<\/strong>\n    <\/div>\n<\/div>",
                     "label": "Manager Dashboard",
                     "id": "DB1BC552E6EC4720D6F0E178D3B5E949",
