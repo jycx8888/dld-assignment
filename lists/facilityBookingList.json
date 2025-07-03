@@ -6,7 +6,6 @@
     "rowActions": [],
     "columns": [
         {
-            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
             "renderHtml": "",
@@ -17,7 +16,6 @@
             },
             "label": "ID",
             "sortable": "false",
-            "style-border-color": "#000000",
             "datalist_type": "column",
             "exclude_export": "",
             "name": "id",
@@ -32,7 +30,6 @@
             "alignment": ""
         },
         {
-            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
             "renderHtml": "",
@@ -43,7 +40,6 @@
             },
             "label": "Created By Name",
             "sortable": "false",
-            "style-border-color": "#000000",
             "datalist_type": "column",
             "exclude_export": "",
             "name": "createdByName",
@@ -58,7 +54,6 @@
             "alignment": ""
         },
         {
-            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
             "renderHtml": "",
@@ -69,7 +64,6 @@
             },
             "label": "Facility Name",
             "sortable": "false",
-            "style-border-color": "#000000",
             "datalist_type": "column",
             "exclude_export": "",
             "name": "facilityName",
@@ -84,7 +78,6 @@
             "alignment": ""
         },
         {
-            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
             "renderHtml": "",
@@ -95,7 +88,6 @@
             },
             "label": "Date",
             "sortable": "false",
-            "style-border-color": "#000000",
             "datalist_type": "column",
             "exclude_export": "",
             "name": "date",
@@ -110,7 +102,6 @@
             "alignment": ""
         },
         {
-            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
             "renderHtml": "",
@@ -121,7 +112,6 @@
             },
             "label": "Time",
             "sortable": "false",
-            "style-border-color": "#000000",
             "datalist_type": "column",
             "exclude_export": "",
             "name": "time",
@@ -136,7 +126,6 @@
             "alignment": ""
         },
         {
-            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
             "renderHtml": "",
@@ -147,7 +136,6 @@
             },
             "label": "No. of Participants",
             "sortable": "false",
-            "style-border-color": "#000000",
             "datalist_type": "column",
             "exclude_export": "",
             "name": "noOfParticipants",
@@ -162,7 +150,6 @@
             "alignment": ""
         },
         {
-            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
             "renderHtml": "",
@@ -173,7 +160,6 @@
             },
             "label": "Special Request",
             "sortable": "false",
-            "style-border-color": "#000000",
             "datalist_type": "column",
             "exclude_export": "",
             "name": "specialRequest",
