@@ -348,29 +348,6 @@
                         "edit-backButtonLabel": "",
                         "list-editLinkTarget": ""
                     }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.RunProcess",
-                    "properties": {
-                        "runProcessDirectly": "Yes",
-                        "fieldPassoverMethod": "append",
-                        "keyName": "",
-                        "label": "Facility Feedback",
-                        "redirectTarget": "",
-                        "enableOffline": "",
-                        "afterSavedReloadTarget": "true",
-                        "customId": "facilityFeedback",
-                        "userviewCacheDuration": "20",
-                        "messageShowAfterComplete": "",
-                        "showInPopupDialog": "",
-                        "userviewCacheScope": "",
-                        "actionAfterSaved": "",
-                        "runProcessSubmitLabel": "",
-                        "id": "626EB688999D4906B4E75BEAB8747E73",
-                        "processDefId": "residentFeedbackProcess",
-                        "redirectUrlAfterComplete": "",
-                        "fieldPassover": ""
-                    }
                 }
             ],
             "properties": {
