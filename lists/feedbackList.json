@@ -1,18 +1,57 @@
 {
-    "rowActions": [],
-    "columns": [],
-    "name": "Feedback List",
-    "pageSize": "0",
-    "orderBy": "",
-    "description": "",
-    "id": "feedbackList",
-    "filters": [],
-    "binder": {
-        "name": "",
+    "template": {
         "className": "",
         "properties": {}
     },
-    "actions": [],
+    "rowActions": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "createdByName",
+            "id": "column_0",
+            "label": "Created By Name",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "facility",
+            "id": "column_1",
+            "label": "Facility",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "rating",
+            "id": "column_2",
+            "label": "Rating",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "comments",
+            "id": "column_3",
+            "label": "Comments",
+            "sortable": "false"
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "Feedback List",
+    "id": "feedbackList",
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "facilityFeedbackForm",
+            "extraCondition": ""
+        }
+    },
+    "actions": [],
     "order": ""
 }
