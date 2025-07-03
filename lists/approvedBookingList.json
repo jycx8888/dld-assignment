@@ -6,7 +6,6 @@
     "rowActions": [],
     "columns": [
         {
-            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
             "renderHtml": "",
@@ -33,7 +32,6 @@
             "alignment": ""
         },
         {
-            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
             "renderHtml": "",
@@ -60,7 +58,6 @@
             "alignment": ""
         },
         {
-            "style-background-color": "#BEE3FB",
             "filterable": true,
             "hidden": "false",
             "renderHtml": "",
