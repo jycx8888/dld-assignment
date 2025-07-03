@@ -247,18 +247,18 @@
          </packageActivityPluginMap>
          <packageParticipantMap>
             <entry>
-               <string>residentFeedbackProcess::processStartWhiteList</string>
+               <string>process7::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>residentFeedbackProcess</processDefId>
+                  <processDefId>process7</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
                </packageParticipant>
             </entry>
             <entry>
-               <string>process7::processStartWhiteList</string>
+               <string>residentFeedbackProcess::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>process7</processDefId>
+                  <processDefId>residentFeedbackProcess</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
