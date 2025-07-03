@@ -32,8 +32,9 @@
                                 "idColumn": "newFacilityName"
                             }
                         },
-                        "fieldInput-style-background-color": "#FFFFFF",
+                        "fieldInput-style-background-color": "#FFFBC1",
                         "options": [],
+                        "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "id": "facility",
                         "value": "",
