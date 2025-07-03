@@ -446,6 +446,27 @@
                         "edit-backButtonLabel": "",
                         "list-editLinkTarget": ""
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "<script>\r\n    var _customFooTableArgs = {breakpoints: {phone: 0, tablet: 0}};\r\n<\/script>\r\n<style>\r\n    .exportlinks { display: none!important; }\r\n<\/style>",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Users Dashboard",
+                        "enableOffline": "",
+                        "customId": "usersDashboard",
+                        "buttonPosition": "bottomLeft",
+                        "datalistId": "usersDashboard",
+                        "checkboxPosition": "no",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "true",
+                        "id": "22DD13C4466140903EBB16A807A4ACA2"
+                    }
                 }
             ],
             "properties": {
@@ -840,6 +861,60 @@
                             },
                             "autoReload": "",
                             "height": ""
+                        },
+                        {
+                            "autoHeight": "true",
+                            "resizable": "true",
+                            "x": "",
+                            "width": "1",
+                            "y": "",
+                            "fixed": "",
+                            "userviewMenu": {
+                                "className": "org.joget.plugin.enterprise.CrudMenu",
+                                "properties": {
+                                    "list-customFooter": "",
+                                    "edit-customHeader": "",
+                                    "editFormId": "",
+                                    "edit-saveButtonLabel": "",
+                                    "list-showDeleteButton": "",
+                                    "list-newButtonLabel": "",
+                                    "edit-prevButtonLabel": "",
+                                    "customId": "",
+                                    "edit-afterSaved": "list",
+                                    "checkboxPosition": "no",
+                                    "selectionType": "multiple",
+                                    "add-customFooter": "",
+                                    "addFormId": "",
+                                    "edit-allowRecordTraveling": "",
+                                    "id": "",
+                                    "rowCount": "true",
+                                    "add-messageShowAfterComplete": "",
+                                    "edit-readonlyLabel": "true",
+                                    "list-editLinkLabel": "",
+                                    "add-cancelButtonLabel": "",
+                                    "edit-customFooter": "",
+                                    "keyName": "",
+                                    "label": "CRUD",
+                                    "list-newLinkTarget": "",
+                                    "add-customHeader": "",
+                                    "edit-lastButtonLabel": "",
+                                    "edit-readonly": "",
+                                    "buttonPosition": "bottomLeft",
+                                    "edit-firstButtonLabel": "",
+                                    "datalistId": "usersDashboard",
+                                    "add-saveButtonLabel": "",
+                                    "edit-nextButtonLabel": "",
+                                    "edit-messageShowAfterComplete": "",
+                                    "edit-moreActions": [],
+                                    "list-moreActions": [],
+                                    "add-afterSaved": "list",
+                                    "edit-backButtonLabel": "",
+                                    "list-editLinkTarget": "",
+                                    "list-customHeader": "<script>\r\n    var _customFooTableArgs = {breakpoints: {phone: 0, tablet: 0}};\r\n<\/script>\r\n<style>\r\n    .exportlinks { display: none!important; }\r\n<\/style>"
+                                }
+                            },
+                            "autoReload": "",
+                            "height": "400"
                         }
                     ],
                     "permission_rules": {
