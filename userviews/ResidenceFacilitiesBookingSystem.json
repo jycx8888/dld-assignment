@@ -835,7 +835,7 @@
                                 "properties": {
                                     "customHeader": "",
                                     "xAxisDisplayAS": "",
-                                    "valueAxisLabel": "Total New User (Daily)",
+                                    "valueAxisLabel": "New User (Daily)",
                                     "smoothLine": "true",
                                     "query": "SELECT \r\n  DATE_FORMAT(dateCreated, '%Y-%m-%d') AS label, \r\n  COUNT(id) AS value\r\nFROM \r\n  app_fd_resident_register\r\nWHERE \r\n  dateCreated IS NOT NULL\r\nGROUP BY \r\n  label\r\nORDER BY \r\n  label ASC",
                                     "showLegend": "true",
