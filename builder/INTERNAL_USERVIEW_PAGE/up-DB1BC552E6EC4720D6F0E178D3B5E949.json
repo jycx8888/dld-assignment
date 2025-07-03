@@ -63,7 +63,7 @@
             "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
             "properties": {
                 "attr-data-events-listening": [],
-                "textContent": "<style>\n    body {\n        background-image: url(\"https://www.freepik.com/free-photo/dark-room-with-light-background_24651472.htm#fromView=keyword&page=1&position=43&uuid=bf53f96b-4f3c-4cd5-93df-2e4d48f7813d&query=Background\");\n        background-size: 1700px 900px; /* This sets the width and height */\n        background-repeat: no-repeat; /* Prevents the image from repeating if it's smaller than the body */\n    }\n<\/style>",
+                "textContent": "<style>\n    body {\n        background-image: url(\"https://imgs.search.brave.com/2fdVMARLUAWZx_pMtINRoZ-IWGUmTE55LSdNRZHRykE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93MC5w/ZWFrcHguY29tL3dh/bGxwYXBlci81Ny8x/NTkvSEQtd2FsbHBh/cGVyLWJsdWUtc2t5/LWNsZWFyLXNreS1j/bGVhbi13ZWF0aGVy/LXBlYWNlLXNwYWNl/LXBsYWluLWJhY2tn/cm91bmQtdGh1bWJu/YWlsLmpwZw\");\n        background-size: 1700px 900px; /* This sets the width and height */\n        background-repeat: no-repeat; /* Prevents the image from repeating if it's smaller than the body */\n    }\n<\/style>",
                 "id": "16E352B49EDD439ECD6C2AB13874C6F7",
                 "customId": "backgroundManagerDashboard"
             }
