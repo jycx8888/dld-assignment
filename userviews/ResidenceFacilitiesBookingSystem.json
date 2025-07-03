@@ -929,9 +929,11 @@
         "theme": {
             "className": "",
             "properties": {
+                "sidebar-style-background-color": "#A5A1E8",
                 "mobileViewDisabled": "",
+                "sidebar-style-background-size": "cover",
                 "mobileCacheEnabled": "",
-                "sidebar-style-background-image": "#appResource.Screenshot_2025-07-03_181453.png#"
+                "sidebar-style-background-image": "#appResource.Screenshot_2025-07-03_174425.png#"
             }
         },
         "permission": {
