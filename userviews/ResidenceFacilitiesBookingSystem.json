@@ -756,7 +756,7 @@
                 "properties": {
                     "mode": "plugins",
                     "userviewCacheDuration": "20",
-                    "customHeader": "<div style=\"background-color: #002B5B; color: white; padding: 15px 25px; border-radius: 10px 10px 0 0; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1);\">\n    <div style=\"display: flex; align-items: center;\">\n        <img src=\"https://img.icons8.com/ios-filled/50/ffffff/building.png\" alt=\"Logo\" style=\"width: 35px; height: 35px; margin-right: 12px;\">\n        <div>\n            <h2 style=\"margin: 0; font-size: 22px;\">Residence Facilities Booking System<\/h2>\n            <p style=\"margin: 0; font-size: 13px; color: #ccc;\">Your one-stop platform to book and manage residence facilities<\/p>\n        <\/div>\n    <\/div>\n    <div style=\"text-align: right;\">\n        <span style=\"font-size: 14px;\">👤 <strong>Welcome, Admin<\/strong><\/span><br>\n        <span style=\"font-size: 12px;\">📅 <script>document.write(new Date().toLocaleDateString())<\/script><\/span>\n    <\/div>\n<\/div>",
+                    "customHeader": "",
                     "defaultPortletHeight": "250",
                     "userviewCacheScope": "",
                     "plugins": [
@@ -845,7 +845,7 @@
                         "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
                         "f192aecd-18e0-a905-7525-7a9738648a81": {}
                     },
-                    "customFooter": "<div style=\"background-color: #f5f5f5; color: #555; padding: 12px 20px; border-radius: 0 0 10px 10px; font-size: 13px; text-align: center; box-shadow: 0 -2px 6px rgba(0,0,0,0.05); margin-top: 10px;\">\n    <div style=\"margin-bottom: 5px;\">\n        Need help? Contact <a href=\"mailto:support@residence-booking.com\" style=\"color: #003366; text-decoration: none;\">support@residence-booking.com<\/a> |\n        <a href=\"/userview/facilities/1/help\" style=\"color: #003366; text-decoration: none;\">Help Center<\/a>\n    <\/div>\n    <div>\n        &copy; 2025 Residence Management System. All rights reserved. | Powered by <strong>Joget DX<\/strong>\n    <\/div>\n<\/div>",
+                    "customFooter": "",
                     "label": "Manager Dashboard",
                     "id": "DB1BC552E6EC4720D6F0E178D3B5E949",
                     "enableOffline": "",
