@@ -364,7 +364,7 @@
                                 "permissionDeny": ""
                             },
                             "f192aecd-18e0-a905-7525-7a9738648a81": {
-                                "permissionHidden": "true",
+                                "permissionHidden": "",
                                 "permissionDeny": ""
                             }
                         },
