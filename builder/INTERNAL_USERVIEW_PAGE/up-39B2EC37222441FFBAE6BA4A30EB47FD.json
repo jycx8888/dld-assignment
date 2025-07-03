@@ -1,0 +1,16 @@
+{
+    "elements": [
+        {"className": "menu-component"},
+        {
+            "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "textContent": "<style type=\"text/css\">\r\n    .form-container, .form-body {\r\n        background-image: url(\"https://properly.com.my/wp-content/uploads/2022/07/Savio-Facade-scaled-1.jpg\");\r\n        background-size: 1700px 900px; /* This sets the width and height */\r\n        background-repeat: no-repeat; /* Prevents the image from repeating if it's smaller than the container */\r\n    }\r\n    body {\r\n        background-image: url(\"https://properly.com.my/wp-content/uploads/2022/07/Savio-Facade-scaled-1.jpg\");\r\n        background-size: 1700px 900px; /* This sets the width and height */\r\n        background-repeat: no-repeat; /* Prevents the image from repeating if it's smaller than the body */\r\n    }\r\n<\/style>",
+                "id": "C2BF2B3C7FBB423F2E51CEC1184F3019",
+                "customId": ""
+            }
+        }
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-39B2EC37222441FFBAE6BA4A30EB47FD"}
+}
