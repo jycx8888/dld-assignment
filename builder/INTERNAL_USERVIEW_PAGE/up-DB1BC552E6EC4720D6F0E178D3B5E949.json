@@ -1,5 +1,65 @@
 {
-    "elements": [{"className": "menu-component"}],
+    "elements": [
+        {
+            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+            "properties": {
+                "template": "<!--{sampleWidth: '250px', tags: 'dark-bg icon'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            background-color:{{color||#348fe2}}; \n            background-image:url('{{bgImg}}'); \n            color:#fff;\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body row\">\n        <div class=\"stats-info col-8\">\n            <h4 style=\"font-size: 12px;\n                       margin: 5px 0;\n                       color: rgba(255,255,255,.7);\">\n                {{title||TOTAL VISITORS}}\n            <\/h4>\n            <p style=\"font-size: 24px; \n                      font-weight: 600; \n                      margin-bottom: 0;\">\n                {{value||3,291,922}}\n            <\/p>\n        <\/div>\n        <div class=\"stats-icon col-4\" \n             style=\"font-size: 42px; \n                    color: rgba(0,0,0,.15);\">\n            {{icon||<i class=\"fas fa-globe\"><\/i>}}\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
+                "attr-data-events-listening": [],
+                "color": "#348FE2",
+                "icon": "<i class=\"fab fa-playstation\" style=\"color:white\"><\/i>",
+                "link": "",
+                "bgImg": "#appResource.what-is-a-condominium-condo-1919150576.jpg#",
+                "title": "TOTAL FACILITIES LIST",
+                "customId": "totalFacilitiesList",
+                "chartData": "",
+                "chartConfig": "",
+                "reload": "",
+                "bgColor": "",
+                "id": "368DF9B119CA48FA3452CE5C4A630E1F",
+                "value": "#datalist.total.facilityList#",
+                "chartLabels": "Total Facilities List",
+                "height": ""
+            }
+        },
+        {
+            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+            "properties": {
+                "template": "<!--{sampleWidth: '250px', tags: 'dark-bg icon'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            background-color:{{color||#348fe2}}; \n            background-image:url('{{bgImg}}'); \n            color:#fff;\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body row\">\n        <div class=\"stats-info col-8\">\n            <h4 style=\"font-size: 12px;\n                       margin: 5px 0;\n                       color: rgba(255,255,255,.7);\">\n                {{title||TOTAL VISITORS}}\n            <\/h4>\n            <p style=\"font-size: 24px; \n                      font-weight: 600; \n                      margin-bottom: 0;\">\n                {{value||3,291,922}}\n            <\/p>\n        <\/div>\n        <div class=\"stats-icon col-4\" \n             style=\"font-size: 42px; \n                    color: rgba(0,0,0,.15);\">\n            {{icon||<i class=\"fas fa-globe\"><\/i>}}\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
+                "attr-data-events-listening": [],
+                "color": "#348FE2",
+                "icon": "<i class=\"far fa-user-circle\" style=\"color:white\"><\/i>",
+                "link": "",
+                "bgImg": "",
+                "title": "NEW USERS",
+                "customId": "newUsers",
+                "chartData": "",
+                "chartConfig": "",
+                "reload": "",
+                "id": "F8927E03D05C4872C93B48D5BB91194F",
+                "value": "#datalist.total.userAccountList#",
+                "chartLabels": "New Users",
+                "height": ""
+            }
+        },
+        {
+            "className": "org.joget.plugin.enterprise.InformationTileComponent",
+            "properties": {
+                "template": "<!--{sampleWidth: '250px', tags: 'dark-bg icon'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            background-color:{{color||#348fe2}}; \n            background-image:url('{{bgImg}}'); \n            color:#fff;\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body row\">\n        <div class=\"stats-info col-8\">\n            <h4 style=\"font-size: 12px;\n                       margin: 5px 0;\n                       color: rgba(255,255,255,.7);\">\n                {{title||TOTAL VISITORS}}\n            <\/h4>\n            <p style=\"font-size: 24px; \n                      font-weight: 600; \n                      margin-bottom: 0;\">\n                {{value||3,291,922}}\n            <\/p>\n        <\/div>\n        <div class=\"stats-icon col-4\" \n             style=\"font-size: 42px; \n                    color: rgba(0,0,0,.15);\">\n            {{icon||<i class=\"fas fa-globe\"><\/i>}}\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
+                "attr-data-events-listening": [],
+                "reload": "",
+                "color": "#348FE2",
+                "icon": "<i class=\"fas fa-clipboard-list\" style=\"color:white\"><\/i>",
+                "link": "",
+                "bgImg": "",
+                "id": "2F34B08858F9447908B67EA4F9C77713",
+                "title": "TOTAL COMPLETED BOOKINGS",
+                "value": "#datalist.total.approvedBookingList#",
+                "customId": "completedBooking",
+                "height": ""
+            }
+        },
+        {"className": "menu-component"}
+    ],
     "className": "org.joget.apps.userview.model.UserviewPage",
     "properties": {"id": "up-DB1BC552E6EC4720D6F0E178D3B5E949"}
 }
