@@ -929,6 +929,7 @@
         "theme": {
             "className": "",
             "properties": {
+                "sidebar-style-background-color": "#A5A1E8",
                 "mobileViewDisabled": "",
                 "sidebar-style-background-size": "cover",
                 "mobileCacheEnabled": ""
