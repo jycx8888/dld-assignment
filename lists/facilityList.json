@@ -8,8 +8,8 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "facilityID",
-            "id": "column_1",
+            "name": "field2",
+            "id": "column_0",
             "label": "Facility ID",
             "sortable": "false"
         },
