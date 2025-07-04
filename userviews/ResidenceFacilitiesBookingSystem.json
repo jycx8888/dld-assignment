@@ -616,7 +616,7 @@
                             "y": "",
                             "fixed": "",
                             "label": "Facility List",
-                            "url": "facilityList?embed=true",
+                            "url": "facilityDashboard?embed=true",
                             "autoReload": "",
                             "height": "400"
                         }
