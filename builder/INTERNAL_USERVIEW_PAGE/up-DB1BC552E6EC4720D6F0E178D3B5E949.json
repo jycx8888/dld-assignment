@@ -144,11 +144,6 @@
             }
         },
         {
-            "elements": [{"className": "menu-component"}],
-            "className": "org.joget.apps.userview.lib.component.ContainerComponent",
-            "properties": {"id": "76EC78FDF03F4666E56EF3B543D52464"}
-        },
-        {
             "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
             "properties": {
                 "attr-data-events-listening": [],
@@ -156,7 +151,8 @@
                 "id": "16E352B49EDD439ECD6C2AB13874C6F7",
                 "customId": "backgroundManagerDashboard"
             }
-        }
+        },
+        {"className": "menu-component"}
     ],
     "className": "org.joget.apps.userview.model.UserviewPage",
     "properties": {"id": "up-DB1BC552E6EC4720D6F0E178D3B5E949"}
