@@ -1,5 +1,16 @@
 {
     "elements": [
+        {
+            "className": "org.joget.apps.userview.lib.component.HeadingComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "style-color": "#FFFFFF",
+                "textContent": "<span style=\"text-decoration: underline;\">Approved Booking List<\/span>",
+                "id": "8126D7D01DCB4B5FCA7A8339AFE19607",
+                "tagName": "h1",
+                "customId": ""
+            }
+        },
         {"className": "menu-component"},
         {
             "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
