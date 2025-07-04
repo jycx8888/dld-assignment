@@ -113,7 +113,7 @@
                             "f192aecd-18e0-a905-7525-7a9738648a81": {}
                         },
                         "keyName": "",
-                        "label": "<i class=\"fas fa-building\"><\/i> Add Facility",
+                        "label": "<i class=\"zmdi zmdi-account-add\"><\/i> Add Facility",
                         "redirectTarget": "",
                         "enableOffline": "",
                         "afterSavedReloadTarget": "true",
@@ -186,7 +186,7 @@
                         "rowCount": "",
                         "edit-customFooter": "",
                         "keyName": "",
-                        "label": "Facility List",
+                        "label": "<i class=\"fas fa-building\"><\/i> Facility List",
                         "list-newLinkTarget": "",
                         "edit-lastButtonLabel": "",
                         "buttonPosition": "bothLeft",
@@ -762,7 +762,7 @@
                         "rowCount": "",
                         "edit-customFooter": "",
                         "keyName": "",
-                        "label": "Approved Booking List",
+                        "label": "<i class=\"fas fa-check-square\"><\/i> Approved Booking List",
                         "list-newLinkTarget": "",
                         "edit-lastButtonLabel": "",
                         "buttonPosition": "bottomLeft",
@@ -897,7 +897,7 @@
                         "edit-customFooter": "",
                         "add-afterSavedReloadTarget": "true",
                         "keyName": "",
-                        "label": "Approved Booking List",
+                        "label": "<i class=\"fas fa-check-square\"><\/i> Approved Booking List",
                         "list-newLinkTarget": "",
                         "add-customHeader": "",
                         "edit-lastButtonLabel": "",
@@ -938,7 +938,7 @@
                     "properties": {}
                 },
                 "comment": "",
-                "label": "Manage Bookings",
+                "label": "<i class=\"zmdi zmdi-settings\"><\/i> Manage Bookings",
                 "id": "category-A38C8E8953664B01EBC13DB9C1E397A5",
                 "permissionDeny": ""
             }
