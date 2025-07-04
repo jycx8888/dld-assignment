@@ -1,15 +1,12 @@
 {
     "elements": [
         {
-            "className": "org.joget.apps.userview.lib.HtmlPage",
+            "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
             "properties": {
-                "userviewCacheDuration": "20",
-                "userviewCacheScope": "",
-                "label": "Rich Text",
-                "id": "EDB25677D64E40234E3A2FA2A177F355",
-                "enableOffline": "",
-                "customId": "",
-                "content": "<p style=\"text-align: center;\"><span style=\"font-family: 'arial black', sans-serif; font-size: 18pt;\"><span style=\"color: rgb(224, 62, 45);\">W<\/span><span style=\"color: rgb(230, 126, 35);\">e<\/span><span style=\"color: rgb(255, 215, 0);\">l<\/span><\/span><span style=\"color: rgb(191, 237, 210); font-family: 'arial black', sans-serif; font-size: 18pt;\">c<\/span><span style=\"font-family: 'arial black', sans-serif; font-size: 24px; color: rgb(53, 152, 219);\">o<\/span><span style=\"font-family: 'arial black', sans-serif; font-size: 18pt;\"><span style=\"color: rgb(185, 106, 217);\">m<\/span><span style=\"color: rgb(132, 63, 161);\">e<\/span> <span style=\"color: rgb(224, 62, 45);\">t<\/span><span style=\"color: rgb(241, 196, 15);\">o<\/span> <span style=\"color: rgb(53, 152, 219);\">M<\/span><span style=\"color: rgb(191, 237, 210);\">a<\/span><span style=\"color: rgb(185, 106, 217);\">n<\/span><span style=\"color: rgb(224, 62, 45);\">a<\/span><span style=\"color: rgb(241, 196, 15);\">g<\/span><span style=\"color: rgb(45, 194, 107);\">e<\/span><span style=\"color: rgb(194, 224, 244);\">r<\/span> <span style=\"color: rgb(185, 106, 217);\">D<\/span><\/span><span style=\"font-family: 'arial black', sans-serif; font-size: 18pt; color: rgb(236, 202, 250);\">a<\/span><span style=\"font-family: 'arial black', sans-serif; font-size: 24px; color: rgb(241, 196, 15);\">s<\/span><span style=\"font-family: 'arial black', sans-serif; font-size: 18pt;\"><span style=\"color: rgb(206, 212, 217);\">h<\/span><span style=\"color: rgb(45, 194, 107);\">b<\/span><span style=\"color: rgb(191, 237, 210);\">o<\/span><span style=\"color: rgb(53, 152, 219);\">a<\/span><span style=\"color: rgb(194, 224, 244);\">r<\/span><span style=\"color: rgb(35, 111, 161);\">d<\/span><\/span><\/p>"
+                "attr-data-events-listening": [],
+                "textContent": "<!--{ sampleWidth: '100%', tags: 'light-bg header dashboard' }-->\r\n<div style=\"padding: 20px; \r\n            background-color: #f8f9fa; \r\n            border-radius: 10px; \r\n            box-shadow: 0 1px 4px rgba(0,0,0,0.1); \r\n            margin-bottom: 20px;\">\r\n    <div class=\"d-flex justify-content-between align-items-center flex-wrap\">\r\n        <div>\r\n            <h2 style=\"margin: 0; font-size: 22px; color: #343a40;\">\r\n                <i class=\"fas fa-chart-line mr-2\" style=\"color: #563d7c;\"><\/i> \r\n                Manager Dashboard\r\n            <\/h2>\r\n            <p style=\"margin: 0; font-size: 14px; color: #6c757d;\">\r\n                Welcome back, Facility Manager\r\n            <\/p>\r\n        <\/div>\r\n        <div>\r\n            <span class=\"badge badge-primary\" style=\"font-size: 12px; background-color: #563d7c;\">\r\n                Thursday, 04 July 2025, 3:45 PM\r\n            <\/span>\r\n        <\/div>\r\n    <\/div>\r\n<\/div>\r\n",
+                "id": "1850BE1277B04B1124C8379854544F10",
+                "customId": ""
             }
         },
         {
