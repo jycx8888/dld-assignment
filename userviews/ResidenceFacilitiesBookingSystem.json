@@ -908,7 +908,7 @@
                         "f192aecd-18e0-a905-7525-7a9738648a81": {}
                     },
                     "customFooter": "",
-                    "label": "Manager Dashboard",
+                    "label": "<i class=\"fas fa-tachometer-alt\" style=\"color:white\"><\/i> Manager Dashboard",
                     "id": "DB1BC552E6EC4720D6F0E178D3B5E949",
                     "enableOffline": "",
                     "customId": "managerDashboard"
