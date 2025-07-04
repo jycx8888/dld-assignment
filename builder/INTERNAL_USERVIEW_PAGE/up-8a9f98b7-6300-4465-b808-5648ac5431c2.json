@@ -2,6 +2,16 @@
     "elements": [
         {"className": "menu-component"},
         {
+            "className": "org.joget.apps.userview.lib.component.HeadingComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "textContent": "Notice Board",
+                "id": "DD560031547A464FF9CCF9438D039FAE",
+                "tagName": "h3",
+                "customId": ""
+            }
+        },
+        {
             "className": "org.joget.apps.userview.lib.DataListMenu",
             "properties": {
                 "style-background-color": "#FFFFFF",
