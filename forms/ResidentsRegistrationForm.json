@@ -6,6 +6,7 @@
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "requiredSanitize": "",
+                        "fieldInput-style-hover-background-color": "#FBF28A",
                         "maxlength": "",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
@@ -35,6 +36,7 @@
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "requiredSanitize": "",
+                        "fieldInput-style-hover-background-color": "#FBF28A",
                         "maxlength": "",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
@@ -64,6 +66,7 @@
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "requiredSanitize": "",
+                        "fieldInput-style-hover-background-color": "#FBF28A",
                         "maxlength": "",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
@@ -95,6 +98,7 @@
                         "strengthChecker": "",
                         "readonly": "",
                         "size": "",
+                        "fieldInput-style-hover-background-color": "#FBF28A",
                         "maxlength": "",
                         "fieldInput-style-background-color": "#FFFBC1",
                         "validator": {
@@ -117,6 +121,7 @@
                         "strengthChecker": "",
                         "readonly": "",
                         "size": "",
+                        "fieldInput-style-hover-background-color": "#FBF28A",
                         "maxlength": "",
                         "fieldInput-style-background-color": "#FFFBC1",
                         "validator": {
@@ -137,6 +142,7 @@
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "requiredSanitize": "",
+                        "fieldInput-style-hover-background-color": "#FBF28A",
                         "maxlength": "",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
@@ -166,6 +172,7 @@
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "requiredSanitize": "",
+                        "fieldInput-style-hover-background-color": "#FBF28A",
                         "maxlength": "",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
