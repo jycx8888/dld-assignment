@@ -6,7 +6,7 @@
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
-                        "fieldInput-style-hover-background-color": "#FBF28A",
+                        "fieldInput-style-hover-background-color": "#E0E0E0",
                         "multiple": "",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
@@ -33,7 +33,6 @@
                                 "idColumn": "newFacilityName"
                             }
                         },
-                        "fieldInput-style-background-color": "#FFFBC1",
                         "options": [],
                         "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
@@ -46,7 +45,7 @@
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
-                        "fieldInput-style-hover-background-color": "#FBF28A",
+                        "fieldInput-style-hover-background-color": "#E0E0E0",
                         "multiple": "",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
@@ -63,7 +62,6 @@
                             "className": "",
                             "properties": {}
                         },
-                        "fieldInput-style-background-color": "#FFFBC1",
                         "options": [
                             {
                                 "label": "5",
@@ -102,7 +100,7 @@
                     "className": "org.joget.apps.form.lib.TextArea",
                     "properties": {
                         "requiredSanitize": "",
-                        "fieldInput-style-hover-background-color": "#FBF28A",
+                        "fieldInput-style-hover-background-color": "#E0E0E0",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
@@ -114,7 +112,6 @@
                         "label": "Comments",
                         "rows": "5",
                         "readonly": "",
-                        "fieldInput-style-background-color": "#FFFBC1",
                         "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "id": "comments",
