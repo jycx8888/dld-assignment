@@ -287,7 +287,6 @@
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
         },
-        "style-color": "#FFFFFF",
         "name": "Residents Facilities Booking Request Form",
         "description": "",
         "postProcessorRunOn": "create",
@@ -300,6 +299,7 @@
             "className": "",
             "properties": {}
         },
+        "section-header-style-color": "#FFFFFF",
         "storeBinder": {
             "className": "org.joget.apps.form.lib.WorkflowFormBinder",
             "properties": {}
