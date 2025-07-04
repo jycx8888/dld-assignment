@@ -943,7 +943,7 @@
         "welcomeMessage": "#date.EEE, d MMM yyyy#",
         "name": "Residence Facilities Booking System",
         "description": "",
-        "footerMessage": "",
+        "footerMessage": "© 2025 Residence Facility Booking System. All rights reserved.",
         "id": "ResidenceFacilitiesBookingSystem"
     },
     "setting": {"properties": {
@@ -1013,7 +1013,7 @@
                 "dx8linkColor": "#348FE2",
                 "homeUrl": "",
                 "dx8linkActiveColor": "#2A72B5",
-                "dx8footerColor": "#2D353C",
+                "dx8footerColor": "#FFFFFF",
                 "subheader": "",
                 "disablePwa": "",
                 "dx8contentbackground": "#FFFFFF",
