@@ -1,0 +1,60 @@
+{
+    "template": {
+        "className": "",
+        "properties": {}
+    },
+    "considerFilterWhenGetTotal": "",
+    "useSession": "",
+    "responsiveMode": "",
+    "rowActions": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "unit_number",
+            "id": "column_2",
+            "label": "Unit Number",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "first_name",
+            "id": "column_0",
+            "label": "First Name",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "last_name",
+            "id": "column_1",
+            "label": "Last Name",
+            "sortable": "false"
+        }
+    ],
+    "draggabletable": "",
+    "cardCollapsible": "",
+    "pageSize": "10",
+    "orderBy": "dateCreated",
+    "description": "",
+    "filters": [],
+    "showDataWhenFilterSet": "",
+    "pageSizeSelectorOptions": "10",
+    "hidePageSize": "true",
+    "disableResponsive": "",
+    "cardCollapseByDefault": "",
+    "name": "Users Dashboard",
+    "rowActionsMode": "",
+    "showhidecolumns": "",
+    "id": "usersDashboard",
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "ResidentsRegistrationForm",
+            "extraCondition": ""
+        }
+    },
+    "actions": [],
+    "order": "2"
+}

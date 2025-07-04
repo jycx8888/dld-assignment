@@ -1,0 +1,304 @@
+{
+    "elements": [{
+        "elements": [{
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "fieldInput-style-hover-background-color": "#E0E0E0",
+                        "multiple": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
+                        },
+                        "label": "Facility Name",
+                        "readonly": "",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "",
+                                "groupingColumn": "",
+                                "useAjax": "",
+                                "formDefId": "adminAddFacility",
+                                "labelColumn": "newFacilityName",
+                                "extraCondition": "",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "idColumn": "newFacilityName"
+                            }
+                        },
+                        "options": [],
+                        "fieldInput-style-border-color": "#000000",
+                        "workflowVariable": "",
+                        "id": "facilityName",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.DatePicker",
+                    "properties": {
+                        "permissionHidden": "",
+                        "fieldInput-style-hover-background-color": "#E0E0E0",
+                        "yearRange": "c-10:c+10",
+                        "dataFormat": "yyyy-MM-dd",
+                        "startDateFieldId": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
+                        },
+                        "format": "",
+                        "label": "Date",
+                        "datePickerType": "",
+                        "currentDateAs": "minDate",
+                        "endDateFieldId": "",
+                        "readonly": "",
+                        "allowManual": "true",
+                        "fieldInput-style-border-color": "#000000",
+                        "workflowVariable": "",
+                        "id": "date",
+                        "placeholder": "",
+                        "disableWeekends": "",
+                        "value": "",
+                        "readonlyLabel": "",
+                        "format24hr": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "fieldInput-style-hover-background-color": "#E0E0E0",
+                        "multiple": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
+                        },
+                        "label": "Time",
+                        "readonly": "",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [
+                            {
+                                "label": "10.00am - 12.00pm",
+                                "value": "10.00am - 12.00pm",
+                                "grouping": "time"
+                            },
+                            {
+                                "label": "12.00pm - 2.00pm",
+                                "value": "12.00pm - 2.00pm",
+                                "grouping": "time"
+                            },
+                            {
+                                "label": "2.00pm - 4.00pm",
+                                "value": "2.00pm - 4.00pm",
+                                "grouping": "time"
+                            },
+                            {
+                                "label": "4.00pm - 6.00pm",
+                                "value": "4.00pm - 6.00pm",
+                                "grouping": "time"
+                            },
+                            {
+                                "label": "6.00pm - 8.00pm",
+                                "value": "6.00pm - 8.00pm",
+                                "grouping": "time"
+                            },
+                            {
+                                "label": "8.00pm - 10.00pm",
+                                "value": "8.00pm - 10.00pm",
+                                "grouping": "time"
+                            }
+                        ],
+                        "fieldInput-style-border-color": "#000000",
+                        "workflowVariable": "",
+                        "id": "time",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextField",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "fieldInput-style-hover-background-color": "#E0E0E0",
+                        "maxlength": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
+                        },
+                        "label": "No. of Participants",
+                        "disableIncrementDecrementArrow": "",
+                        "encryption": "",
+                        "readonly": "",
+                        "size": "",
+                        "fieldInput-style-border-color": "#000000",
+                        "workflowVariable": "",
+                        "style": "",
+                        "id": "noOfParticipants",
+                        "placeholder": "",
+                        "value": "",
+                        "readonlyLabel": "",
+                        "storeNumeric": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextArea",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "fieldInput-style-hover-background-color": "#E0E0E0",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "label": "Special Request",
+                        "rows": "5",
+                        "readonly": "",
+                        "fieldInput-style-border-color": "#000000",
+                        "workflowVariable": "",
+                        "id": "specialRequest",
+                        "placeholder": "",
+                        "cols": "20",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CheckBox",
+                    "properties": {
+                        "fullWidth": "",
+                        "controlField": "",
+                        "readonly": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [{
+                            "label": "Agree",
+                            "value": "Agree",
+                            "grouping": "a"
+                        }],
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
+                        },
+                        "fieldInput-style-border-color": "#000000",
+                        "workflowVariable": "",
+                        "label": "Terms Agreement",
+                        "id": "termsAgreement",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.HiddenField",
+                    "properties": {
+                        "useDefaultWhenEmpty": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "id": "status",
+                        "value": "Pending"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "autoPopulate": "",
+                        "label": "",
+                        "id": "field8",
+                        "value": "<style type=\"text/css\">\r\n    body {\r\n        background-image: url(\"https://properly.com.my/wp-content/uploads/2022/07/Savio-Facade-scaled-1.jpg\");\r\n        background-size: 1700px 800px; /* This sets the width and height */\r\n        background-repeat: no-repeat; /* Prevents the image from repeating if it's smaller than the body */\r\n    }\r\n<\/style>"
+                    }
+                }
+            ],
+            "className": "org.joget.apps.form.model.Column",
+            "properties": {"width": "100%"}
+        }],
+        "className": "org.joget.apps.form.model.Section",
+        "properties": {
+            "style-background-color": "#ADD2F7",
+            "header-style-background-color": "#307DC0",
+            "visibilityControl": "",
+            "permissionReadonly": "",
+            "style-color": "#000000",
+            "header-style-border-color": "#000000",
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Facilities Booking",
+            "style-border-color": "#000000",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityValue": "",
+            "style-background-size": "contain",
+            "regex": "",
+            "readonly": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "comment": "",
+            "id": "section1",
+            "join": "",
+            "readonlyLabel": ""
+        }
+    }],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "noPermissionMessage": "",
+        "loadBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
+        "name": "Residents Facilities Booking Request Form",
+        "description": "",
+        "postProcessorRunOn": "create",
+        "permission": {
+            "className": "",
+            "properties": {}
+        },
+        "id": "FacilitiesBookingRequestForm",
+        "postProcessor": {
+            "className": "",
+            "properties": {}
+        },
+        "section-header-style-color": "#FFFFFF",
+        "storeBinder": {
+            "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+            "properties": {}
+        },
+        "tableName": "facilities_book"
+    }
+}

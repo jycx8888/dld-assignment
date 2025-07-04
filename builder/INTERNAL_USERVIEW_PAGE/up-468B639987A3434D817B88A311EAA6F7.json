@@ -1,0 +1,27 @@
+{
+    "elements": [
+        {
+            "className": "org.joget.apps.userview.lib.component.HeadingComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "style-color": "#FFFFFF",
+                "textContent": "<span style=\"text-decoration: underline;\">Approved Booking List<\/span>",
+                "id": "8126D7D01DCB4B5FCA7A8339AFE19607",
+                "tagName": "h3",
+                "customId": ""
+            }
+        },
+        {"className": "menu-component"},
+        {
+            "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "textContent": "<style type=\"text/css\">\r\n    body {\r\n        background-image: url(\"https://properly.com.my/wp-content/uploads/2022/07/Savio-Facade-scaled-1.jpg\");\r\n        background-size: 1700px 800px; /* This sets the width and height */\r\n        background-repeat: no-repeat; /* Prevents the image from repeating if it's smaller than the body */\r\n    }\r\n<\/style>",
+                "id": "3D6112CE4BE8462C3D19091035562CED",
+                "customId": ""
+            }
+        }
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-468B639987A3434D817B88A311EAA6F7"}
+}
