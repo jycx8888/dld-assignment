@@ -938,7 +938,7 @@
                     "properties": {}
                 },
                 "comment": "",
-                "label": "Manage Bookings",
+                "label": "<i class=\"zmdi zmdi-settings\"><\/i> Manage Bookings",
                 "id": "category-A38C8E8953664B01EBC13DB9C1E397A5",
                 "permissionDeny": ""
             }
