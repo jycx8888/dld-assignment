@@ -373,7 +373,7 @@
                         "redirectTarget": "",
                         "enableOffline": "",
                         "afterSavedReloadTarget": "true",
-                        "customId": "facilityFeedback",
+                        "customId": "",
                         "userviewCacheDuration": "20",
                         "messageShowAfterComplete": "",
                         "showInPopupDialog": "",
@@ -482,6 +482,27 @@
                         "rowCount": "",
                         "id": "22DD13C4466140903EBB16A807A4ACA2",
                         "permissionDeny": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "<script>\r\n    var _customFooTableArgs = {breakpoints: {phone: 0, tablet: 0}};\r\n<\/script>\r\n<style>\r\n    .exportlinks { display: none!important; }\r\n<\/style>",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Facility Dashboard",
+                        "enableOffline": "",
+                        "customId": "facilityDashboard",
+                        "buttonPosition": "bottomLeft",
+                        "datalistId": "facilityList",
+                        "checkboxPosition": "no",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "D2DB35E0313E45DB3A0688104A631C3E"
                     }
                 }
             ],
