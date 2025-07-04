@@ -6,7 +6,7 @@
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
-                        "fieldInput-style-hover-background-color": "#FBF28A",
+                        "fieldInput-style-hover-background-color": "#E0E0E0",
                         "multiple": "",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
@@ -33,7 +33,6 @@
                                 "idColumn": "newFacilityName"
                             }
                         },
-                        "fieldInput-style-background-color": "#FFFBC1",
                         "options": [],
                         "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
@@ -46,7 +45,7 @@
                     "className": "org.joget.apps.form.lib.DatePicker",
                     "properties": {
                         "permissionHidden": "",
-                        "fieldInput-style-hover-background-color": "#FBF28A",
+                        "fieldInput-style-hover-background-color": "#E0E0E0",
                         "yearRange": "c-10:c+10",
                         "dataFormat": "yyyy-MM-dd",
                         "startDateFieldId": "",
@@ -65,7 +64,6 @@
                         "endDateFieldId": "",
                         "readonly": "",
                         "allowManual": "true",
-                        "fieldInput-style-background-color": "#FFFBC1",
                         "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "id": "date",
@@ -80,7 +78,7 @@
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
-                        "fieldInput-style-hover-background-color": "#FBF28A",
+                        "fieldInput-style-hover-background-color": "#E0E0E0",
                         "multiple": "",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
@@ -97,7 +95,6 @@
                             "className": "",
                             "properties": {}
                         },
-                        "fieldInput-style-background-color": "#FFFBC1",
                         "options": [
                             {
                                 "label": "10.00am - 12.00pm",
@@ -141,7 +138,7 @@
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "requiredSanitize": "",
-                        "fieldInput-style-hover-background-color": "#FFF99B",
+                        "fieldInput-style-hover-background-color": "#E0E0E0",
                         "maxlength": "",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
@@ -156,7 +153,6 @@
                         "encryption": "",
                         "readonly": "",
                         "size": "",
-                        "fieldInput-style-background-color": "#FFFBC1",
                         "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "style": "",
@@ -171,7 +167,7 @@
                     "className": "org.joget.apps.form.lib.TextArea",
                     "properties": {
                         "requiredSanitize": "",
-                        "fieldInput-style-hover-background-color": "#FBF28A",
+                        "fieldInput-style-hover-background-color": "#E0E0E0",
                         "validator": {
                             "className": "",
                             "properties": {}
@@ -179,7 +175,6 @@
                         "label": "Special Request",
                         "rows": "5",
                         "readonly": "",
-                        "fieldInput-style-background-color": "#FFFBC1",
                         "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "id": "specialRequest",
