@@ -476,7 +476,7 @@
                         "userviewCacheDuration": "20",
                         "cacheListAction": "",
                         "userviewCacheScope": "",
-                        "rowCount": "true",
+                        "rowCount": "",
                         "id": "22DD13C4466140903EBB16A807A4ACA2",
                         "permissionDeny": ""
                     }
