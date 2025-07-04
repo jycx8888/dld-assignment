@@ -1,5 +1,16 @@
 {
     "elements": [
+        {
+            "className": "org.joget.apps.userview.lib.component.HeadingComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "style-color": "#FFFFFF",
+                "textContent": "<span style=\"text-decoration: underline;\">Resident Booking List<\/span>",
+                "id": "33F1DAE8A6DA4A9711766A4A22D06707",
+                "tagName": "h3",
+                "customId": ""
+            }
+        },
         {"className": "menu-component"},
         {
             "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
