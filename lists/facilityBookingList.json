@@ -204,7 +204,7 @@
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "",
+    "orderBy": "date",
     "description": "",
     "filters": [{
         "hidden": "true",
