@@ -1,0 +1,16 @@
+{
+    "elements": [
+        {
+            "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "textContent": "<style type=\"text/css\">\r\n    body {\r\n        background-image: url(\"https://properly.com.my/wp-content/uploads/2022/07/Savio-Facade-scaled-1.jpg\");\r\n        background-size: 1700px 900px; /* This sets the width and height */\r\n        background-repeat: no-repeat; /* Prevents the image from repeating if it's smaller than the body */\r\n    }\r\n<\/style>",
+                "id": "CC0AE2714982449DAC470A0909B6EB22",
+                "customId": ""
+            }
+        },
+        {"className": "menu-component"}
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-22DD13C4466140903EBB16A807A4ACA2"}
+}
