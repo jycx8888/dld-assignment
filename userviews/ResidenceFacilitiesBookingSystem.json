@@ -369,7 +369,7 @@
                             }
                         },
                         "keyName": "",
-                        "label": "Facility Feedback",
+                        "label": "<i class=\"fab fa-rocketchat\"><\/i> Facility Feedback",
                         "redirectTarget": "",
                         "enableOffline": "",
                         "afterSavedReloadTarget": "true",
@@ -432,7 +432,7 @@
                         "rowCount": "",
                         "edit-customFooter": "",
                         "keyName": "",
-                        "label": "Feedback List",
+                        "label": "<i class=\"zmdi zmdi-comment-list\"><\/i> Feedback List",
                         "list-newLinkTarget": "",
                         "edit-lastButtonLabel": "",
                         "buttonPosition": "bothLeft",
@@ -466,7 +466,7 @@
                         },
                         "keyName": "",
                         "customFooter": "",
-                        "label": "Users Dashboard",
+                        "label": "<i class=\"fas fa-user\"><\/i> Users Dashboard",
                         "enableOffline": "",
                         "customId": "usersDashboard",
                         "buttonPosition": "bottomLeft",
@@ -645,7 +645,7 @@
                     "properties": {}
                 },
                 "comment": "",
-                "label": "Reports for Manager",
+                "label": "<i class=\"fas fa-clipboard\"><\/i> Reports for Manager",
                 "id": "category-6523A5DDFECE4211400888476C1BDDB8",
                 "permissionDeny": ""
             }
@@ -700,7 +700,7 @@
                         "rowCount": "",
                         "edit-customFooter": "",
                         "keyName": "",
-                        "label": "Pending Booking List",
+                        "label": "<i class=\"fas fa-clock\"><\/i> Pending Booking List",
                         "list-newLinkTarget": "",
                         "edit-lastButtonLabel": "",
                         "buttonPosition": "bottomLeft",
@@ -799,7 +799,7 @@
                     "properties": {}
                 },
                 "comment": "",
-                "label": "My Bookings",
+                "label": "<i class=\"far fa-calendar-alt\"><\/i> My Bookings",
                 "id": "category-6DECC0D6856D48EB428A7EC0E08F25B6",
                 "permissionDeny": ""
             }
@@ -841,7 +841,7 @@
                         "edit-customFooter": "",
                         "add-afterSavedReloadTarget": "true",
                         "keyName": "",
-                        "label": "Pending Booking List",
+                        "label": "<i class=\"fas fa-clock\"><\/i> Pending Booking List",
                         "list-newLinkTarget": "",
                         "add-customHeader": "",
                         "edit-lastButtonLabel": "",
