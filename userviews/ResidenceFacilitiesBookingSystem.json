@@ -176,7 +176,7 @@
                             "f192aecd-18e0-a905-7525-7a9738648a81": {}
                         },
                         "edit-prevButtonLabel": "",
-                        "customId": "",
+                        "customId": "facilityList",
                         "edit-afterSaved": "list",
                         "list-deleteButtonLabel": "",
                         "checkboxPosition": "left",
@@ -571,18 +571,32 @@
                     "mode": "url",
                     "userviewCacheDuration": "20",
                     "userviewCacheScope": "",
-                    "urlPortletSetting": [{
-                        "autoHeight": "",
-                        "resizable": "",
-                        "x": "",
-                        "width": "1",
-                        "y": "",
-                        "fixed": "",
-                        "label": "Active Residents List",
-                        "url": "usersDashboard?embed=true",
-                        "autoReload": "",
-                        "height": "400"
-                    }],
+                    "urlPortletSetting": [
+                        {
+                            "autoHeight": "",
+                            "resizable": "",
+                            "x": "",
+                            "width": "1",
+                            "y": "",
+                            "fixed": "",
+                            "label": "Active Residents List",
+                            "url": "usersDashboard?embed=true",
+                            "autoReload": "",
+                            "height": "400"
+                        },
+                        {
+                            "autoHeight": "",
+                            "resizable": "",
+                            "x": "",
+                            "width": "1",
+                            "y": "",
+                            "fixed": "",
+                            "label": "Facility List",
+                            "url": "facilityList?embed=true",
+                            "autoReload": "",
+                            "height": "400"
+                        }
+                    ],
                     "id": "DB1BC552E6EC4720D6F0E178D3B5E949"
                 }
             }],
