@@ -452,6 +452,18 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "<script>\r\n    var _customFooTableArgs = {breakpoints: {phone: 0, tablet: 0}};\r\n<\/script>\r\n<style>\r\n    .exportlinks { display: none!important; }\r\n<\/style>",
+                        "permissionHidden": "true",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "Users Dashboard",
@@ -465,7 +477,8 @@
                         "cacheListAction": "",
                         "userviewCacheScope": "",
                         "rowCount": "true",
-                        "id": "22DD13C4466140903EBB16A807A4ACA2"
+                        "id": "22DD13C4466140903EBB16A807A4ACA2",
+                        "permissionDeny": ""
                     }
                 }
             ],
