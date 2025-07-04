@@ -21,7 +21,7 @@
                             "headerTag": "",
                             "tagColor": "",
                             "icon": "<i class=\"fas fa-book\" style=\"color:white\"><\/i>",
-                            "link": "http://localhost:8080/jw/web/console/app/ResidenceFacilitiesBookingSystem/1/datalist/builder/approvedBookingList",
+                            "link": "",
                             "bgImg": "",
                             "title": "COMPLETED BOOKINGS",
                             "customId": "completedBooking",
@@ -47,7 +47,7 @@
                         "properties": {
                             "template": "<!--{sampleWidth: '250px', tags: 'dark-bg icon'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            background-color:{{color||#348fe2}}; \n            background-image:url('{{bgImg}}'); \n            color:#fff;\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body row\">\n        <div class=\"stats-info col-8\">\n            <h4 style=\"font-size: 12px;\n                       margin: 5px 0;\n                       color: rgba(255,255,255,.7);\">\n                {{title||TOTAL VISITORS}}\n            <\/h4>\n            <p style=\"font-size: 24px; \n                      font-weight: 600; \n                      margin-bottom: 0;\">\n                {{value||3,291,922}}\n            <\/p>\n        <\/div>\n        <div class=\"stats-icon col-4\" \n             style=\"font-size: 42px; \n                    color: rgba(0,0,0,.15);\">\n            {{icon||<i class=\"fas fa-globe\"><\/i>}}\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
                             "attr-data-events-listening": [],
-                            "color": "#DCC6F6",
+                            "color": "#B898EC",
                             "headerTag": "",
                             "tagColor": "",
                             "icon": "<i class=\"far fa-user-circle\" style=\"color:white\"><\/i>",
@@ -119,7 +119,7 @@
                             "icon": "<i class=\"fab fa-rocketchat\"><\/i>",
                             "link": "",
                             "bgImg": "",
-                            "title": "TOTAL VISITS",
+                            "title": "TOTAL FEEDBACK",
                             "customId": "",
                             "reload": "",
                             "bgColor": "",
@@ -144,6 +144,102 @@
             }
         },
         {
+            "elements": [
+                {
+                    "elements": [
+                        {
+                            "className": "org.joget.plugin.enterprise.SqlChartMenu",
+                            "properties": {
+                                "stack": "",
+                                "xAxisDisplayAS": "",
+                                "showLegend": "true",
+                                "customFooter": "",
+                                "enableOffline": "",
+                                "title": "Completed Booking Report",
+                                "customId": "BookingReport",
+                                "chartHeight": "80%",
+                                "yaxisPrefix": "Total Approved Booking List",
+                                "categoryAxisLabel": "Status",
+                                "horizontal": "",
+                                "library": "echart",
+                                "theme": "",
+                                "showValueLabel": "true",
+                                "id": "42E7C7AB7D5B49EC2654AC89EED9C223",
+                                "series_customization": [],
+                                "sortingOrder": "ASC",
+                                "customHeader": "",
+                                "valueAxisLabel": "Total Booking List",
+                                "query": "SELECT \r\n  c_approvalstatus AS label, \r\n  COUNT(*) AS total \r\nFROM \r\n  app_fd_booking_approval \r\nWHERE \r\n  c_approvalstatus IS NOT NULL\r\nGROUP BY \r\n  c_approvalstatus",
+                                "keyName": "",
+                                "label": "Booking Report",
+                                "chartWidth": "100%",
+                                "userviewCacheDuration": "20",
+                                "xAxisBoundaryGap": "",
+                                "userviewCacheScope": "",
+                                "datasource": "default",
+                                "chartType": "bar",
+                                "showTable": "",
+                                "optionCustomization": "",
+                                "chartUseAllDataRows": ""
+                            }
+                        },
+                        {"className": "menu-component"}
+                    ],
+                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                    "properties": {}
+                },
+                {
+                    "elements": [{
+                        "className": "org.joget.plugin.enterprise.SqlChartMenu",
+                        "properties": {
+                            "xAxisDisplayAS": "",
+                            "showLegend": "true",
+                            "customFooter": "",
+                            "enableOffline": "",
+                            "title": "User Account Chart",
+                            "customId": "userAccountChart",
+                            "chartHeight": "80%",
+                            "yaxisPrefix": "",
+                            "categoryAxisLabel": "Date",
+                            "library": "echart",
+                            "theme": "tech-blue",
+                            "showValueLabel": "true",
+                            "id": "C3A35B3D27044BCDE10995A13CDA0705",
+                            "series_customization": [],
+                            "sortingOrder": "ASC",
+                            "customHeader": "",
+                            "valueAxisLabel": "New User (Daily)",
+                            "smoothLine": "true",
+                            "query": "SELECT \r\n  DATE_FORMAT(dateCreated, '%Y-%m-%d') AS label, \r\n  COUNT(id) AS value\r\nFROM \r\n  app_fd_resident_register\r\nWHERE \r\n  dateCreated IS NOT NULL\r\nGROUP BY \r\n  label\r\nORDER BY \r\n  label ASC",
+                            "keyName": "",
+                            "label": "User Account Chart",
+                            "chartWidth": "100%",
+                            "userviewCacheDuration": "20",
+                            "xAxisBoundaryGap": "",
+                            "userviewCacheScope": "",
+                            "datasource": "default",
+                            "chartType": "line",
+                            "showTable": "",
+                            "optionCustomization": "",
+                            "chartUseAllDataRows": ""
+                        }
+                    }],
+                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                    "properties": {}
+                }
+            ],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "gutter": "5px",
+                "columns": [
+                    {"style-max-width": ""},
+                    {"style-max-width": ""}
+                ],
+                "css-mobile-stack-columns": "true",
+                "id": "8C4BC3B2529946FCB661E3497530B875"
+            }
+        },
+        {
             "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
             "properties": {
                 "attr-data-events-listening": [],
@@ -151,8 +247,7 @@
                 "id": "16E352B49EDD439ECD6C2AB13874C6F7",
                 "customId": "backgroundManagerDashboard"
             }
-        },
-        {"className": "menu-component"}
+        }
     ],
     "className": "org.joget.apps.userview.model.UserviewPage",
     "properties": {"id": "up-DB1BC552E6EC4720D6F0E178D3B5E949"}
