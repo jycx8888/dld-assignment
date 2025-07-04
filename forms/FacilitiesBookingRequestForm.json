@@ -6,7 +6,7 @@
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
-                        "fieldInput-style-hover-background-color": "#FFF99B",
+                        "fieldInput-style-hover-background-color": "#FBF28A",
                         "multiple": "",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
@@ -46,7 +46,7 @@
                     "className": "org.joget.apps.form.lib.DatePicker",
                     "properties": {
                         "permissionHidden": "",
-                        "fieldInput-style-hover-background-color": "#FFF99B",
+                        "fieldInput-style-hover-background-color": "#FBF28A",
                         "yearRange": "c-10:c+10",
                         "dataFormat": "yyyy-MM-dd",
                         "startDateFieldId": "",
@@ -80,7 +80,7 @@
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
-                        "fieldInput-style-hover-background-color": "#FFF99B",
+                        "fieldInput-style-hover-background-color": "#FBF28A",
                         "multiple": "",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
@@ -171,7 +171,7 @@
                     "className": "org.joget.apps.form.lib.TextArea",
                     "properties": {
                         "requiredSanitize": "",
-                        "fieldInput-style-hover-background-color": "#FFF99B",
+                        "fieldInput-style-hover-background-color": "#FBF28A",
                         "validator": {
                             "className": "",
                             "properties": {}
