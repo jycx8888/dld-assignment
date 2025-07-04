@@ -3,6 +3,158 @@
     "categories": [
         {
             "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.plugin.enterprise.DashboardMenu",
+                "properties": {
+                    "mode": "plugins",
+                    "userviewCacheDuration": "20",
+                    "customHeader": "",
+                    "defaultPortletHeight": "250",
+                    "userviewCacheScope": "",
+                    "plugins": [
+                        {
+                            "autoHeight": "true",
+                            "resizable": "true",
+                            "x": "",
+                            "width": "1",
+                            "y": "",
+                            "fixed": "true",
+                            "userviewMenu": {
+                                "className": "org.joget.plugin.enterprise.SqlChartMenu",
+                                "properties": {
+                                    "stack": "",
+                                    "xAxisDisplayAS": "",
+                                    "showLegend": "true",
+                                    "customFooter": "",
+                                    "title": "",
+                                    "customId": "BookingReport",
+                                    "yaxisPrefix": "Total Approved Booking List (Daily)",
+                                    "chartHeight": "80%",
+                                    "categoryAxisLabel": "Approval Status",
+                                    "horizontal": "",
+                                    "library": "echart",
+                                    "theme": "",
+                                    "showValueLabel": "true",
+                                    "id": "",
+                                    "series_customization": [],
+                                    "customHeader": "",
+                                    "valueAxisLabel": "Total Approved Booking List",
+                                    "query": "SELECT \r\n  c_approvalstatus AS label, \r\n  COUNT(*) AS total \r\nFROM \r\n  app_fd_booking_approval \r\nWHERE \r\n  c_approvalstatus IS NOT NULL\r\nGROUP BY \r\n  c_approvalstatus\r\n",
+                                    "keyName": "",
+                                    "label": "Booking Report",
+                                    "chartWidth": "100%",
+                                    "xAxisBoundaryGap": "",
+                                    "datasource": "default",
+                                    "chartType": "bar",
+                                    "optionCustomization": ""
+                                }
+                            },
+                            "autoReload": "",
+                            "height": ""
+                        },
+                        {
+                            "autoHeight": "true",
+                            "resizable": "true",
+                            "x": "",
+                            "width": "1",
+                            "y": "",
+                            "fixed": "true",
+                            "userviewMenu": {
+                                "className": "org.joget.plugin.enterprise.SqlChartMenu",
+                                "properties": {
+                                    "customHeader": "",
+                                    "xAxisDisplayAS": "",
+                                    "valueAxisLabel": "New User (Daily)",
+                                    "smoothLine": "true",
+                                    "query": "SELECT \r\n  DATE_FORMAT(dateCreated, '%Y-%m-%d') AS label, \r\n  COUNT(id) AS value\r\nFROM \r\n  app_fd_resident_register\r\nWHERE \r\n  dateCreated IS NOT NULL\r\nGROUP BY \r\n  label\r\nORDER BY \r\n  label ASC",
+                                    "showLegend": "true",
+                                    "keyName": "",
+                                    "customFooter": "",
+                                    "label": "User Account Chart",
+                                    "title": "",
+                                    "customId": "userAccountChart",
+                                    "yaxisPrefix": "",
+                                    "chartHeight": "80%",
+                                    "categoryAxisLabel": "Date",
+                                    "chartWidth": "100%",
+                                    "xAxisBoundaryGap": "",
+                                    "library": "echart",
+                                    "datasource": "default",
+                                    "chartType": "line",
+                                    "theme": "tech-blue",
+                                    "showValueLabel": "true",
+                                    "id": "",
+                                    "series_customization": [],
+                                    "optionCustomization": ""
+                                }
+                            },
+                            "autoReload": "",
+                            "height": ""
+                        },
+                        {
+                            "autoHeight": "true",
+                            "resizable": "true",
+                            "x": "",
+                            "width": "1",
+                            "y": "",
+                            "fixed": "true",
+                            "userviewMenu": {
+                                "className": "org.joget.apps.userview.lib.DataListMenu",
+                                "properties": {
+                                    "checkboxPosition": "no",
+                                    "selectionType": "multiple",
+                                    "customHeader": "<div style=\"max-height: 250px; overflow-y: auto;\">",
+                                    "keyName": "",
+                                    "customFooter": "",
+                                    "id": "",
+                                    "label": "Active Resident's List",
+                                    "rowCount": "",
+                                    "customId": "",
+                                    "buttonPosition": "bottomLeft",
+                                    "datalistId": "usersDashboard"
+                                }
+                            },
+                            "autoReload": "",
+                            "height": "400"
+                        }
+                    ],
+                    "permission_rules": {
+                        "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
+                        "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                        "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                    },
+                    "customFooter": "",
+                    "label": "<i class=\"fas fa-tachometer-alt\" style=\"color:white\"><\/i> Manager Dashboard",
+                    "id": "DB1BC552E6EC4720D6F0E178D3B5E949",
+                    "enableOffline": "",
+                    "customId": "managerDashboard"
+                }
+            }],
+            "properties": {
+                "hide": "yes",
+                "permission_rules": {
+                    "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                        "hide": "yes",
+                        "permissionDeny": ""
+                    },
+                    "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                    "f192aecd-18e0-a905-7525-7a9738648a81": {
+                        "hide": "yes",
+                        "permissionDeny": ""
+                    }
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "Reports for Manager",
+                "id": "category-6523A5DDFECE4211400888476C1BDDB8",
+                "permissionDeny": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
                 {
                     "className": "org.joget.apps.userview.lib.HtmlPage",
@@ -782,158 +934,6 @@
                 "comment": "",
                 "label": "Manage Bookings",
                 "id": "category-A38C8E8953664B01EBC13DB9C1E397A5",
-                "permissionDeny": ""
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [{
-                "className": "org.joget.plugin.enterprise.DashboardMenu",
-                "properties": {
-                    "mode": "plugins",
-                    "userviewCacheDuration": "20",
-                    "customHeader": "",
-                    "defaultPortletHeight": "250",
-                    "userviewCacheScope": "",
-                    "plugins": [
-                        {
-                            "autoHeight": "true",
-                            "resizable": "true",
-                            "x": "",
-                            "width": "1",
-                            "y": "",
-                            "fixed": "true",
-                            "userviewMenu": {
-                                "className": "org.joget.plugin.enterprise.SqlChartMenu",
-                                "properties": {
-                                    "stack": "",
-                                    "xAxisDisplayAS": "",
-                                    "showLegend": "true",
-                                    "customFooter": "",
-                                    "title": "",
-                                    "customId": "BookingReport",
-                                    "yaxisPrefix": "Total Approved Booking List (Daily)",
-                                    "chartHeight": "80%",
-                                    "categoryAxisLabel": "Approval Status",
-                                    "horizontal": "",
-                                    "library": "echart",
-                                    "theme": "",
-                                    "showValueLabel": "true",
-                                    "id": "",
-                                    "series_customization": [],
-                                    "customHeader": "",
-                                    "valueAxisLabel": "Total Approved Booking List",
-                                    "query": "SELECT \r\n  c_approvalstatus AS label, \r\n  COUNT(*) AS total \r\nFROM \r\n  app_fd_booking_approval \r\nWHERE \r\n  c_approvalstatus IS NOT NULL\r\nGROUP BY \r\n  c_approvalstatus\r\n",
-                                    "keyName": "",
-                                    "label": "Booking Report",
-                                    "chartWidth": "100%",
-                                    "xAxisBoundaryGap": "",
-                                    "datasource": "default",
-                                    "chartType": "bar",
-                                    "optionCustomization": ""
-                                }
-                            },
-                            "autoReload": "",
-                            "height": ""
-                        },
-                        {
-                            "autoHeight": "true",
-                            "resizable": "true",
-                            "x": "",
-                            "width": "1",
-                            "y": "",
-                            "fixed": "true",
-                            "userviewMenu": {
-                                "className": "org.joget.plugin.enterprise.SqlChartMenu",
-                                "properties": {
-                                    "customHeader": "",
-                                    "xAxisDisplayAS": "",
-                                    "valueAxisLabel": "New User (Daily)",
-                                    "smoothLine": "true",
-                                    "query": "SELECT \r\n  DATE_FORMAT(dateCreated, '%Y-%m-%d') AS label, \r\n  COUNT(id) AS value\r\nFROM \r\n  app_fd_resident_register\r\nWHERE \r\n  dateCreated IS NOT NULL\r\nGROUP BY \r\n  label\r\nORDER BY \r\n  label ASC",
-                                    "showLegend": "true",
-                                    "keyName": "",
-                                    "customFooter": "",
-                                    "label": "User Account Chart",
-                                    "title": "",
-                                    "customId": "userAccountChart",
-                                    "yaxisPrefix": "",
-                                    "chartHeight": "80%",
-                                    "categoryAxisLabel": "Date",
-                                    "chartWidth": "100%",
-                                    "xAxisBoundaryGap": "",
-                                    "library": "echart",
-                                    "datasource": "default",
-                                    "chartType": "line",
-                                    "theme": "tech-blue",
-                                    "showValueLabel": "true",
-                                    "id": "",
-                                    "series_customization": [],
-                                    "optionCustomization": ""
-                                }
-                            },
-                            "autoReload": "",
-                            "height": ""
-                        },
-                        {
-                            "autoHeight": "true",
-                            "resizable": "true",
-                            "x": "",
-                            "width": "1",
-                            "y": "",
-                            "fixed": "true",
-                            "userviewMenu": {
-                                "className": "org.joget.apps.userview.lib.DataListMenu",
-                                "properties": {
-                                    "checkboxPosition": "no",
-                                    "selectionType": "multiple",
-                                    "customHeader": "<div style=\"max-height: 250px; overflow-y: auto;\">",
-                                    "keyName": "",
-                                    "customFooter": "",
-                                    "id": "",
-                                    "label": "Active Resident's List",
-                                    "rowCount": "",
-                                    "customId": "",
-                                    "buttonPosition": "bottomLeft",
-                                    "datalistId": "usersDashboard"
-                                }
-                            },
-                            "autoReload": "",
-                            "height": "400"
-                        }
-                    ],
-                    "permission_rules": {
-                        "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
-                        "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
-                        "f192aecd-18e0-a905-7525-7a9738648a81": {}
-                    },
-                    "customFooter": "",
-                    "label": "<i class=\"fas fa-tachometer-alt\" style=\"color:white\"><\/i> Manager Dashboard",
-                    "id": "DB1BC552E6EC4720D6F0E178D3B5E949",
-                    "enableOffline": "",
-                    "customId": "managerDashboard"
-                }
-            }],
-            "properties": {
-                "hide": "yes",
-                "permission_rules": {
-                    "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
-                        "hide": "yes",
-                        "permissionDeny": ""
-                    },
-                    "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
-                    "f192aecd-18e0-a905-7525-7a9738648a81": {
-                        "hide": "yes",
-                        "permissionDeny": ""
-                    }
-                },
-                "permission": {
-                    "className": "",
-                    "properties": {}
-                },
-                "comment": "",
-                "label": "Reports for Manager",
-                "id": "category-6523A5DDFECE4211400888476C1BDDB8",
                 "permissionDeny": ""
             }
         }
