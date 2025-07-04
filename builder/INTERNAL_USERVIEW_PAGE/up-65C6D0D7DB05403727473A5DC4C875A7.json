@@ -1,5 +1,16 @@
 {
     "elements": [
+        {
+            "className": "org.joget.apps.userview.lib.component.HeadingComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "style-color": "#FFFFFF",
+                "textContent": "Resident List ",
+                "id": "918144D98A674EC9F30D10CA5B141F28",
+                "tagName": "h1",
+                "customId": ""
+            }
+        },
         {"className": "menu-component"},
         {
             "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
