@@ -5,6 +5,7 @@
             "className": "org.joget.apps.userview.lib.component.HeadingComponent",
             "properties": {
                 "attr-data-events-listening": [],
+                "style-color": "#FFFFFF",
                 "textContent": "Notice Board",
                 "id": "DD560031547A464FF9CCF9438D039FAE",
                 "tagName": "h3",
