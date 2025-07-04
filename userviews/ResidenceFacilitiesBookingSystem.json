@@ -82,7 +82,7 @@
                             "f192aecd-18e0-a905-7525-7a9738648a81": {}
                         },
                         "assignment-customFooter": "",
-                        "label": "Inbox",
+                        "label": "<i class=\"fas fa-inbox\"><\/i> Inbox",
                         "enableOffline": "",
                         "customId": "inbox",
                         "buttonPosition": "bothLeft",
@@ -113,7 +113,7 @@
                             "f192aecd-18e0-a905-7525-7a9738648a81": {}
                         },
                         "keyName": "",
-                        "label": "Add Facility",
+                        "label": "<i class=\"fas fa-building\"><\/i> Add Facility",
                         "redirectTarget": "",
                         "enableOffline": "",
                         "afterSavedReloadTarget": "true",
