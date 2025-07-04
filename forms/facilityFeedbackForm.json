@@ -6,6 +6,7 @@
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
+                        "fieldInput-style-hover-background-color": "#FBF28A",
                         "multiple": "",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
@@ -45,6 +46,7 @@
                     "className": "org.joget.apps.form.lib.SelectBox",
                     "properties": {
                         "controlField": "",
+                        "fieldInput-style-hover-background-color": "#FBF28A",
                         "multiple": "",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
@@ -100,6 +102,7 @@
                     "className": "org.joget.apps.form.lib.TextArea",
                     "properties": {
                         "requiredSanitize": "",
+                        "fieldInput-style-hover-background-color": "#FBF28A",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
