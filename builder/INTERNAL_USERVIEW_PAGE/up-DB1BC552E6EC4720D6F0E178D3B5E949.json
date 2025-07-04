@@ -116,15 +116,19 @@
                     "elements": [{
                         "className": "org.joget.plugin.enterprise.InformationTileComponent",
                         "properties": {
-                            "template": "<!--{sampleWidth: '250px'}-->\n<div class=\"card flex-row align-items-center align-items-stretch border-0\" style=\"background-color:{{color||#348fe2}}; color:#fff;\">\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-left\" style=\"background:rgba(0,0,0,.4); font-size: 48px; color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8\">\n        <p style=\"font-size: 24px; font-weight: 600; margin-bottom: 10px;\">{{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 12px;margin: 5px 0;\">{{title||TOTAL VISITORS}}<\/h4>\n    <\/div>\n<\/div>",
+                            "template": "<!--{sampleWidth: '250px', tags: 'light-bg icon'}-->\n<div class=\"card flex-row align-items-center align-items-stretch\" \n     style=\"height:{{height}};\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center \n                justify-content-center rounded-left\" \n         style=\"background-color:{{color||#348fe2}}; \n                font-size: 48px; \n                color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8 text-center\">\n        <p style=\"font-size: 24px; \n                  font-weight: 600; \n                  margin-bottom: 10px;\">\n            {{value||3,291,922}}\n        <\/p>\n        <h4 style=\"font-size: 12px;\n                   color: rgba(0,0,0,.7);\n                   margin: 5px 0;\">\n            {{title||TOTAL VISITORS}}\n        <\/h4>\n    <\/div>\n<\/div>\n<!---->",
                             "attr-data-events-listening": [],
                             "color": "#C99CE0",
                             "icon": "<i class=\"fab fa-rocketchat\"><\/i>",
                             "link": "",
-                            "id": "698F5F47EC1F4654F8B4058337EC195D",
+                            "bgImg": "",
                             "title": "TOTAL VISITS",
+                            "customId": "",
+                            "reload": "",
+                            "bgColor": "",
+                            "id": "698F5F47EC1F4654F8B4058337EC195D",
                             "value": "#datalist.total.feedbackList#",
-                            "customId": ""
+                            "height": ""
                         }
                     }],
                     "className": "org.joget.apps.userview.lib.component.ColumnComponent",
@@ -142,7 +146,11 @@
                 "id": "1636B365B6754E2699BC86EE0931A9B0"
             }
         },
-        {"className": "menu-component"},
+        {
+            "elements": [{"className": "menu-component"}],
+            "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+            "properties": {"id": "76EC78FDF03F4666E56EF3B543D52464"}
+        },
         {
             "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
             "properties": {
