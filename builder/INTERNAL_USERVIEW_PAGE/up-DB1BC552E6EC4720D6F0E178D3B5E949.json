@@ -245,7 +245,29 @@
                 "customId": "backgroundManagerDashboard"
             }
         },
-        {"className": "menu-component"}
+        {"className": "menu-component"},
+        {
+            "elements": [
+                {
+                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                    "properties": {}
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                    "properties": {}
+                }
+            ],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "gutter": "5px",
+                "columns": [
+                    {"style-max-width": ""},
+                    {"style-max-width": ""}
+                ],
+                "css-mobile-stack-columns": "true",
+                "id": "C7F8BE656C48424FEDCBB06DAD6385B0"
+            }
+        }
     ],
     "className": "org.joget.apps.userview.model.UserviewPage",
     "properties": {"id": "up-DB1BC552E6EC4720D6F0E178D3B5E949"}

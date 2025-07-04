@@ -503,11 +503,8 @@
             "menus": [{
                 "className": "org.joget.plugin.enterprise.DashboardMenu",
                 "properties": {
-                    "mode": "plugins",
-                    "userviewCacheDuration": "20",
                     "customHeader": "",
                     "defaultPortletHeight": "250",
-                    "userviewCacheScope": "",
                     "plugins": [
                         {
                             "autoHeight": "",
@@ -536,7 +533,7 @@
                             "height": ""
                         },
                         {
-                            "autoHeight": "",
+                            "autoHeight": "true",
                             "resizable": "true",
                             "x": "",
                             "width": "1",
@@ -547,7 +544,7 @@
                                 "properties": {
                                     "checkboxPosition": "no",
                                     "selectionType": "multiple",
-                                    "customHeader": "",
+                                    "customHeader": "<script>\r\n    var _customFooTableArgs = {breakpoints: {phone: 0, tablet: 0}};\r\n<\/script>\r\n<style>\r\n    .exportlinks { display: none!important; }\r\n<\/style>",
                                     "keyName": "",
                                     "customFooter": "",
                                     "id": "",
@@ -569,9 +566,24 @@
                     },
                     "customFooter": "",
                     "label": "<i class=\"fas fa-tachometer-alt\" style=\"color:white\"><\/i> Manager Dashboard",
-                    "id": "DB1BC552E6EC4720D6F0E178D3B5E949",
                     "enableOffline": "",
-                    "customId": "managerDashboard"
+                    "customId": "managerDashboard",
+                    "mode": "url",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": "",
+                    "urlPortletSetting": [{
+                        "autoHeight": "",
+                        "resizable": "",
+                        "x": "",
+                        "width": "1",
+                        "y": "",
+                        "fixed": "",
+                        "label": "Active Residents List",
+                        "url": "usersDashboard?embed=true",
+                        "autoReload": "",
+                        "height": "400"
+                    }],
+                    "id": "DB1BC552E6EC4720D6F0E178D3B5E949"
                 }
             }],
             "properties": {
