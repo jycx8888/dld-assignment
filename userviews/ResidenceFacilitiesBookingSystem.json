@@ -504,6 +504,27 @@
                         "rowCount": "",
                         "id": "D2DB35E0313E45DB3A0688104A631C3E"
                     }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "<script>\r\n    var _customFooTableArgs = {breakpoints: {phone: 0, tablet: 0}};\r\n<\/script>\r\n<style>\r\n    .exportlinks { display: none!important; }\r\n<\/style>",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Feedback Dashboard",
+                        "enableOffline": "",
+                        "customId": "feedbackDashboard",
+                        "buttonPosition": "bottomLeft",
+                        "datalistId": "feedbackList",
+                        "checkboxPosition": "no",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "26FF3C36138845640D9AD0C34466E730"
+                    }
                 }
             ],
             "properties": {
@@ -617,6 +638,18 @@
                             "fixed": "",
                             "label": "Facility List",
                             "url": "facilityDashboard?embed=true",
+                            "autoReload": "",
+                            "height": "400"
+                        },
+                        {
+                            "autoHeight": "",
+                            "resizable": "",
+                            "x": "",
+                            "width": "1",
+                            "y": "",
+                            "fixed": "",
+                            "label": "Feedback List",
+                            "url": "feedbackDashboard?embed=true",
                             "autoReload": "",
                             "height": "400"
                         }
