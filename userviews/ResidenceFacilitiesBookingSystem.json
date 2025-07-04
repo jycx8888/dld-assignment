@@ -334,7 +334,7 @@
                         "rowCount": "",
                         "edit-customFooter": "",
                         "keyName": "",
-                        "label": "Resident List",
+                        "label": "<i class=\"fas fa-user\"><\/i> Resident List",
                         "list-newLinkTarget": "",
                         "edit-lastButtonLabel": "",
                         "buttonPosition": "bottomLeft",
