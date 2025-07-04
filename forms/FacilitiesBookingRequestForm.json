@@ -33,7 +33,7 @@
                                 "idColumn": "newFacilityName"
                             }
                         },
-                        "fieldInput-style-background-color": "#FEF85E",
+                        "fieldInput-style-background-color": "#FFFBC1",
                         "options": [],
                         "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
@@ -65,7 +65,7 @@
                         "endDateFieldId": "",
                         "readonly": "",
                         "allowManual": "true",
-                        "fieldInput-style-background-color": "#FEF85E",
+                        "fieldInput-style-background-color": "#FFFBC1",
                         "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "id": "date",
@@ -97,7 +97,7 @@
                             "className": "",
                             "properties": {}
                         },
-                        "fieldInput-style-background-color": "#FEF85E",
+                        "fieldInput-style-background-color": "#FFFBC1",
                         "options": [
                             {
                                 "label": "10.00am - 12.00pm",
@@ -156,7 +156,7 @@
                         "encryption": "",
                         "readonly": "",
                         "size": "",
-                        "fieldInput-style-background-color": "#FEF85E",
+                        "fieldInput-style-background-color": "#FFFBC1",
                         "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "style": "",
@@ -179,7 +179,7 @@
                         "label": "Special Request",
                         "rows": "5",
                         "readonly": "",
-                        "fieldInput-style-background-color": "#FEF85E",
+                        "fieldInput-style-background-color": "#FFFBC1",
                         "fieldInput-style-border-color": "#000000",
                         "workflowVariable": "",
                         "id": "specialRequest",
