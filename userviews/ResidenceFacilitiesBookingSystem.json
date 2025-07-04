@@ -489,6 +489,21 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "<script>\r\n    var _customFooTableArgs = {breakpoints: {phone: 0, tablet: 0}};\r\n<\/script>\r\n<style>\r\n    .exportlinks { display: none!important; }\r\n<\/style>",
+                        "permissionHidden": "true",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            }
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "Facility Dashboard",
@@ -502,7 +517,8 @@
                         "cacheListAction": "",
                         "userviewCacheScope": "",
                         "rowCount": "",
-                        "id": "D2DB35E0313E45DB3A0688104A631C3E"
+                        "id": "D2DB35E0313E45DB3A0688104A631C3E",
+                        "permissionDeny": ""
                     }
                 },
                 {
@@ -510,6 +526,21 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "<script>\r\n    var _customFooTableArgs = {breakpoints: {phone: 0, tablet: 0}};\r\n<\/script>\r\n<style>\r\n    .exportlinks { display: none!important; }\r\n<\/style>",
+                        "permissionHidden": "true",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            }
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "Feedback Dashboard",
@@ -523,7 +554,8 @@
                         "cacheListAction": "",
                         "userviewCacheScope": "",
                         "rowCount": "",
-                        "id": "26FF3C36138845640D9AD0C34466E730"
+                        "id": "26FF3C36138845640D9AD0C34466E730",
+                        "permissionDeny": ""
                     }
                 }
             ],
