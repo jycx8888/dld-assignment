@@ -1,0 +1,179 @@
+{
+    "elements": [{
+        "elements": [{
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "fieldInput-style-hover-background-color": "#E0E0E0",
+                        "multiple": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
+                        },
+                        "label": "Facility",
+                        "readonly": "",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "",
+                                "groupingColumn": "",
+                                "useAjax": "",
+                                "formDefId": "adminAddFacility",
+                                "labelColumn": "newFacilityName",
+                                "extraCondition": "",
+                                "cacheInterval": "",
+                                "emptyLabel": "",
+                                "idColumn": "newFacilityName"
+                            }
+                        },
+                        "options": [],
+                        "fieldInput-style-border-color": "#000000",
+                        "workflowVariable": "",
+                        "id": "facility",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "fieldInput-style-hover-background-color": "#E0E0E0",
+                        "multiple": "",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
+                        },
+                        "label": "Rating",
+                        "readonly": "",
+                        "size": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [
+                            {
+                                "label": "5",
+                                "value": "5",
+                                "grouping": "rate"
+                            },
+                            {
+                                "label": "4",
+                                "value": "4",
+                                "grouping": "rate"
+                            },
+                            {
+                                "label": "3",
+                                "value": "3",
+                                "grouping": "rate"
+                            },
+                            {
+                                "label": "2",
+                                "value": "2",
+                                "grouping": "rate"
+                            },
+                            {
+                                "label": "1",
+                                "value": "1",
+                                "grouping": "rate"
+                            }
+                        ],
+                        "fieldInput-style-border-color": "#000000",
+                        "workflowVariable": "",
+                        "id": "rating",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.TextArea",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "fieldInput-style-hover-background-color": "#E0E0E0",
+                        "validator": {
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "",
+                                "message": "",
+                                "mandatory": "true"
+                            }
+                        },
+                        "label": "Comments",
+                        "rows": "5",
+                        "readonly": "",
+                        "fieldInput-style-border-color": "#000000",
+                        "workflowVariable": "",
+                        "id": "comments",
+                        "placeholder": "",
+                        "cols": "20",
+                        "value": "",
+                        "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "autoPopulate": "",
+                        "label": "",
+                        "id": "field4",
+                        "value": "<style type=\"text/css\">\r\n    body {\r\n        background-image: url(\"https://properly.com.my/wp-content/uploads/2022/07/Savio-Facade-scaled-1.jpg\");\r\n        background-size: 1700px 800px; /* This sets the width and height */\r\n        background-repeat: no-repeat; /* Prevents the image from repeating if it's smaller than the body */\r\n    }\r\n<\/style>"
+                    }
+                }
+            ],
+            "className": "org.joget.apps.form.model.Column",
+            "properties": {"width": "100%"}
+        }],
+        "className": "org.joget.apps.form.model.Section",
+        "properties": {
+            "header-style-background-color": "#307DC0",
+            "style-background-color": "#ADD2F7",
+            "visibilityControl": "",
+            "permissionReadonly": "",
+            "style-color": "#000000",
+            "header-style-border-color": "#000000",
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Feedback Form",
+            "style-border-color": "#000000",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityValue": "",
+            "regex": "",
+            "readonly": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "comment": "",
+            "id": "feedbackForm",
+            "join": "",
+            "readonlyLabel": ""
+        }
+    }],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "Residents Facility Feedback Form",
+        "description": "",
+        "id": "facilityFeedbackForm",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "feedback"
+    }
+}

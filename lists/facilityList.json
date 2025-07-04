@@ -1,0 +1,41 @@
+{
+    "template": {
+        "className": "",
+        "properties": {}
+    },
+    "rowActions": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "field2",
+            "id": "column_0",
+            "label": "Facility ID",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "newFacilityName",
+            "id": "column_2",
+            "label": "New Facility Name",
+            "sortable": "false"
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "Facility List",
+    "id": "facilityList",
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "adminAddFacility",
+            "extraCondition": ""
+        }
+    },
+    "actions": [],
+    "order": ""
+}
