@@ -6,7 +6,7 @@
                 "template": "<!--{sampleWidth: '250px', tags: 'dark-bg icon'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            background-color:{{color||#348fe2}}; \n            background-image:url('{{bgImg}}'); \n            color:#fff;\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body row\">\n        <div class=\"stats-info col-8\">\n            <h4 style=\"font-size: 12px;\n                       margin: 5px 0;\n                       color: rgba(255,255,255,.7);\">\n                {{title||TOTAL VISITORS}}\n            <\/h4>\n            <p style=\"font-size: 24px; \n                      font-weight: 600; \n                      margin-bottom: 0;\">\n                {{value||3,291,922}}\n            <\/p>\n        <\/div>\n        <div class=\"stats-icon col-4\" \n             style=\"font-size: 42px; \n                    color: rgba(0,0,0,.15);\">\n            {{icon||<i class=\"fas fa-globe\"><\/i>}}\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
                 "attr-data-events-listening": [],
                 "color": "#348FE2",
-                "icon": "<i class=\"fab fa-playstation\" style=\"color:white\"><\/i>",
+                "icon": "<i class=\"fas fa-home\" style=\"color:white\"><\/i>",
                 "link": "",
                 "bgImg": "#appResource.what-is-a-condominium-condo-1919150576.jpg#",
                 "title": "TOTAL FACILITIES LIST",
