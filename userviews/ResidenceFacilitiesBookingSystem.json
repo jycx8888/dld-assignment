@@ -918,21 +918,6 @@
                         "list-editLinkTarget": "",
                         "list-customHeader": ""
                     }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.RunProcess",
-                    "properties": {
-                        "userviewCacheDuration": "20",
-                        "runProcessDirectly": "Yes",
-                        "showInPopupDialog": "No",
-                        "fieldPassoverMethod": "append",
-                        "userviewCacheScope": "",
-                        "actionAfterSaved": "",
-                        "label": "Run Process",
-                        "redirectTarget": "",
-                        "id": "A2E6FD35504C4FCF0DF41D2FE90D94E3",
-                        "afterSavedReloadTarget": "true"
-                    }
                 }
             ],
             "properties": {
