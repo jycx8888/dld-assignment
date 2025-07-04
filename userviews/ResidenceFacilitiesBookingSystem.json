@@ -508,7 +508,60 @@
                     "customHeader": "",
                     "defaultPortletHeight": "250",
                     "userviewCacheScope": "",
-                    "plugins": [],
+                    "plugins": [
+                        {
+                            "autoHeight": "",
+                            "resizable": "true",
+                            "x": "",
+                            "width": "1",
+                            "y": "",
+                            "fixed": "",
+                            "userviewMenu": {
+                                "className": "org.joget.apps.userview.lib.DataListMenu",
+                                "properties": {
+                                    "checkboxPosition": "no",
+                                    "selectionType": "multiple",
+                                    "customHeader": "<div style=\"max-height: 250px; overflow-y: auto;\">",
+                                    "keyName": "",
+                                    "customFooter": "",
+                                    "id": "",
+                                    "label": "Active Resident's List",
+                                    "rowCount": "true",
+                                    "customId": "activeResidentList",
+                                    "buttonPosition": "topLeft",
+                                    "datalistId": "usersDashboard"
+                                }
+                            },
+                            "autoReload": "",
+                            "height": ""
+                        },
+                        {
+                            "autoHeight": "",
+                            "resizable": "true",
+                            "x": "",
+                            "width": "1",
+                            "y": "",
+                            "fixed": "",
+                            "userviewMenu": {
+                                "className": "org.joget.apps.userview.lib.DataListMenu",
+                                "properties": {
+                                    "checkboxPosition": "no",
+                                    "selectionType": "multiple",
+                                    "customHeader": "",
+                                    "keyName": "",
+                                    "customFooter": "",
+                                    "id": "",
+                                    "label": "List",
+                                    "rowCount": "",
+                                    "customId": "",
+                                    "buttonPosition": "topLeft",
+                                    "datalistId": "facilityList"
+                                }
+                            },
+                            "autoReload": "",
+                            "height": ""
+                        }
+                    ],
                     "permission_rules": {
                         "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
                         "ba08158f-845d-0f98-dd74-0618f6d5381c": {},

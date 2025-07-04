@@ -146,45 +146,42 @@
         {
             "elements": [
                 {
-                    "elements": [
-                        {
-                            "className": "org.joget.plugin.enterprise.SqlChartMenu",
-                            "properties": {
-                                "stack": "",
-                                "xAxisDisplayAS": "",
-                                "showLegend": "true",
-                                "customFooter": "",
-                                "enableOffline": "",
-                                "title": "Completed Booking Report",
-                                "customId": "BookingReport",
-                                "chartHeight": "80%",
-                                "yaxisPrefix": "Total Approved Booking List",
-                                "categoryAxisLabel": "Status",
-                                "horizontal": "",
-                                "library": "echart",
-                                "theme": "",
-                                "showValueLabel": "true",
-                                "id": "42E7C7AB7D5B49EC2654AC89EED9C223",
-                                "series_customization": [],
-                                "sortingOrder": "ASC",
-                                "customHeader": "",
-                                "valueAxisLabel": "Total Booking List",
-                                "query": "SELECT \r\n  c_approvalstatus AS label, \r\n  COUNT(*) AS total \r\nFROM \r\n  app_fd_booking_approval \r\nWHERE \r\n  c_approvalstatus IS NOT NULL\r\nGROUP BY \r\n  c_approvalstatus",
-                                "keyName": "",
-                                "label": "Booking Report",
-                                "chartWidth": "100%",
-                                "userviewCacheDuration": "20",
-                                "xAxisBoundaryGap": "",
-                                "userviewCacheScope": "",
-                                "datasource": "default",
-                                "chartType": "bar",
-                                "showTable": "",
-                                "optionCustomization": "",
-                                "chartUseAllDataRows": ""
-                            }
-                        },
-                        {"className": "menu-component"}
-                    ],
+                    "elements": [{
+                        "className": "org.joget.plugin.enterprise.SqlChartMenu",
+                        "properties": {
+                            "stack": "",
+                            "xAxisDisplayAS": "",
+                            "showLegend": "true",
+                            "customFooter": "",
+                            "enableOffline": "",
+                            "title": "Completed Booking Report",
+                            "customId": "BookingReport",
+                            "chartHeight": "80%",
+                            "yaxisPrefix": "Total Approved Booking List",
+                            "categoryAxisLabel": "Status",
+                            "horizontal": "",
+                            "library": "echart",
+                            "theme": "",
+                            "showValueLabel": "true",
+                            "id": "42E7C7AB7D5B49EC2654AC89EED9C223",
+                            "series_customization": [],
+                            "sortingOrder": "ASC",
+                            "customHeader": "",
+                            "valueAxisLabel": "Total Booking List",
+                            "query": "SELECT \r\n  c_approvalstatus AS label, \r\n  COUNT(*) AS total \r\nFROM \r\n  app_fd_booking_approval \r\nWHERE \r\n  c_approvalstatus IS NOT NULL\r\nGROUP BY \r\n  c_approvalstatus",
+                            "keyName": "",
+                            "label": "Booking Report",
+                            "chartWidth": "100%",
+                            "userviewCacheDuration": "20",
+                            "xAxisBoundaryGap": "",
+                            "userviewCacheScope": "",
+                            "datasource": "default",
+                            "chartType": "bar",
+                            "showTable": "",
+                            "optionCustomization": "",
+                            "chartUseAllDataRows": ""
+                        }
+                    }],
                     "className": "org.joget.apps.userview.lib.component.ColumnComponent",
                     "properties": {}
                 },
@@ -247,7 +244,8 @@
                 "id": "16E352B49EDD439ECD6C2AB13874C6F7",
                 "customId": "backgroundManagerDashboard"
             }
-        }
+        },
+        {"className": "menu-component"}
     ],
     "className": "org.joget.apps.userview.model.UserviewPage",
     "properties": {"id": "up-DB1BC552E6EC4720D6F0E178D3B5E949"}
