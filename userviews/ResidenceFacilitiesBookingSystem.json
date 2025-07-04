@@ -219,7 +219,7 @@
                             }
                         },
                         "keyName": "",
-                        "label": "Post Notice",
+                        "label": "<i class=\"zmdi zmdi-calendar-note\"><\/i> Post Notice",
                         "redirectTarget": "",
                         "enableOffline": "",
                         "afterSavedReloadTarget": "true",
@@ -258,7 +258,7 @@
                             }
                         },
                         "keyName": "",
-                        "label": "Register",
+                        "label": "<i class=\"zmdi zmdi-accounts-add\"><\/i> Register",
                         "redirectTarget": "",
                         "enableOffline": "",
                         "afterSavedReloadTarget": "true",
