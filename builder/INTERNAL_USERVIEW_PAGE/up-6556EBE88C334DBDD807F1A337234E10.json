@@ -5,7 +5,8 @@
             "properties": {
                 "attr-data-events-listening": [],
                 "style-color": "#FFFFFF",
-                "textContent": "<span style=\"text-decoration: underline;\">Approved Booking List<\/span>",
+                "style-font-family": "Tahoma, Geneva, sans-serif",
+                "textContent": "Approved Booking List",
                 "id": "D35FB3F74B5344FD0CEBCCC5F5D5DA79",
                 "tagName": "h3",
                 "customId": ""
