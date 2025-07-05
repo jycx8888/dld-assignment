@@ -27,6 +27,118 @@
                     }
                 },
                 {
+                    "className": "org.joget.plugin.enterprise.DashboardMenu",
+                    "properties": {
+                        "customHeader": "",
+                        "defaultPortletHeight": "250",
+                        "plugins": [
+                            {
+                                "autoHeight": "",
+                                "resizable": "true",
+                                "x": "",
+                                "width": "1",
+                                "y": "",
+                                "fixed": "",
+                                "userviewMenu": {
+                                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                                    "properties": {
+                                        "checkboxPosition": "no",
+                                        "selectionType": "multiple",
+                                        "customHeader": "<div style=\"max-height: 250px; overflow-y: auto;\">",
+                                        "keyName": "",
+                                        "customFooter": "",
+                                        "id": "",
+                                        "label": "Active Resident's List",
+                                        "rowCount": "true",
+                                        "customId": "activeResidentList",
+                                        "buttonPosition": "topLeft",
+                                        "datalistId": "usersDashboard"
+                                    }
+                                },
+                                "autoReload": "",
+                                "height": ""
+                            },
+                            {
+                                "autoHeight": "true",
+                                "resizable": "true",
+                                "x": "",
+                                "width": "1",
+                                "y": "",
+                                "fixed": "",
+                                "userviewMenu": {
+                                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                                    "properties": {
+                                        "checkboxPosition": "no",
+                                        "selectionType": "multiple",
+                                        "customHeader": "<script>\r\n    var _customFooTableArgs = {breakpoints: {phone: 0, tablet: 0}};\r\n<\/script>\r\n<style>\r\n    .exportlinks { display: none!important; }\r\n<\/style>",
+                                        "keyName": "",
+                                        "customFooter": "",
+                                        "id": "",
+                                        "label": "List",
+                                        "rowCount": "",
+                                        "customId": "",
+                                        "buttonPosition": "topLeft",
+                                        "datalistId": "facilityList"
+                                    }
+                                },
+                                "autoReload": "",
+                                "height": ""
+                            }
+                        ],
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                        },
+                        "customFooter": "",
+                        "label": "<i class=\"fas fa-tachometer-alt\" style=\"color:white\"><\/i> Manager Dashboard",
+                        "enableOffline": "",
+                        "customId": "managerDashboard",
+                        "mode": "url",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": "",
+                        "urlPortletSetting": [
+                            {
+                                "autoHeight": "",
+                                "resizable": "",
+                                "x": "",
+                                "width": "1",
+                                "y": "",
+                                "fixed": "",
+                                "label": "Active Residents List",
+                                "url": "usersDashboard?embed=true",
+                                "autoReload": "",
+                                "height": "400"
+                            },
+                            {
+                                "autoHeight": "",
+                                "resizable": "",
+                                "x": "",
+                                "width": "1",
+                                "y": "",
+                                "fixed": "",
+                                "label": "Facility List",
+                                "url": "facilityDashboard?embed=true",
+                                "autoReload": "",
+                                "height": "400"
+                            },
+                            {
+                                "autoHeight": "",
+                                "resizable": "",
+                                "x": "",
+                                "width": "1",
+                                "y": "",
+                                "fixed": "",
+                                "label": "Feedback List",
+                                "url": "feedbackDashboard?embed=true",
+                                "autoReload": "",
+                                "height": "400"
+                            }
+                        ],
+                        "id": "DB1BC552E6EC4720D6F0E178D3B5E949"
+                    }
+                },
+                {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
                         "permissionHidden": "",
@@ -573,143 +685,6 @@
                 "comment": "",
                 "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
                 "label": "<i class=\"fa fa-home\"><\/i> Home"
-            }
-        },
-        {
-            "className": "org.joget.apps.userview.model.UserviewCategory",
-            "menus": [{
-                "className": "org.joget.plugin.enterprise.DashboardMenu",
-                "properties": {
-                    "customHeader": "",
-                    "defaultPortletHeight": "250",
-                    "plugins": [
-                        {
-                            "autoHeight": "",
-                            "resizable": "true",
-                            "x": "",
-                            "width": "1",
-                            "y": "",
-                            "fixed": "",
-                            "userviewMenu": {
-                                "className": "org.joget.apps.userview.lib.DataListMenu",
-                                "properties": {
-                                    "checkboxPosition": "no",
-                                    "selectionType": "multiple",
-                                    "customHeader": "<div style=\"max-height: 250px; overflow-y: auto;\">",
-                                    "keyName": "",
-                                    "customFooter": "",
-                                    "id": "",
-                                    "label": "Active Resident's List",
-                                    "rowCount": "true",
-                                    "customId": "activeResidentList",
-                                    "buttonPosition": "topLeft",
-                                    "datalistId": "usersDashboard"
-                                }
-                            },
-                            "autoReload": "",
-                            "height": ""
-                        },
-                        {
-                            "autoHeight": "true",
-                            "resizable": "true",
-                            "x": "",
-                            "width": "1",
-                            "y": "",
-                            "fixed": "",
-                            "userviewMenu": {
-                                "className": "org.joget.apps.userview.lib.DataListMenu",
-                                "properties": {
-                                    "checkboxPosition": "no",
-                                    "selectionType": "multiple",
-                                    "customHeader": "<script>\r\n    var _customFooTableArgs = {breakpoints: {phone: 0, tablet: 0}};\r\n<\/script>\r\n<style>\r\n    .exportlinks { display: none!important; }\r\n<\/style>",
-                                    "keyName": "",
-                                    "customFooter": "",
-                                    "id": "",
-                                    "label": "List",
-                                    "rowCount": "",
-                                    "customId": "",
-                                    "buttonPosition": "topLeft",
-                                    "datalistId": "facilityList"
-                                }
-                            },
-                            "autoReload": "",
-                            "height": ""
-                        }
-                    ],
-                    "permission_rules": {
-                        "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
-                        "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
-                        "f192aecd-18e0-a905-7525-7a9738648a81": {}
-                    },
-                    "customFooter": "",
-                    "label": "<i class=\"fas fa-tachometer-alt\" style=\"color:white\"><\/i> Manager Dashboard",
-                    "enableOffline": "",
-                    "customId": "managerDashboard",
-                    "mode": "url",
-                    "userviewCacheDuration": "20",
-                    "userviewCacheScope": "",
-                    "urlPortletSetting": [
-                        {
-                            "autoHeight": "",
-                            "resizable": "",
-                            "x": "",
-                            "width": "1",
-                            "y": "",
-                            "fixed": "",
-                            "label": "Active Residents List",
-                            "url": "usersDashboard?embed=true",
-                            "autoReload": "",
-                            "height": "400"
-                        },
-                        {
-                            "autoHeight": "",
-                            "resizable": "",
-                            "x": "",
-                            "width": "1",
-                            "y": "",
-                            "fixed": "",
-                            "label": "Facility List",
-                            "url": "facilityDashboard?embed=true",
-                            "autoReload": "",
-                            "height": "400"
-                        },
-                        {
-                            "autoHeight": "",
-                            "resizable": "",
-                            "x": "",
-                            "width": "1",
-                            "y": "",
-                            "fixed": "",
-                            "label": "Feedback List",
-                            "url": "feedbackDashboard?embed=true",
-                            "autoReload": "",
-                            "height": "400"
-                        }
-                    ],
-                    "id": "DB1BC552E6EC4720D6F0E178D3B5E949"
-                }
-            }],
-            "properties": {
-                "hide": "yes",
-                "permission_rules": {
-                    "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
-                        "hide": "yes",
-                        "permissionDeny": ""
-                    },
-                    "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
-                    "f192aecd-18e0-a905-7525-7a9738648a81": {
-                        "hide": "yes",
-                        "permissionDeny": ""
-                    }
-                },
-                "permission": {
-                    "className": "",
-                    "properties": {}
-                },
-                "comment": "",
-                "label": "<i class=\"fas fa-clipboard\"><\/i> Reports for Manager",
-                "id": "category-6523A5DDFECE4211400888476C1BDDB8",
-                "permissionDeny": ""
             }
         },
         {
