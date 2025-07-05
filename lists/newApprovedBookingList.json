@@ -35,10 +35,25 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "date",
-            "id": "column_5",
+            "renderHtml": "",
+            "format": {
+                "className": "org.joget.plugin.enterprise.BeanShellFormatter",
+                "properties": {"script": "import java.text.SimpleDateFormat;\r\nimport java.util.Date;\r\n\r\nSimpleDateFormat sdf = new SimpleDateFormat(\"yyyy-MM-dd\");\r\n\r\n// Get the column value (the date string)\r\nString dateStr = value.toString();\r\nString result = \"\";\r\n\r\ntry {\r\n    Date inputDate = sdf.parse(dateStr);\r\n    Date today = new Date();\r\n    today = sdf.parse(sdf.format(today)); // Remove time portion\r\n\r\n    if (inputDate.before(today)) {\r\n        result = \"<span style='color:red;'>\" + dateStr + \"<\/span>\";\r\n    } else {\r\n        result = \"<span style='color:green;'>\" + dateStr + \"<\/span>\";\r\n    }\r\n\r\n} catch (Exception e) {\r\n    result = \"<span style='color:gray;'>Invalid<\/span>\";\r\n}\r\n\r\nreturn result;"}
+            },
             "label": "Date",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "date",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_5",
+            "alignment": ""
         },
         {
             "filterable": true,
@@ -67,11 +82,25 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "status",
-            "id": "column_9",
+            "renderHtml": "",
+            "format": {
+                "className": "org.joget.plugin.enterprise.BeanShellFormatter",
+                "properties": {"script": "String status = value.toString(); // e.g., \"Approved\", \"Rejected\"\r\nString result = \"\";\r\n\r\nif (\"Approved\".equalsIgnoreCase(status)) {\r\n    result = \"<span style='color:green;'>\" + status + \"<\/span>\";\r\n} else if (\"Rejected\".equalsIgnoreCase(status)) {\r\n    result = \"<span style='color:red;'>\" + status + \"<\/span>\";\r\n} else {\r\n    result = \"<span style='color:gray;'>\" + status + \"<\/span>\"; // For other statuses\r\n}\r\n\r\nreturn result;"}
+            },
             "label": "status",
             "sortable": "false",
-            "datalist_type": "column"
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "status",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_9",
+            "alignment": ""
         }
     ],
     "draggabletable": "",
