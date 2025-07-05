@@ -5,6 +5,7 @@
             "properties": {
                 "attr-data-events-listening": [],
                 "style-color": "#FFFFFF",
+                "style-font-family": "Tahoma, Geneva, sans-serif",
                 "textContent": "Pending Booking List",
                 "id": "1C1E1735036C4AA47CC83E5048E925CC",
                 "tagName": "h3",
