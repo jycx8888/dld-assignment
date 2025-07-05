@@ -13,7 +13,6 @@
                <packageActivityForm>
                   <processDefId>process6</processDefId>
                   <activityDefId>activity1</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -132,7 +131,6 @@
                <packageActivityForm>
                   <processDefId>process6</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId></formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
