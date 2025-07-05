@@ -87,7 +87,7 @@
                 "className": "org.joget.plugin.enterprise.BeanShellFormatter",
                 "properties": {"script": "String status = value.toString(); // e.g., \"Approved\", \"Rejected\"\r\nString result = \"\";\r\n\r\nif (\"Approved\".equalsIgnoreCase(status)) {\r\n    result = \"<span style='color:green;'>\" + status + \"<\/span>\";\r\n} else if (\"Rejected\".equalsIgnoreCase(status)) {\r\n    result = \"<span style='color:red;'>\" + status + \"<\/span>\";\r\n} else {\r\n    result = \"<span style='color:gray;'>\" + status + \"<\/span>\"; // For other statuses\r\n}\r\n\r\nreturn result;"}
             },
-            "label": "status",
+            "label": "Status",
             "sortable": "false",
             "datalist_type": "column",
             "exclude_export": "",
@@ -114,7 +114,7 @@
     "hidePageSize": "",
     "disableResponsive": "",
     "cardCollapseByDefault": "",
-    "name": "New Approved Booking List",
+    "name": "Approved Booking List (Resident)",
     "rowActionsMode": "",
     "showhidecolumns": "",
     "id": "newApprovedBookingList",
