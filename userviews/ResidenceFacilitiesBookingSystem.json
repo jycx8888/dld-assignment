@@ -5,31 +5,6 @@
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
                 {
-                    "className": "org.joget.apps.userview.lib.HtmlPage",
-                    "properties": {
-                        "userviewCacheDuration": "",
-                        "userviewCacheScope": "",
-                        "permission_rules": {
-                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
-                                "permissionHidden": "",
-                                "permissionDeny": ""
-                            },
-                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
-                                "permissionHidden": "",
-                                "permissionDeny": ""
-                            },
-                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
-                        },
-                        "style-color": "#000000",
-                        "id": "8a9f98b7-6300-4465-b808-5648ac5431c2",
-                        "label": "<i class=\"zmdi zmdi-menu\" style=\"color:white\"><\/i> Main Page",
-                        "enableOffline": "",
-                        "style-border-color": "#4876E5",
-                        "customId": "mainPage",
-                        "content": "<div class=\"ui-welcome\">\n<h1 style=\"text-align: center;\"><span style=\"font-family: 'book antiqua', palatino, serif;\">Resident Facilities Booking System<\/span><\/h1>\n<p style=\"text-align: center;\"><span style=\"font-size: 18pt; font-family: georgia, palatino, serif;\">Book smarter, live better.<\/span><\/p>\n<\/div>"
-                    }
-                },
-                {
                     "className": "org.joget.plugin.enterprise.DashboardMenu",
                     "properties": {
                         "mode": "plugins",
