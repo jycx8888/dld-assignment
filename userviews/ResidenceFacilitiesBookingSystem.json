@@ -150,6 +150,36 @@
                     }
                 },
                 {
+                    "className": "org.joget.apps.userview.lib.InboxMenu",
+                    "properties": {
+                        "appFilter": "all",
+                        "list-customFooter": "",
+                        "cacheAllLinks": "",
+                        "permissionHidden": "",
+                        "assignment-customHeader": "",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                        },
+                        "assignment-customFooter": "",
+                        "label": "<i class=\"fas fa-inbox\"><\/i> Inbox",
+                        "enableOffline": "",
+                        "customId": "inbox",
+                        "buttonPosition": "bothLeft",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": "",
+                        "showPopup": "",
+                        "rowCount": "",
+                        "id": "FE44C7756E354D8B8B91AD6BAC2981DD",
+                        "permissionDeny": "",
+                        "list-customHeader": ""
+                    }
+                },
+                {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
                         "permissionHidden": "",
@@ -186,36 +216,6 @@
                         "processDefId": "process1",
                         "redirectUrlAfterComplete": "",
                         "fieldPassover": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.userview.lib.InboxMenu",
-                    "properties": {
-                        "appFilter": "all",
-                        "list-customFooter": "",
-                        "cacheAllLinks": "",
-                        "permissionHidden": "",
-                        "assignment-customHeader": "",
-                        "permission_rules": {
-                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
-                                "permissionHidden": "true",
-                                "permissionDeny": ""
-                            },
-                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
-                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
-                        },
-                        "assignment-customFooter": "",
-                        "label": "<i class=\"fas fa-inbox\"><\/i> Inbox",
-                        "enableOffline": "",
-                        "customId": "inbox",
-                        "buttonPosition": "bothLeft",
-                        "userviewCacheDuration": "20",
-                        "userviewCacheScope": "",
-                        "showPopup": "",
-                        "rowCount": "",
-                        "id": "FE44C7756E354D8B8B91AD6BAC2981DD",
-                        "permissionDeny": "",
-                        "list-customHeader": ""
                     }
                 },
                 {
