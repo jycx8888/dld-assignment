@@ -5,28 +5,56 @@
             "className": "org.joget.apps.userview.model.UserviewCategory",
             "menus": [
                 {
-                    "className": "org.joget.apps.userview.lib.HtmlPage",
+                    "className": "org.joget.plugin.enterprise.DashboardMenu",
                     "properties": {
-                        "userviewCacheDuration": "",
+                        "mode": "url",
+                        "userviewCacheDuration": "20",
+                        "customHeader": "",
+                        "defaultPortletHeight": "250",
                         "userviewCacheScope": "",
-                        "permission_rules": {
-                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
-                                "permissionHidden": "",
-                                "permissionDeny": ""
+                        "plugins": [{
+                            "autoHeight": "true",
+                            "resizable": "true",
+                            "x": "",
+                            "width": "1",
+                            "y": "",
+                            "fixed": "",
+                            "userviewMenu": {
+                                "className": "org.joget.apps.userview.lib.DataListMenu",
+                                "properties": {
+                                    "checkboxPosition": "left",
+                                    "selectionType": "multiple",
+                                    "customHeader": "",
+                                    "keyName": "",
+                                    "customFooter": "",
+                                    "id": "",
+                                    "label": "Latest Notice List",
+                                    "rowCount": "",
+                                    "customId": "latestNoticeList",
+                                    "buttonPosition": "bothLeft",
+                                    "datalistId": "noticeList"
+                                }
                             },
-                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
-                                "permissionHidden": "",
-                                "permissionDeny": ""
-                            },
-                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
-                        },
-                        "style-color": "#000000",
-                        "id": "8a9f98b7-6300-4465-b808-5648ac5431c2",
-                        "label": "<i class=\"zmdi zmdi-menu\" style=\"color:white\"><\/i> Main Page",
+                            "autoReload": "",
+                            "height": ""
+                        }],
+                        "customFooter": "",
+                        "urlPortletSetting": [{
+                            "autoHeight": "",
+                            "resizable": "true",
+                            "x": "",
+                            "width": "3",
+                            "y": "",
+                            "fixed": "",
+                            "label": "Latest Notice List",
+                            "url": "managerNoticeList?embed=true",
+                            "autoReload": "",
+                            "height": "400"
+                        }],
+                        "label": "<i class=\"zmdi zmdi-menu\"><\/i> Main Page",
+                        "id": "0E50A8F3002F4AA51F3BD175D66052B7",
                         "enableOffline": "",
-                        "style-border-color": "#4876E5",
-                        "customId": "mainPage",
-                        "content": "<div class=\"ui-welcome\">\n<h1 style=\"text-align: center;\"><span style=\"font-family: 'book antiqua', palatino, serif;\">Resident Facilities Booking System<\/span><\/h1>\n<p style=\"text-align: center;\"><span style=\"font-size: 18pt; font-family: georgia, palatino, serif;\">Book smarter, live better.<\/span><\/p>\n<\/div>"
+                        "customId": "mainPage"
                     }
                 },
                 {
@@ -213,7 +241,7 @@
                         "runProcessSubmitLabel": "",
                         "id": "3BD16A8C96E34173F39F8E2FC5564AD5",
                         "permissionDeny": "",
-                        "processDefId": "process1",
+                        "processDefId": "facilityBookingRequestProcess",
                         "redirectUrlAfterComplete": "",
                         "fieldPassover": ""
                     }
@@ -679,6 +707,27 @@
                         "rowCount": "",
                         "id": "26FF3C36138845640D9AD0C34466E730",
                         "permissionDeny": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Manager Notice List",
+                        "enableOffline": "",
+                        "customId": "managerNoticeList",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "noticeList",
+                        "checkboxPosition": "no",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "6F918F80CEA04A5AB59C91AC2ABD7CF9"
                     }
                 }
             ],
