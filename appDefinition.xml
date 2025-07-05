@@ -279,8 +279,8 @@
                <packageParticipant>
                   <processDefId>facilityBookingRequestProcess</processDefId>
                   <participantId>resident</participantId>
-                  <type>group</type>
-                  <value>facilityResident</value>
+                  <type>user</type>
+                  <value>cat</value>
                </packageParticipant>
             </entry>
             <entry>
@@ -308,6 +308,15 @@
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>facilityBookingRequestProcess::manager</string>
+               <packageParticipant>
+                  <processDefId>facilityBookingRequestProcess</processDefId>
+                  <participantId>manager</participantId>
+                  <type>user</type>
+                  <value>clark</value>
                </packageParticipant>
             </entry>
          </packageParticipantMap>
