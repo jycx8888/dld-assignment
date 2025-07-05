@@ -32,6 +32,47 @@
                 {
                     "className": "org.joget.plugin.enterprise.DashboardMenu",
                     "properties": {
+                        "mode": "plugins",
+                        "userviewCacheDuration": "20",
+                        "customHeader": "",
+                        "defaultPortletHeight": "250",
+                        "userviewCacheScope": "",
+                        "plugins": [{
+                            "autoHeight": "true",
+                            "resizable": "true",
+                            "x": "",
+                            "width": "1",
+                            "y": "",
+                            "fixed": "",
+                            "userviewMenu": {
+                                "className": "org.joget.apps.userview.lib.DataListMenu",
+                                "properties": {
+                                    "checkboxPosition": "left",
+                                    "selectionType": "multiple",
+                                    "customHeader": "",
+                                    "keyName": "",
+                                    "customFooter": "",
+                                    "id": "",
+                                    "label": "Latest Notice List",
+                                    "rowCount": "",
+                                    "customId": "latestNoticeList",
+                                    "buttonPosition": "bothLeft",
+                                    "datalistId": "noticeList"
+                                }
+                            },
+                            "autoReload": "",
+                            "height": ""
+                        }],
+                        "customFooter": "",
+                        "label": "<i class=\"zmdi zmdi-menu\"><\/i> Main Page",
+                        "id": "0E50A8F3002F4AA51F3BD175D66052B7",
+                        "enableOffline": "",
+                        "customId": "mainPage"
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.DashboardMenu",
+                    "properties": {
                         "customHeader": "",
                         "permissionHidden": "true",
                         "defaultPortletHeight": "250",
