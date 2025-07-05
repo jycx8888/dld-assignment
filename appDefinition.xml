@@ -73,21 +73,21 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>residentFeedbackProcess::runProcess</string>
+               <string>facilityBookingRequestProcess::runProcess</string>
                <packageActivityForm>
-                  <processDefId>residentFeedbackProcess</processDefId>
+                  <processDefId>facilityBookingRequestProcess</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <formId>ResidenceFacilitiesBookingForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>facilityBookingRequestProcess::runProcess</string>
+               <string>residentFeedbackProcess::runProcess</string>
                <packageActivityForm>
-                  <processDefId>facilityBookingRequestProcess</processDefId>
+                  <processDefId>residentFeedbackProcess</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId>ResidenceFacilitiesBookingForm</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
