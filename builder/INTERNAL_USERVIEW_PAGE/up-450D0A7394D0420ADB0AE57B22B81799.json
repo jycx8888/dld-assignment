@@ -5,6 +5,7 @@
             "properties": {
                 "attr-data-events-listening": [],
                 "style-color": "#FFFFFF",
+                "style-font-family": "Tahoma, Geneva, sans-serif",
                 "textContent": "<span style=\"text-decoration: underline;\">Facility List<\/span>",
                 "id": "6368216F4EF34F23270723325F9378AE",
                 "tagName": "h3",
