@@ -1,4 +1,5 @@
 <appDefinition>
+   <appId>ResidenceFacilitiesBookingSystem</appId>
    <id>ResidenceFacilitiesBookingSystem</id>
    <version></version>
    <name>Residence Facilities Booking System</name>
