@@ -9,6 +9,18 @@
                 "customId": ""
             }
         },
+        {
+            "className": "org.joget.apps.userview.lib.component.HeadingComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "style-color": "#FFFFFF",
+                "style-font-family": "Tahoma, Geneva, sans-serif",
+                "textContent": "Approved Booking List",
+                "id": "17E9E1F6FADE49A887998A2E920AD6CB",
+                "tagName": "h3",
+                "customId": ""
+            }
+        },
         {"className": "menu-component"}
     ],
     "className": "org.joget.apps.userview.model.UserviewPage",
