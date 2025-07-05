@@ -213,7 +213,7 @@
                         "runProcessSubmitLabel": "",
                         "id": "3BD16A8C96E34173F39F8E2FC5564AD5",
                         "permissionDeny": "",
-                        "processDefId": "process1",
+                        "processDefId": "facilityBookingRequestProcess",
                         "redirectUrlAfterComplete": "",
                         "fieldPassover": ""
                     }
