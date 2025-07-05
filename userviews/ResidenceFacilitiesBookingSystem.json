@@ -1002,6 +1002,7 @@
     },
     "setting": {"properties": {
         "__": "",
+        "tempDisablePermissionChecking": "",
         "userviewDescription": "",
         "noPermissionMessage": "",
         "userviewId": "ResidenceFacilitiesBookingSystem",
@@ -1038,7 +1039,7 @@
                 "permission_name": "Manager"
             }
         ],
-        "userview_thumbnail": "",
+        "userview_thumbnail": "#appResource.ab0dc05d-ccfd-41eb-800e-8d8cd0997749.jpg#",
         "userview_category": "",
         "theme": {
             "className": "org.joget.plugin.enterprise.Dx8ColorAdminTheme",
@@ -1054,7 +1055,7 @@
                 "disableHelpGuide": "",
                 "logo": "",
                 "enableResponsiveSwitch": "true",
-                "dx8headerFontColor": "#ffffff",
+                "dx8headerFontColor": "#FFFFFF",
                 "fav_icon": "",
                 "mobileViewDisabled": "",
                 "dx8navLinkIcon": "#ECF0F1",
