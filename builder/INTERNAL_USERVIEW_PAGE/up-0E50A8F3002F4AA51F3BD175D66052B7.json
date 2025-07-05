@@ -11,10 +11,6 @@
         },
         {"className": "menu-component"},
         {
-            "className": "org.joget.apps.userview.lib.component.ContainerComponent",
-            "properties": {"id": "CB3064B517744FAF436057DDA464E6E0"}
-        },
-        {
             "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
             "properties": {
                 "attr-data-events-listening": [],
