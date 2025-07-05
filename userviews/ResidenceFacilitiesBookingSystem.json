@@ -843,10 +843,10 @@
                     "className": "org.joget.plugin.enterprise.CrudMenu",
                     "properties": {
                         "list-customFooter": "",
-                        "editFormId": "FacilitiesBookingRequestForm",
+                        "editFormId": "",
                         "cacheAllLinks": "",
                         "edit-saveButtonLabel": "",
-                        "list-showDeleteButton": "yes",
+                        "list-showDeleteButton": "",
                         "list-newButtonLabel": "",
                         "enableOffline": "",
                         "list-deleteSubformData": "",
