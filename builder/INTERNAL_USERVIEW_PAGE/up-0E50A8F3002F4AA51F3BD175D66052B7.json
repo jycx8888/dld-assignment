@@ -9,6 +9,7 @@
                 "customId": ""
             }
         },
+        {"className": "menu-component"},
         {
             "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
             "properties": {
@@ -17,8 +18,7 @@
                 "id": "FE4A733B2A1245CD4B6D2BDBFC3D5D7A",
                 "customId": ""
             }
-        },
-        {"className": "menu-component"}
+        }
     ],
     "className": "org.joget.apps.userview.model.UserviewPage",
     "properties": {"id": "up-0E50A8F3002F4AA51F3BD175D66052B7"}
