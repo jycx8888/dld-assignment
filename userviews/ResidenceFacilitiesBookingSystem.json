@@ -844,7 +844,7 @@
                     "properties": {
                         "list-customFooter": "",
                         "edit-customHeader": "",
-                        "editFormId": "",
+                        "editFormId": "FacilitiesBookingRequestForm",
                         "cacheAllLinks": "",
                         "edit-saveButtonLabel": "",
                         "list-showDeleteButton": "",
@@ -857,7 +857,7 @@
                         "checkboxPosition": "left",
                         "selectionType": "multiple",
                         "add-customFooter": "",
-                        "addFormId": "FacilitiesBookingRequestForm",
+                        "addFormId": "",
                         "edit-allowRecordTraveling": "",
                         "rowCount": "",
                         "id": "38F1795915BC4EA203028489C0D2B5BB",
