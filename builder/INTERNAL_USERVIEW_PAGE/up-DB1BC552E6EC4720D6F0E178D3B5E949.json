@@ -1,0 +1,274 @@
+{
+    "elements": [
+        {
+            "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "textContent": "<!--{ sampleWidth: '100%', tags: 'light-bg header dashboard' }-->\r\n<div style=\"padding: 20px; \r\n            background-color: #f8f9fa; \r\n            border-radius: 10px; \r\n            box-shadow: 0 1px 4px rgba(0,0,0,0.1); \r\n            margin-bottom: 20px;\">\r\n    <div class=\"d-flex justify-content-between align-items-center flex-wrap\">\r\n        <div>\r\n            <h2 style=\"margin: 0; font-size: 22px; color: #343a40;\">\r\n                <i class=\"fas fa-chart-line mr-2\" style=\"color: #563d7c;\"><\/i> \r\n                Manager Dashboard\r\n            <\/h2>\r\n            <p style=\"margin: 0; font-size: 14px; color: #6c757d;\">\r\n                Welcome back, Facility Manager\r\n            <\/p>\r\n        <\/div>\r\n        <div>\r\n            <span class=\"badge badge-primary\" style=\"font-size: 12px; background-color: #563d7c;\">\r\n                Thursday, 04 July 2025, 3:45 PM\r\n            <\/span>\r\n        <\/div>\r\n    <\/div>\r\n<\/div>\r\n",
+                "id": "1850BE1277B04B1124C8379854544F10",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [
+                {
+                    "elements": [{
+                        "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                        "properties": {
+                            "template": "<!--{sampleWidth: '250px', tags: 'dark-bg icon'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            background-color:{{color||#348fe2}}; \n            background-image:url('{{bgImg}}'); \n            color:#fff;\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body row\">\n        <div class=\"stats-info col-8\">\n            <h4 style=\"font-size: 12px;\n                       margin: 5px 0;\n                       color: rgba(255,255,255,.7);\">\n                {{title||TOTAL VISITORS}}\n            <\/h4>\n            <p style=\"font-size: 24px; \n                      font-weight: 600; \n                      margin-bottom: 0;\">\n                {{value||3,291,922}}\n            <\/p>\n        <\/div>\n        <div class=\"stats-icon col-4\" \n             style=\"font-size: 42px; \n                    color: rgba(0,0,0,.15);\">\n            {{icon||<i class=\"fas fa-globe\"><\/i>}}\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
+                            "attr-data-events-listening": [],
+                            "color": "#B898EC",
+                            "headerTag": "",
+                            "tagColor": "",
+                            "icon": "<i class=\"fas fa-book\" style=\"color:white\"><\/i>",
+                            "link": "",
+                            "bgImg": "",
+                            "title": "COMPLETED BOOKINGS",
+                            "customId": "completedBooking",
+                            "chartData": "",
+                            "chartConfig": "",
+                            "reload": "",
+                            "bgColor": "#FFFFFF",
+                            "subvalue": "",
+                            "repeat": [],
+                            "header": "TOTAL COMPLETED BOOKINGS",
+                            "id": "5F7E428AF03644DAF5AFC4DCACA1E408",
+                            "value": "#datalist.total.approvedBookingList#",
+                            "chartLabels": "TOTAL COMPLETED BOOKINGS",
+                            "height": ""
+                        }
+                    }],
+                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                    "properties": {}
+                },
+                {
+                    "elements": [{
+                        "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                        "properties": {
+                            "template": "<!--{sampleWidth: '250px', tags: 'dark-bg icon'}-->\n<div class=\"card\" \n     style=\"height:{{height}}; \n            background-color:{{color||#348fe2}}; \n            background-image:url('{{bgImg}}'); \n            color:#fff;\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"card-body row\">\n        <div class=\"stats-info col-8\">\n            <h4 style=\"font-size: 12px;\n                       margin: 5px 0;\n                       color: rgba(255,255,255,.7);\">\n                {{title||TOTAL VISITORS}}\n            <\/h4>\n            <p style=\"font-size: 24px; \n                      font-weight: 600; \n                      margin-bottom: 0;\">\n                {{value||3,291,922}}\n            <\/p>\n        <\/div>\n        <div class=\"stats-icon col-4\" \n             style=\"font-size: 42px; \n                    color: rgba(0,0,0,.15);\">\n            {{icon||<i class=\"fas fa-globe\"><\/i>}}\n        <\/div>\n    <\/div>\n<\/div>\n<!---->",
+                            "attr-data-events-listening": [],
+                            "color": "#B898EC",
+                            "headerTag": "",
+                            "tagColor": "",
+                            "icon": "<i class=\"far fa-user-circle\" style=\"color:white\"><\/i>",
+                            "link": "",
+                            "bgImg": "",
+                            "title": "NEW USERS",
+                            "customId": "newUsers",
+                            "chartData": "",
+                            "chartConfig": "",
+                            "reload": "",
+                            "bgColor": "",
+                            "subvalue": "",
+                            "header": "Total New Users",
+                            "id": "F8927E03D05C4872C93B48D5BB91194F",
+                            "value": "#datalist.total.userAccountList#",
+                            "chartLabels": "New Users",
+                            "height": ""
+                        }
+                    }],
+                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                    "properties": {}
+                }
+            ],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "gutter": "5px",
+                "columns": [
+                    {"style-max-width": ""},
+                    {"style-max-width": ""}
+                ],
+                "css-mobile-stack-columns": "true",
+                "id": "A072A905F2CB410B61C400EE59EBE6FB"
+            }
+        },
+        {
+            "elements": [
+                {
+                    "elements": [{
+                        "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                        "properties": {
+                            "template": "<!--{sampleWidth: '250px', tags: 'light-bg icon'}-->\n<div class=\"card flex-row align-items-center align-items-stretch\" \n     style=\"height:{{height}};\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center \n                justify-content-center rounded-left\" \n         style=\"background-color:{{color||#348fe2}}; \n                font-size: 48px; \n                color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8 text-center\">\n        <p style=\"font-size: 24px; \n                  font-weight: 600; \n                  margin-bottom: 10px;\">\n            {{value||3,291,922}}\n        <\/p>\n        <h4 style=\"font-size: 12px;\n                   color: rgba(0,0,0,.7);\n                   margin: 5px 0;\">\n            {{title||TOTAL VISITORS}}\n        <\/h4>\n    <\/div>\n<\/div>\n<!---->",
+                            "attr-data-events-listening": [],
+                            "color": "#BC96C9",
+                            "icon": "<i class=\"fas fa-basketball-ball\" style=\"color:white\"><\/i>",
+                            "link": "",
+                            "bgImg": "#appResource.what-is-a-condominium-condo-1919150576.jpg#",
+                            "title": "TOTAL FACILITIES LIST",
+                            "customId": "totalFacilitiesList",
+                            "chartData": "",
+                            "chartConfig": "",
+                            "reload": "",
+                            "bgColor": "",
+                            "id": "368DF9B119CA48FA3452CE5C4A630E1F",
+                            "value": "#datalist.total.facilityList#",
+                            "chartLabels": "Total Facilities List",
+                            "height": ""
+                        }
+                    }],
+                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                    "properties": {}
+                },
+                {
+                    "elements": [{
+                        "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                        "properties": {
+                            "template": "<!--{sampleWidth: '250px', tags: 'light-bg icon'}-->\n<div class=\"card flex-row align-items-center align-items-stretch\" \n     style=\"height:{{height}};\n            background-color:{{bgColor}}; \n            background-image:url('{{bgImg}}');\">\n    <div style=\"position: absolute;\n                top: 5px;\n                right: 5px;\n                z-index: 1;\">\n        {{reload}}\n    <\/div>\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center \n                justify-content-center rounded-left\" \n         style=\"background-color:{{color||#348fe2}}; \n                font-size: 48px; \n                color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8 text-center\">\n        <p style=\"font-size: 24px; \n                  font-weight: 600; \n                  margin-bottom: 10px;\">\n            {{value||3,291,922}}\n        <\/p>\n        <h4 style=\"font-size: 12px;\n                   color: rgba(0,0,0,.7);\n                   margin: 5px 0;\">\n            {{title||TOTAL VISITORS}}\n        <\/h4>\n    <\/div>\n<\/div>\n<!---->",
+                            "attr-data-events-listening": [],
+                            "color": "#C99CE0",
+                            "icon": "<i class=\"fab fa-rocketchat\"><\/i>",
+                            "link": "",
+                            "bgImg": "",
+                            "title": "TOTAL FEEDBACK",
+                            "customId": "",
+                            "reload": "",
+                            "bgColor": "",
+                            "id": "698F5F47EC1F4654F8B4058337EC195D",
+                            "value": "#datalist.total.feedbackList#",
+                            "height": ""
+                        }
+                    }],
+                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                    "properties": {}
+                }
+            ],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "gutter": "5px",
+                "columns": [
+                    {"style-max-width": ""},
+                    {"style-max-width": ""}
+                ],
+                "css-mobile-stack-columns": "true",
+                "id": "1636B365B6754E2699BC86EE0931A9B0"
+            }
+        },
+        {
+            "elements": [
+                {
+                    "elements": [{
+                        "className": "org.joget.plugin.enterprise.SqlChartMenu",
+                        "properties": {
+                            "stack": "",
+                            "xAxisDisplayAS": "",
+                            "showLegend": "true",
+                            "customFooter": "",
+                            "enableOffline": "",
+                            "title": "Completed Booking Report",
+                            "customId": "BookingReport",
+                            "chartHeight": "80%",
+                            "yaxisPrefix": "Total Approved Booking List",
+                            "categoryAxisLabel": "Status",
+                            "horizontal": "",
+                            "library": "echart",
+                            "theme": "",
+                            "showValueLabel": "true",
+                            "id": "42E7C7AB7D5B49EC2654AC89EED9C223",
+                            "series_customization": [],
+                            "sortingOrder": "ASC",
+                            "customHeader": "",
+                            "valueAxisLabel": "Total Booking List",
+                            "query": "SELECT \r\n  c_approvalstatus AS label, \r\n  COUNT(*) AS total \r\nFROM \r\n  app_fd_booking_approval \r\nWHERE \r\n  c_approvalstatus IS NOT NULL\r\nGROUP BY \r\n  c_approvalstatus",
+                            "keyName": "",
+                            "label": "Booking Report",
+                            "chartWidth": "100%",
+                            "userviewCacheDuration": "20",
+                            "xAxisBoundaryGap": "",
+                            "userviewCacheScope": "",
+                            "datasource": "default",
+                            "chartType": "bar",
+                            "showTable": "",
+                            "optionCustomization": "",
+                            "chartUseAllDataRows": ""
+                        }
+                    }],
+                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                    "properties": {}
+                },
+                {
+                    "elements": [{
+                        "className": "org.joget.plugin.enterprise.SqlChartMenu",
+                        "properties": {
+                            "xAxisDisplayAS": "",
+                            "showLegend": "true",
+                            "customFooter": "",
+                            "enableOffline": "",
+                            "title": "User Account Chart",
+                            "customId": "userAccountChart",
+                            "chartHeight": "80%",
+                            "yaxisPrefix": "",
+                            "categoryAxisLabel": "Date",
+                            "library": "echart",
+                            "theme": "tech-blue",
+                            "showValueLabel": "true",
+                            "id": "C3A35B3D27044BCDE10995A13CDA0705",
+                            "series_customization": [],
+                            "sortingOrder": "ASC",
+                            "customHeader": "",
+                            "valueAxisLabel": "New User (Daily)",
+                            "smoothLine": "true",
+                            "query": "SELECT \r\n  DATE_FORMAT(dateCreated, '%Y-%m-%d') AS label, \r\n  COUNT(id) AS value\r\nFROM \r\n  app_fd_resident_register\r\nWHERE \r\n  dateCreated IS NOT NULL\r\nGROUP BY \r\n  label\r\nORDER BY \r\n  label ASC",
+                            "keyName": "",
+                            "label": "User Account Chart",
+                            "chartWidth": "100%",
+                            "userviewCacheDuration": "20",
+                            "xAxisBoundaryGap": "",
+                            "userviewCacheScope": "",
+                            "datasource": "default",
+                            "chartType": "line",
+                            "showTable": "",
+                            "optionCustomization": "",
+                            "chartUseAllDataRows": ""
+                        }
+                    }],
+                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                    "properties": {}
+                }
+            ],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "gutter": "5px",
+                "columns": [
+                    {"style-max-width": ""},
+                    {"style-max-width": ""}
+                ],
+                "css-mobile-stack-columns": "true",
+                "id": "8C4BC3B2529946FCB661E3497530B875"
+            }
+        },
+        {
+            "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "textContent": "<style>\r\n    body {\r\n        background-image: url(\"https://imgs.search.brave.com/GOg8H4Oa0X2KWLD-33QEuxHWb43gBvwnlYs3Xzl8U2k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMjA4/OTIyMC5qcGc\");\r\n        background-size: 1700px 900px; /* This sets the width and height */\r\n        background-repeat: no-repeat; /* Prevents the image from repeating if it's smaller than the body */\r\n    }\r\n<\/style>",
+                "id": "16E352B49EDD439ECD6C2AB13874C6F7",
+                "customId": "backgroundManagerDashboard"
+            }
+        },
+        {"className": "menu-component"},
+        {
+            "elements": [
+                {
+                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                    "properties": {}
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                    "properties": {}
+                }
+            ],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "gutter": "5px",
+                "columns": [
+                    {"style-max-width": ""},
+                    {"style-max-width": ""}
+                ],
+                "css-mobile-stack-columns": "true",
+                "id": "C7F8BE656C48424FEDCBB06DAD6385B0"
+            }
+        }
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-DB1BC552E6EC4720D6F0E178D3B5E949"}
+}

@@ -1,0 +1,27 @@
+{
+    "elements": [
+        {
+            "className": "org.joget.apps.userview.lib.component.HeadingComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "style-color": "#FFFFFF",
+                "textContent": "<span style=\"text-decoration: underline;\">Approved Booking List<\/span>",
+                "id": "D35FB3F74B5344FD0CEBCCC5F5D5DA79",
+                "tagName": "h3",
+                "customId": ""
+            }
+        },
+        {"className": "menu-component"},
+        {
+            "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "textContent": "<style type=\"text/css\">\r\n    .form-container, .form-body {\r\n        background-image: url(\"https://properly.com.my/wp-content/uploads/2022/07/Savio-Facade-scaled-1.jpg\");\r\n        background-size: 1700px 900px; /* This sets the width and height */\r\n        background-repeat: no-repeat; /* Prevents the image from repeating if it's smaller than the container */\r\n    }\r\n    body {\r\n        background-image: url(\"https://properly.com.my/wp-content/uploads/2022/07/Savio-Facade-scaled-1.jpg\");\r\n        background-size: 1700px 900px; /* This sets the width and height */\r\n        background-repeat: no-repeat; /* Prevents the image from repeating if it's smaller than the body */\r\n    }\r\n<\/style>",
+                "id": "A4F1051E94D8483984D3EAE0EF81D217",
+                "customId": ""
+            }
+        }
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-6556EBE88C334DBDD807F1A337234E10"}
+}
