@@ -41,13 +41,13 @@
                         "customFooter": "",
                         "urlPortletSetting": [{
                             "autoHeight": "",
-                            "resizable": "",
+                            "resizable": "true",
                             "x": "",
-                            "width": "1",
+                            "width": "3",
                             "y": "",
                             "fixed": "",
                             "label": "Latest Notice List",
-                            "url": "ManagerNoticeList?embed=true",
+                            "url": "managerNoticeList?embed=true",
                             "autoReload": "",
                             "height": "400"
                         }],
