@@ -1,0 +1,1139 @@
+{
+    "className": "org.joget.apps.userview.model.Userview",
+    "categories": [
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.HtmlPage",
+                    "properties": {
+                        "userviewCacheDuration": "",
+                        "userviewCacheScope": "",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                        },
+                        "style-color": "#000000",
+                        "id": "8a9f98b7-6300-4465-b808-5648ac5431c2",
+                        "label": "<i class=\"zmdi zmdi-menu\" style=\"color:white\"><\/i> Main Page",
+                        "enableOffline": "",
+                        "style-border-color": "#4876E5",
+                        "customId": "mainPage",
+                        "content": "<div class=\"ui-welcome\">\n<h1 style=\"text-align: center;\"><span style=\"font-family: 'book antiqua', palatino, serif;\">Resident Facilities Booking System<\/span><\/h1>\n<p style=\"text-align: center;\"><span style=\"font-size: 18pt; font-family: georgia, palatino, serif;\">Book smarter, live better.<\/span><\/p>\n<\/div>"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.RunProcess",
+                    "properties": {
+                        "permissionHidden": "",
+                        "runProcessDirectly": "Yes",
+                        "fieldPassoverMethod": "append",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            }
+                        },
+                        "keyName": "",
+                        "label": "<i class=\"fas fa-clipboard-list\"><\/i> Book Facility",
+                        "redirectTarget": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "bookFacility",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "showInPopupDialog": "",
+                        "userviewCacheScope": "",
+                        "actionAfterSaved": "",
+                        "runProcessSubmitLabel": "",
+                        "id": "3BD16A8C96E34173F39F8E2FC5564AD5",
+                        "permissionDeny": "",
+                        "processDefId": "process1",
+                        "redirectUrlAfterComplete": "",
+                        "fieldPassover": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.InboxMenu",
+                    "properties": {
+                        "appFilter": "all",
+                        "list-customFooter": "",
+                        "cacheAllLinks": "",
+                        "permissionHidden": "",
+                        "assignment-customHeader": "",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                        },
+                        "assignment-customFooter": "",
+                        "label": "<i class=\"fas fa-inbox\"><\/i> Inbox",
+                        "enableOffline": "",
+                        "customId": "inbox",
+                        "buttonPosition": "bothLeft",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": "",
+                        "showPopup": "",
+                        "rowCount": "",
+                        "id": "FE44C7756E354D8B8B91AD6BAC2981DD",
+                        "permissionDeny": "",
+                        "list-customHeader": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.RunProcess",
+                    "properties": {
+                        "permissionHidden": "true",
+                        "runProcessDirectly": "Yes",
+                        "fieldPassoverMethod": "append",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                        },
+                        "keyName": "",
+                        "label": "<i class=\"fas fa-building\"><\/i> Add Facility",
+                        "redirectTarget": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "showInPopupDialog": "",
+                        "userviewCacheScope": "",
+                        "actionAfterSaved": "",
+                        "runProcessSubmitLabel": "",
+                        "id": "522A69EDF63D44DFF0334CB1E8285D20",
+                        "permissionDeny": "",
+                        "processDefId": "addNewFacility",
+                        "redirectUrlAfterComplete": "",
+                        "fieldPassover": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "list-customFooter": "",
+                        "editFormId": "",
+                        "cacheAllLinks": "",
+                        "edit-saveButtonLabel": "",
+                        "list-showDeleteButton": "yes",
+                        "list-newButtonLabel": "",
+                        "list-deleteSubformData": "true",
+                        "enableOffline": "",
+                        "edit-afterSavedReloadTarget": "true",
+                        "selectionType": "multiple",
+                        "addFormId": "adminAddFacility",
+                        "id": "450D0A7394D0420ADB0AE57B22B81799",
+                        "edit-readonlyLabel": "true",
+                        "add-messageShowAfterComplete": "",
+                        "list-editLinkLabel": "",
+                        "add-cancelButtonLabel": "",
+                        "list-deleteFiles": "",
+                        "permissionHidden": "true",
+                        "add-afterSavedReloadTarget": "true",
+                        "add-customHeader": "",
+                        "edit-readonly": "",
+                        "datalistId": "facilityList",
+                        "edit-nextButtonLabel": "",
+                        "list-confirmation": "",
+                        "userviewCacheDuration": "20",
+                        "add-afterSaved": "list",
+                        "permissionDeny": "",
+                        "list-customHeader": "",
+                        "edit-customHeader": "",
+                        "list-abortRelatedRunningProcesses": "",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                                "permissionHidden": "",
+                                "permissionDeny": ""
+                            },
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                        },
+                        "edit-prevButtonLabel": "",
+                        "customId": "facilityList",
+                        "edit-afterSaved": "list",
+                        "list-deleteButtonLabel": "",
+                        "checkboxPosition": "left",
+                        "add-customFooter": "",
+                        "list-deleteGridData": "true",
+                        "edit-allowRecordTraveling": "",
+                        "rowCount": "",
+                        "edit-customFooter": "",
+                        "keyName": "",
+                        "label": "<i class=\"fas fa-basketball-ball\"><\/i> Facility List",
+                        "list-newLinkTarget": "",
+                        "edit-lastButtonLabel": "",
+                        "buttonPosition": "bothLeft",
+                        "edit-firstButtonLabel": "",
+                        "add-saveButtonLabel": "",
+                        "edit-messageShowAfterComplete": "",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "edit-moreActions": [],
+                        "list-moreActions": [],
+                        "edit-backButtonLabel": "",
+                        "list-editLinkTarget": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.RunProcess",
+                    "properties": {
+                        "permissionHidden": "true",
+                        "runProcessDirectly": "Yes",
+                        "fieldPassoverMethod": "append",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            }
+                        },
+                        "keyName": "",
+                        "label": "<i class=\"zmdi zmdi-calendar-note\"><\/i> Post Notice",
+                        "redirectTarget": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "postNotice",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "showInPopupDialog": "",
+                        "userviewCacheScope": "",
+                        "actionAfterSaved": "",
+                        "runProcessSubmitLabel": "",
+                        "id": "D663EE7CAD3541971A427152500A1172",
+                        "permissionDeny": "",
+                        "processDefId": "noticePostingProcess",
+                        "redirectUrlAfterComplete": "",
+                        "fieldPassover": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.RunProcess",
+                    "properties": {
+                        "permissionHidden": "",
+                        "runProcessDirectly": "Yes",
+                        "fieldPassoverMethod": "append",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            }
+                        },
+                        "keyName": "",
+                        "label": "<i class=\"zmdi zmdi-accounts-add\"><\/i> Register",
+                        "redirectTarget": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "register",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "showInPopupDialog": "",
+                        "userviewCacheScope": "",
+                        "actionAfterSaved": "",
+                        "runProcessSubmitLabel": "",
+                        "id": "626D82A74C87408C8CAF76F1386D77D5",
+                        "permissionDeny": "",
+                        "processDefId": "residentRegister",
+                        "redirectUrlAfterComplete": "",
+                        "fieldPassover": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "list-customFooter": "",
+                        "editFormId": "ResidentsRegistrationForm",
+                        "cacheAllLinks": "",
+                        "edit-saveButtonLabel": "",
+                        "list-showDeleteButton": "yes",
+                        "list-newButtonLabel": "",
+                        "list-deleteSubformData": "true",
+                        "enableOffline": "",
+                        "edit-afterSavedReloadTarget": "true",
+                        "selectionType": "multiple",
+                        "addFormId": "",
+                        "id": "65C6D0D7DB05403727473A5DC4C875A7",
+                        "edit-readonlyLabel": "true",
+                        "add-messageShowAfterComplete": "",
+                        "list-editLinkLabel": "",
+                        "add-cancelButtonLabel": "",
+                        "list-deleteFiles": "",
+                        "permissionHidden": "true",
+                        "add-afterSavedReloadTarget": "true",
+                        "add-customHeader": "",
+                        "edit-readonly": "",
+                        "datalistId": "userAccountList",
+                        "edit-nextButtonLabel": "",
+                        "list-confirmation": "",
+                        "userviewCacheDuration": "20",
+                        "add-afterSaved": "list",
+                        "permissionDeny": "",
+                        "list-customHeader": "",
+                        "edit-customHeader": "",
+                        "list-abortRelatedRunningProcesses": "",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {
+                                "permissionHidden": "",
+                                "permissionDeny": ""
+                            }
+                        },
+                        "edit-prevButtonLabel": "",
+                        "customId": "",
+                        "edit-afterSaved": "list",
+                        "list-deleteButtonLabel": "",
+                        "checkboxPosition": "left",
+                        "add-customFooter": "",
+                        "list-deleteGridData": "true",
+                        "edit-allowRecordTraveling": "",
+                        "rowCount": "",
+                        "edit-customFooter": "",
+                        "keyName": "",
+                        "label": "<i class=\"fas fa-user\"><\/i> Resident List",
+                        "list-newLinkTarget": "",
+                        "edit-lastButtonLabel": "",
+                        "buttonPosition": "bottomLeft",
+                        "edit-firstButtonLabel": "",
+                        "add-saveButtonLabel": "",
+                        "edit-messageShowAfterComplete": "",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "edit-moreActions": [],
+                        "list-moreActions": [],
+                        "edit-backButtonLabel": "",
+                        "list-editLinkTarget": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.RunProcess",
+                    "properties": {
+                        "runProcessDirectly": "Yes",
+                        "fieldPassoverMethod": "append",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            }
+                        },
+                        "keyName": "",
+                        "label": "<i class=\"fab fa-rocketchat\"><\/i> Facility Feedback",
+                        "redirectTarget": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "showInPopupDialog": "",
+                        "userviewCacheScope": "",
+                        "actionAfterSaved": "",
+                        "runProcessSubmitLabel": "",
+                        "id": "99D4808B4D074506711FF2B544CB592A",
+                        "processDefId": "residentFeedbackProcess",
+                        "redirectUrlAfterComplete": "",
+                        "fieldPassover": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "list-customFooter": "",
+                        "editFormId": "",
+                        "cacheAllLinks": "",
+                        "edit-saveButtonLabel": "",
+                        "list-showDeleteButton": "",
+                        "list-newButtonLabel": "",
+                        "enableOffline": "",
+                        "edit-afterSavedReloadTarget": "true",
+                        "selectionType": "multiple",
+                        "addFormId": "",
+                        "id": "92C2C900BDDA4A9EBF0EEABA8BC4B9B2",
+                        "edit-readonlyLabel": "true",
+                        "add-messageShowAfterComplete": "",
+                        "list-editLinkLabel": "",
+                        "add-cancelButtonLabel": "",
+                        "permissionHidden": "true",
+                        "add-afterSavedReloadTarget": "true",
+                        "add-customHeader": "",
+                        "edit-readonly": "",
+                        "datalistId": "feedbackList",
+                        "edit-nextButtonLabel": "",
+                        "userviewCacheDuration": "20",
+                        "add-afterSaved": "list",
+                        "permissionDeny": "",
+                        "list-customHeader": "",
+                        "edit-customHeader": "",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                        },
+                        "edit-prevButtonLabel": "",
+                        "customId": "feedbackList",
+                        "edit-afterSaved": "list",
+                        "checkboxPosition": "left",
+                        "add-customFooter": "",
+                        "edit-allowRecordTraveling": "",
+                        "rowCount": "",
+                        "edit-customFooter": "",
+                        "keyName": "",
+                        "label": "<i class=\"zmdi zmdi-comment-list\"><\/i> Feedback List",
+                        "list-newLinkTarget": "",
+                        "edit-lastButtonLabel": "",
+                        "buttonPosition": "bothLeft",
+                        "edit-firstButtonLabel": "",
+                        "add-saveButtonLabel": "",
+                        "edit-messageShowAfterComplete": "",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "edit-moreActions": [],
+                        "list-moreActions": [],
+                        "edit-backButtonLabel": "",
+                        "list-editLinkTarget": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "<script>\r\n    var _customFooTableArgs = {breakpoints: {phone: 0, tablet: 0}};\r\n<\/script>\r\n<style>\r\n    .exportlinks { display: none!important; }\r\n<\/style>",
+                        "permissionHidden": "true",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            }
+                        },
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "<i class=\"fas fa-user\"><\/i> Users Dashboard",
+                        "enableOffline": "",
+                        "customId": "usersDashboard",
+                        "buttonPosition": "bottomLeft",
+                        "datalistId": "usersDashboard",
+                        "checkboxPosition": "no",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "22DD13C4466140903EBB16A807A4ACA2",
+                        "permissionDeny": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "<script>\r\n    var _customFooTableArgs = {breakpoints: {phone: 0, tablet: 0}};\r\n<\/script>\r\n<style>\r\n    .exportlinks { display: none!important; }\r\n<\/style>",
+                        "permissionHidden": "true",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            }
+                        },
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Facility Dashboard",
+                        "enableOffline": "",
+                        "customId": "facilityDashboard",
+                        "buttonPosition": "bottomLeft",
+                        "datalistId": "facilityList",
+                        "checkboxPosition": "no",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "D2DB35E0313E45DB3A0688104A631C3E",
+                        "permissionDeny": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "<script>\r\n    var _customFooTableArgs = {breakpoints: {phone: 0, tablet: 0}};\r\n<\/script>\r\n<style>\r\n    .exportlinks { display: none!important; }\r\n<\/style>",
+                        "permissionHidden": "true",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            }
+                        },
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "Feedback Dashboard",
+                        "enableOffline": "",
+                        "customId": "feedbackDashboard",
+                        "buttonPosition": "bottomLeft",
+                        "datalistId": "feedbackList",
+                        "checkboxPosition": "no",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "26FF3C36138845640D9AD0C34466E730",
+                        "permissionDeny": ""
+                    }
+                }
+            ],
+            "properties": {
+                "hide": "",
+                "permission_rules": {
+                    "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
+                    "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                    "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
+                "label": "<i class=\"fa fa-home\"><\/i> Home"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.plugin.enterprise.DashboardMenu",
+                "properties": {
+                    "customHeader": "",
+                    "defaultPortletHeight": "250",
+                    "plugins": [
+                        {
+                            "autoHeight": "",
+                            "resizable": "true",
+                            "x": "",
+                            "width": "1",
+                            "y": "",
+                            "fixed": "",
+                            "userviewMenu": {
+                                "className": "org.joget.apps.userview.lib.DataListMenu",
+                                "properties": {
+                                    "checkboxPosition": "no",
+                                    "selectionType": "multiple",
+                                    "customHeader": "<div style=\"max-height: 250px; overflow-y: auto;\">",
+                                    "keyName": "",
+                                    "customFooter": "",
+                                    "id": "",
+                                    "label": "Active Resident's List",
+                                    "rowCount": "true",
+                                    "customId": "activeResidentList",
+                                    "buttonPosition": "topLeft",
+                                    "datalistId": "usersDashboard"
+                                }
+                            },
+                            "autoReload": "",
+                            "height": ""
+                        },
+                        {
+                            "autoHeight": "true",
+                            "resizable": "true",
+                            "x": "",
+                            "width": "1",
+                            "y": "",
+                            "fixed": "",
+                            "userviewMenu": {
+                                "className": "org.joget.apps.userview.lib.DataListMenu",
+                                "properties": {
+                                    "checkboxPosition": "no",
+                                    "selectionType": "multiple",
+                                    "customHeader": "<script>\r\n    var _customFooTableArgs = {breakpoints: {phone: 0, tablet: 0}};\r\n<\/script>\r\n<style>\r\n    .exportlinks { display: none!important; }\r\n<\/style>",
+                                    "keyName": "",
+                                    "customFooter": "",
+                                    "id": "",
+                                    "label": "List",
+                                    "rowCount": "",
+                                    "customId": "",
+                                    "buttonPosition": "topLeft",
+                                    "datalistId": "facilityList"
+                                }
+                            },
+                            "autoReload": "",
+                            "height": ""
+                        }
+                    ],
+                    "permission_rules": {
+                        "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
+                        "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                        "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                    },
+                    "customFooter": "",
+                    "label": "<i class=\"fas fa-tachometer-alt\" style=\"color:white\"><\/i> Manager Dashboard",
+                    "enableOffline": "",
+                    "customId": "managerDashboard",
+                    "mode": "url",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": "",
+                    "urlPortletSetting": [
+                        {
+                            "autoHeight": "",
+                            "resizable": "",
+                            "x": "",
+                            "width": "1",
+                            "y": "",
+                            "fixed": "",
+                            "label": "Active Residents List",
+                            "url": "usersDashboard?embed=true",
+                            "autoReload": "",
+                            "height": "400"
+                        },
+                        {
+                            "autoHeight": "",
+                            "resizable": "",
+                            "x": "",
+                            "width": "1",
+                            "y": "",
+                            "fixed": "",
+                            "label": "Facility List",
+                            "url": "facilityDashboard?embed=true",
+                            "autoReload": "",
+                            "height": "400"
+                        },
+                        {
+                            "autoHeight": "",
+                            "resizable": "",
+                            "x": "",
+                            "width": "1",
+                            "y": "",
+                            "fixed": "",
+                            "label": "Feedback List",
+                            "url": "feedbackDashboard?embed=true",
+                            "autoReload": "",
+                            "height": "400"
+                        }
+                    ],
+                    "id": "DB1BC552E6EC4720D6F0E178D3B5E949"
+                }
+            }],
+            "properties": {
+                "hide": "yes",
+                "permission_rules": {
+                    "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                        "hide": "yes",
+                        "permissionDeny": ""
+                    },
+                    "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                    "f192aecd-18e0-a905-7525-7a9738648a81": {
+                        "hide": "yes",
+                        "permissionDeny": ""
+                    }
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "<i class=\"fas fa-clipboard\"><\/i> Reports for Manager",
+                "id": "category-6523A5DDFECE4211400888476C1BDDB8",
+                "permissionDeny": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "list-customFooter": "",
+                        "editFormId": "FacilitiesBookingRequestForm",
+                        "cacheAllLinks": "",
+                        "edit-saveButtonLabel": "",
+                        "list-showDeleteButton": "yes",
+                        "list-newButtonLabel": "",
+                        "list-deleteSubformData": "true",
+                        "enableOffline": "",
+                        "edit-afterSavedReloadTarget": "true",
+                        "selectionType": "multiple",
+                        "addFormId": "FacilitiesBookingRequestForm",
+                        "id": "39B2EC37222441FFBAE6BA4A30EB47FD",
+                        "edit-readonlyLabel": "true",
+                        "add-messageShowAfterComplete": "",
+                        "list-editLinkLabel": "",
+                        "add-cancelButtonLabel": "",
+                        "list-deleteFiles": "",
+                        "add-afterSavedReloadTarget": "true",
+                        "add-customHeader": "",
+                        "edit-readonly": "",
+                        "datalistId": "facilityBookingList",
+                        "edit-nextButtonLabel": "",
+                        "list-confirmation": "",
+                        "userviewCacheDuration": "20",
+                        "add-afterSaved": "list",
+                        "list-customHeader": "",
+                        "edit-customHeader": "",
+                        "list-abortRelatedRunningProcesses": "",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                        },
+                        "edit-prevButtonLabel": "",
+                        "customId": "pending",
+                        "edit-afterSaved": "list",
+                        "list-deleteButtonLabel": "",
+                        "checkboxPosition": "left",
+                        "add-customFooter": "",
+                        "list-deleteGridData": "true",
+                        "edit-allowRecordTraveling": "",
+                        "rowCount": "",
+                        "edit-customFooter": "",
+                        "keyName": "",
+                        "label": "<i class=\"fas fa-clock\"><\/i> Pending Booking List",
+                        "list-newLinkTarget": "",
+                        "edit-lastButtonLabel": "",
+                        "buttonPosition": "bottomLeft",
+                        "edit-firstButtonLabel": "",
+                        "add-saveButtonLabel": "",
+                        "edit-messageShowAfterComplete": "",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "edit-moreActions": [],
+                        "list-moreActions": [],
+                        "edit-backButtonLabel": "",
+                        "list-editLinkTarget": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "list-customFooter": "",
+                        "editFormId": "",
+                        "cacheAllLinks": "",
+                        "edit-saveButtonLabel": "",
+                        "list-showDeleteButton": "yes",
+                        "list-newButtonLabel": "",
+                        "list-deleteSubformData": "",
+                        "enableOffline": "",
+                        "edit-afterSavedReloadTarget": "true",
+                        "selectionType": "multiple",
+                        "addFormId": "",
+                        "id": "468B639987A3434D817B88A311EAA6F7",
+                        "edit-readonlyLabel": "true",
+                        "add-messageShowAfterComplete": "",
+                        "list-editLinkLabel": "",
+                        "add-cancelButtonLabel": "",
+                        "list-deleteFiles": "true",
+                        "add-afterSavedReloadTarget": "true",
+                        "add-customHeader": "",
+                        "edit-readonly": "",
+                        "datalistId": "approvedBookingList",
+                        "edit-nextButtonLabel": "",
+                        "list-confirmation": "",
+                        "userviewCacheDuration": "20",
+                        "add-afterSaved": "list",
+                        "list-customHeader": "",
+                        "edit-customHeader": "",
+                        "list-abortRelatedRunningProcesses": "true",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                        },
+                        "edit-prevButtonLabel": "",
+                        "customId": "",
+                        "edit-afterSaved": "list",
+                        "list-deleteButtonLabel": "",
+                        "checkboxPosition": "left",
+                        "add-customFooter": "",
+                        "list-deleteGridData": "",
+                        "edit-allowRecordTraveling": "",
+                        "rowCount": "",
+                        "edit-customFooter": "",
+                        "keyName": "",
+                        "label": "<i class=\"fas fa-check-square\"><\/i> Approved Booking List",
+                        "list-newLinkTarget": "",
+                        "edit-lastButtonLabel": "",
+                        "buttonPosition": "bottomLeft",
+                        "edit-firstButtonLabel": "",
+                        "add-saveButtonLabel": "",
+                        "edit-messageShowAfterComplete": "",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "edit-moreActions": [],
+                        "list-moreActions": [],
+                        "edit-backButtonLabel": "",
+                        "list-editLinkTarget": ""
+                    }
+                }
+            ],
+            "properties": {
+                "hide": "",
+                "permission_rules": {
+                    "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                        "hide": "yes",
+                        "permissionDeny": ""
+                    },
+                    "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                        "hide": "yes",
+                        "permissionDeny": ""
+                    },
+                    "f192aecd-18e0-a905-7525-7a9738648a81": {
+                        "hide": "yes",
+                        "permissionDeny": ""
+                    }
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "<i class=\"far fa-calendar-alt\"><\/i> My Bookings",
+                "id": "category-6DECC0D6856D48EB428A7EC0E08F25B6",
+                "permissionDeny": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "list-customFooter": "",
+                        "edit-customHeader": "",
+                        "editFormId": "",
+                        "cacheAllLinks": "",
+                        "edit-saveButtonLabel": "",
+                        "list-showDeleteButton": "",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                        },
+                        "list-newButtonLabel": "",
+                        "edit-prevButtonLabel": "",
+                        "enableOffline": "",
+                        "customId": "managerPendingBookingList",
+                        "edit-afterSavedReloadTarget": "true",
+                        "edit-afterSaved": "list",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "add-customFooter": "",
+                        "addFormId": "",
+                        "edit-allowRecordTraveling": "",
+                        "rowCount": "",
+                        "id": "DD448B049A6541602681EC0ED3B3CCE3",
+                        "edit-readonlyLabel": "true",
+                        "add-messageShowAfterComplete": "",
+                        "list-editLinkLabel": "",
+                        "add-cancelButtonLabel": "",
+                        "edit-customFooter": "",
+                        "add-afterSavedReloadTarget": "true",
+                        "keyName": "",
+                        "label": "<i class=\"fas fa-clock\"><\/i> Pending Booking List",
+                        "list-newLinkTarget": "",
+                        "add-customHeader": "",
+                        "edit-lastButtonLabel": "",
+                        "edit-readonly": "",
+                        "buttonPosition": "bothLeft",
+                        "edit-firstButtonLabel": "",
+                        "datalistId": "facilityBookingList",
+                        "add-saveButtonLabel": "",
+                        "edit-nextButtonLabel": "",
+                        "userviewCacheDuration": "20",
+                        "edit-messageShowAfterComplete": "",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "edit-moreActions": [],
+                        "add-afterSaved": "list",
+                        "list-moreActions": [],
+                        "edit-backButtonLabel": "",
+                        "list-editLinkTarget": "",
+                        "list-customHeader": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "list-customFooter": "",
+                        "edit-customHeader": "",
+                        "editFormId": "bookingApprovalForm",
+                        "cacheAllLinks": "",
+                        "edit-saveButtonLabel": "",
+                        "list-showDeleteButton": "",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                        },
+                        "list-newButtonLabel": "",
+                        "edit-prevButtonLabel": "",
+                        "enableOffline": "",
+                        "customId": "managerApprovedBookingList",
+                        "edit-afterSavedReloadTarget": "true",
+                        "edit-afterSaved": "list",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "add-customFooter": "",
+                        "addFormId": "",
+                        "edit-allowRecordTraveling": "",
+                        "rowCount": "",
+                        "id": "6556EBE88C334DBDD807F1A337234E10",
+                        "edit-readonlyLabel": "true",
+                        "add-messageShowAfterComplete": "",
+                        "list-editLinkLabel": "",
+                        "add-cancelButtonLabel": "",
+                        "edit-customFooter": "",
+                        "add-afterSavedReloadTarget": "true",
+                        "keyName": "",
+                        "label": "<i class=\"fas fa-check-square\"><\/i> Approved Booking List",
+                        "list-newLinkTarget": "",
+                        "add-customHeader": "",
+                        "edit-lastButtonLabel": "",
+                        "edit-readonly": "",
+                        "buttonPosition": "bothLeft",
+                        "edit-firstButtonLabel": "",
+                        "datalistId": "approvedBookingList",
+                        "add-saveButtonLabel": "",
+                        "edit-nextButtonLabel": "",
+                        "userviewCacheDuration": "20",
+                        "edit-messageShowAfterComplete": "",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "edit-moreActions": [],
+                        "add-afterSaved": "list",
+                        "list-moreActions": [],
+                        "edit-backButtonLabel": "",
+                        "list-editLinkTarget": "",
+                        "list-customHeader": ""
+                    }
+                }
+            ],
+            "properties": {
+                "hide": "yes",
+                "permission_rules": {
+                    "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                        "hide": "yes",
+                        "permissionDeny": ""
+                    },
+                    "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                    "f192aecd-18e0-a905-7525-7a9738648a81": {
+                        "hide": "yes",
+                        "permissionDeny": ""
+                    }
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "<i class=\"zmdi zmdi-settings\"><\/i> Manage Bookings",
+                "id": "category-A38C8E8953664B01EBC13DB9C1E397A5",
+                "permissionDeny": ""
+            }
+        }
+    ],
+    "properties": {
+        "logoutText": "Logout",
+        "welcomeMessage": "#date.EEE, d MMM yyyy#",
+        "name": "Residence Facilities Booking System",
+        "description": "",
+        "footerMessage": "© 2025 Residence Facility Booking System. All rights reserved.",
+        "id": "ResidenceFacilitiesBookingSystem"
+    },
+    "setting": {"properties": {
+        "__": "",
+        "userviewDescription": "",
+        "noPermissionMessage": "",
+        "userviewId": "ResidenceFacilitiesBookingSystem",
+        "hideThisUserviewInAppCenter": "",
+        "permission_rules": [
+            {
+                "permission_key": "7d39a41d-0c1c-ea38-169a-d8868f3acae8",
+                "permission": {
+                    "className": "org.joget.plugin.enterprise.AnonymousUserviewPermission",
+                    "properties": {}
+                },
+                "permission_name": "Anonymous"
+            },
+            {
+                "permission_key": "f192aecd-18e0-a905-7525-7a9738648a81",
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.GroupPermission",
+                    "properties": {
+                        "orgId": "ORG-001",
+                        "allowedGroupIds": "facilityAdmin"
+                    }
+                },
+                "permission_name": "Admin"
+            },
+            {
+                "permission_key": "ba08158f-845d-0f98-dd74-0618f6d5381c",
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.GroupPermission",
+                    "properties": {
+                        "orgId": "ORG-001",
+                        "allowedGroupIds": "facilityManager"
+                    }
+                },
+                "permission_name": "Manager"
+            }
+        ],
+        "userview_thumbnail": "",
+        "userview_category": "",
+        "theme": {
+            "className": "org.joget.plugin.enterprise.Dx8ColorAdminTheme",
+            "properties": {
+                "dx8navBadge": "#E74C3C",
+                "css": "",
+                "primaryColor": "INDIGO",
+                "loginBackground": "",
+                "dx8navLinkColor": "#ECF0F1",
+                "disablePush": "",
+                "removeAssignmentTitle": "",
+                "shortcutLinkLabel": "Shortcut",
+                "disableHelpGuide": "",
+                "logo": "",
+                "enableResponsiveSwitch": "true",
+                "dx8headerFontColor": "#ffffff",
+                "fav_icon": "",
+                "mobileViewDisabled": "",
+                "dx8navLinkIcon": "#ECF0F1",
+                "horizontal_menu": "",
+                "accentColor": "BLUE",
+                "profile": "",
+                "homeAttractBanner": "",
+                "dx8headingBgColor": "#20252A",
+                "dx8linkColor": "#348FE2",
+                "homeUrl": "",
+                "dx8linkActiveColor": "#2A72B5",
+                "dx8footerColor": "#FFFFFF",
+                "subheader": "",
+                "disablePwa": "",
+                "dx8contentbackground": "#FFFFFF",
+                "loginPageBottom": "",
+                "dx8backgroundImage": "",
+                "themeScheme": "light",
+                "dx8navBadgeText": "#FFFFFF",
+                "dx8background": "#DEE2E6",
+                "dx8headerColor": "#3D5062",
+                "dx8colorScheme": "rgb(233, 233, 233);rgb(255, 255, 255);rgb(170, 190, 178);rgb(0, 101, 45);rgb(0, 121, 107);rgb(0, 76, 64)",
+                "dx8navBackground": "#3D5062",
+                "brand-name-style-font-size": "13px",
+                "buttonColor": "GREY",
+                "displayCategoryLabel": "",
+                "compactTheme": "",
+                "js": "",
+                "dx8navActiveIconColor": "#FFFFFF",
+                "dx8navScrollbarThumb": "#999999",
+                "userMenu": [],
+                "urlsToCache": "",
+                "loginPageTop": "",
+                "dx8buttonColor": "#FFFFFF",
+                "userImage": "",
+                "shortcut": [],
+                "sidebar-style-color": "#000000",
+                "usingLocalFonts": "true",
+                "fontControl": "",
+                "dx8navActiveLinkBackground": "#3D5062",
+                "buttonTextColor": "WHITE",
+                "dx8fontColor": "#2D353C",
+                "menuFontColor": "BLACK",
+                "dx8navLinkBackground": "#3D5062",
+                "dx8buttonBackground": "#348FE2",
+                "dx8contentFontColor": "#2D353C",
+                "subfooter": "",
+                "mobileCacheEnabled": "",
+                "dx8footerBackground": "#000000",
+                "brand-name-style-color": "#ffffff",
+                "dx8headingFontColor": "#FFFFFF",
+                "dx8primaryColor": "#67ABE9",
+                "darkMode": "",
+                "dx8navActiveLinkColor": "#FFFFFF",
+                "inbox": "current",
+                "fontColor": "WHITE"
+            }
+        },
+        "permission": {
+            "className": "org.joget.apps.userview.lib.GroupPermission",
+            "properties": {
+                "orgId": "ORG-001",
+                "allowedGroupIds": "facilityResident"
+            }
+        },
+        "userviewName": "Residence Facilities Booking System"
+    }}
+}
