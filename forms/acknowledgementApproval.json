@@ -3,16 +3,6 @@
         "elements": [{
             "elements": [
                 {
-                    "className": "org.joget.apps.form.lib.CustomHTML",
-                    "properties": {
-                        "requiredSanitize": "",
-                        "autoPopulate": "",
-                        "label": "",
-                        "id": "field9",
-                        "value": "<style type=\"text/css\">\r\n    body {\r\n        background-image: url(\"https://properly.com.my/wp-content/uploads/2022/07/Savio-Facade-scaled-1.jpg\");\r\n        background-size: 1700px 1200px; /* This sets the width and height */\r\n        background-repeat: no-repeat; /* Prevents the image from repeating if it's smaller than the body */\r\n    }\r\n<\/style>\r\n"
-                    }
-                },
-                {
                     "className": "org.joget.apps.form.lib.SubForm",
                     "properties": {
                         "style-background-color": "#ADD2F7",
@@ -36,6 +26,16 @@
                             "properties": {}
                         },
                         "readonlyLabel": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "requiredSanitize": "",
+                        "autoPopulate": "",
+                        "label": "",
+                        "id": "field9",
+                        "value": "<style type=\"text/css\">\r\n    body {\r\n        background-image: url(\"https://properly.com.my/wp-content/uploads/2022/07/Savio-Facade-scaled-1.jpg\");\r\n        background-size: 1700px 1200px; /* This sets the width and height */\r\n        background-repeat: no-repeat; /* Prevents the image from repeating if it's smaller than the body */\r\n    }\r\n<\/style>\r\n"
                     }
                 }
             ],
