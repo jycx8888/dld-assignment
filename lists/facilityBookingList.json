@@ -180,7 +180,7 @@
             "filterable": true,
             "hidden": "false",
             "renderHtml": "",
-            "style-color": "#000000",
+            "style-color": "#8b8000",
             "format": {
                 "className": "",
                 "properties": {}
