@@ -41,9 +41,9 @@
                             "f192aecd-18e0-a905-7525-7a9738648a81": {}
                         },
                         "customFooter": "",
-                        "label": "<i class=\"zmdi zmdi-menu\"><\/i> Main Pages",
+                        "label": "<i class=\"zmdi zmdi-menu\"><\/i> Main Page",
                         "enableOffline": "",
-                        "customId": "mainPages",
+                        "customId": "mainPage",
                         "mode": "url",
                         "userviewCacheDuration": "20",
                         "userviewCacheScope": "",
