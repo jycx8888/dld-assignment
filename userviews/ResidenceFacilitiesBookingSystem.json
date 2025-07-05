@@ -33,6 +33,7 @@
                     "className": "org.joget.plugin.enterprise.DashboardMenu",
                     "properties": {
                         "customHeader": "",
+                        "permissionHidden": "true",
                         "defaultPortletHeight": "250",
                         "plugins": [
                             {
@@ -144,7 +145,8 @@
                                 "height": "400"
                             }
                         ],
-                        "id": "DB1BC552E6EC4720D6F0E178D3B5E949"
+                        "id": "DB1BC552E6EC4720D6F0E178D3B5E949",
+                        "permissionDeny": ""
                     }
                 },
                 {
@@ -361,7 +363,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
-                        "permissionHidden": "",
+                        "permissionHidden": "true",
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
