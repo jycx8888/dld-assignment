@@ -86,8 +86,8 @@
             "renderHtml": "",
             "style-color": "#000000",
             "format": {
-                "className": "",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.BeanShellFormatter",
+                "properties": {"script": "import java.text.SimpleDateFormat;\r\nimport java.util.Date;\r\n\r\nSimpleDateFormat sdf = new SimpleDateFormat(\"yyyy-MM-dd\");\r\n\r\n// Get the column value (the date string)\r\nString dateStr = value.toString();\r\nString result = \"\";\r\n\r\ntry {\r\n    Date inputDate = sdf.parse(dateStr);\r\n    Date today = new Date();\r\n    today = sdf.parse(sdf.format(today)); // Remove time portion\r\n\r\n    if (inputDate.before(today)) {\r\n        result = \"<span style='color:red;'>\" + dateStr + \"<\/span>\";\r\n    } else {\r\n        result = \"<span style='color:green;'>\" + dateStr + \"<\/span>\";\r\n    }\r\n\r\n} catch (Exception e) {\r\n    result = \"<span style='color:gray;'>Invalid<\/span>\";\r\n}\r\n\r\nreturn result;"}
             },
             "label": "Date",
             "sortable": "false",
