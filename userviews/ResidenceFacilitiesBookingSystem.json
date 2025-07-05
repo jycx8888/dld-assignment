@@ -14,7 +14,10 @@
                                 "permissionHidden": "",
                                 "permissionDeny": ""
                             },
-                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
                             "f192aecd-18e0-a905-7525-7a9738648a81": {}
                         },
                         "style-color": "#000000",
@@ -86,9 +89,15 @@
                             }
                         ],
                         "permission_rules": {
-                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
-                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            }
                         },
                         "customFooter": "",
                         "label": "<i class=\"fas fa-tachometer-alt\" style=\"color:white\"><\/i> Manager Dashboard",
@@ -783,6 +792,11 @@
                         "list-customHeader": "",
                         "edit-customHeader": "",
                         "list-abortRelatedRunningProcesses": "",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                        },
                         "edit-prevButtonLabel": "",
                         "customId": "approved_booking_list",
                         "edit-afterSaved": "list",
