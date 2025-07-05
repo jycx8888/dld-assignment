@@ -9,11 +9,10 @@
          <name>Residence Facilities Booking System</name>
          <packageActivityFormMap>
             <entry>
-               <string>process1::viewResults</string>
+               <string>adminManageUserAccount::runProcess</string>
                <packageActivityForm>
-                  <processDefId>process1</processDefId>
-                  <activityDefId>viewResults</activityDefId>
-                  <formId>acknowledgementApproval</formId>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>runProcess</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -42,27 +41,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>noticePostingProcess::postNotice</string>
-               <packageActivityForm>
-                  <processDefId>noticePostingProcess</processDefId>
-                  <activityDefId>postNotice</activityDefId>
-                  <formId>noticeBoardForm</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>noticePostingProcess::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>noticePostingProcess</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>residentFeedbackProcess::submitsFeedback</string>
                <packageActivityForm>
                   <processDefId>residentFeedbackProcess</processDefId>
@@ -85,30 +63,9 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>addNewFacility::add_new_facility</string>
-               <packageActivityForm>
-                  <processDefId>addNewFacility</processDefId>
-                  <activityDefId>add_new_facility</activityDefId>
-                  <formId>adminAddFacility</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>residentRegister::runProcess</string>
                <packageActivityForm>
                   <processDefId>residentRegister</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>residentFeedbackProcess::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>residentFeedbackProcess</processDefId>
                   <activityDefId>runProcess</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
@@ -127,10 +84,93 @@
                </packageActivityForm>
             </entry>
             <entry>
+               <string>process1::viewResults</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>viewResults</activityDefId>
+                  <formId>acknowledgementApproval</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>noticePostingProcess::postNotice</string>
+               <packageActivityForm>
+                  <processDefId>noticePostingProcess</processDefId>
+                  <activityDefId>postNotice</activityDefId>
+                  <formId>noticeBoardForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminManageUserAccount::editUser</string>
+               <packageActivityForm>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>editUser</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>noticePostingProcess::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>noticePostingProcess</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>addNewFacility::add_new_facility</string>
+               <packageActivityForm>
+                  <processDefId>addNewFacility</processDefId>
+                  <activityDefId>add_new_facility</activityDefId>
+                  <formId>adminAddFacility</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminManageUserAccount::createUser</string>
+               <packageActivityForm>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>createUser</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>residentFeedbackProcess::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>residentFeedbackProcess</processDefId>
+                  <activityDefId>runProcess</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
                <string>addNewFacility::runProcess</string>
                <packageActivityForm>
                   <processDefId>addNewFacility</processDefId>
                   <activityDefId>runProcess</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminManageUserAccount::createEditUser</string>
+               <packageActivityForm>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>createEditUser</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
