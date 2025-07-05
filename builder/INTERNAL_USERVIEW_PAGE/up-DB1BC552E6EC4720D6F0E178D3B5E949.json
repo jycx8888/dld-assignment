@@ -240,7 +240,7 @@
             "className": "org.joget.plugin.enterprise.HtmlCodeComponent",
             "properties": {
                 "attr-data-events-listening": [],
-                "textContent": "<style>\r\n    body {\r\n        background-image: url(\"https://imgs.search.brave.com/GOg8H4Oa0X2KWLD-33QEuxHWb43gBvwnlYs3Xzl8U2k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMjA4/OTIyMC5qcGc\");\r\n        background-size: 1700px 1300px; /* This sets the width and height */\r\n        background-repeat: no-repeat; /* Prevents the image from repeating if it's smaller than the body */\r\n    }\r\n<\/style>",
+                "textContent": "<style>\r\n    body {\r\n        background-image: url(\"https://imgs.search.brave.com/GOg8H4Oa0X2KWLD-33QEuxHWb43gBvwnlYs3Xzl8U2k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMjA4/OTIyMC5qcGc\");\r\n        background-size: 1900px 1500px; /* This sets the width and height */\r\n        background-repeat: no-repeat; /* Prevents the image from repeating if it's smaller than the body */\r\n    }\r\n<\/style>",
                 "id": "16E352B49EDD439ECD6C2AB13874C6F7",
                 "customId": "backgroundManagerDashboard"
             }
