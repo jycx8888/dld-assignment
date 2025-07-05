@@ -625,7 +625,7 @@
                         },
                         "keyName": "",
                         "customFooter": "",
-                        "label": "<i class=\"fas fa-user\"><\/i> Users Dashboard",
+                        "label": "Users Dashboard",
                         "enableOffline": "",
                         "customId": "usersDashboard",
                         "buttonPosition": "bottomLeft",
