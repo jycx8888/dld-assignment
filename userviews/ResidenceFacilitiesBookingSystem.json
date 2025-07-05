@@ -7,11 +7,8 @@
                 {
                     "className": "org.joget.plugin.enterprise.DashboardMenu",
                     "properties": {
-                        "mode": "url",
-                        "userviewCacheDuration": "20",
                         "customHeader": "",
                         "defaultPortletHeight": "250",
-                        "userviewCacheScope": "",
                         "plugins": [{
                             "autoHeight": "true",
                             "resizable": "true",
@@ -38,7 +35,18 @@
                             "autoReload": "",
                             "height": ""
                         }],
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                        },
                         "customFooter": "",
+                        "label": "<i class=\"zmdi zmdi-menu\"><\/i> Main Page",
+                        "enableOffline": "",
+                        "customId": "mainPage",
+                        "mode": "url",
+                        "userviewCacheDuration": "20",
+                        "userviewCacheScope": "",
                         "urlPortletSetting": [{
                             "autoHeight": "",
                             "resizable": "true",
@@ -51,10 +59,7 @@
                             "autoReload": "",
                             "height": "400"
                         }],
-                        "label": "<i class=\"zmdi zmdi-menu\"><\/i> Main Page",
-                        "id": "0E50A8F3002F4AA51F3BD175D66052B7",
-                        "enableOffline": "",
-                        "customId": "mainPage"
+                        "id": "0E50A8F3002F4AA51F3BD175D66052B7"
                     }
                 },
                 {
@@ -714,6 +719,21 @@
                     "properties": {
                         "cacheAllLinks": "",
                         "customHeader": "",
+                        "permissionHidden": "true",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            }
+                        },
                         "keyName": "",
                         "customFooter": "",
                         "label": "Manager Dashboard",
@@ -727,7 +747,8 @@
                         "cacheListAction": "",
                         "userviewCacheScope": "",
                         "rowCount": "",
-                        "id": "6F918F80CEA04A5AB59C91AC2ABD7CF9"
+                        "id": "6F918F80CEA04A5AB59C91AC2ABD7CF9",
+                        "permissionDeny": ""
                     }
                 }
             ],
