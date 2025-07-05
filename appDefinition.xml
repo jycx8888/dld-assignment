@@ -272,6 +272,14 @@
    <messageList/>
    <resourceList>
       <appResource>
+         <id>ab0dc05d-ccfd-41eb-800e-8d8cd0997749.jpg</id>
+         <appId>ResidenceFacilitiesBookingSystem</appId>
+         <appVersion>1</appVersion>
+         <filesize>20617</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
          <id>pure-black-background-y8wp2r83b15xxdi6-2562109216.jpg</id>
          <appId>ResidenceFacilitiesBookingSystem</appId>
          <appVersion>1</appVersion>
