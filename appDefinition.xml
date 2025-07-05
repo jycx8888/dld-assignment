@@ -240,6 +240,14 @@
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
       <appResource>
+         <id>e1a2053b-177f-4eb9-b3b6-74f9bbafd8f8.png</id>
+         <appId>ResidenceFacilitiesBookingSystem</appId>
+         <appVersion>1</appVersion>
+         <filesize>1153667</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
          <id>pure-black-background-y8wp2r83b15xxdi6-2562109216.jpg</id>
          <appId>ResidenceFacilitiesBookingSystem</appId>
          <appVersion>1</appVersion>
