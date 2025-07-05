@@ -33,7 +33,7 @@
         <Application Id="default_application"/>
     </Applications>
     <WorkflowProcesses>
-        <WorkflowProcess Id="process1" Name="Facility Booking Request Process">
+        <WorkflowProcess Id="facilityBookingRequestProcess" Name="Facility Booking Request Process">
             <ProcessHeader DurationUnit="m">
                 <Limit>5</Limit>
             </ProcessHeader>
