@@ -1089,8 +1089,11 @@
             {
                 "permission_key": "f192aecd-18e0-a905-7525-7a9738648a81",
                 "permission": {
-                    "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
-                    "properties": {}
+                    "className": "org.joget.apps.userview.lib.GroupPermission",
+                    "properties": {
+                        "orgId": "ORG-001",
+                        "allowedGroupIds": "facilityAdmin"
+                    }
                 },
                 "permission_name": "Admin"
             },
@@ -1182,10 +1185,10 @@
             }
         },
         "permission": {
-            "className": "org.joget.apps.userview.lib.UserPermission",
+            "className": "org.joget.apps.userview.lib.GroupPermission",
             "properties": {
-                "allowedUsernames": "cat",
-                "orgId": "ORG-001"
+                "orgId": "ORG-001",
+                "allowedGroupIds": "facilityResident"
             }
         },
         "userviewName": "Residence Facilities Booking System"
