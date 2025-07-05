@@ -106,7 +106,7 @@
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "date",
+    "orderBy": "",
     "description": "",
     "filters": [
         {
@@ -136,7 +136,7 @@
     "hidePageSize": "",
     "disableResponsive": "",
     "cardCollapseByDefault": "",
-    "name": "Approved Booking List (Resident)",
+    "name": "Approved Facility Booking List (Resident)",
     "rowActionsMode": "",
     "showhidecolumns": "",
     "id": "newApprovedBookingList",
