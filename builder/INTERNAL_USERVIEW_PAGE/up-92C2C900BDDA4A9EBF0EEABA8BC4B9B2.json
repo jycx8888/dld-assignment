@@ -14,7 +14,8 @@
             "properties": {
                 "attr-data-events-listening": [],
                 "style-color": "#FFFFFF",
-                "textContent": "<span style=\"text-decoration: underline;\">Feedback List<\/span>",
+                "style-font-family": "Tahoma, Geneva, sans-serif",
+                "textContent": "Feedback List",
                 "id": "4C6C51C6CDA54B274AC7AC83954BCA17",
                 "tagName": "h3",
                 "customId": ""
