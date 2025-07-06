@@ -37,7 +37,8 @@
                         }],
                         "permission_rules": {
                             "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
-                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {}
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {}
                         },
                         "customFooter": "",
                         "label": "<i class=\"zmdi zmdi-menu\"><\/i> Main Page",
@@ -126,7 +127,11 @@
                                 "permissionHidden": "true",
                                 "permissionDeny": ""
                             },
-                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {}
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            }
                         },
                         "customFooter": "",
                         "label": "<i class=\"fas fa-tachometer-alt\" style=\"color:white\"><\/i> Manager Dashboard",
@@ -190,7 +195,8 @@
                                 "permissionHidden": "true",
                                 "permissionDeny": ""
                             },
-                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {}
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {}
                         },
                         "assignment-customFooter": "",
                         "label": "<i class=\"fas fa-inbox\"><\/i> Inbox",
@@ -220,7 +226,8 @@
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {
                                 "permissionHidden": "true",
                                 "permissionDeny": ""
-                            }
+                            },
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {}
                         },
                         "keyName": "",
                         "label": "<i class=\"fas fa-clipboard-list\"><\/i> Book Facility",
@@ -255,6 +262,10 @@
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {
                                 "permissionHidden": "true",
                                 "permissionDeny": ""
+                            },
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
                             }
                         },
                         "keyName": "",
@@ -287,7 +298,11 @@
                                 "permissionHidden": "true",
                                 "permissionDeny": ""
                             },
-                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {}
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            }
                         },
                         "keyName": "",
                         "label": "<i class=\"zmdi zmdi-calendar-note\"><\/i> Post Notice",
@@ -320,6 +335,10 @@
                                 "permissionDeny": ""
                             },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {
                                 "permissionHidden": "true",
                                 "permissionDeny": ""
                             }
@@ -383,6 +402,10 @@
                             },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {
                                 "permissionHidden": "",
+                                "permissionDeny": ""
+                            },
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {
+                                "permissionHidden": "true",
                                 "permissionDeny": ""
                             }
                         },
@@ -453,6 +476,10 @@
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {
                                 "permissionHidden": "true",
                                 "permissionDeny": ""
+                            },
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
                             }
                         },
                         "edit-prevButtonLabel": "",
@@ -493,6 +520,10 @@
                             },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {
                                 "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {
+                                "permissionHidden": "",
                                 "permissionDeny": ""
                             }
                         },
@@ -548,7 +579,11 @@
                                 "permissionHidden": "true",
                                 "permissionDeny": ""
                             },
-                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {}
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            }
                         },
                         "edit-prevButtonLabel": "",
                         "customId": "feedbackList",
@@ -612,7 +647,11 @@
                                 "permissionHidden": "true",
                                 "permissionDeny": ""
                             },
-                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {}
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            }
                         },
                         "edit-prevButtonLabel": "",
                         "customId": "mngNoticeList",
@@ -654,6 +693,10 @@
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {
                                 "permissionHidden": "true",
                                 "permissionDeny": ""
+                            },
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
                             }
                         },
                         "keyName": "",
@@ -685,6 +728,10 @@
                                 "permissionDeny": ""
                             },
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {
                                 "permissionHidden": "true",
                                 "permissionDeny": ""
                             }
@@ -720,6 +767,10 @@
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {
                                 "permissionHidden": "true",
                                 "permissionDeny": ""
+                            },
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
                             }
                         },
                         "keyName": "",
@@ -753,6 +804,10 @@
                             "ba08158f-845d-0f98-dd74-0618f6d5381c": {
                                 "permissionHidden": "true",
                                 "permissionDeny": ""
+                            },
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
                             }
                         },
                         "keyName": "",
@@ -777,7 +832,8 @@
                 "hide": "",
                 "permission_rules": {
                     "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
-                    "ba08158f-845d-0f98-dd74-0618f6d5381c": {}
+                    "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                    "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {}
                 },
                 "permission": {
                     "className": "",
@@ -824,7 +880,8 @@
                         "list-abortRelatedRunningProcesses": "",
                         "permission_rules": {
                             "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
-                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {}
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {}
                         },
                         "edit-prevButtonLabel": "",
                         "customId": "pending",
@@ -885,7 +942,8 @@
                         "list-abortRelatedRunningProcesses": "",
                         "permission_rules": {
                             "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
-                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {}
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {}
                         },
                         "edit-prevButtonLabel": "",
                         "customId": "approved_booking_list",
@@ -924,7 +982,8 @@
                     "ba08158f-845d-0f98-dd74-0618f6d5381c": {
                         "hide": "yes",
                         "permissionDeny": ""
-                    }
+                    },
+                    "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {}
                 },
                 "permission": {
                     "className": "",
@@ -950,7 +1009,8 @@
                         "list-showDeleteButton": "",
                         "permission_rules": {
                             "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
-                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {}
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {}
                         },
                         "list-newButtonLabel": "",
                         "edit-prevButtonLabel": "",
@@ -1005,7 +1065,8 @@
                         "list-showDeleteButton": "",
                         "permission_rules": {
                             "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {},
-                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {}
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {}
                         },
                         "list-newButtonLabel": "",
                         "edit-prevButtonLabel": "",
@@ -1057,7 +1118,11 @@
                         "hide": "yes",
                         "permissionDeny": ""
                     },
-                    "ba08158f-845d-0f98-dd74-0618f6d5381c": {}
+                    "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                    "317079f2-e6dd-415c-c4f9-31ba0c9b29f6": {
+                        "hide": "yes",
+                        "permissionDeny": ""
+                    }
                 },
                 "permission": {
                     "className": "",
@@ -1086,6 +1151,17 @@
         "userviewId": "ResidenceFacilitiesBookingSystem",
         "hideThisUserviewInAppCenter": "",
         "permission_rules": [
+            {
+                "permission_key": "317079f2-e6dd-415c-c4f9-31ba0c9b29f6",
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.UserPermission",
+                    "properties": {
+                        "allowedUsernames": "cat",
+                        "orgId": "ORG-001"
+                    }
+                },
+                "permission_name": "Resident"
+            },
             {
                 "permission_key": "7d39a41d-0c1c-ea38-169a-d8868f3acae8",
                 "permission": {
