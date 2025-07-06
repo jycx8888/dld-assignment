@@ -1260,11 +1260,8 @@
             }
         },
         "permission": {
-            "className": "org.joget.apps.userview.lib.UserPermission",
-            "properties": {
-                "allowedUsernames": "cat",
-                "orgId": "ORG-001"
-            }
+            "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
+            "properties": {}
         },
         "userviewName": "Residence Facilities Booking System"
     }}
