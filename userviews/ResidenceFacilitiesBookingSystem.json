@@ -1159,11 +1159,8 @@
             {
                 "permission_key": "f192aecd-18e0-a905-7525-7a9738648a81",
                 "permission": {
-                    "className": "org.joget.apps.userview.lib.GroupPermission",
-                    "properties": {
-                        "orgId": "ORG-001",
-                        "allowedGroupIds": "facilityAdmin"
-                    }
+                    "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
+                    "properties": {}
                 },
                 "permission_name": "Admin"
             },
