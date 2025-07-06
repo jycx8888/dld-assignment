@@ -623,6 +623,7 @@
                         "list-editLinkLabel": "",
                         "add-cancelButtonLabel": "",
                         "list-deleteFiles": "",
+                        "permissionHidden": "true",
                         "add-afterSavedReloadTarget": "true",
                         "add-customHeader": "",
                         "edit-readonly": "",
@@ -631,9 +632,21 @@
                         "list-confirmation": "",
                         "userviewCacheDuration": "20",
                         "add-afterSaved": "list",
+                        "permissionDeny": "",
                         "list-customHeader": "",
                         "edit-customHeader": "",
                         "list-abortRelatedRunningProcesses": "",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            }
+                        },
                         "edit-prevButtonLabel": "",
                         "customId": "mngNoticeList",
                         "edit-afterSaved": "list",
