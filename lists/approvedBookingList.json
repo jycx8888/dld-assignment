@@ -36,6 +36,7 @@
             "filterable": true,
             "hidden": "false",
             "renderHtml": "",
+            "style-color": "#000000",
             "format": {
                 "className": "",
                 "properties": {}
