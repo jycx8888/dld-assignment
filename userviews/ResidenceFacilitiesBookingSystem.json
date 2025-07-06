@@ -607,7 +607,7 @@
                     "className": "org.joget.plugin.enterprise.CrudMenu",
                     "properties": {
                         "list-customFooter": "",
-                        "editFormId": "",
+                        "editFormId": "noticeBoardForm",
                         "cacheAllLinks": "",
                         "edit-saveButtonLabel": "",
                         "list-showDeleteButton": "yes",
