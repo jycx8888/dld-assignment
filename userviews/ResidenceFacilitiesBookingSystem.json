@@ -215,7 +215,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
-                        "permissionHidden": "",
+                        "permissionHidden": "true",
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
@@ -251,7 +251,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
-                        "permissionHidden": "true",
+                        "permissionHidden": "",
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
@@ -382,7 +382,7 @@
                         "list-editLinkLabel": "",
                         "add-cancelButtonLabel": "",
                         "list-deleteFiles": "",
-                        "permissionHidden": "true",
+                        "permissionHidden": "",
                         "add-afterSavedReloadTarget": "true",
                         "add-customHeader": "",
                         "edit-readonly": "",
@@ -455,7 +455,7 @@
                         "list-editLinkLabel": "",
                         "add-cancelButtonLabel": "",
                         "list-deleteFiles": "",
-                        "permissionHidden": "true",
+                        "permissionHidden": "",
                         "add-afterSavedReloadTarget": "true",
                         "add-customHeader": "",
                         "edit-readonly": "",
@@ -511,6 +511,7 @@
                 {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
+                        "permissionHidden": "true",
                         "runProcessDirectly": "Yes",
                         "fieldPassoverMethod": "append",
                         "permission_rules": {
@@ -540,6 +541,7 @@
                         "actionAfterSaved": "",
                         "runProcessSubmitLabel": "",
                         "id": "99D4808B4D074506711FF2B544CB592A",
+                        "permissionDeny": "",
                         "processDefId": "residentFeedbackProcess",
                         "redirectUrlAfterComplete": "",
                         "fieldPassover": ""
@@ -563,7 +565,7 @@
                         "add-messageShowAfterComplete": "",
                         "list-editLinkLabel": "",
                         "add-cancelButtonLabel": "",
-                        "permissionHidden": "true",
+                        "permissionHidden": "",
                         "add-afterSavedReloadTarget": "true",
                         "add-customHeader": "",
                         "edit-readonly": "",
@@ -973,7 +975,7 @@
                 }
             ],
             "properties": {
-                "hide": "",
+                "hide": "yes",
                 "permission_rules": {
                     "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
                         "hide": "yes",
