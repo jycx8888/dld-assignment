@@ -106,7 +106,7 @@
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "",
+    "orderBy": "dateCreated",
     "description": "",
     "filters": [
         {
