@@ -11,34 +11,98 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "id",
-            "id": "column_4",
+            "renderHtml": "",
+            "style-color": "#000000",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "ID",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "id",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_4",
+            "alignment": ""
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "dateCreated",
-            "id": "column_0",
+            "renderHtml": "",
+            "style-color": "#000000",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Date Created",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "dateCreated",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_0",
+            "alignment": ""
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "createdByName",
-            "id": "column_2",
+            "renderHtml": "",
+            "style-color": "#000000",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Created By Name",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "createdByName",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_2",
+            "alignment": ""
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "facilityName",
-            "id": "column_3",
+            "renderHtml": "",
+            "style-color": "#000000",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Facility Name",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "facilityName",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_3",
+            "alignment": ""
         },
         {
             "filterable": true,
@@ -66,26 +130,74 @@
         {
             "filterable": true,
             "hidden": "false",
-            "name": "time",
-            "id": "column_6",
+            "renderHtml": "",
+            "style-color": "#000000",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Time",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "time",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_6",
+            "alignment": ""
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "noOfParticipants",
-            "id": "column_7",
+            "renderHtml": "",
+            "style-color": "#000000",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "No. of Participants",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "noOfParticipants",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_7",
+            "alignment": ""
         },
         {
             "filterable": true,
             "hidden": "false",
-            "name": "specialRequest",
-            "id": "column_8",
+            "renderHtml": "",
+            "style-color": "#000000",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
             "label": "Special Request",
-            "sortable": "false"
+            "sortable": "false",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "name": "specialRequest",
+            "width": "",
+            "headerAlignment": "",
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "style": "",
+            "id": "column_8",
+            "alignment": ""
         },
         {
             "filterable": true,
