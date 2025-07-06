@@ -19,6 +19,14 @@
         {
             "filterable": true,
             "hidden": "false",
+            "name": "dateCreated",
+            "id": "column_0",
+            "label": "Date Created",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
             "name": "createdByName",
             "id": "column_2",
             "label": "Created By Name",
