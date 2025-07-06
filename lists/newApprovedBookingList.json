@@ -106,15 +106,37 @@
     "draggabletable": "",
     "cardCollapsible": "",
     "pageSize": "0",
-    "orderBy": "date",
+    "orderBy": "",
     "description": "",
-    "filters": [],
+    "filters": [
+        {
+            "name": "facilityName",
+            "id": "filter_1",
+            "label": "Facility Name",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            },
+            "filterParamName": "d-7049886-fn_facilityName"
+        },
+        {
+            "name": "status",
+            "id": "filter_0",
+            "label": "status",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            },
+            "datalist_type": "filter",
+            "filterParamName": "d-7049886-fn_status"
+        }
+    ],
     "showDataWhenFilterSet": "",
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "hidePageSize": "",
     "disableResponsive": "",
     "cardCollapseByDefault": "",
-    "name": "Approved Booking List (Resident)",
+    "name": "Approved Facility Booking List (Resident)",
     "rowActionsMode": "",
     "showhidecolumns": "",
     "id": "newApprovedBookingList",

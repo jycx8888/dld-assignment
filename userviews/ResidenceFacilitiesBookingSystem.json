@@ -288,76 +288,6 @@
                     }
                 },
                 {
-                    "className": "org.joget.plugin.enterprise.CrudMenu",
-                    "properties": {
-                        "list-customFooter": "",
-                        "editFormId": "",
-                        "cacheAllLinks": "",
-                        "edit-saveButtonLabel": "",
-                        "list-showDeleteButton": "yes",
-                        "list-newButtonLabel": "",
-                        "list-deleteSubformData": "true",
-                        "enableOffline": "",
-                        "edit-afterSavedReloadTarget": "true",
-                        "selectionType": "multiple",
-                        "addFormId": "adminAddFacility",
-                        "id": "450D0A7394D0420ADB0AE57B22B81799",
-                        "edit-readonlyLabel": "true",
-                        "add-messageShowAfterComplete": "",
-                        "list-editLinkLabel": "",
-                        "add-cancelButtonLabel": "",
-                        "list-deleteFiles": "",
-                        "permissionHidden": "true",
-                        "add-afterSavedReloadTarget": "true",
-                        "add-customHeader": "",
-                        "edit-readonly": "",
-                        "datalistId": "facilityList",
-                        "edit-nextButtonLabel": "",
-                        "list-confirmation": "",
-                        "userviewCacheDuration": "20",
-                        "add-afterSaved": "list",
-                        "permissionDeny": "",
-                        "list-customHeader": "",
-                        "edit-customHeader": "",
-                        "list-abortRelatedRunningProcesses": "",
-                        "permission_rules": {
-                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
-                                "permissionHidden": "true",
-                                "permissionDeny": ""
-                            },
-                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
-                                "permissionHidden": "",
-                                "permissionDeny": ""
-                            },
-                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
-                        },
-                        "edit-prevButtonLabel": "",
-                        "customId": "facilityList",
-                        "edit-afterSaved": "list",
-                        "list-deleteButtonLabel": "",
-                        "checkboxPosition": "left",
-                        "add-customFooter": "",
-                        "list-deleteGridData": "true",
-                        "edit-allowRecordTraveling": "",
-                        "rowCount": "",
-                        "edit-customFooter": "",
-                        "keyName": "",
-                        "label": "<i class=\"fas fa-basketball-ball\"><\/i> Facility List",
-                        "list-newLinkTarget": "",
-                        "edit-lastButtonLabel": "",
-                        "buttonPosition": "bothLeft",
-                        "edit-firstButtonLabel": "",
-                        "add-saveButtonLabel": "",
-                        "edit-messageShowAfterComplete": "",
-                        "cacheListAction": "",
-                        "userviewCacheScope": "",
-                        "edit-moreActions": [],
-                        "list-moreActions": [],
-                        "edit-backButtonLabel": "",
-                        "list-editLinkTarget": ""
-                    }
-                },
-                {
                     "className": "org.joget.apps.userview.lib.RunProcess",
                     "properties": {
                         "permissionHidden": "true",
@@ -430,6 +360,76 @@
                         "processDefId": "residentRegister",
                         "redirectUrlAfterComplete": "",
                         "fieldPassover": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "list-customFooter": "",
+                        "editFormId": "",
+                        "cacheAllLinks": "",
+                        "edit-saveButtonLabel": "",
+                        "list-showDeleteButton": "yes",
+                        "list-newButtonLabel": "",
+                        "list-deleteSubformData": "true",
+                        "enableOffline": "",
+                        "edit-afterSavedReloadTarget": "true",
+                        "selectionType": "multiple",
+                        "addFormId": "adminAddFacility",
+                        "id": "450D0A7394D0420ADB0AE57B22B81799",
+                        "edit-readonlyLabel": "true",
+                        "add-messageShowAfterComplete": "",
+                        "list-editLinkLabel": "",
+                        "add-cancelButtonLabel": "",
+                        "list-deleteFiles": "",
+                        "permissionHidden": "true",
+                        "add-afterSavedReloadTarget": "true",
+                        "add-customHeader": "",
+                        "edit-readonly": "",
+                        "datalistId": "facilityList",
+                        "edit-nextButtonLabel": "",
+                        "list-confirmation": "",
+                        "userviewCacheDuration": "20",
+                        "add-afterSaved": "list",
+                        "permissionDeny": "",
+                        "list-customHeader": "",
+                        "edit-customHeader": "",
+                        "list-abortRelatedRunningProcesses": "",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {
+                                "permissionHidden": "",
+                                "permissionDeny": ""
+                            },
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {}
+                        },
+                        "edit-prevButtonLabel": "",
+                        "customId": "facilityList",
+                        "edit-afterSaved": "list",
+                        "list-deleteButtonLabel": "",
+                        "checkboxPosition": "left",
+                        "add-customFooter": "",
+                        "list-deleteGridData": "true",
+                        "edit-allowRecordTraveling": "",
+                        "rowCount": "",
+                        "edit-customFooter": "",
+                        "keyName": "",
+                        "label": "<i class=\"fas fa-basketball-ball\"><\/i> Facility List",
+                        "list-newLinkTarget": "",
+                        "edit-lastButtonLabel": "",
+                        "buttonPosition": "bothLeft",
+                        "edit-firstButtonLabel": "",
+                        "add-saveButtonLabel": "",
+                        "edit-messageShowAfterComplete": "",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "edit-moreActions": [],
+                        "list-moreActions": [],
+                        "edit-backButtonLabel": "",
+                        "list-editLinkTarget": ""
                     }
                 },
                 {
@@ -592,6 +592,76 @@
                         "list-newLinkTarget": "",
                         "edit-lastButtonLabel": "",
                         "buttonPosition": "bothLeft",
+                        "edit-firstButtonLabel": "",
+                        "add-saveButtonLabel": "",
+                        "edit-messageShowAfterComplete": "",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "edit-moreActions": [],
+                        "list-moreActions": [],
+                        "edit-backButtonLabel": "",
+                        "list-editLinkTarget": ""
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CrudMenu",
+                    "properties": {
+                        "list-customFooter": "",
+                        "editFormId": "noticeBoardForm",
+                        "cacheAllLinks": "",
+                        "edit-saveButtonLabel": "",
+                        "list-showDeleteButton": "yes",
+                        "list-newButtonLabel": "",
+                        "list-deleteSubformData": "",
+                        "enableOffline": "",
+                        "edit-afterSavedReloadTarget": "true",
+                        "selectionType": "multiple",
+                        "addFormId": "noticeBoardForm",
+                        "id": "8FC2156B4FF945F5601B90CA2AD80CD4",
+                        "edit-readonlyLabel": "true",
+                        "add-messageShowAfterComplete": "",
+                        "list-editLinkLabel": "",
+                        "add-cancelButtonLabel": "",
+                        "list-deleteFiles": "",
+                        "permissionHidden": "true",
+                        "add-afterSavedReloadTarget": "true",
+                        "add-customHeader": "",
+                        "edit-readonly": "",
+                        "datalistId": "noticeList",
+                        "edit-nextButtonLabel": "",
+                        "list-confirmation": "",
+                        "userviewCacheDuration": "20",
+                        "add-afterSaved": "list",
+                        "permissionDeny": "",
+                        "list-customHeader": "",
+                        "edit-customHeader": "",
+                        "list-abortRelatedRunningProcesses": "",
+                        "permission_rules": {
+                            "7d39a41d-0c1c-ea38-169a-d8868f3acae8": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            },
+                            "ba08158f-845d-0f98-dd74-0618f6d5381c": {},
+                            "f192aecd-18e0-a905-7525-7a9738648a81": {
+                                "permissionHidden": "true",
+                                "permissionDeny": ""
+                            }
+                        },
+                        "edit-prevButtonLabel": "",
+                        "customId": "mngNoticeList",
+                        "edit-afterSaved": "list",
+                        "list-deleteButtonLabel": "",
+                        "checkboxPosition": "left",
+                        "add-customFooter": "",
+                        "list-deleteGridData": "",
+                        "edit-allowRecordTraveling": "",
+                        "rowCount": "",
+                        "edit-customFooter": "",
+                        "keyName": "",
+                        "label": "<i class=\"fas fa-bullhorn\"><\/i> Manager Notice List",
+                        "list-newLinkTarget": "",
+                        "edit-lastButtonLabel": "",
+                        "buttonPosition": "bottomLeft",
                         "edit-firstButtonLabel": "",
                         "add-saveButtonLabel": "",
                         "edit-messageShowAfterComplete": "",
@@ -1100,10 +1170,10 @@
             {
                 "permission_key": "ba08158f-845d-0f98-dd74-0618f6d5381c",
                 "permission": {
-                    "className": "org.joget.apps.userview.lib.GroupPermission",
+                    "className": "org.joget.apps.userview.lib.UserPermission",
                     "properties": {
-                        "orgId": "ORG-001",
-                        "allowedGroupIds": "facilityManager"
+                        "allowedUsernames": "clark",
+                        "orgId": "ORG-001"
                     }
                 },
                 "permission_name": "Manager"
@@ -1185,10 +1255,10 @@
             }
         },
         "permission": {
-            "className": "org.joget.apps.userview.lib.GroupPermission",
+            "className": "org.joget.apps.userview.lib.UserPermission",
             "properties": {
-                "orgId": "ORG-001",
-                "allowedGroupIds": "facilityResident"
+                "allowedUsernames": "cat",
+                "orgId": "ORG-001"
             }
         },
         "userviewName": "Residence Facilities Booking System"

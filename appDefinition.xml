@@ -30,17 +30,6 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>addNewFacility::add_new_facility</string>
-               <packageActivityForm>
-                  <processDefId>addNewFacility</processDefId>
-                  <activityDefId>add_new_facility</activityDefId>
-                  <formId>adminAddFacility</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
                <string>residentFeedbackProcess::submitsFeedback</string>
                <packageActivityForm>
                   <processDefId>residentFeedbackProcess</processDefId>
@@ -57,6 +46,17 @@
                   <processDefId>residentRegister</processDefId>
                   <activityDefId>register</activityDefId>
                   <formId>ResidentsRegistrationForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>addNewFacility::add_new_facility</string>
+               <packageActivityForm>
+                  <processDefId>addNewFacility</processDefId>
+                  <activityDefId>add_new_facility</activityDefId>
+                  <formId>adminAddFacility</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -116,21 +116,21 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>addNewFacility::runProcess</string>
+               <string>facilityBookingRequestProcess::viewResults</string>
                <packageActivityForm>
-                  <processDefId>addNewFacility</processDefId>
-                  <activityDefId>runProcess</activityDefId>
+                  <processDefId>facilityBookingRequestProcess</processDefId>
+                  <activityDefId>viewResults</activityDefId>
+                  <formId>acknowledgementApproval</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
             <entry>
-               <string>facilityBookingRequestProcess::viewResults</string>
+               <string>addNewFacility::runProcess</string>
                <packageActivityForm>
-                  <processDefId>facilityBookingRequestProcess</processDefId>
-                  <activityDefId>viewResults</activityDefId>
-                  <formId>acknowledgementApproval</formId>
+                  <processDefId>addNewFacility</processDefId>
+                  <activityDefId>runProcess</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
