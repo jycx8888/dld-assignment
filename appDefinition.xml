@@ -41,11 +41,64 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>facilityBookingRequestProcess::runProcess</string>
+               <string>process1::bookingRequest</string>
                <packageActivityForm>
-                  <processDefId>facilityBookingRequestProcess</processDefId>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>bookingRequest</activityDefId>
+                  <formId>FacilitiesBookingRequestForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::viewResults</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>viewResults</activityDefId>
+                  <formId>acknowledgementApproval</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminManageUserAccount::editUser</string>
+               <packageActivityForm>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>editUser</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>noticePostingProcess::postNotice</string>
+               <packageActivityForm>
+                  <processDefId>noticePostingProcess</processDefId>
+                  <activityDefId>postNotice</activityDefId>
+                  <formId>noticeBoardForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>noticePostingProcess::runProcess</string>
+               <packageActivityForm>
+                  <processDefId>noticePostingProcess</processDefId>
                   <activityDefId>runProcess</activityDefId>
-                  <formId>ResidenceFacilitiesBookingForm</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>addNewFacility::add_new_facility</string>
+               <packageActivityForm>
+                  <processDefId>addNewFacility</processDefId>
+                  <activityDefId>add_new_facility</activityDefId>
+                  <formId>adminAddFacility</formId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
@@ -136,42 +189,70 @@
                   <disableSaveAsDraft>false</disableSaveAsDraft>
                </packageActivityForm>
             </entry>
+            <entry>
+               <string>adminManageUserAccount::createEditUser</string>
+               <packageActivityForm>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>createEditUser</activityDefId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
          </packageActivityFormMap>
          <packageActivityPluginMap>
             <entry>
-               <string>facilityBookingRequestProcess::tool1</string>
+               <string>adminManageUserAccount::editUserAccountNotification</string>
                <packageActivityPlugin>
-                  <processDefId>facilityBookingRequestProcess</processDefId>
-                  <activityDefId>tool1</activityDefId>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>editUserAccountNotification</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;TP077360@mail.apu.edu.my&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Approved Facility Booking Request Notification&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;✅ FACILITY BOOKING STATUS UPDATE\n\n────────────────────────────────────────────\n📅 Your Booking Summary\n────────────────────────────────────────────\n🏠 Facility: #form.facilities_book.facilityName#\n📆 Date: #form.facilities_book.date#\n🕒 Time Slot: #form.facilities_book.time#\n👥 Number of Participants: #form.facilities_book.noOfParticipants#\n📝 Special Requests: #form.facilities_book.specialRequest#\n📌 Booking ID: #form.facilities_book.id#\n\n────────────────────────────────────────────\n📣 Status Update:\nDear #form.facilities_book.createdByName#, your booking has been #form.booking_approval.approvalstatus# by the facility manager.\n\n👨\u200d💼 Handled by: #form.booking_approval.createdByName#\n\n────────────────────────────────────────────\n💬 What\u2019s Next:\n- If *approved*, please arrive on time and follow all facility rules posted.\n- If *rejected*, feel free to submit a new request with different details.\n\nThank you for using the Residence Facilities Booking System.&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%DZFQF/+eeYEywoIniZh9EbAkrUCukoapmOB/uLXy3AY=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%****SECURE_VALUE****-1%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;justinyongggggg050917@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;justinyongggggg050917@gmail.com&quot;}},{&quot;className&quot;:&quot;org.joget.plugin.enterprise.FormDataUpdateTool&quot;,&quot;properties&quot;:{&quot;formDefId&quot;:&quot;FacilitiesBookingRequestForm&quot;,&quot;fields&quot;:[{&quot;field&quot;:&quot;status&quot;,&quot;value&quot;:&quot;Approved&quot;}]}}]}</pluginProperties>
+                  <pluginProperties>{}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>facilityBookingRequestProcess::tool3</string>
+               <string>process1::route1</string>
                <packageActivityPlugin>
-                  <processDefId>facilityBookingRequestProcess</processDefId>
-                  <activityDefId>tool3</activityDefId>
-                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;TP077360@mail.apu.edu.my&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Approve Residence Facilities Booking Reminder&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;📢 NEW FACILITY BOOKING REQUEST\n\n────────────────────────────────────────────\n📅 Booking Details\n────────────────────────────────────────────\n👤 Resident Name: #form.facilities_book.createdByName#\n🏠 Facility: #form.facilities_book.facilityName#\n📆 Date: #form.facilities_book.date#\n🕒 Time Slot: #form.facilities_book.time#\n👥 Number of Participants: #form.facilities_book.noOfParticipants#\n📝 Special Requests: #form.facilities_book.specialRequest#\n📌 Booking ID: #form.facilities_book.id#\n\n────────────────────────────────────────────\n⚠ Action Required:\nDear manager, you\u2019ve received a new booking request that needs your attention.\n\nPlease log in to the Residence Facilities Booking System as soon as possible to review and either *approve* or *reject* the request. You can find this under the \u201cPending Booking List\u201d on your dashboard.\n\nThank you for helping keep the facility schedule organized.&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%DZFQF/+eeYEywoIniZh9EbAkrUCukoapmOB/uLXy3AY=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%****SECURE_VALUE****-1%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;justinyongggggg050917@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;justinyongggggg050917@gmail.com&quot;}}]}</pluginProperties>
-               </packageActivityPlugin>
-            </entry>
-            <entry>
-               <string>facilityBookingRequestProcess::route1</string>
-               <packageActivityPlugin>
-                  <processDefId>facilityBookingRequestProcess</processDefId>
+                  <processDefId>process1</processDefId>
                   <activityDefId>route1</activityDefId>
                   <pluginName>org.joget.apps.app.lib.RulesDecisionPlugin</pluginName>
                   <pluginProperties>{&quot;rules&quot;:{&quot;ifrules&quot;:[{&quot;andOr&quot;:&quot;and&quot;,&quot;revert&quot;:false,&quot;conditions&quot;:[{&quot;variable&quot;:&quot;status&quot;,&quot;revert&quot;:false,&quot;operation&quot;:&quot;==&quot;,&quot;value&quot;:&quot;Approved&quot;}],&quot;actions&quot;:[{&quot;name&quot;:&quot;transition4&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}],&quot;else&quot;:[{&quot;name&quot;:&quot;transition5&quot;,&quot;type&quot;:&quot;transition&quot;,&quot;value&quot;:&quot;&quot;}]}}</pluginProperties>
                </packageActivityPlugin>
             </entry>
             <entry>
-               <string>facilityBookingRequestProcess::tool2</string>
+               <string>adminManageUserAccount::createUserAccountNotification_2</string>
                <packageActivityPlugin>
-                  <processDefId>facilityBookingRequestProcess</processDefId>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>createUserAccountNotification_2</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>process1::tool2</string>
+               <packageActivityPlugin>
+                  <processDefId>process1</processDefId>
                   <activityDefId>tool2</activityDefId>
                   <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
-                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;TP077360@mail.apu.edu.my&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Rejected Facility Booking Request Notification&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;✅ FACILITY BOOKING STATUS UPDATE\n\n────────────────────────────────────────────\n📅 Your Booking Summary\n────────────────────────────────────────────\n🏠 Facility: #form.facilities_book.facilityName#\n📆 Date: #form.facilities_book.date#\n🕒 Time Slot: #form.facilities_book.time#\n👥 Number of Participants: #form.facilities_book.noOfParticipants#\n📝 Special Requests: #form.facilities_book.specialRequest#\n📌 Booking ID: #form.facilities_book.id#\n\n────────────────────────────────────────────\n📣 Status Update:\nDear #form.facilities_book.createdByName#, your booking has been #form.booking_approval.approvalstatus# by the facility manager.\n\n👨\u200d💼 Handled by: #form.booking_approval.createdByName#\n\n────────────────────────────────────────────\n💬 What\u2019s Next:\n- If *approved*, please arrive on time and follow all facility rules posted.\n- If *rejected*, feel free to submit a new request with different details.\n\nThank you for using the Residence Facilities Booking System.&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%DZFQF/+eeYEywoIniZh9EbAkrUCukoapmOB/uLXy3AY=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%****SECURE_VALUE****-1%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;justinyongggggg050917@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;justinyongggggg050917@gmail.com&quot;}},{&quot;className&quot;:&quot;org.joget.plugin.enterprise.FormDataUpdateTool&quot;,&quot;properties&quot;:{&quot;formDefId&quot;:&quot;FacilitiesBookingRequestForm&quot;,&quot;fields&quot;:[{&quot;field&quot;:&quot;status&quot;,&quot;value&quot;:&quot;Rejected&quot;}]}}]}</pluginProperties>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;TP077360@mail.apu.edu.my&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Rejected Facility Booking Request Notification&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;✅ FACILITY BOOKING STATUS UPDATE\n\n────────────────────────────────────────────\n📅 Your Booking Summary\n────────────────────────────────────────────\n🏠 Facility: #form.facilities_book.facilityName#\n📆 Date: #form.facilities_book.date#\n🕒 Time Slot: #form.facilities_book.time#\n👥 Number of Participants: #form.facilities_book.noOfParticipants#\n📝 Special Requests: #form.facilities_book.specialRequest#\n📌 Booking ID: #form.facilities_book.id#\n\n────────────────────────────────────────────\n📣 Status Update:\n#form.facilities_book.createdByName#, your booking has been #form.booking_approval.approvalstatus# by the facility manager.\n\n👨\u200d💼 Handled by: #form.booking_approval.createdByName#\n\n────────────────────────────────────────────\n💬 What\u2019s Next:\n- If *approved*, please arrive on time and follow all facility rules posted.\n- If *rejected*, feel free to submit a new request with different details.\n\nThank you for using the Residence Facilities Booking System.&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%qAf7XOvipqBAeBcktSC+s0OgRwJY2JR76+Pp9PpQ77U=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%****SECURE_VALUE****-1%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;justinyongggggg050917@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;justinyongggggg050917@gmail.com&quot;}},{&quot;className&quot;:&quot;org.joget.plugin.enterprise.FormDataUpdateTool&quot;,&quot;properties&quot;:{&quot;formDefId&quot;:&quot;FacilitiesBookingRequestForm&quot;,&quot;fields&quot;:[{&quot;field&quot;:&quot;status&quot;,&quot;value&quot;:&quot;Rejected&quot;}]}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>process1::tool3</string>
+               <packageActivityPlugin>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>tool3</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;TP077360@mail.apu.edu.my&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Approve Residence Facilities Booking Reminder&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;📢 NEW FACILITY BOOKING REQUEST\n\n────────────────────────────────────────────\n📅 Booking Details\n────────────────────────────────────────────\n👤 Resident Name: #form.facilities_book.createdByName#\n🏠 Facility: #form.facilities_book.facilityName#\n📆 Date: #form.facilities_book.date#\n🕒 Time Slot: #form.facilities_book.time#\n👥 Number of Participants: #form.facilities_book.noOfParticipants#\n📝 Special Requests: #form.facilities_book.specialRequest#\n📌 Booking ID: #form.facilities_book.id#\n\n────────────────────────────────────────────\n⚠ Action Required:\nDear manager, you\u2019ve received a new booking request that needs your attention.\n\nPlease log in to the Residence Facilities Booking System as soon as possible to review and either *approve* or *reject* the request. You can find this under the \u201cPending Booking List\u201d on your dashboard.\n\nThank you for helping keep the facility schedule organized.&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%qAf7XOvipqBAeBcktSC+s0OgRwJY2JR76+Pp9PpQ77U=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%****SECURE_VALUE****-1%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;justinyongggggg050917@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;justinyongggggg050917@gmail.com&quot;}}]}</pluginProperties>
+               </packageActivityPlugin>
+            </entry>
+            <entry>
+               <string>process1::tool1</string>
+               <packageActivityPlugin>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>tool1</activityDefId>
+                  <pluginName>org.joget.apps.app.lib.MultiTools</pluginName>
+                  <pluginProperties>{&quot;runInMultiThread&quot;:&quot;&quot;,&quot;comment&quot;:&quot;&quot;,&quot;tools&quot;:[{&quot;className&quot;:&quot;org.joget.apps.app.lib.EmailTool&quot;,&quot;properties&quot;:{&quot;cc&quot;:&quot;&quot;,&quot;toSpecific&quot;:&quot;TP077360@mail.apu.edu.my&quot;,&quot;bcc&quot;:&quot;&quot;,&quot;icsAttachement&quot;:&quot;&quot;,&quot;subject&quot;:&quot;Approved Facility Booking Request Notification&quot;,&quot;retryCount&quot;:&quot;&quot;,&quot;formDefId&quot;:&quot;&quot;,&quot;toParticipantId&quot;:&quot;&quot;,&quot;message&quot;:&quot;✅ FACILITY BOOKING STATUS UPDATE\n\n────────────────────────────────────────────\n📅 Your Booking Summary\n────────────────────────────────────────────\n🏠 Facility: #form.facilities_book.facilityName#\n📆 Date: #form.facilities_book.date#\n🕒 Time Slot: #form.facilities_book.time#\n👥 Number of Participants: #form.facilities_book.noOfParticipants#\n📝 Special Requests: #form.facilities_book.specialRequest#\n📌 Booking ID: #form.facilities_book.id#\n\n────────────────────────────────────────────\n📣 Status Update:\n#form.facilities_book.createdByName#, your booking has been #form.booking_approval.approvalstatus# by the facility manager.\n\n👨\u200d💼 Handled by: #form.booking_approval.createdByName#\n\n────────────────────────────────────────────\n💬 What\u2019s Next:\n- If *approved*, please arrive on time and follow all facility rules posted.\n- If *rejected*, feel free to submit a new request with different details.\n\nThank you for using the Residence Facilities Booking System.&quot;,&quot;p12&quot;:&quot;&quot;,&quot;security&quot;:&quot;TLS&quot;,&quot;password&quot;:&quot;%%%%qAf7XOvipqBAeBcktSC+s0OgRwJY2JR76+Pp9PpQ77U=%%%%&quot;,&quot;storepass&quot;:&quot;%%%%****SECURE_VALUE****-1%%%%&quot;,&quot;port&quot;:&quot;587&quot;,&quot;isHtml&quot;:&quot;&quot;,&quot;host&quot;:&quot;smtp.gmail.com&quot;,&quot;alias&quot;:&quot;&quot;,&quot;files&quot;:[],&quot;from&quot;:&quot;justinyongggggg050917@gmail.com&quot;,&quot;retryInterval&quot;:&quot;&quot;,&quot;fields&quot;:[],&quot;username&quot;:&quot;justinyongggggg050917@gmail.com&quot;}},{&quot;className&quot;:&quot;org.joget.plugin.enterprise.FormDataUpdateTool&quot;,&quot;properties&quot;:{&quot;formDefId&quot;:&quot;FacilitiesBookingRequestForm&quot;,&quot;fields&quot;:[{&quot;field&quot;:&quot;status&quot;,&quot;value&quot;:&quot;Approved&quot;}]}}]}</pluginProperties>
                </packageActivityPlugin>
             </entry>
          </packageActivityPluginMap>
@@ -186,21 +267,21 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>facilityBookingRequestProcess::resident</string>
+               <string>process1::processStartWhiteList</string>
                <packageParticipant>
-                  <processDefId>facilityBookingRequestProcess</processDefId>
-                  <participantId>resident</participantId>
-                  <type>user</type>
-                  <value>cat</value>
-               </packageParticipant>
-            </entry>
-            <entry>
-               <string>facilityBookingRequestProcess::processStartWhiteList</string>
-               <packageParticipant>
-                  <processDefId>facilityBookingRequestProcess</processDefId>
+                  <processDefId>process1</processDefId>
                   <participantId>processStartWhiteList</participantId>
                   <type>role</type>
                   <value>adminUser</value>
+               </packageParticipant>
+            </entry>
+            <entry>
+               <string>process1::resident</string>
+               <packageParticipant>
+                  <processDefId>process1</processDefId>
+                  <participantId>resident</participantId>
+                  <type>group</type>
+                  <value>facilityResident</value>
                </packageParticipant>
             </entry>
             <entry>
@@ -213,12 +294,12 @@
                </packageParticipant>
             </entry>
             <entry>
-               <string>facilityBookingRequestProcess::manager</string>
+               <string>process1::manager</string>
                <packageParticipant>
-                  <processDefId>facilityBookingRequestProcess</processDefId>
+                  <processDefId>process1</processDefId>
                   <participantId>manager</participantId>
-                  <type>user</type>
-                  <value>clark</value>
+                  <type>group</type>
+                  <value>facilityManager</value>
                </packageParticipant>
             </entry>
          </packageParticipantMap>
@@ -233,17 +314,10 @@
    <messageList/>
    <resourceList>
       <appResource>
-         <id>ab0dc05d-ccfd-41eb-800e-8d8cd0997749.jpg</id>
+         <id>istockphoto-683812350-612x612.jpg</id>
          <appId>ResidenceFacilitiesBookingSystem</appId>
          <appVersion>1</appVersion>
-         <filesize>20617</filesize>
-         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
-      </appResource>
-      <appResource>
-         <id>e1a2053b-177f-4eb9-b3b6-74f9bbafd8f8.png</id>
-         <appId>ResidenceFacilitiesBookingSystem</appId>
-         <appVersion>1</appVersion>
-         <filesize>1153667</filesize>
+         <filesize>29607</filesize>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
       <appResource>
@@ -251,6 +325,13 @@
          <appId>ResidenceFacilitiesBookingSystem</appId>
          <appVersion>1</appVersion>
          <filesize>83612</filesize>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
+         <id>Savio-Facade-scaled-1.jpg</id>
+         <appId>ResidenceFacilitiesBookingSystem</appId>
+         <appVersion>1</appVersion>
+         <filesize>705330</filesize>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
       <appResource>
@@ -293,13 +374,6 @@
          <appId>ResidenceFacilitiesBookingSystem</appId>
          <appVersion>1</appVersion>
          <filesize>643553</filesize>
-         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
-      </appResource>
-      <appResource>
-         <id>WhatsApp_Image_2025-07-05_at_17.09.43_b20f81c2.jpg</id>
-         <appId>ResidenceFacilitiesBookingSystem</appId>
-         <appVersion>1</appVersion>
-         <filesize>75782</filesize>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
    </resourceList>
