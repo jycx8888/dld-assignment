@@ -41,9 +41,9 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process1::bookingRequest</string>
+               <string>facilityBookingRequestProcess::bookingRequest</string>
                <packageActivityForm>
-                  <processDefId>process1</processDefId>
+                  <processDefId>facilityBookingRequestProcess</processDefId>
                   <activityDefId>bookingRequest</activityDefId>
                   <formId>FacilitiesBookingRequestForm</formId>
                   <type>SINGLE</type>
@@ -52,62 +52,9 @@
                </packageActivityForm>
             </entry>
             <entry>
-               <string>process1::viewResults</string>
+               <string>process1::bookingRequest</string>
                <packageActivityForm>
                   <processDefId>process1</processDefId>
-                  <activityDefId>viewResults</activityDefId>
-                  <formId>acknowledgementApproval</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>adminManageUserAccount::editUser</string>
-               <packageActivityForm>
-                  <processDefId>adminManageUserAccount</processDefId>
-                  <activityDefId>editUser</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>noticePostingProcess::postNotice</string>
-               <packageActivityForm>
-                  <processDefId>noticePostingProcess</processDefId>
-                  <activityDefId>postNotice</activityDefId>
-                  <formId>noticeBoardForm</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>noticePostingProcess::runProcess</string>
-               <packageActivityForm>
-                  <processDefId>noticePostingProcess</processDefId>
-                  <activityDefId>runProcess</activityDefId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>addNewFacility::add_new_facility</string>
-               <packageActivityForm>
-                  <processDefId>addNewFacility</processDefId>
-                  <activityDefId>add_new_facility</activityDefId>
-                  <formId>adminAddFacility</formId>
-                  <type>SINGLE</type>
-                  <autoContinue>false</autoContinue>
-                  <disableSaveAsDraft>false</disableSaveAsDraft>
-               </packageActivityForm>
-            </entry>
-            <entry>
-               <string>facilityBookingRequestProcess::bookingRequest</string>
-               <packageActivityForm>
-                  <processDefId>facilityBookingRequestProcess</processDefId>
                   <activityDefId>bookingRequest</activityDefId>
                   <formId>FacilitiesBookingRequestForm</formId>
                   <type>SINGLE</type>
@@ -132,6 +79,27 @@
                   <processDefId>facilityBookingRequestProcess</processDefId>
                   <activityDefId>viewResults</activityDefId>
                   <formId>acknowledgementApproval</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>process1::viewResults</string>
+               <packageActivityForm>
+                  <processDefId>process1</processDefId>
+                  <activityDefId>viewResults</activityDefId>
+                  <formId>acknowledgementApproval</formId>
+                  <type>SINGLE</type>
+                  <autoContinue>false</autoContinue>
+                  <disableSaveAsDraft>false</disableSaveAsDraft>
+               </packageActivityForm>
+            </entry>
+            <entry>
+               <string>adminManageUserAccount::editUser</string>
+               <packageActivityForm>
+                  <processDefId>adminManageUserAccount</processDefId>
+                  <activityDefId>editUser</activityDefId>
                   <type>SINGLE</type>
                   <autoContinue>false</autoContinue>
                   <disableSaveAsDraft>false</disableSaveAsDraft>
